@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+:root{
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: "IBM Plex Mono", sans-serif; 
+  text-align: center; 
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #304a53, #DFFBAE);
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 10px );
+  background-position: center;
+  height: auto;
+  min-height: 100vh;
+  margin: auto;
+}
+img{
+  max-width: 50%;
+}
+.box{
+  align-self: center;
+  box-shadow: 0 8px 32px 0 rgba(222, 222, 222, 0.37);
+  backdrop-filter: blur( 30px );
+  -webkit-backdrop-filter: blur( 10px );
+  border: 1px solid rgba(222, 222, 222, 0.18);
+  padding: 20px;
+  box-sizing:border-box;
+  width: 100%;
+  min-height: 40vh;
+  max-height: auto;
+}
+h1{
+  font-family: "Press Start 2P";
+  color:#202020;
+  padding: 20px;
+  box-sizing:border-box;
+}
+#pregunta-container { 
+  width: 100%;
+  color:#202020;
+  box-sizing:border-box;
+}
+#respuesta{
+  font-family: "Press Start 2P" ;
+  padding: 20px;
+  color: #202020a6;
+  box-sizing:border-box;
+}
+
+button { 
+  width: 90%;
+  margin-top: 10px; 
+  padding: 10px;
+ }
+ ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+  width: 100%;
+  box-sizing:border-box;
+ }
+ li{
+  width: 90%;
+ }
+
+ button {
+  width: 90%;
+  padding: 10px 15px;
+  margin: 5px auto;
+  background: linear-gradient(135deg,  #304a534f, #304a53);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #304a534f,  #304a53);
+  transform: scale(1.05);
+}
+
+button:focus {
+  outline: 2px solid #ffffff; /* Resaltado para accesibilidad */
+}
+
+ @media (max-width: 460px) {
+  body{
+    width: 95%;
+    background-image: url("./assets/bgmovil.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat-y;
+  }
+  h1{
+    font-size: 28px;
+    padding: 0;
+  }
+  .box{
+    height: auto;
+  }
+ }
