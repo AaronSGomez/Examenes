@@ -36,8 +36,6 @@ function mostrarPregunta() {
     <h2>Aciertos ${aciertos}</h2>
     <h2>Fallos ${fallos}</h2>
     <h2>No respondidas ${saltadas}</h2>`;
-    let respuestaDiv= document.getElementById("respuesta");
-    respuestaDiv.style.display = "block";
     return;
   }
 
