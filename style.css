@@ -111,13 +111,10 @@ button:focus {
   outline: 2px solid #ffffff; /* Resaltado para accesibilidad */
 }
 
- @media (max-width: 460px) {
+@media (max-width: 760px) {
   body{
     width: 95%;
-    background-image: url("./assets/bgmovil.jpg"); 
-    background-position: center;
-    background-size: cover;
-    background-repeat:repeat-y;
+    
   }
   h1{
     font-size: 28px;
