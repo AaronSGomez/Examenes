@@ -190,11 +190,27 @@ button:focus {
 @media (max-width: 760px) {
   main{
     width: 95%;
-    
+    margin: 0;
+
   }
+  section{
+    width: 100%;
+    padding: 2px;
+  }
+  #respuesta{
+    padding: 10px;
+  }
+  header a{
+    font-size: 12px;
+    padding: 5px;
+  }
+
   h1{
-    font-size: 28px;
+    font-size: 22px;
     padding: 0;
+  }
+  h2{
+    font-size: 18px;
   }
   .box{
     height: auto;
