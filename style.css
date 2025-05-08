@@ -111,6 +111,41 @@ button:focus {
   outline: 2px solid #ffffff; /* Resaltado para accesibilidad */
 }
 
+.resultados {
+  list-style: none;         /* Sin números ni viñetas */
+  padding: 0;
+  margin: 0;
+}
+.enunciado{
+  background-color: #eef6fb;   /* Fondo claro y suave */
+  border-left: 5px solid #3a86ff; /* Línea lateral azul */
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-size: 17px;
+  font-style: italic;
+  color: #333;
+  border-radius: 6px;
+}
+.explicacion {
+  background-color: #f9f9f9;   /* Fondo neutro para diferenciar de enunciado */
+  border-left: 5px solid #4caf50; /* Línea lateral verde */
+  padding: 10px 14px;
+  margin-top: 15px;
+  margin-bottom: 10vh;
+  font-size: 16px;
+  color: #444;
+  border-radius: 6px;
+}
+.resultados li {
+  background-color: #f0f4f8; /* Fondo claro tipo etiqueta */
+  margin-bottom: 5px;       /* Espacio entre líneas */
+  padding: 7px 12px;        /* Relleno interno */
+  border-radius: 8px;        /* Bordes redondeados */
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
 @media (max-width: 760px) {
   body{
     width: 95%;
