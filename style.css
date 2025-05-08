@@ -16,36 +16,77 @@
   padding: 0;
 }
 
+
+header {
+  position: fixed;
+  align-self: flex-start;
+  top: 0;
+  background-color: #304a53;
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+footer{
+  position: sticky;
+  align-self: self-end;
+  bottom: 0;
+  background-color: #304a53;
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
 body { 
   font-family: "IBM Plex Mono", sans-serif; 
   text-align: center; 
-  width: 70%;
   display: flex;
   align-items: center;
-  margin: auto;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
   background: linear-gradient(to bottom, #304a53, #DFFBAE);
   backdrop-filter: blur( 30px );
   -webkit-backdrop-filter: blur( 10px );
   background-position: center;
-  height: auto;
   min-height: 100vh;
-  margin: auto;
+  margin: 0;
 }
 img{
   max-width: 50%;
 }
-.box{
-  align-self: center;
+main{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  
+}
+section{
+  width: 100%;
+  padding: 80px 20px; /* espacio para no tapar el contenido */
   box-shadow: 0 8px 32px 0 rgba(222, 222, 222, 0.37);
   backdrop-filter: blur( 30px );
   -webkit-backdrop-filter: blur( 10px );
   border: 1px solid rgba(222, 222, 222, 0.18);
-  padding: 20px;
   box-sizing:border-box;
-  width: 100%;
-  min-height: 40vh;
   max-height: auto;
 }
 h1{
@@ -147,7 +188,7 @@ button:focus {
 }
 
 @media (max-width: 760px) {
-  body{
+  main{
     width: 95%;
     
   }
