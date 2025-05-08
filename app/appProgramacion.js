@@ -38,7 +38,7 @@ function mostrarPregunta() {
       <h2>No respondidas: ${saltadas}</h2>
       <button onclick="mostrarRespuestasIncorrectas()">Ver respuestas incorrectas</button>
     `;
-    document.getElementById("respuesta").style.display = "block";
+    document.getElementById("respuesta").style.display = "none";
     return;
   }
 
@@ -121,7 +121,7 @@ function saltar() {
   cargarSiguientePregunta();
 }
 
-function obtenerPreguntasAleatorias(preguntas, cantidad = 10) {
+function obtenerPreguntasAleatorias(preguntas, cantidad = 40) {
   const preguntasCopia = [...preguntas];
   for (let i = preguntasCopia.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
