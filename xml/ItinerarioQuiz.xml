@@ -1,0 +1,939 @@
+<documento>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes no es un requisito para que exista un accidente de trabajo?</enunciado>
+    <A>Existencia de una lesión corporal</A>
+    <B>Que el trabajador sea por cuenta ajena</B>
+    <C>Que una lesión corporal sea como consecuencia de un accidente de trabajo</C>
+    <D>Que se dé una relación de causalidad entre la lesión sufrida y el estado de salud del trabajador.</D>
+    <respuesta_correcta explicacion="La relación de causalidad debe ser con el trabajo, no con el estado de salud.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>Los daños profesionales se pueden clasificar en</enunciado>
+    <A>Específicas e inespecíficas.</A>
+    <B>Genéricas y concretas.</B>
+    <C>Mejores y peores</C>
+    <D>Abundantes y escasas</D>
+    <respuesta_correcta explicacion="Clasificación principal de los daños profesionales.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes no es una obligación de un trabajador en materia de prevención de riesgos laborales?</enunciado>
+    <A>Recibir formación en materia preventiva tanto teórica como práctica.</A>
+    <B>A usar adecuadamente los equipos de trabajo.</B>
+    <C>A informar de los riesgos</C>
+    <D>A cooperar con la empresa.</D>
+    <respuesta_correcta explicacion="Recibir formación es un derecho, no una obligación.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de las siguientes no es un derecho de un trabajador en materia de riesgos laborales?</enunciado>
+    <A>Participar en todos los aspectos de la prevención en el trabajo.</A>
+    <B>La vigilancia de su salud.</B>
+    <C>Interrumpir la actividad y abandonar el trabajo</C>
+    <D>Usar adecuadamente los equipos de trabajo</D>
+    <respuesta_correcta explicacion="Es una obligación, no un derecho.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de estos es un daño no específico?</enunciado>
+    <A>Accidente de tráfico sufrido con el coche de la empresa en horario laboral</A>
+    <B>Estrés crónico</B>
+    <C>Intoxicación química</C>
+    <D>Enfermedad pulmonar por amianto</D>
+    <respuesta_correcta explicacion="El estrés crónico es un daño inespecífico, a diferencia de los otros.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué organismo puede sancionar a empresas por incumplir la LPRL?</enunciado>
+    <A>Eurofound</A>
+    <B>Organización Mundial de la Salud</B>
+    <C>Organización Internacional del Trabajo</C>
+    <D>Inspección de Trabajo y de la Seguridad Social</D>
+    <respuesta_correcta explicacion="La Inspección de Trabajo es el organismo competente.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué es el síndrome de burnout?</enunciado>
+    <A>Fatiga leve por ejercicio</A>
+    <B>Motivación excesiva</B>
+    <C>Trastorno emocional por estrés laboral crónico</C>
+    <D>Depresión por desemple</D>
+    <respuesta_correcta explicacion="Definición del síndrome de burnout.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál NO se considera accidente de trabajo?</enunciado>
+    <A>Una insolación mientras se repara un equipo de aire acondicionado en el exterior.</A>
+    <B>Lesión que se sufre durante el trayecto al trabajo</B>
+    <C>Una lesión causada por imprudencia temeraria.</C>
+    <D>Intoxicación causada por inhalación de partículas en suspensión en el centro de trabajo</D>
+    <respuesta_correcta explicacion="Los accidentes in itinere no se consideran de trabajo.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué define la OMS como salud?</enunciado>
+    <A>Ausencia de enfermedades físicas.</A>
+    <B>Un cuerpo atlético.</B>
+    <C>Capacidad de trabajar sin interrupciones.</C>
+    <D>Estado completo de bienestar físico, mental y social.</D>
+    <respuesta_correcta explicacion="Definición de salud según la OMS.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué es la cultura preventiva en la empresa?</enunciado>
+    <A>La promoción de productos saludables.</A>
+    <B>Un sistema para mejorar las ventas.</B>
+    <C>Un plan de marketing.</C>
+    <D>La implementación de medidas para prever y evitar riesgos.</D>
+    <respuesta_correcta explicacion="Se centra en la prevención de riesgos.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué técnica de prevención se centra en evitar enfermedades profesionales?</enunciado>
+    <A>Higiene industrial</A>
+    <B>Seguridad en el trabajo</B>
+    <C>Psicosociología</C>
+    <D>Ergonomía</D>
+    <respuesta_correcta explicacion="La higiene industrial se enfoca en enfermedades profesionales.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué tipo de protección debe priorizarse según los principios de la LPRL?</enunciado>
+    <A>Protección en seguridad</A>
+    <B>Protección legal</B>
+    <C>Protección individual</C>
+    <D>Protección colectiva</D>
+    <respuesta_correcta explicacion="La protección colectiva tiene prioridad según la ley.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué representan los cuatro elementos del tetraedro del fuego?</enunciado>
+    <A>Madera, aire, energía, espacio</A>
+    <B>Combustible, comburente y calor</B>
+    <C>Oxígeno, fuego y comburente</C>
+    <D>Comburente, oxígeno y chispa</D>
+    <respuesta_correcta explicacion="Elementos necesarios para que exista el fuego.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es una vía de entrada del contaminante químico al cuerpo?</enunciado>
+    <A>Vía reflexiva</A>
+    <B>Vía parenteral</B>
+    <C>Vía energética</C>
+    <D>Vía genérica</D>
+    <respuesta_correcta explicacion="La vía parenteral es una vía de entrada de contaminantes.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué daño puede causar una vibración prolongada en el trabajo</enunciado>
+    <A>Trastorno musculoesquelético</A>
+    <B>Estrés corporal</B>
+    <C>Quemadura</C>
+    <D>Estrés térmico</D>
+    <respuesta_correcta explicacion="Las vibraciones pueden causar trastornos musculoesqueléticos.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué clase de fuego involucra metales combustibles?</enunciado>
+    <A>Clase A</A>
+    <B>Clase B</B>
+    <C>Clase C</C>
+    <D>Clase D</D>
+    <respuesta_correcta explicacion="La clase D es para metales combustibles.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de as siguiente NO es una radiación ionizante?</enunciado>
+    <A>Radiación UV</A>
+    <B>Rayos X</B>
+    <C>Rayos Gamma</C>
+    <D>Partículas Alfa.</D>
+    <respuesta_correcta explicacion="La radiación UV no es ionizante.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes NO es un riesgo derivado de condiciones medioambientales?</enunciado>
+    <A>Riesgos físicos</A>
+    <B>Riesgos parenterales</B>
+    <C>Riesgos químicos</C>
+    <D>Riesgos biológicos</D>
+    <respuesta_correcta explicacion="Los riesgos parenterales no son medioambientales.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>Los riesgos biológicos se clasifican en</enunciado>
+    <A>Cuatro grupos, siendo el cuarto el de mayor gravedad.</A>
+    <B>Cinco grupos, siendo el primero el de mayor gravedad.</B>
+    <C>En cuatro grupos, siendo el primero de ellos el de mayor gravedad.</C>
+    <D>En cinco grupos, siendo el primero de ellos de menor gravedad.</D>
+    <respuesta_correcta explicacion="Clasificación de riesgos biológicos.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es el primer principio básico de la prevención según la LPRL?</enunciado>
+    <A>Dar instrucciones a los trabajadores</A>
+    <B>Evaluar los riesgos</B>
+    <C>Adaptar el trabajo a la persona</C>
+    <D>Evitar los riesgos</D>
+    <respuesta_correcta explicacion="Evitar los riesgos es el primer principio.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuántas horas de formación son necesarias para un nivel básico en empresas con actividades peligrosas?</enunciado>
+    <A>600 horas</A>
+    <B>50 horas</B>
+    <C>30 horas</C>
+    <D>100 horas</D>
+    <respuesta_correcta explicacion="La formación de nivel básico es de 30 horas.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Quiénes eligen a los Delegados de Prevención?</enunciado>
+    <A>El empresario.</A>
+    <B>Los trabajadores en general.</B>
+    <C>Los representantes del personal.</C>
+    <D>La Inspección de Trabajo.</D>
+    <respuesta_correcta explicacion="Los Delegados de Prevención son elegidos por los representantes del personal.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué tipo de formación necesita un empresario para asumir la prevención en empresas de menos de 10 trabajadores?</enunciado>
+    <A>Formación jurídica.</A>
+    <B>Formación básica en prevención de 30 horas.</B>
+    <C>Formación de posgrado.</C>
+    <D>No necesita formación.</D>
+    <respuesta_correcta explicacion="Se requiere formación básica de 30 horas.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuántos Delegados de Prevención corresponden a una empresa como máximo?</enunciado>
+    <A>4</A>
+    <B>5</B>
+    <C>8</C>
+    <D>7</D>
+    <respuesta_correcta explicacion="El número máximo de Delegados de Prevención es 4.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué se considera un riesgo 'trivial'?</enunciado>
+    <A>Riesgo que debe eliminarse urgentemente.</A>
+    <B>Riesgo que no requiere medidas adicionales.</B>
+    <C>Riesgo que causa baja médica inmediata.</C>
+    <D>Riesgo que afecta a toda la plantilla.</D>
+    <respuesta_correcta explicacion="Un riesgo trivial no requiere acción adicional.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cómo se clasifica una situación controlada por medios propios rápidamente?</enunciado>
+    <A>Emergencia general</A>
+    <B>Conato de emergencia</B>
+    <C>Emergencia parcial</C>
+    <D>Crisis industrial</D>
+    <respuesta_correcta explicacion="Es un conato de emergencia.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es la primera medida ante un accidente, según el protocolo PAS?</enunciado>
+    <A>Alertar.</A>
+    <B>Proteger.</B>
+    <C>Socorrer.</C>
+    <D>Transportar.</D>
+    <respuesta_correcta explicacion="PAS: Proteger, Alertar, Socorrer.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué maniobra se aplica en caso de atragantamiento grave?</enunciado>
+    <A>Maniobra de Heimlich</A>
+    <B>Maniobra de Valsalva</B>
+    <C>Técnica de Rautek</C>
+    <D>Maniobra de Kravitz</D>
+    <respuesta_correcta explicacion="La maniobra de Heimlich es para atragantamientos.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué se debe hacer ante una hemorragia venosa?</enunciado>
+    <A>Aplicar calor.</A>
+    <B>Aplicar presión directa y elevar la zona afectada.</B>
+    <C>Dejar que sangre.</C>
+    <D>Aplicar hielo directamente en la herida.</D>
+    <respuesta_correcta explicacion="Presión directa y elevación son clave en hemorragias venosas.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué clasificación tiene una quemadura que afecta todas las capas de la piel y tejido muscular?</enunciado>
+    <A>Primer grado</A>
+    <B>Segundo grado</B>
+    <C>Tercer grado</C>
+    <D>Cuarto grado</D>
+    <respuesta_correcta explicacion="Es una quemadura de tercer grado.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué formación requiere el nivel superior en Prevención de Riesgos Laborales?</enunciado>
+    <A>Curso de 30 horas.</A>
+    <B>Ciclo formativo de grado medio.</B>
+    <C>Mínimo 600 horas acreditadas por una universidad.</C>
+    <D>Ninguna formación específica.</D>
+    <respuesta_correcta explicacion="El nivel superior requiere 600 horas acreditadas.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cada cuánto debe reunirse como mínimo el Comité de Seguridad y Salud?</enunciado>
+    <A>Cada mes.</A>
+    <B>Cada tres meses.</B>
+    <C>Cada seis meses.</C>
+    <D>Una vez al año.</D>
+    <respuesta_correcta explicacion="El Comité se reúne cada tres meses como mínimo.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué modalidad de organización preventiva pueden adoptar varias empresas juntas?</enunciado>
+    <A>Servicio de prevención ajeno.</A>
+    <B>Servicio de prevención propio.</B>
+    <C>Servicio de prevención mancomunado.</C>
+    <D>Delegación de prevención externa.</D>
+    <respuesta_correcta explicacion="Servicio de prevención mancomunado.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué procedimiento se sigue si un trabajador presenta hemorragia nasal?</enunciado>
+    <A>Acostarlo.</A>
+    <B>Inclinar la cabeza hacia atrás.</B>
+    <C>Inclinar la cabeza hacia adelante y presionar las fosas nasales.</C>
+    <D>Aplicar calor en la nariz.</D>
+    <respuesta_correcta explicacion="Inclinar la cabeza hacia adelante y presionar las fosas nasales.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué indica una tarjeta roja en el triaje de emergencias?</enunciado>
+    <A>Herido leve.</A>
+    <B>Atención inmediata.</B>
+    <C>No necesita atención.</C>
+    <D>Esperar turno.</D>
+    <respuesta_correcta explicacion="Atención inmediata.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es la frecuencia adecuada de compresiones en RCP?</enunciado>
+    <A>80-100 por minuto.</A>
+    <B>100-120 por minuto.</B>
+    <C>60-80 por minuto.</C>
+    <D>120-150 por minuto.</D>
+    <respuesta_correcta explicacion="100-120 por minuto.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué nivel de riesgo requiere tomar medidas específicas en un plazo razonable?</enunciado>
+    <A>Trivial</A>
+    <B>Moderado</B>
+    <C>Tolerable</C>
+    <D>Intolerable</D>
+    <respuesta_correcta explicacion="Moderado">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es la prioridad de ejecución para un riesgo catalogado como "intolerable"?</enunciado>
+    <A>Alta prioridad en unos meses.</A>
+    <B>Baja prioridad a largo plazo.</B>
+    <C>Medidas inmediatas y detener el trabajo.</C>
+    <D>Evaluación anual del riesgo.</D>
+    <respuesta_correcta explicacion="Medidas inmediatas y detener el trabajo.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>Si un riesgo se valora como "importante", ¿qué debe hacerse?</enunciado>
+    <A>Documentarlo sin actuar.</A>
+    <B>Tomar medidas de inmediato sin demoras.</B>
+    <C>Revisarlo dentro de seis meses.</C>
+    <D>Aplicar únicamente mejoras de bajo coste.</D>
+    <respuesta_correcta explicacion="Tomar medidas de inmediato sin demoras.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué combinación de factores puede llevar a calificar un riesgo como "intolerable"?</enunciado>
+    <A>Alta probabilidad y severidad leve.</A>
+    <B>Baja probabilidad y severidad grave.</B>
+    <C>Alta probabilidad y severidad extremadamente dañina.</C>
+    <D>Media probabilidad y severidad ligera.</D>
+    <respuesta_correcta explicacion="Alta probabilidad y severidad extremadamente dañina.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Dónde surgió el Derecho del Trabajo como necesidad de regular las condiciones laborales?</enunciado>
+    <A>En la Antigua Roma</A>
+    <B>En la Revolución Industrial</B>
+    <C>En la Edad Media</C>
+    <D>En la Revolución Francesa</D>
+    <respuesta_correcta explicacion="En la Revolución Industrial">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es uno de los elementos esenciales de la relación laboral?</enunciado>
+    <A>Voluntariedad</A>
+    <B>Gratuidad</B>
+    <C>Continuidad</C>
+    <D>Independencia</D>
+    <respuesta_correcta explicacion="Voluntariedad">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué principio establece que la norma más beneficiosa para el trabajador debe aplicarse en caso de conflicto?</enunciado>
+    <A>Principio de norma mínima</A>
+    <B>Principio de norma más favorable</B>
+    <C>Principio de in dubio pro operario</C>
+    <D>Principio de condición más beneficiosa</D>
+    <respuesta_correcta explicacion="Principio de norma más favorable">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué tipo de relación laboral es la de un deportista profesional?</enunciado>
+    <A>Ordinaria</A>
+    <B>Especial</B>
+    <C>No laboral</C>
+    <D>Funcionario</D>
+    <respuesta_correcta explicacion="Especial">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué principio impide que los trabajadores renuncien a sus derechos básicos?</enunciado>
+    <A>Principio de irrenunciabilidad de derechos</A>
+    <B>Principio de condición más beneficiosa</B>
+    <C>Principio de flexibilidad laboral</C>
+    <D>Principio de eficacia directa</D>
+    <respuesta_correcta explicacion="Principio de irrenunciabilidad de derechos">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Ante qué institución se debe intentar plantear las disputas laborales en primer lugar?</enunciado>
+    <A>Tribunal Supremo</A>
+    <B>Juzgados de lo Social</B>
+    <C>Inspección de Trabajo</C>
+    <D>SMAC (Servicio de Mediación, Arbitraje y Conciliación)</D>
+    <respuesta_correcta explicacion="SMAC (Servicio de Mediación, Arbitraje y Conciliación)">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué derecho garantiza el teletrabajo según la Ley 10/2021?</enunciado>
+    <A>Derecho a cambio automático de categoría profesional</A>
+    <B>Derecho a desconexión digital</B>
+    <C>Derecho a teletrabajar siempre que se quiera</C>
+    <D>Derecho a trabajar menos horas sin reducción salarial</D>
+    <respuesta_correcta explicacion="Derecho a desconexión digital">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué es el principio de "In dubio pro operario"?</enunciado>
+    <A>El empleador puede interpretar las normas en su favor.</A>
+    <B>Ante la duda, se interpreta la norma a favor del trabajador.</B>
+    <C>Ante la duda, el trabajador decide qué norma le resulta más beneficiosa</C>
+    <D>El tribunal decide libremente sin criterios.</D>
+    <respuesta_correcta explicacion="Ante la duda, se interpreta la norma a favor del trabajador.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es el nivel máximo dentro de los tribunales ordinarios laborales en España?</enunciado>
+    <A>Tribunal Superior de Justicia</A>
+    <B>Tribunal Constitucional</B>
+    <C>Audiencia Nacional</C>
+    <D>Tribunal Supremo</D>
+    <respuesta_correcta explicacion="Tribunal Supremo">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de las siguientes condiciones no es necesaria para que exista una relación laboral?</enunciado>
+    <A>Voluntariedad</A>
+    <B>Dependencia</B>
+    <C>Ajenidad</C>
+    <D>Universalidad.</D>
+    <respuesta_correcta explicacion="Universalidad.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué principio asegura que los beneficios adquiridos por un trabajador no puedan ser eliminados por normas posteriores menos favorables?</enunciado>
+    <A>Norma mínima</A>
+    <B>In dubio pro operario</B>
+    <C>Condición más beneficiosa</C>
+    <D>Igualdad de oportunidades</D>
+    <respuesta_correcta explicacion="Condición más beneficiosa">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué tipo de relación NO se considera laboral según el Estatuto de los Trabajadores?</enunciado>
+    <A>Deportistas profesionales</A>
+    <B>Personal de alta dirección</B>
+    <C>Consejeros de sociedades que solo cumplen funciones inherentes al cargo</C>
+    <D>Trabajadores del hogar</D>
+    <respuesta_correcta explicacion="Consejeros de sociedades que solo cumplen funciones inherentes al cargo">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué tipo de ley requiere mayoría absoluta del Congreso para ser aprobada?</enunciado>
+    <A>Ley ordinaria</A>
+    <B>Ley orgánica</B>
+    <C>Reglamento</C>
+    <D>Decreto-ley</D>
+    <respuesta_correcta explicacion="Ley orgánica">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál es la función de los convenios colectivos?</enunciado>
+    <A>Regular condiciones laborales específicas mejorando lo establecido por las leyes</A>
+    <B>Reemplazar las leyes laborales</B>
+    <C>Suprimir derechos laborales básicos</C>
+    <D>Limitar el acceso a formación profesional</D>
+    <respuesta_correcta explicacion="Regular condiciones laborales específicas mejorando lo establecido por las leyes">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué relación no es considerada laboral?</enunciado>
+    <A>Amistad o benevolencia</A>
+    <B>Artistas en espectáculos públicos</B>
+    <C>Trabajos familiares sin salario</C>
+    <D>Consejeros de sociedades mercantiles</D>
+    <respuesta_correcta explicacion="Amistad o benevolencia">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>Un trabajador desarrolla dolor de espalda por mala postura en su escritorio. ¿Qué tipo de condición de trabajo afecta su salud?</enunciado>
+    <A>Medioambiental.</A>
+    <B>Psicosocial.</B>
+    <C>Ergonómica.</C>
+    <D>De seguridad.</D>
+    <respuesta_correcta explicacion="Ergonómica.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes no es un requisito para que exista un accidente de trabajo?</enunciado>
+    <A>Existencia de una lesión corporal</A>
+    <B>Que el trabajador sea por cuenta ajena</B>
+    <C>Que una lesión corporal sea como consecuencia de un accidente de trabajo</C>
+    <D>Que se dé una relación de causalidad entre la lesión sufrida y el estado de salud del trabajador.</D>
+    <respuesta_correcta explicacion="La relación de causalidad debe ser con el trabajo, no con el estado de salud.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>Los daños profesionales se pueden clasificar en</enunciado>
+    <A>Específicas e inespecíficas.</A>
+    <B>Genéricas y concretas.</B>
+    <C>Mejores y peores</C>
+    <D>Abundantes y escasas</D>
+    <respuesta_correcta explicacion="Clasificación principal de los daños profesionales.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de los siguientes no es una obligación de un trabajador en materia de prevención de riesgos laborales?</enunciado>
+    <A>Recibir formación en materia preventiva tanto teórica como práctica.</A>
+    <B>A usar adecuadamente los equipos de trabajo.</B>
+    <C>A informar de los riesgos</C>
+    <D>A cooperar con la empresa.</D>
+    <respuesta_correcta explicacion="Recibir formación es un derecho, no una obligación.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de las siguientes no es un derecho de un trabajador en materia de riesgos laborales?</enunciado>
+    <A>Participar en todos los aspectos de la prevención en el trabajo.</A>
+    <B>La vigilancia de su salud.</B>
+    <C>Interrumpir la actividad y abandonar el trabajo</C>
+    <D>Usar adecuadamente los equipos de trabajo</D>
+    <respuesta_correcta explicacion="Es una obligación, no un derecho.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál de estos es un daño no específico?</enunciado>
+    <A>Accidente de tráfico sufrido con el coche de la empresa en horario laboral</A>
+    <B>Estrés crónico</B>
+    <C>Intoxicación química</C>
+    <D>Enfermedad pulmonar por amianto</D>
+    <respuesta_correcta explicacion="El estrés crónico es un daño inespecífico, a diferencia de los otros.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué organismo puede sancionar a empresas por incumplir la LPRL?</enunciado>
+    <A>Eurofound</A>
+    <B>Organización Mundial de la Salud</B>
+    <C>Organización Internacional del Trabajo</C>
+    <D>Inspección de Trabajo y de la Seguridad Social</D>
+    <respuesta_correcta explicacion="La Inspección de Trabajo es el organismo competente.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué es el síndrome de burnout?</enunciado>
+    <A>Fatiga leve por ejercicio</A>
+    <B>Motivación excesiva</B>
+    <C>Trastorno emocional por estrés laboral crónico</C>
+    <D>Depresión por desempleo</D>
+    <respuesta_correcta explicacion="Definición del síndrome de burnout.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Cuál NO se considera accidente de trabajo?</enunciado>
+    <A>Una insolación mientras se repara un equipo de aire acondicionado en el exterior.</A>
+    <B>Lesión que se sufre durante el trayecto al trabajo</B>
+    <C>Una lesión causada por imprudencia temeraria.</C>
+    <D>Intoxicación causada por inhalación de partículas en suspensión en el centro de trabajo</D>
+    <respuesta_correcta explicacion="Los accidentes in itinere no se consideran de trabajo.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué define la OMS como salud?</enunciado>
+    <A>Ausencia de enfermedades físicas.</A>
+    <B>Un cuerpo atlético.</B>
+    <C>Capacidad de trabajar sin interrupciones.</C>
+    <D>Estado completo de bienestar físico, mental y social.</D>
+    <respuesta_correcta explicacion="Definición de salud según la OMS.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>¿Qué es la cultura preventiva en la empresa?</enunciado>
+    <A>La promoción de productos saludables.</A>
+    <B>Un sistema para mejorar las ventas.</B>
+    <C>Un plan de marketing.</C>
+    <D>La implementación de medidas para prever y evitar riesgos.</D>
+    <respuesta_correcta explicacion="Se centra en la prevención de riesgos.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>2.- Telmo empieza a hablar cada vez más. Tiene ahora mismo un año y un mes. No consigue terminar de decir los tres elementos que son necesarios para que un accidente tenga la condición de accidente laboral. Dice: “existencia de una lesión corporal..” (te mira, sonríe y continúa diciendo..) “Trabajador por cuenta ajena….” y…( ahí es donde se atasca). Ayuda a Telmo.</enunciado>
+    <A>Actividad laboral.</A>
+    <B>Relación de causalidad.</B>
+    <C>Causa de ajenidad.</C>
+    <D>Relación de dependencia.</D>
+    <respuesta_correcta explicacion="Relación de causalidad.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>3.- Las condiciones de trabajo afectan directamente a la salud y bienestar de los empleados. En la clasificación de las condiciones de trabajo no se encuentran:</enunciado>
+    <A>Condiciones de seguridad.</A>
+    <B>Condiciones medioambientales.</B>
+    <C>Condiciones mentales.</C>
+    <D>Condiciones ergonómicas.</D>
+    <respuesta_correcta explicacion="Condiciones mentales.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>4.- Cuál de los siguientes no es un derecho del trabajador en materia de protección frente a riesgos laborales:</enunciado>
+    <A>Evaluar los riesgos.</A>
+    <B>Formular propuestas al empresario.</B>
+    <C>A la vigilancia de su salud.</C>
+    <D>A interrumpir la actividad  y abandonar el trabajo.</D>
+    <respuesta_correcta explicacion="Evaluar los riesgos.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>5.- ¿Cuál es la ley principal en materia de prevención de riesgos laborales en España?</enunciado>
+    <A>Ley de Seguridad Social y de riesgos laborales.</A>
+    <B>Ley General de Trabajo y de Prevención de Riesgos Laborales.</B>
+    <C>Ley 31/1995 de Prevención de Riesgos Laborales.</C>
+    <D>Real Decreto 1299/2006 de Prevención de Riesgos Laborales.</D>
+    <respuesta_correcta explicacion="Ley 31/1995 de Prevención de Riesgos Laborales.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>6.- Un trabajador tiene derecho a interrumpir su actividad si existe un:</enunciado>
+    <A>Riesgo grave e inminente.</A>
+    <B>Riesgo previsible.</B>
+    <C>Riesgo muy grave.</C>
+    <D>Riesgo imprevisto.</D>
+    <respuesta_correcta explicacion="Riesgo grave e inminente.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>7.- ¿Cuáles son los tres tipos de bienestar en la salud según la OMS?</enunciado>
+    <A>Físico, ambiental y laboral.</A>
+    <B>Físico, mental y social.</B>
+    <C>Psicosocial, económico y laboral.</C>
+    <D>Médico, físico y químico.</D>
+    <respuesta_correcta explicacion="Físico, mental y social.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>8.- ¿Qué categoría de daño profesional incluye enfermedades psicológicas como el estrés y el burnout?</enunciado>
+    <A>Patologías Inespecíficas.</A>
+    <B>Patologías Específicas.</B>
+    <C>Enfermedades Comunes.</C>
+    <D>Accidente de Trabajo.</D>
+    <respuesta_correcta explicacion="Patologías Inespecíficas.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>9.- ¿Qué organismo se encarga de la inspección y cumplimiento de la normativa laboral en España?</enunciado>
+    <A>Agencia Europea para la Seguridad y la Salud en el Trabajo.</A>
+    <B>Inspección de Trabajo y Seguridad Social (ITSS).</B>
+    <C>Organización Mundial de la Salud.</C>
+    <D>Ministerio de trabajo.</D>
+    <respuesta_correcta explicacion="Inspección de Trabajo y Seguridad Social (ITSS).">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>10.- ¿Qué organismo internacional establece normas sobre seguridad y salud en el trabajo?</enunciado>
+    <A>Unión sindical internacional.</A>
+    <B>La Internacional Socialista</B>
+    <C>Organización Internacional del Trabajo (OIT).</C>
+    <D>La comisión de trabajo de la Organización de las Naciones Unidad.</D>
+    <respuesta_correcta explicacion="Organización Internacional del Trabajo (OIT).">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>11.- ¿Qué señal indica una obligación?</enunciado>
+    <A>Fondo azul con pictograma blanco</A>
+    <B>Triángulo amarillo</B>
+    <C>Círculo rojo con fondo blanco</C>
+    <D>Rectángulo verde</D>
+    <respuesta_correcta explicacion="Fondo azul con pictograma blanco">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>12.- ¿Qué grupo de agentes biológicos representa el mayor peligro?</enunciado>
+    <A>Grupo 4</A>
+    <B>Grupo 1</B>
+    <C>Grupo 2</C>
+    <D>Grupo 3</D>
+    <respuesta_correcta explicacion="Grupo 4">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>13.- ¿Cuál es un ejemplo de radiación ionizante?</enunciado>
+    <A>Luz visible</A>
+    <B>Microondas</B>
+    <C>Radiación infrarroja</C>
+    <D>Rayos X</D>
+    <respuesta_correcta explicacion="Rayos X">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>14.- ¿Qué tipo de extintor es el indicado para apagar un incendio de aceite de cocina?</enunciado>
+    <A>Extintor tipo A.</A>
+    <B>Extintor tipo B.</B>
+    <C>Extintor tipo C.</C>
+    <D>Extintor tipo D.</D>
+    <respuesta_correcta explicacion="Extintor tipo B.">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>15.- ¿Cuál de los siguientes no es un elemento necesario del tetraedro del fuego?</enunciado>
+    <A>Combustible</A>
+    <B>Comburente</B>
+    <C>Calor</C>
+    <D>Chispa</D>
+    <respuesta_correcta explicacion="Chispa">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>16.- ¿Qué técnica de prevención se centra en identificar situaciones peligrosas?</enunciado>
+    <A>Higiene Industrial</A>
+    <B>Ergonomía</B>
+    <C>Medicina del Trabajo</C>
+    <D>Seguridad en el Trabajo</D>
+    <respuesta_correcta explicacion="Seguridad en el Trabajo">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>17.- ¿Cuál es el primer principio de la prevención según la LPRL?</enunciado>
+    <A>Evaluar los riesgos</A>
+    <B>Combatir los riesgos en su origen</B>
+    <C>Evitar los riesgos</C>
+    <D>Tener en cuenta la evolución de la técnica</D>
+    <respuesta_correcta explicacion="Evitar los riesgos">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>18.- El control de exposición es una técnica que pertenece a la</enunciado>
+    <A>La higiene industrial.</A>
+    <B>La ergonomía.</B>
+    <C>La psicosociología.</C>
+    <D>La Seguridad en el trabajo.</D>
+    <respuesta_correcta explicacion="La higiene industrial.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>19.- ¿Cuál de las siguientes medidas de protección es individual?</enunciado>
+    <A>Ventilación.</A>
+    <B>Extracción de humos.</B>
+    <C>Delimitación de zonas.</C>
+    <D>Mascarillas de seguridad.</D>
+    <respuesta_correcta explicacion="Mascarillas de seguridad.">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>20.- ¿Qué método de extinción de incendios consiste en eliminar el oxígeno del área afectada?</enunciado>
+    <A>Sofocación.</A>
+    <B>Disgusto.</B>
+    <C>Enfriamiento.</C>
+    <D>Dilución.</D>
+    <respuesta_correcta explicacion="Sofocación.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>21.- ¿Cuáles son los niveles de cualificación en prevención de riesgos laborales?</enunciado>
+    <A>Básico, medio y avanzado</A>
+    <B>Básico, intermedio y superior</B>
+    <C>Bajo, medio y alto</C>
+    <D>Inicial, medio y final</D>
+    <respuesta_correcta explicacion="Básico, intermedio y superior">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>22.- ¿Cuál es la función principal del nivel básico en prevención de riesgos laborales?</enunciado>
+    <A>Realizar tareas sencillas y de vigilancia bajo supervisión</A>
+    <B>Gestionar planes de prevención</B>
+    <C>Realizar evaluaciones complejas de riesgos</C>
+    <D>Formar y asesorar a otros profesionales</D>
+    <respuesta_correcta explicacion="Realizar tareas sencillas y de vigilancia bajo supervisión">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>23.- ¿Cuántas horas de formación requiere el nivel superior de prevención de riesgos laborales?</enunciado>
+    <A>50 horas acreditadas por una universidad</A>
+    <B>200 horas acreditadas por una universidad</B>
+    <C>No requiere formación</C>
+    <D>Mínimo 600 horas acreditadas por una universidad</D>
+    <respuesta_correcta explicacion="Mínimo 600 horas acreditadas por una universidad">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>24.- ¿Quiénes conforman el Comité de Seguridad y Salud?</enunciado>
+    <A>Solo representantes de la empresa</A>
+    <B>Solo delegados sindicales</B>
+    <C>Representantes de la empresa y trabajadores</C>
+    <D>Un inspector de seguridad</D>
+    <respuesta_correcta explicacion="Representantes de la empresa y trabajadores">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>25.- ¿Cada cuánto debe reunirse el Comité de Seguridad y Salud?</enunciado>
+    <A>Cada seis meses</A>
+    <B>Cada tres meses o cuando sea necesario</B>
+    <C>Anualmente</C>
+    <D>Solo en casos de emergencia</D>
+    <respuesta_correcta explicacion="Cada tres meses o cuando sea necesario">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>26.- ¿Cómo se designan los Delegados de Prevención?</enunciado>
+    <A>Se eligen por votación de los empleados</A>
+    <B>Son designados por los representantes del personal</B>
+    <C>Son asignados por el empresario</C>
+    <D>Se escogen al azar</D>
+    <respuesta_correcta explicacion="Son designados por los representantes del personal">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>27.- ¿En qué empresas puede asumir la prevención de riesgos laborales el propio empresario?</enunciado>
+    <A>Empresas con más de 500 trabajadores</A>
+    <B>Empresas de hasta 10 trabajadores</B>
+    <C>Empresas con actividades peligrosas</C>
+    <D>Empresas con más de 100 empleados</D>
+    <respuesta_correcta explicacion="Empresas de hasta 10 trabajadores">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>28.- ¿Qué tipo de empresas están obligadas a tener un Servicio de Prevención Propio?</enunciado>
+    <A>Empresas con más de 50 trabajadores</A>
+    <B>Empresas que realicen actividades no peligrosas</B>
+    <C>Empresas con más de 500 trabajadores o más de 250 si realizan actividades peligrosas</C>
+    <D>Ninguna empresa está obligada</D>
+    <respuesta_correcta explicacion="Empresas con más de 500 trabajadores o más de 250 si realizan actividades peligrosas">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>29.- ¿Cuál es el color de la tarjeta que se utiliza en el triaje para los heridos más graves?</enunciado>
+    <A>Verde</A>
+    <B>Rojo</B>
+    <C>Amarillo</C>
+    <D>Ambar</D>
+    <respuesta_correcta explicacion="Rojo">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>30.- ¿Qué empresa debe contar con un botiquín de primeros auxilios?</enunciado>
+    <A>Todas las empresas</A>
+    <B>Solo las que tienen más de 50 empleados</B>
+    <C>Solo las industrias</C>
+    <D>Solo los hospitales</D>
+    <respuesta_correcta explicacion="Todas las empresas">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>31.- ¿En qué contexto histórico surge el Derecho del Trabajo?</enunciado>
+    <A>En la Edad Media</A>
+    <B>Durante la Revolución Industrial</B>
+    <C>En la Revolución Francesa</C>
+    <D>En la Segunda Guerra Mundial</D>
+    <respuesta_correcta explicacion="Durante la Revolución Industrial">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>32.- ¿Qué organización internacional fue creada en 1919 para promover la justicia social en el ámbito laboral?</enunciado>
+    <A>ONU</A>
+    <B>FMI</B>
+    <C>OIT</C>
+    <D>UNESCO</D>
+    <respuesta_correcta explicacion="OIT">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>33.- ¿Cuál de las siguientes es una relación laboral especial?</enunciado>
+    <A>Trabajadores del hogar</A>
+    <B>Funcionarios públicos</B>
+    <C>Voluntarios de ONG</C>
+    <D>Consejeros de empresa</D>
+    <respuesta_correcta explicacion="Trabajadores del hogar">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>34.- ¿Cuál es la norma jerárquicamente más alta en el Derecho del Trabajo español?</enunciado>
+    <A>Constitución Española</A>
+    <B>Convenios colectivos</B>
+    <C>Estatuto de los trabajadores</C>
+    <D>Usos y costumbres</D>
+    <respuesta_correcta explicacion="Constitución Española">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>35.- ¿Cuál es el principio que garantiza que siempre se aplicará la norma más beneficiosa para el trabajador?</enunciado>
+    <A>Principio de igualdad</A>
+    <B>Principio de norma más favorable</B>
+    <C>Principio de equidad</C>
+    <D>Principio de voluntariedad</D>
+    <respuesta_correcta explicacion="Principio de norma más favorable">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>36.- ¿Cuáles son los principales órganos judiciales en materia laboral?</enunciado>
+    <A>Juzgados de lo Social, Tribunal Superior de Justicia, Tribunal Supremo y Audiencia Nacional</A>
+    <B>Juzgados de Paz, Tribunal Constitucional y Juzgados de Instrucción.</B>
+    <C>Juzgados de primera instancia, de Instrucción, de lo social, del Tribunal Superior de Justicia, de la Audiencia Nacional y del Tribunal Supremo.</C>
+    <D>Juzgados de primera instancia de lo social.</D>
+    <respuesta_correcta explicacion="Juzgados de lo Social, Tribunal Superior de Justicia, Tribunal Supremo y Audiencia Nacional">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>37.- ¿Cuál de las siguientes se considera una relación laboral excluida?</enunciado>
+    <A>Lucas, trabaja en el bar de su tío Juan. Depende de él económicamente y convive con él.</A>
+    <B>Matías, trabaja en el bar de su abuelo, a quien visita esporádicamente para que le cuentes batallas de cuando se quería ligar pero no había móviles.</B>
+    <C>Marcos, trabaja en el bar de su padre cuando hay épocas de más trabajo. Vive en el domicilio familiar, ya que está terminando sus estudios de FP.</C>
+    <D>Laura, se independizó hace 20 días hábiles. Trabaja en el bar familiar desde hace cinco años.</D>
+    <respuesta_correcta explicacion="Lucas, trabaja en el bar de su tío Juan. Depende de él económicamente y convive con él.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>38.- ¿Qué derecho NO está protegido por la legislación laboral española?</enunciado>
+    <A>Derecho a huelga</A>
+    <B>Derecho a la no discriminación</B>
+    <C>Derecho a elegir libremente las vacaciones</C>
+    <D>Derecho a la negociación colectiva</D>
+    <respuesta_correcta explicacion="Derecho a elegir libremente las vacaciones">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>39.- ¿Cuál es la función del Servicio de Mediación, Arbitraje y Conciliación (SMAC)?</enunciado>
+    <A>Resolver conflictos laborales sin necesidad de juicio</A>
+    <B>Elaborar contratos de trabajo</B>
+    <C>Inspeccionar empresas</C>
+    <D>Controlar el desempleo</D>
+    <respuesta_correcta explicacion="Resolver conflictos laborales sin necesidad de juicio">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>40¿Qué principio establece que los derechos adquiridos por los trabajadores no pueden ser reducidos?</enunciado>
+    <A>Principio de condición más beneficiosa</A>
+    <B>Principio de voluntariedad</B>
+    <C>Principio de productividad</C>
+    <D>Principio de reciprocidad</D>
+    <respuesta_correcta explicacion="Principio de condición más beneficiosa">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>41.- Matías es técnico superior en calidad alimentaria ¿Cuánto puede durar su periodo de prueba si en el convenio colectivo aplicable no se establece nada al respecto?</enunciado>
+    <A>Máximo 6 meses</A>
+    <B>Máximo 3 meses</B>
+    <C>Máximo 1 año</C>
+    <D>No hay límite</D>
+    <respuesta_correcta explicacion="Máximo 6 meses">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>42.- Imagina que el convenio colectivo de Matías estableciera que el periodo de prueba fuera de un año. ¿Sería válido?</enunciado>
+    <A>Sí, porque en relación al periodo de prueba se aplica lo establecido en el convenio colectivo con prioridad.</A>
+    <B>Sí, ya que es el plazo que establece el Estatuto de los Trabajadores, el cual indica que ello es la norma mínima a cumplir.</B>
+    <C>No, ya que contradice lo establecido en el Estatuto de los Trabajadores.</C>
+    <D>No, ya que lo máximo que se puede permanecer en periodo de prueba son nueve meses.</D>
+    <respuesta_correcta explicacion="No, ya que contradice lo establecido en el Estatuto de los Trabajadores.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>43.- ¿Qué pasa si el trabajador se incapacita temporalmente durante el período de prueba?</enunciado>
+    <A>Se da por finalizado el contrato</A>
+    <B>El empleador no podrá poner fin al contrato de trabajo</B>
+    <C>El periodo de prueba se interrumpe automáticamente</C>
+    <D>El período de prueba se interrumpe si ambas partes lo acuerdan así</D>
+    <respuesta_correcta explicacion="El periodo de prueba se interrumpe automáticamente">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>44.- ¿Qué caracteriza a un contrato de sustitución?</enunciado>
+    <A>Se aplica a trabajadores en formación</A>
+    <B>Es un contrato indefinido con jornada reducida</B>
+    <C>Se usa para incorporar nuevos empleados sin experiencia</C>
+    <D>Se usa para reemplazar temporalmente a un trabajador con derecho a reserva de puesto</D>
+    <respuesta_correcta explicacion="Se usa para reemplazar temporalmente a un trabajador con derecho a reserva de puesto">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>45.- ¿Qué modalidad de contrato se usa para facilitar la jubilación parcial de un trabajador?</enunciado>
+    <A>Contrato de sustitución</A>
+    <B>Contrato de relevo</B>
+    <C>Contrato de formación</C>
+    <D>Contrato temporal</D>
+    <respuesta_correcta explicacion="Contrato de relevo">B</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>46.- ¿Tiene derecho un trabajador relevista a una indemnización cuando finaliza su contrato?</enunciado>
+    <A>Sí, 20 días por año trabajado</A>
+    <B>Sí, 12 días por año trabajado</B>
+    <C>Sí, 15 días por año trabajado</C>
+    <D>No tiene derecho a ninguna indemnización, salvo que el Estatuto de los trabajadores diga otra cosa</D>
+    <respuesta_correcta explicacion="No tiene derecho a ninguna indemnización, salvo que el Estatuto de los trabajadores diga otra cosa">D</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>47.- Un contrato para la obtención de la práctica profesional tendrá una duración de:</enunciado>
+    <A>Entre seis meses y un año</A>
+    <B>Entre uno y dos años</B>
+    <C>Entre hasta un año y medio siempre que sea autorizado por la autoridad laboral</C>
+    <D>No existe un periodo mínimo de formación.</D>
+    <respuesta_correcta explicacion="Entre seis meses y un año">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>48.- En un contrato de tiempo parcial las horas complementarias pactadas, no podrán superar:</enunciado>
+    <A>Las 80 horas anuales.</A>
+    <B>No hay límite de horas.</B>
+    <C>El 30% de las horas de trabajo establecidas en el contrato.</C>
+    <D>el 10% de las horas de trabajo establecidas en el contrato.</D>
+    <respuesta_correcta explicacion="El 30% de las horas de trabajo establecidas en el contrato.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>49.- Matías tiene miedo de que su jefe le pegue un palizón si no renueva su contrato de trabajo. ¿Qué elemento esencial del contrato de trabajo no se cumple?</enunciado>
+    <A>Consentimiento</A>
+    <B>Objeto</B>
+    <C>Causa</C>
+    <D>Viva Albacete</D>
+    <respuesta_correcta explicacion="Consentimiento">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>50.- Se contrata a Lucius Malfoy como trabajador de Voldemort S.A.U. No se indican sus funciones, simplemente en el contrato se establece que se le hace un contrato para funciones generales. ¿Faltaría algún elemento esencial en el contrato referido?</enunciado>
+    <A>No, parece que todo está en orden.</A>
+    <B>Sí, el consentimiento.</B>
+    <C>Sí, el objeto.</C>
+    <D>Si, la causa.</D>
+    <respuesta_correcta explicacion="Sí, el objeto.">C</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>51.- Eres trabajador/a/e de una importante empresa. Durante el año 2024 te han retenido en el total de tus nóminas en concepto de IRPF 5000 euros. Cuando haces la declaración el resultado de la misma es de 6.000 euros. Responde sabiamente respecto a cómo computa la cantidad referida en primer lugar:</enunciado>
+    <A>Deberás pagar 1000 euros adicionales.</A>
+    <B>El total a abonar serían 11.000 euros.</B>
+    <C>Te deben devolver 1.000 euros.</C>
+    <D>Te deben devolver 5.000 euros.</D>
+    <respuesta_correcta explicacion="Deberás pagar 1000 euros adicionales.">A</respuesta_correcta>
+  </pregunta>
+  <pregunta>
+    <enunciado>52.- Tu hijo te pregunta cuáles son los conceptos por los que te detraen (detraer significa restar) cantidades de dinero de tu nómina. Respóndele para no quedar mal delante suya (sabes que se va a creer cualquier cosa que le digas)</enunciado>
+    <A>Todo lo que aparece en la nómina tiene la consideración de deducción.</A>
+    <B>Contingencias comunes, Contingencias por Accidentes de trabajo e IRPF</B>
+    <C>Contingencias comunes y por accidente de trabajo, exclusivamente.</C>
+    <D>Contingencias por accidente de trabajo exclusivamente.</D>
+    <respuesta_correcta explicacion="Contingencias comunes, Contingencias por Accidentes de trabajo e IRPF">B</respuesta_correcta>
+  </pregunta>
+
+</documento>
