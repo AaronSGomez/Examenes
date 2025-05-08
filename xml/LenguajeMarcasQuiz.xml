@@ -1,0 +1,361 @@
+<documento>
+<pregunta>
+  <enunciado>En Bootstrap, ¿qué clase debes usar junto con d-flex para centrar contenido verticalmente?</enunciado>
+  <A>.justify-content-center</A>
+  <B>.align-items-center</B>
+  <C>.m-auto</C>
+  <D>.text-center</D>
+  <respuesta_correcta explicacion="La clase .align-items-center se utiliza junto con d-flex para centrar el contenido verticalmente en Bootstrap."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué combinación de clases Bootstrap permite tener 3 columnas iguales en pantallas medianas en adelante?</enunciado>
+  <A>.col-sm-6</A>
+  <B>.col-md-4</B>
+  <C>.col-lg-3</C>
+  <D>.col-12</D>
+  <respuesta_correcta explicacion="La clase .col-md-4 divide el espacio en 3 columnas iguales en pantallas medianas en adelante."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué clase de Bootstrap hace que una imagen se adapte al ancho del contenedor manteniendo su proporción?</enunciado>
+  <A>.img-responsive</A>
+  <B>.img-fluid</B>
+  <C>.img-full</C>
+  <D>.responsive-img</D>
+  <respuesta_correcta explicacion="La clase .img-fluid adapta la imagen al ancho del contenedor manteniendo su proporción."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál es la diferencia principal entre box-sizing: content-box y box-sizing: border-box en CSS?</enunciado>
+  <A>border-box no permite usar padding</A>
+  <B>content-box incluye borde y padding en el tamaño total</B>
+  <C>No hay ninguna diferencia entre ambas propiedades</C>
+  <D>border-box incluye padding y borde dentro del ancho y alto especificado</D>
+  <respuesta_correcta explicacion="La diferencia principal es que border-box incluye padding y borde dentro del ancho y alto especificado, mientras que content-box los incluye fuera del tamaño total."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué sintaxis es válida para declarar zonas con nombre en una cuadrícula de CSS Grid?</enunciado>
+  <A>grid-template-columns: 1fr 1fr;</A>
+  <B>grid-template-areas: "nav nav" "content aside";</B>
+  <C>grid-template: repeat(2, 1fr);</C>
+  <D>grid-position: "nav" "content";</D>
+  <respuesta_correcta explicacion="La sintaxis correcta para declarar zonas con nombre en CSS Grid es usando grid-template-areas."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál es el propósito de usar repeat(3, 1fr) en una definición de columnas en CSS Grid?</enunciado>
+  <A>Define tres márgenes horizontales</A>
+  <B>Se usa para repetir colores de fondo</B>
+  <C>Agrupa columnas por nombre</C>
+  <D>Distribuye el contenido en 3 columnas iguales dentro del espacio disponible</D>
+  <respuesta_correcta explicacion="El propósito de repeat(3, 1fr) es distribuir el contenido en 3 columnas iguales dentro del espacio disponible."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué ocurre si usamos display: grid; sin definir filas ni columnas?</enunciado>
+  <A>Se crea una cuadrícula automática</A>
+  <B>Se aplica block</B>
+  <C>Los elementos se superponen</C>
+  <D>No cambia nada</D>
+  <respuesta_correcta explicacion="Cuando usamos display: grid sin definir filas ni columnas, se crea una cuadrícula automática."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué unidad en CSS es relativa al tamaño de fuente del elemento raíz (&lt;html&gt;) y no al padre?</enunciado>
+  <A>em</A>
+  <B>rem</B>
+  <C>pt</C>
+  <D>vh</D>
+  <respuesta_correcta explicacion="La unidad rem es relativa al tamaño de fuente del elemento raíz, no al padre."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué afirmación sobre gap y margin es correcta?</enunciado>
+  <A>Ambas propiedades se usan solo en Grid</A>
+  <B>gap reemplaza a margin</B>
+  <C>margin es más precisa que gap</C>
+  <D>gap separa elementos entre sí, margin separa un elemento del exterior</D>
+  <respuesta_correcta explicacion="La propiedad gap se utiliza para separar elementos entre sí en una cuadrícula o contenedor flex, mientras que margin separa un elemento del exterior."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué unidad de medida en CSS representa un tamaño fijo, sin depender del contexto?</enunciado>
+  <A>em</A>
+  <B>rem</B>
+  <C>%</C>
+  <D>px</D>
+  <respuesta_correcta explicacion="La unidad px (píxeles) es fija y no depende del contexto ni de la fuente."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué valor devuelve display para ocultar un elemento completamente en CSS?</enunciado>
+  <A>visibility: hidden</A>
+  <B>display: none</B>
+  <C>opacity: 0</C>
+  <D>hidden: true</D>
+  <respuesta_correcta explicacion="El valor display: none oculta completamente un elemento."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad CSS se usa para aplicar sombra a un texto?</enunciado>
+  <A>box-shadow</A>
+  <B>text-shadow</B>
+  <C>font-shadow</C>
+  <D>shadow-text</D>
+  <respuesta_correcta explicacion="La propiedad text-shadow se utiliza para aplicar sombra a un texto."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad CSS permite definir el espacio entre filas y columnas en CSS Grid?</enunciado>
+  <A>gap</A>
+  <B>spacing</B>
+  <C>margin</C>
+  <D>padding</D>
+  <respuesta_correcta explicacion="La propiedad gap se utiliza para definir el espacio entre filas y columnas en CSS Grid."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué afirmación sobre el atributo id en HTML es correcta?</enunciado>
+  <A>Puede aplicarse a varios elementos</A>
+  <B>Debe ser único dentro de la página</B>
+  <C>Solo se puede usar en formularios</C>
+  <D>Se escribe con punto (.)</D>
+  <respuesta_correcta explicacion="El atributo id debe ser único dentro de la página."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué atributo de la etiqueta &lt;img&gt; se utiliza para mostrar un texto alternativo si la imagen no se carga?</enunciado>
+  <A>description</A>
+  <B>alt</B>
+  <C>text</C>
+  <D>title</D>
+  <respuesta_correcta explicacion="El atributo alt se utiliza para mostrar un texto alternativo en caso de que la imagen no se cargue."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué atributo HTML es necesario para que un campo &lt;input&gt; de tipo checkbox esté seleccionado por defecto?</enunciado>
+  <A>default</A>
+  <B>value</B>
+  <C>selected</C>
+  <D>checked</D>
+  <respuesta_correcta explicacion="El atributo checked hace que un campo de tipo checkbox esté seleccionado por defecto."> D </respuesta_correcta>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué método permite seleccionar elementos del DOM por su atributo name?</enunciado>
+  <A>getElementById()</A>
+  <B>getElementsByClassName()</B>
+  <C>getElementsByName()</C>
+  <D>querySelector()</D>
+  <respuesta_correcta explicacion="El método getElementsByName() selecciona elementos del DOM por su atributo name."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de estas propiedades se utiliza para acceder o cambiar el texto que un usuario ve en pantalla (sin etiquetas HTML)?</enunciado>
+  <A>.innerText</A>
+  <B>.innerHTML</B>
+  <C>.value</C>
+  <D>.placeholder</D>
+  <respuesta_correcta explicacion="La propiedad .innerText permite acceder o cambiar el texto visible de un elemento."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué selecciona document.querySelector(".activo")?</enunciado>
+  <A>El primer elemento con id="activo"</A>
+  <B>El primer elemento con clase activo</B>
+  <C>Todos los elementos activos</C>
+  <D>Una lista de nodos con esa clase</D>
+  <respuesta_correcta explicacion="El método document.querySelector(activo) selecciona el primer elemento con la clase activa."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de estas formas es correcta para reaccionar a un clic en un botón en JavaScript moderno?</enunciado>
+  <A>addClick(btn, function)</A>
+  <B>btn.on("click", function)</B>
+  <C>document.querySelector("#btn").addEventListener("click", function() { /*...*/ })</C>
+  <D>click(btn, function)</D>
+  <respuesta_correcta explicacion="La forma correcta es usar addEventListener() para escuchar eventos en JavaScript moderno."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué hace document.querySelector("input[type='email']")?</enunciado>
+  <A>Selecciona todos los campos de texto</A>
+  <B>Selecciona cualquier input</B>
+  <C>Selecciona el primer input de tipo email</C>
+  <D>Crea un input automáticamente</D>
+  <respuesta_correcta explicacion="Selecciona el primer input de tipo email en el documento."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué valor devuelve element.value si el elemento existe pero el campo está vacío?</enunciado>
+  <A>null</A>
+  <B>false</B>
+  <C>""</C>
+  <D>undefined</D>
+  <respuesta_correcta explicacion="Cuando un campo está vacío, element.value devuelve una cadena vacía ('')."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué método de localStorage permite eliminar un elemento por su clave?</enunciado>
+  <A>remove()</A>
+  <B>localStorage.delete()</B>
+  <C>localStorage.removeItem()</C>
+  <D>deleteItem()</D>
+  <respuesta_correcta explicacion="El método localStorage.removeItem() se utiliza para eliminar un elemento de localStorage por su clave."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué evento de JavaScript se dispara cuando un formulario es enviado?</enunciado>
+  <A>onwrite</A>
+  <B>onchange</B>
+  <C>onsubmit</C>
+  <D>oninput</D>
+  <respuesta_correcta explicacion="El evento onsubmit se dispara cuando un formulario es enviado."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué método de JavaScript convierte una lista de nodos en un array, usada en el proceso para importar o exportar XML?</enunciado>
+  <A>Array.from()</A>
+  <B>toArray()</B>
+  <C>convertToArray()</C>
+  <D>listToArray()</D>
+  <respuesta_correcta explicacion="El método Array.from() convierte una lista de nodos en un array en JavaScript."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué evento debe capturarse para ejecutar código tras leer un archivo con FileReader?</enunciado>
+  <A>onread</A>
+  <B>ondone</B>
+  <C>onload</C>
+  <D>oncomplete</D>
+  <respuesta_correcta explicacion="El evento onload se dispara después de que FileReader haya leído un archivo."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad contiene el contenido del archivo leído en un FileReader dentro del evento onload?</enunciado>
+  <A>e.result</A>
+  <B>e.target.value</B>
+  <C>e.target.result</C>
+  <D>e.file.content</D>
+  <respuesta_correcta explicacion="La propiedad e.target.result contiene el contenido del archivo leído."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué método permite convertir el contenido de un archivo en texto en el navegador?</enunciado>
+  <A>LocalStorage</A>
+  <B>DocumentReader</B>
+  <C>JSONParser</C>
+  <D>FileReader</D>
+  <respuesta_correcta explicacion="FileReader es el método que permite convertir el contenido de un archivo en texto en el navegador."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de los siguientes métodos devuelve un documento navegable a partir de texto XML?</enunciado>
+  <A>createElementFromXML()</A>
+  <B>FileParser.readAsDOM()</B>
+  <C>XMLLoader.parse()</C>
+  <D>DOMParser.parseFromString()</D>
+  <respuesta_correcta explicacion="El método DOMParser.parseFromString() devuelve un documento navegable a partir de texto XML."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cómo se accede al texto que contiene una etiqueta XML, como &lt;nombre&gt;Juan&lt;/nombre&gt;?</enunciado>
+  <A>.text()</A>
+  <B>.nodeText</B>
+  <C>.innerValue</C>
+  <D>.textContent</D>
+  <respuesta_correcta explicacion="Se utiliza .textContent para acceder al texto contenido en una etiqueta XML."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué método permite acceder a todos los nodos &lt;persona&gt; en un XML parseado?</enunciado>
+  <A>getElementsByClass("persona")</A>
+  <B>getElementByName("persona")</B>
+  <C>getElementsByTagName("persona")</C>
+  <D>getXMLNodes("persona")</D>
+  <respuesta_correcta explicacion="El método getElementsByTagName('persona') permite acceder a todos los nodos &lt;persona&gt; en un XML parseado."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>En Bootstrap, ¿qué clase se debe usar para alinear el contenido horizontalmente en un contenedor flex?</enunciado>
+  <A>.align-items-center</A>
+  <B>.justify-content-center</B>
+  <C>.m-auto</C>
+  <D>.text-center</D>
+  <respuesta_correcta explicacion="La clase .justify-content-center se utiliza para alinear el contenido horizontalmente en un contenedor flex."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad de Bootstrap hace que un elemento ocupe toda la fila en dispositivos pequeños?</enunciado>
+  <A>.col-sm-12</A>
+  <B>.col-md-4</B>
+  <C>.col-lg-6</C>
+  <D>.col-6</D>
+  <respuesta_correcta explicacion="La clase .col-sm-12 hace que un elemento ocupe toda la fila en pantallas pequeñas."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué clase de Bootstrap se debe usar para crear una imagen redonda?</enunciado>
+  <A>.img-rounded</A>
+  <B>.img-circle</B>
+  <C>.rounded-circle</C>
+  <D>.img-circle-responsive</D>
+  <respuesta_correcta explicacion="La clase .rounded-circle de Bootstrap se utiliza para crear imágenes redondas."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué significa box-sizing: border-box en CSS?</enunciado>
+  <A>El tamaño total de un elemento incluye el padding y el borde.</A>
+  <B>El tamaño total de un elemento solo incluye el borde.</B>
+  <C>El tamaño total de un elemento incluye solo el padding.</C>
+  <D>El borde y el padding se agregan al tamaño del elemento.</D>
+  <respuesta_correcta explicacion="Con box-sizing: border-box, el borde y el padding se incluyen dentro del tamaño del elemento."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad de CSS Grid permite definir la cantidad de columnas en una cuadrícula?</enunciado>
+  <A>grid-template-columns</A>
+  <B>grid-template-areas</B>
+  <C>grid-template-rows</C>
+  <D>grid-column-count</D>
+  <respuesta_correcta explicacion="La propiedad grid-template-columns se utiliza para definir la cantidad de columnas en una cuadrícula de CSS Grid."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad en CSS Grid permite establecer el espacio entre filas?</enunciado>
+  <A>grid-gap</A>
+  <B>row-gap</B>
+  <C>column-gap</C>
+  <D>gap</D>
+  <respuesta_correcta explicacion="La propiedad row-gap permite establecer el espacio entre filas en CSS Grid."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué unidad de medida en CSS es relativa al tamaño de la pantalla?</enunciado>
+  <A>em</A>
+  <B>rem</B>
+  <C>vw</C>
+  <D>vh</D>
+  <respuesta_correcta explicacion="Las unidades vw (viewport width) y vh (viewport height) son relativas al tamaño de la pantalla."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál es la propiedad que permite centrar un elemento verticalmente dentro de un contenedor con flexbox?</enunciado>
+  <A>justify-content</A>
+  <B>align-items</B>
+  <C>align-self</C>
+  <D>flex-align</D>
+  <respuesta_correcta explicacion="La propiedad align-items se utiliza para alinear los elementos a lo largo del eje transversal en Flexbox, lo que permite centrar el contenido verticalmente."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué propiedad de Flexbox permite que los elementos se ajusten dentro del contenedor cuando no hay espacio suficiente?</enunciado>
+  <A>flex-grow</A>
+  <B>flex-shrink</B>
+  <C>flex-wrap</C>
+  <D>flex-basis</D>
+  <respuesta_correcta explicacion="La propiedad flex-wrap permite que los elementos se ajusten y se muevan a la siguiente línea si no hay suficiente espacio."> C </respuesta_correcta>
+</pregunta>
+
+</documento>

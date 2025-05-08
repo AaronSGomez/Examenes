@@ -18,7 +18,7 @@
 
 
 header {
-  position: fixed;
+  position: sticky;
   align-self: flex-start;
   top: 0;
   background-color: #304a53;
@@ -94,6 +94,9 @@ h1{
   color:#202020;
   padding: 20px;
   box-sizing:border-box;
+}
+h2{
+  margin: 5px;
 }
 #pregunta-container { 
   width: 100%;
