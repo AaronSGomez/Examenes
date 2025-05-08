@@ -8,7 +8,7 @@ let respuestasIncorrectas = [];
 let preguntasSaltadas = [];
 
 async function cargarXML() {
-  const response = await fetch('../xml/FundamentosQuiz.xml');
+  const response = await fetch('../xml/BBDDQuiz.xml');
   const text = await response.text();
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(text, "text/xml");
