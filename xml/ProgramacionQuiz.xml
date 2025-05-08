@@ -8507,4 +8507,478 @@
       C
     </respuesta_correcta>
   </pregunta>
+
+
+<pregunta>
+<enunciado>¿Qué palabra clave se usa para declarar una constante en Java?</enunciado>
+<A>CONST</A>
+<B>EXTENDS</B>
+<C>STATIC</C>
+<D>FINAL</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué tipo de dato usarías para representar un número decimal?</enunciado>
+<A>Byte</A>
+<B>Float</B>
+<C>Boolean</C>
+<D>short</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor representa el literal ‘\t' en una cadena?</enunciado>
+<A>Tabulador</A>
+<B>Salto de línea</B>
+<C>Termina instrucción actual</C>
+<D>Abreviatura de try..catch</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué operador devuelve el resto de una división?</enunciado>
+<A>%</A>
+<B>/</B>
+<C>||</C>
+<D>\</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si declaras dos variables con el mismo nombre en el mismo bloque?</enunciado>
+<A>Se suman automáticamente</A>
+<B>Se concatenan automáticamente</B>
+<C>La segunda variable apunta a la primera variable.</C>
+<D>El compilador genera un error</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué operador se utiliza para comparar si dos valores son iguales?</enunciado>
+<A>=</A>
+<B>==</B>
+<C>!=</C>
+<D>&lt;&gt;</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es el resultado de: 7 % 3?</enunciado>
+<A>2</A>
+<B>1</B>
+<C>4</C>
+<D>0</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de estas variables es válida en Java?</enunciado>
+<A>1numero</A>
+<B>_edad</B>
+<C>Public</C>
+<D>Valor total</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué palabra clave hace que una variable no pueda modificarse?</enunciado>
+<A>Static</A>
+<B>Final</B>
+<C>Private</C>
+<D>super</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué significa que Java sea case-sensitive?</enunciado>
+<A>Que no distingue entre mayúsculas y minúsculas</A>
+<B>Que ignora los espacios</B>
+<C>Que distingue entre mayúsculas y minúsculas</C>
+<D>Que es sensible al tipo de archivo</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de estas afirmaciones es verdadera sobre el método main en Java?</enunciado>
+<A>Debe ser la primera instrucción dentro de la clase</A>
+<B>Es private por defecto</B>
+<C>Debe ser static y public</C>
+<D>Devuelve siempre un int</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si usas una variable local sin inicializarla?</enunciado>
+<A>Se inicializa con 0 automáticamente</A>
+<B>El programa imprime null</B>
+<C>Se lanza un error de compilación</C>
+<D>Se convierte en global</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué operador lógico representa una disyunción (OR)?</enunciado>
+<A>&amp;&amp;&amp;</A>
+<B>&amp;&amp;</B>
+<C>||</C>
+<D>!!</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué resultado da la operación: 4 + 3 * 2?</enunciado>
+<A>14</A>
+<B>10</B>
+<C>11</C>
+<D>16</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor tendrá x tras ejecutar el siguiente código?</enunciado>
+<A>6</A>
+<B>14</B>
+<C>4</C>
+<D>10</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de las siguientes opciones, es un comentario válido en java?</enunciado>
+<A><!-- esto es un comentario --></A>
+<B>//esto es un comentario</B>
+<C>\\esto es un comentario</C>
+<D>*// esto es un comentario //*</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué clase se utiliza para leer datos por teclado en Java?</enunciado>
+<A>InputReader</A>
+<B>Scanner</B>
+<C>Reader</C>
+<D>FileReader</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método del objeto Scanner se usa para leer un número entero?</enunciado>
+<A>nextLine ()</A>
+<B>next ()</B>
+<C>nextInt ()</C>
+<D>readInt ()</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué estructura permite ejecutar un bloque solo si una condición es verdadera?</enunciado>
+<A>Switch</A>
+<B>If</B>
+<C>Do.. While</C>
+<D>for</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué palabra se usa para detener un bloque dentro de un switch?</enunciado>
+<A>Stop</A>
+<B>Exit</B>
+<C>Halt</C>
+<D>break</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la diferencia entre while y do- while ?</enunciado>
+<A>do- while puede no ejecutarse nunca</A>
+<B>while se ejecuta al menos una vez</B>
+<C>do- while garantiza una ejecución mínima</C>
+<D>while se usa solo para enteros</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la forma correcta de un bucle for ?</enunciado>
+<A>for (int i = 0; i &lt; 10; i++)</A>
+<B>for int i = 0 to 10</B>
+<C>for i = 1 while i &lt;= 10</C>
+<D>loop (i = 0; i &lt; 10; i++)</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace el método nextDouble () de la clase Scanner?</enunciado>
+<A>Lee un número entero</A>
+<B>Lee un booleano</B>
+<C>Lee un número decimal</C>
+<D>Lee una cadena</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la estructura básica más simple de un programa?</enunciado>
+<A>Repetición</A>
+<B>Secuencia</B>
+<C>Selección</C>
+<D>Condición</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si en un switch no se coloca 'break'?</enunciado>
+<A>Nada se ejecuta</A>
+<B>Solo se ejecuta el case indicado</B>
+<C>Se ejecutan todos los case siguientes</C>
+<D>Se produce un error</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método del Scanner se usa para leer una línea completa?</enunciado>
+<A>readLine ()</A>
+<B>nextInt ()</B>
+<C>nextLine ()</C>
+<D>read ()</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si una condición en un bucle while nunca es falsa?</enunciado>
+<A>El programa se detiene automáticamente</A>
+<B>Se lanza una excepción</B>
+<C>El bucle se ejecuta infinitamente</C>
+<D>No se ejecuta ninguna iteración</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es el propósito del bloque default en un switch?</enunciado>
+<A>Se ejecuta siempre</A>
+<B>Se ignora si hay break</B>
+<C>Termina el switch</C>
+<D>Se ejecuta si no hay ningún case coincidente</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué muestra por pantalla?</enunciado>
+<A>4</A>
+<B>2</B>
+<C>7</C>
+<D>9</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor se imprime?</enunciado>
+<A>2</A>
+<B>4</B>
+<C>3</C>
+<D>6</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué muestra por pantalla?</enunciado>
+<A>1</A>
+<B>6</B>
+<C>Error en tiempo de ejecución</C>
+<D>4</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué es un array en Java?</enunciado>
+<A>Una variable que cambia de tamaño</A>
+<B>Una estructura que almacena datos en posiciones aleatorias</B>
+<C>Una colección ordenada de elementos del mismo tipo</C>
+<D>Una función que agrupa variables</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué tipo de datos se pueden almacenar en un array?</enunciado>
+<A>Solo enteros</A>
+<B>Datos de diferentes tipos</B>
+<C>Solo cadenas</C>
+<D>Elementos del mismo tipo</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la forma correcta de declarar un array de enteros?</enunciado>
+<A>int array[];</A>
+<B>array int [];</B>
+<C>int [] = array;</C>
+<D>new int array[];</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué operador se usa para instanciar un array en Java?</enunciado>
+<A>Array</A>
+<B>Class</B>
+<C>New</C>
+<D>create</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor tiene el índice inicial de un array en Java?</enunciado>
+<A>Depende del tipo</A>
+<B>1</B>
+<C>-1</C>
+<D>0</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad permite conocer el tamaño de un array?</enunciado>
+<A>size ()</A>
+<B>getSize ()</B>
+<C>Length ()</C>
+<D>Count ()</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué estructura es adecuada para recorrer un array?</enunciado>
+<A>Switch</A>
+<B>try-catch</B>
+<C>For</C>
+<D>class</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué sucede si accedemos a un índice fuera de los límites del array?</enunciado>
+<A>Se devuelve null</A>
+<B>Se lanza una excepción</B>
+<C>Se devuelve -1</C>
+<D>Se ignora</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es una forma válida de inicializar un array con valores?</enunciado>
+<A>int [] datos = {1, 2, 3};</A>
+<B>int datos = [1, 2, 3];</B>
+<C>datos = new int (3);</C>
+<D>datos = array(1, 2, 3);</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué tipo de estructura representa un array bidimensional?</enunciado>
+<A>Vector</A>
+<B>Matriz</B>
+<C>objeto JSON</C>
+<D>En java no existen arrays de más de una dimensión</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la forma correcta de declarar un array bidimensional?</enunciado>
+<A>matriz int [];</A>
+<B>array int [2][2];</B>
+<C>int [] matriz[];</C>
+<D>int [][] matriz;</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo se accede al elemento en la fila 2, columna 3 de un array 2D?</enunciado>
+<A>array[3][2]</A>
+<B>array(2,3)</B>
+<C>array[2][3]</C>
+<D>array{2}{3}</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace el método clone() con un array?</enunciado>
+<A>Lo borra</A>
+<B>Lo intercambia</B>
+<C>Crea una copia nueva del array</C>
+<D>Los dos arrays se convierten en uno mismo</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es el número de elementos en un array 3x3x3?</enunciado>
+<A>9</A>
+<B>18</B>
+<C>27</C>
+<D>30</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método se usa para obtener la posición (índice) de un valor en un array?</enunciado>
+<A>indexOf ()</A>
+<B>getIndex ()</B>
+<C>buscar()</C>
+<D>No existe, debe implementarse manualmente</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la forma correcta de recorrer un array llamado notas?</enunciado>
+<A>for ( int i = 1; i &lt; notas.length ; i++)</A>
+<B>for ( int i = 0; i &lt; notas.length ; i++)</B>
+<C>for ( int i = 0; i &lt;= notas.length ; i++)</C>
+<D>foreach ( int i in notas)</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si igualamos dos arrays así?: int [] b = a;</enunciado>
+<A>Se copian los valores</A>
+<B>Apuntan al mismo espacio de memoria</B>
+<C>Se clonan automáticamente</C>
+<D>No compila</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de las siguientes afirmaciones sobre métodos en Java es correcta?</enunciado>
+<A>Siempre deben devolver un valor.</A>
+<B>No pueden tener parámetros.</B>
+<C>Los métodos se definen dentro del main .</C>
+<D>Los métodos pueden no devolver nada si se usa void</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace el siguiente código?</enunciado>
+<A>Imprime la suma de dos números.</A>
+<B>Muestra una cadena por pantalla.</B>
+<C>Devuelve la suma de dos enteros.</C>
+<D>Declara una variable local.</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué sucede si un método tiene más return después de que uno se ejecuta?</enunciado>
+<A>Se ejecutan todos los return .</A>
+<B>Se ignoran los que están después.</B>
+<C>Java lanza una excepción.</C>
+<D>No compila.</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué resultado muestra este código?</enunciado>
+<A>Comprueba si un número es par</A>
+<B>Comprueba si un número es primo</B>
+<C>Calcula la suma de divisores.</C>
+<D>Devuelve el resto de x entre 2.</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué implica el paso de parámetros por valor?</enunciado>
+<A>El método modifica directamente el valor original.</A>
+<B>Se pasa una referencia.</B>
+<C>Se copia el valor y no afecta al original.</C>
+<D>Solo se usa con arrays.</D>
+<respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué palabra clave permite evitar que un método devuelva un valor?</enunciado>
+<A>Break</A>
+<B>Void</B>
+<C>Static</C>
+<D>stoc</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace este código?</enunciado>
+<A>Imprime 3 2 1</A>
+<B>Imprime 1 2 3</B>
+<C>Imprime 0 1 2</C>
+<D>No imprime nada; ya que no entra nunca en el if .</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué sucede si no hay caso base en una función recursiva?</enunciado>
+<A>Se ejecuta una sola vez.</A>
+<B>Se produce un desbordamiento de pila.</B>
+<C>No compila.</C>
+<D>La recursividad se detiene sola.</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Dónde se puede acceder a una variable local?</enunciado>
+<A>En cualquier parte del programa.</A>
+<B>Solo dentro del método o bloque donde se declara</B>
+<C>Desde todos los métodos.</C>
+<D>Desde el main .</D>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si modificas una variable entera dentro de un método?</enunciado>
+<A>Se modifica solo dentro del método</A>
+<B>Depende del tipo de dato</B>
+<C>No se puede</C>
+<D>Se modifica el original</D>
+<respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué ocurre si modificas un array dentro de un método?</enunciado>
+<A>Se crea una copia</A>
+<B>Depende del tipo de dato</B>
+<C>No se puede</C>
+<D>Se modifica el original</D>
+<respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
 </documento>
