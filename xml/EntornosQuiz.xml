@@ -1,0 +1,362 @@
+<documento>
+<pregunta>
+  <enunciado> ¿Cómo se representa un caso de uso en UML? </enunciado>
+  <A> Como un rectángulo </A>
+  <B> Como un círculo </B>
+  <C> Como una elipse </C>
+  <D> Como una flecha </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de los siguientes elementos suele formar parte de un entorno de desarrollo integrado (IDE)? </enunciado>
+  <A> Sistema de arranque </A>
+  <B> Panel de configuración de hardware </B>
+  <C> Editor de código, compilador y depurador </C>
+  <D> Consola de administración de red </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de los siguientes es un beneficio directo de las pruebas automatizadas? </enunciado>
+  <A> Evitan escribir documentación </A>
+  <B> Detectan fallos solo en producción </B>
+  <C> Permiten ejecutar pruebas frecuentes con bajo esfuerzo </C>
+  <D> Requieren menos cobertura </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de los siguientes lenguajes es típicamente considerado de bajo nivel? </enunciado>
+  <A> Java </A>
+  <B> C </B>
+  <C> Python </C>
+  <D> Kotlin </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es el principal beneficio de una prueba de integración? </enunciado>
+  <A> Validar interfaces gráficas </A>
+  <B> Verificar que las clases se construyen correctamente </B>
+  <C> Asegurar que los módulos trabajan bien juntos </C>
+  <D> Ejecutar scripts automatizados </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es el principal objetivo del mantenimiento perfectivo en el software? </enunciado>
+  <A> Corregir errores reportados por los usuarios </A>
+  <B> Adaptar el software a nuevas plataformas o entornos </B>
+  <C> Mejorar el rendimiento o la funcionalidad sin que exista un fallo previo </C>
+  <D> Eliminar código duplicado </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es el propósito principal del mantenimiento adaptativo del software? </enunciado>
+  <A> Añadir funcionalidades opcionales </A>
+  <B> Corregir errores de compilación </B>
+  <C> Modificar el software por cambios en el entorno o requisitos externos </C>
+  <D> Mejorar la interfaz gráfica </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es el rol de un "actor" en un diagrama de casos de uso? </enunciado>
+  <A> Es una clase del sistema </A>
+  <B> Es un usuario o sistema externo que interactúa </B>
+  <C> Es un componente lógico </C>
+  <D> Es un método invocable </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es la utilidad de la relación «extends» en UML? </enunciado>
+  <A> Obligar la ejecución conjunta de casos de uso </A>
+  <B> Permitir comportamiento opcional o alternativo </B>
+  <C> Indicar herencia entre actores </C>
+  <D> Definir atributos de una clase </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es una característica de una máquina virtual de proceso? </enunciado>
+  <A> Gestiona múltiples sistemas operativos </A>
+  <B> Emula hardware completo </B>
+  <C> Ejecuta código específico del lenguaje de programación </C>
+  <D> Requiere hipervisor de tipo 1 </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál es una solución común para métodos con muchos parámetros? </enunciado>
+  <A> Escribir comentarios detallados </A>
+  <B> Duplicar el método con variantes </B>
+  <C> Agrupar los parámetros en un objeto </C>
+  <D> Eliminar parámetros sin revisión </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Por qué es recomendable mantener documentación técnica actualizada? </enunciado>
+  <A> Porque mejora la calidad del diseño gráfico </A>
+  <B> Porque facilita el mantenimiento incluso si cambian los desarrolladores </B>
+  <C> Porque acelera la compilación del código </C>
+  <D> Porque evita usar herramientas externas </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Por qué las máquinas virtuales son útiles en entornos de desarrollo? </enunciado>
+  <A> No requieren pruebas </A>
+  <B> Facilitan la replicación de entornos para distintos proyectos </B>
+  <C> No consumen memoria </C>
+  <D> El software se ejecuta más rápido </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Por qué se prefiere un lenguaje de alto nivel en desarrollo ágil? </enunciado>
+  <A> Mayor acceso a registros de CPU </A>
+  <B> Menor seguridad </B>
+  <C> Mayor legibilidad y facilidad de mantenimiento </C>
+  <D> Mejor rendimiento sin compilación </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Por qué se recomienda dividir las responsabilidades de una clase en componentes más pequeños? </enunciado>
+  <A> Para evitar el uso de bucles </A>
+  <B> Para cumplir con el principio de responsabilidad única </B>
+  <C> Para reducir el tamaño del archivo </C>
+  <D> Para evitar que la clase tenga atributos </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué característica define a una prueba unitaria? </enunciado>
+  <A> Evalúa toda la aplicación de forma integral </A>
+  <B> Evalúa funciones o métodos de forma aislada y controlada </B>
+  <C> Se enfoca en la experiencia del usuario </C>
+  <D> Se realiza después del despliegue </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué característica distingue a una prueba de sistema? </enunciado>
+  <A> Evalúa cada método individualmente </A>
+  <B> Verifica que todos los componentes del software funcionen correctamente en conjunto </B>
+  <C> Solo se enfoca en bases de datos </C>
+  <D> Comprueba errores ortográficos en la interfaz </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué comando de Git permite subir los cambios locales al repositorio remoto? </enunciado>
+  <A> git upload </A>
+  <B> git push </B>
+  <C> git deploy </C>
+  <D> git export </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué comando de Git se utiliza para combinar los cambios de una rama en otra? </enunciado>
+  <A> git merge </A>
+  <B> git connect </B>
+  <C> git commit </C>
+  <D> git join </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> A </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué elemento se considera un nodo en el análisis del grafo de control de flujo? </enunciado>
+  <A> Un test de regresión </A>
+  <B> Una condición lógica </B>
+  <C> Una instrucción secuencial o bloque sin bifurcaciones </C>
+  <D> Una dependencia entre módulos </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué fase del ciclo de vida del software se encarga de verificar que se cumplan los requisitos establecidos? </enunciado>
+  <A> Implementación </A>
+  <B> Mantenimiento </B>
+  <C> Pruebas </C>
+  <D> Diseño </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué función clave cumple la documentación en proyectos con múltiples desarrolladores? </enunciado>
+  <A> Elimina la necesidad de reuniones </A>
+  <B> Permite alinear la comprensión entre equipos distribuidos </B>
+  <C> Evita que se comenten los cambios </C>
+  <D> Reduce la velocidad del desarrollo </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué función tiene el hipervisor en un entorno de virtualización? </enunciado>
+  <A> Traducir código de alto nivel </A>
+  <B> Administrar y aislar máquinas virtuales sobre el hardware físico </B>
+  <C> Compilar el kernel </C>
+  <D> Gestionar el diseño del sistema </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué herramienta forma parte habitual de un IDE moderno? </enunciado>
+  <A> Sistema operativo </A>
+  <B> Cable de red </B>
+  <C> Depurador integrado </C>
+  <D> Antivirus </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué herramienta gráfica permite trabajar con ramas y commits en Git sin usar terminal? </enunciado>
+  <A> Git Manual </A>
+  <B> GitHub CLI </B>
+  <C> Git GUI </C>
+  <D> Git Script </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué herramienta permite virtualizar sistemas operativos con facilidad en entornos educativos? </enunciado>
+  <A> VMware vSphere </A>
+  <B> Oracle VirtualBox </B>
+  <C> GitHub Desktop </C>
+  <D> IntelliJ IDEA </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué IDE es frecuentemente usado en desarrollo de aplicaciones móviles Android? </enunciado>
+  <A> Eclipse </A>
+  <B> NetBeans </B>
+  <C> Android Studio </C>
+  <D> Visual Studio Code </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué nivel de abstracción se considera intermedio entre binario y lenguajes de alto nivel? </enunciado>
+  <A> Binario </A>
+  <B> Lenguaje natural </B>
+  <C> Ensamblador </C>
+  <D> SQL </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué parte del IDE ayuda a rastrear y resolver errores durante la ejecución del programa? </enunciado>
+  <A> Autocompletado </A>
+  <B> Editor de texto </B>
+  <C> Depurador </C>
+  <D> Consola de comandos </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué permite determinar la complejidad ciclomática de una función? </enunciado>
+  <A> El número de variables locales </A>
+  <B> La cantidad de decisiones y bifurcaciones que contiene el flujo del código </B>
+  <C> La cantidad de clases </C>
+  <D> El número de comentarios por línea </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué problema refleja el mal olor de código llamado "Shotgun Surgery"? </enunciado>
+  <A> Clases sin métodos </A>
+  <B> Repetición de estructuras de control </B>
+  <C> Cambiar una parte del sistema implica modificar muchas otras </C>
+  <D> Uso excesivo de herencia </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué problema se conoce como “Shotgun Surgery”? </enunciado>
+  <A> Cambiar una clase provoca errores de compilación </A>
+  <B> Un cambio en una clase requiere cambios en muchas otras </B>
+  <C> Se mezclan demasiadas responsabilidades en una clase </C>
+  <D> El código se divide en métodos demasiado pequeños </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué representa la complejidad ciclomática en un bloque de código? </enunciado>
+  <A> La cantidad de comentarios por línea </A>
+  <B> El número de caminos independientes en el flujo del programa </B>
+  <C> La cantidad de clases heredadas </C>
+  <D> El número de variables globales </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué representa un componente en un diagrama de componentes UML? </enunciado>
+  <A> Un actor externo </A>
+  <B> Una unidad funcional ejecutable del sistema </B>
+  <C> Un flujo de datos </C>
+  <D> Un entorno de ejecución </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> B </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué representa una entrada fuera del rango permitido en una clase de equivalencia? </enunciado>
+  <A> Un valor duplicado </A>
+  <B> Un dato opcional </B>
+  <C> Una partición inválida </C>
+  <D> Una entrada crítica </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué tipo de prueba se utiliza para verificar que una nueva funcionalidad no rompe lo ya existente? </enunciado>
+  <A> Prueba de rendimiento </A>
+  <B> Prueba de humo </B>
+  <C> Prueba de regresión </C>
+  <D> Prueba alfa </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué tipo de relación UML indica que una clase utiliza otra de forma temporal sin necesidad de poseerla? </enunciado>
+  <A> Composición </A>
+  <B> Agregación </B>
+  <C> Asociación </C>
+  <D> Dependencia </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué ventaja ofrece el uso de clases de equivalencia en pruebas? </enunciado>
+  <A> Evita documentar los casos </A>
+  <B> Elimina pruebas funcionales </B>
+  <C> Reduce la cantidad de casos necesarios sin perder cobertura </C>
+  <D> Automatiza todo el proceso de pruebas </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué ventaja ofrece una refactorización frecuente en lugar de una única y compleja? </enunciado>
+  <A> Disminuye la cobertura de pruebas </A>
+  <B> Reduce la reutilización del código </B>
+  <C> Evita errores en producción </C>
+  <D> Mejora el mantenimiento y minimiza el riesgo </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> D </respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Qué ventaja tiene un lenguaje de alto nivel frente a uno de bajo nivel? </enunciado>
+  <A> Mayor control de memoria </A>
+  <B> Mayor complejidad en la sintaxis </B>
+  <C> Mayor legibilidad y menor complejidad para el programador </C>
+  <D> Acceso directo a registros del procesador </D>
+  <respuesta_correcta explicacion="Respuesta correcta con fracción positiva."> C </respuesta_correcta>
+</pregunta>
+</documento>
+
