@@ -1,0 +1,28 @@
+<documento>
+<pregunta>
+    <enunciado>
+      ¿Cuál es la salida del siguiente código?
+        public class HolaMundo {
+            public static void main(String[] args) {
+                System.out.println("¡Hola, mundo!");
+            }
+        }
+        
+    </enunciado>
+    <A>
+      Clase A: 10
+    </A>
+    <B>
+      Clase B: 20
+    </B>
+    <C>
+      Clase A: 20
+    </C>
+    <D>
+      Clase B: 10
+    </D>
+    <respuesta_correcta explicacion="La salida es &quot;Clase B: 20&quot; porque el método `mostrar()` es sobrescrito en la clase `B`. Aunque la referencia es de tipo `A`, el objeto real es de tipo `B`, por lo que se ejecuta el método de la clase `B` debido al polimorfismo.">
+      B
+    </respuesta_correcta>
+  </pregunta>
+</documento>

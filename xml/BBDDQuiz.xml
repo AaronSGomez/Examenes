@@ -19,4 +19,402 @@ SELECT Cliente.Nombre FROM Cliente LEFT JOIN Orden ON Cliente.idCliente = Orden.
 SELECT Nombre FROM Mesero WHERE FechaIncorporacion &lt; '2020-01-01';</enunciado><A>Meseros incorporados antes de 2020</A><B>Meseros que han atendido más de 10 órdenes</B><C>Meseros con contrato temporal</C><D>Meseros sin órdenes asignadas</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué ocurre al transformar una relación débil a tabla?</enunciado><A>Su clave se convierte en clave foránea</A><B>Hereda la clave primaria de la relación fuerte</B><C>Se ignora porque no puede tener independencia</C><D>Se convierte en un atributo derivado</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué ocurre si se ejecuta un DELETE sin cláusula WHERE en una tabla con miles de registros?</enunciado><A>Se borra solo el primer registro</A><B>Aparece un error de sintaxis</B><C>Se eliminan todos los registros de la tabla</C><D>No ocurre nada</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué operador lógico se utiliza en SQL para verificar si un valor no está dentro de un conjunto?</enunciado><A>NOT BETWEEN</A><B>IS NULL</B><C>NOT IN</C><D>EXCEPT</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué operador se usa en SQL para buscar coincidencias parciales en texto?</enunciado><A>MATCH</A><B>LIKE</B><C>EQUALS</C><D>FIND</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué palabra clave en SQL se utiliza para asegurar que los valores de una columna sean únicos?</enunciado><A>UNIQUE</A><B>PRIMARY</B><C>DISTINCT</C><D>NOT NULL</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué representa la siguiente situación en un diagrama ER: una entidad EMPLEADO vinculada a sí misma mediante una relación LLAMA?</enunciado><A>Relación jerárquica</A><B>Relación reflexiva</B><C>Atributo compuesto</C><D>Entidad débil</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué representa un atributo subrayado en un modelo ER?</enunciado><A>Es un atributo redundante</A><B>Es un atributo compuesto</B><C>Es un atributo clave (clave primaria)</C><D>Es un atributo multivaluado</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué representa un rombo en un diagrama entidad-relación?</enunciado><A>Una tabla de base de datos</A><B>Una relación entre entidades</B><C>Un atributo multivaluado</C><D>Una clave primaria</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué resultado da esta consulta?
 
 SELECT COUNT(*) FROM Orden WHERE Fecha BETWEEN '2024-01-01' AND '2024-01-31';</enunciado><A>Número total de órdenes en enero</A><B>Total facturado en enero</B><C>Número de clientes en enero</C><D>Total de productos vendidos</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué sentencia elimina completamente una tabla y todos sus datos en MySQL?</enunciado><A>DROP TABLE nombre;</A><B>DELETE TABLE nombre;</B><C>REMOVE TABLE nombre;</C><D>CLEAR TABLE nombre;</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué sentencia se utiliza para cambiar el nombre de una tabla en MySQL?</enunciado><A>MODIFY TABLE nombre</A><B>ALTER TABLE nombre RENAME TO nuevo_nombre</B><C>CHANGE TABLE nombre</C><D>RENAME TABLE nombre AS nuevo_nombre</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué sentencia SQL se utiliza para agregar una nueva columna a una tabla existente?</enunciado><A>MODIFY TABLE</A><B>UPDATE COLUMN</B><C>ALTER TABLE ... ADD COLUMN</C><D>INSERT COLUMN</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué significa que una relación tenga una cardinalidad 1:N entre dos entidades?</enunciado><A>Cada entidad puede tener solo un valor</A><B>Una entidad del lado 1 se relaciona con varias del lado N</B><C>Ambas entidades deben coincidir en valores</C><D>Hay una correspondencia muchos a muchos</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué sucede con los atributos de una relación si esta es eliminada del modelo relacional?</enunciado><A>Se transforman en atributos de una entidad</A><B>Se pierden, ya que solo pertenecen a la relación</B><C>Se convierten en claves foráneas</C><D>Se agrupan como metadatos</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de atributo en un modelo ER puede descomponerse en subatributos más simples?</enunciado><A>Atributo derivado</A><B>Atributo compuesto</B><C>Atributo clave</C><D>Atributo multivaluado</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de atributo requiere su propia tabla si un solo registro puede tener varios valores para ese atributo?</enunciado><A>Atributo multivaluado</A><B>Atributo compuesto</B><C>Atributo derivado</C><D>Atributo redundante</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de copia de seguridad es más rápida de ejecutar pero requiere siempre la última copia completa para poder restaurar?</enunciado><A>Copia diferencial</A><B>Copia lógica</B><C>Copia incremental</C><D>Copia manual</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de copia se ejecuta después de una copia completa y registra los cambios desde esa copia completa, sin considerar incrementales anteriores?</enunciado><A>Copia de respaldo lógico</A><B>Copia diferencial</B><C>Copia de logs</C><D>Copia automática</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de JOIN devuelve todas las filas de la tabla izquierda y las coincidentes de la derecha o NULL si no hay coincidencia?</enunciado><A>INNER JOIN</A><B>RIGHT JOIN</B><C>LEFT JOIN</C><D>FULL OUTER JOIN</D><respuesta_correcta explicacion="">C</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de relación existe cuando una entidad se relaciona con otra y ambas representan el mismo conjunto de elementos?</enunciado><A>Relación reflexiva</A><B>Generalización</B><C>Agregación</C><D>Asociación débil</D><respuesta_correcta explicacion="">A</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué ventaja tiene una copia completa frente a una copia incremental?</enunciado><A>Es más rápida</A><B>Es más simple de restaurar</B><C>Consume menos espacio</C><D>No necesita programación previa</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>En un diagrama ER, se modela una entidad general llamada "Vehículo" con las subentidades "Coche" y "Moto". ¿Qué tipo de relación representa esta estructura?</enunciado><A>Relación reflexiva</A><B>Generalización/especialización</B><C>Agregación</C><D>Asociación débil</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta><pregunta><enunciado>En un diagrama ER, un atributo que depende de otros atributos se denomina:</enunciado><A>Atributo multivaluado</A><B>Atributo derivado</B><C>Atributo compuesto</C><D>Atributo independiente</D><respuesta_correcta explicacion="">B</respuesta_correcta></pregunta>
+<pregunta>
+<enunciado>
+¿Cuál de las siguientes opciones es una forma válida de implementar la herencia en bases de datos relacionales?
+</enunciado>
+<A>Crear un índice de jerarquía</A>
+<B>Usar una tabla por cada subentidad</B>
+<C>Aplicar un disparador</C>
+<D>Eliminar los atributos comunes</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál de los siguientes tipos de copia de seguridad guarda todos los datos seleccionados sin depender de copias anteriores?
+</enunciado>
+<A>Copia diferencial</A>
+<B>Copia incremental</B>
+<C>Copia completa</C>
+<D>Copia de logs</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál es el propósito principal del comando GRANT en MySQL?
+</enunciado>
+<A>Eliminar un usuario</A>
+<B>Ver los permisos actuales de un usuario</B>
+<C>Crear una nueva tabla</C>
+<D>Conceder privilegios a un usuario</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál es una ventaja de realizar copias incrementales frente a copias completas?
+</enunciado>
+<A>Son más seguras</A>
+<B>Son más rápidas y ocupan menos espacio</B>
+<C>No requieren programación</C>
+<D>Se pueden usar sin conexión</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué cláusula se usa para agrupar resultados según una o varias columnas?
+</enunciado>
+<A>GROUP BY</A>
+<B>ORDER BY</B>
+<C>SORT BY</C>
+<D>COLLECT BY</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué cláusula se utiliza para eliminar filas específicas de una tabla?
+</enunciado>
+<A>TRUNCATE</A>
+<B>DROP</B>
+<C>DELETE</C>
+<D>REMOVE</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué comando crea una copia exacta de una tabla con sus datos?
+</enunciado>
+<A>COPY TABLE</A>
+<B>CLONE TABLE</B>
+<C>CREATE TABLE nueva SELECT * FROM original</C>
+<D>DUPLICATE TABLE</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué comando en MySQL permite ver todos los privilegios asignados a un usuario?
+</enunciado>
+<A>SHOW GRANTS FOR 'usuario'@'localhost';</A>
+<B>SELECT PRIVILEGES;</B>
+<C>DISPLAY USER PRIVILEGES;</C>
+<D>LIST GRANTS usuario;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué comando SQL revoca permisos previamente otorgados a un usuario?
+</enunciado>
+<A>REMOVE</A>
+<B>REVOKE</B>
+<C>DROP PERMISSION</C>
+<D>DENY</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT Plato.Nombre, COUNT(DetalleOrden.idPlato) FROM DetalleOrden INNER JOIN Plato ON DetalleOrden.idPlato = Plato.idPlato GROUP BY Plato.Nombre;
+</enunciado>
+<A>Número total de ingredientes por plato</A>
+<B>Total vendido por plato</B>
+<C>Número de veces que se ha pedido cada plato</C>
+<D>Platos ordenados por precio</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT Departamento.Nombre FROM Departamento LEFT JOIN Empleado ON Departamento.idDepartamento = Empleado.idDepartamento GROUP BY Departamento.Nombre HAVING COUNT(Empleado.idEmpleado) &lt; 3;
+</enunciado>
+<A>Departamentos con menos de 3 empleados</A>
+<B>Departamentos sin empleados</B>
+<C>Departamentos con presupuestos altos</C>
+<D>Departamentos con más de 10 empleados</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT CENTRO FROM CENTROS WHERE ID IN (SELECT CentroID FROM Departamentos WHERE DepID IN (SELECT DepID FROM Empleados WHERE Cargo = 'Supervisor'));
+</enunciado>
+<A>Centros donde trabaja al menos un supervisor</A>
+<B>Centros sin supervisores</B>
+<C>Centros con varios departamentos</C>
+<D>Centros con presupuesto alto</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué función SQL devuelve la fecha actual del sistema?
+</enunciado>
+<A>GETDATE()</A>
+<B>NOW()</B>
+<C>CURRENT()</C>
+<D>SYSDATE()</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace el comando ANALYZE TABLE en MySQL?</enunciado>
+<A>Reorganiza físicamente los datos</A>
+<B>Elimina registros duplicados</B>
+<C>Actualiza estadísticas sobre índices y datos</C>
+<D>Cambia el nombre de una tabla</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué hace el parámetro bind-address = 0.0.0.0 en MySQL?
+</enunciado>
+<A>Desactiva todas las conexiones de red</A>
+<B>Permite conexiones desde cualquier IP</B>
+<C>Solo permite conexión desde localhost</C>
+<D>Restringe la autenticación por plugin</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>SELECT * FROM Ventas ORDER BY Fecha ASC LIMIT 1;</enunciado>
+<A>Última venta registrada</A>
+<B>Primera venta registrada</B>
+<C>Venta con mayor importe</C>
+<D>Venta con cliente prioritario</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT Turno.Nombre, MAX(Orden.numero) FROM Turno JOIN Orden ON Turno.id = Orden.idTurno GROUP BY Turno.Nombre;
+</enunciado>
+<A>Total de órdenes por turno</A>
+<B>Última orden registrada por turno</B>
+<C>Todos los turnos disponibles</C>
+<D>Empleados por turno</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT NOMBRE FROM EMPLEADO WHERE SALARIO &lt;(SELECT AVG(SALARIO) FROM EMPLEADO);
+</enunciado>
+<A>Empleados con salario mayor al promedio</A>
+<B>Empleados con salario inferior al promedio</B>
+<C>Empleados con salario nulo</C>
+<D>Empleados con salario promedio</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace la función LENGTH() en SQL?</enunciado>
+<A>Cuenta caracteres en un campo de texto</A>
+<B>Devuelve el tamaño en bytes de la tabla</B>
+<C>Cuenta filas de la tabla</C>
+<D>Devuelve la cantidad de columnas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué indica una línea doble que conecta una entidad con una relación en un diagrama entidad-relación clásico?
+</enunciado>
+<A>Que la participación es opcional</A>
+<B>Que hay una relación recursiva</B>
+<C>
+Que la participación de la entidad en la relación es obligatoria
+</C>
+<D>Que la entidad contiene atributos compuestos</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué instrucción se utiliza para eliminar permanentemente una tabla y su definición en SQL?
+</enunciado>
+<A>DELETE FROM tabla</A>
+<B>CLEAR TABLE</B>
+<C>REMOVE RECORDS</C>
+<D>DROP TABLE</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué instrucción SQL se usa para actualizar valores en una tabla?
+</enunciado>
+<A>MODIFY</A>
+<B>SET</B>
+<C>UPDATE</C>
+<D>CHANGE</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT Empresa.Nombre FROM Empresa INNER JOIN Cliente ON Empresa.clienteAsociado = Cliente.idCliente;
+</enunciado>
+<A>Empresas sin clientes</A>
+<B>Empresas con cliente asociado</B>
+<C>Clientes sin empresas asignadas</C>
+<D>Nombres duplicados de empresas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT C.Nombre FROM Clientes C LEFT JOIN Ventas V ON C.id = V.ClienteID WHERE V.ClienteID IS NULL;
+</enunciado>
+<A>Clientes con múltiples compras</A>
+<B>Clientes con compras canceladas</B>
+<C>Clientes sin compras registradas</C>
+<D>Clientes con compras mayores al promedio</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT Nombre FROM Empleados WHERE FechaIngreso &lt; '2019-01-01';
+</enunciado>
+<A>Empleados con más de 5 años</A>
+<B>Empleados con muchos pedidos</B>
+<C>Empleados con contrato temporal</C>
+<D>Empleados sin tareas asignadas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué palabra clave en SQL se utiliza para asegurar que los valores de una columna sean únicos?
+</enunciado>
+<A>UNIQUE</A>
+<B>PRIMARY</B>
+<C>DISTINCT</C>
+<D>NOT NULL</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué representa una relación reflexiva en un modelo entidad-relación?
+</enunciado>
+<A>Una relación jerárquica entre niveles</A>
+<B>Una entidad relacionada consigo misma</B>
+<C>Una relación compuesta</C>
+<D>Una asociación entre atributos</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+SELECT COUNT(*) FROM Orden WHERE Fecha BETWEEN '2024-02-01' AND '2024-02-29';
+</enunciado>
+<A>Órdenes realizadas en febrero</A>
+<B>Total de ventas en febrero</B>
+<C>Clientes que compraron en febrero</C>
+<D>Productos vendidos en febrero</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué sucede con los atributos propios de una relación al convertir el modelo ER en tablas?
+</enunciado>
+<A>
+Se transforman en columnas de una tabla que representa la relación
+</A>
+<B>Se fusionan con los atributos de las entidades</B>
+<C>Se eliminan si no son claves</C>
+<D>Se ignoran en el modelo relacional</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué tipo de copia solo almacena los cambios realizados desde la última copia completa?
+</enunciado>
+<A>Copia parcial</A>
+<B>Copia diferencial</B>
+<C>Copia redundante</C>
+<D>Copia simultánea</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué valor tiene por defecto el parámetro port en MySQL?
+</enunciado>
+<A>3306</A>
+<B>8080</B>
+<C>5432</C>
+<D>1521</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué devuelve esta subconsulta? SELECT Nombre FROM Centro WHERE idCentro IN (SELECT idCentro FROM Departamento WHERE idDepto IN (SELECT idDepto FROM Empleado WHERE Cargo = 'Jefe') GROUP BY idCentro HAVING COUNT(*) > 1);
+</enunciado>
+<A>Centros con al menos un jefe</A>
+<B>Centros con varios jefes</B>
+<C>Centros sin jefes</C>
+<D>Centros con baja productividad</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué resultado da esta consulta? SELECT c.Nombre FROM Cliente c JOIN Factura f ON c.idCliente = f.idCliente GROUP BY c.Nombre HAVING COUNT(*) > 3;
+</enunciado>
+<A>Clientes con más de 3 facturas</A>
+<B>Clientes con facturas canceladas</B>
+<C>Clientes nuevos</C>
+<D>Clientes con pagos atrasados</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué resultado da esta consulta? SELECT Nombre FROM Cliente WHERE idCliente NOT IN (SELECT idCliente FROM Factura);
+</enunciado>
+<A>Clientes con facturas emitidas</A>
+<B>Clientes sin facturas</B>
+<C>Clientes con facturas duplicadas</C>
+<D>Clientes con múltiples direcciones</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué devuelve esta consulta? SELECT e.Nombre FROM Empleado e WHERE e.idEmpleado NOT IN (SELECT idEmpleado FROM Pedido);
+</enunciado>
+<A>Empleados que han hecho pedidos</A>
+<B>Empleados sin pedidos</B>
+<C>Empleados con pedidos cancelados</C>
+<D>Empleados con pedidos incompletos</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué muestra esta consulta? SELECT COUNT(*) FROM Venta WHERE MetodoPago = 'Efectivo';
+</enunciado>
+<A>Total de ventas en efectivo</A>
+<B>Total recaudado por tarjeta</B>
+<C>Clientes que pagan en efectivo</C>
+<D>Ventas pendientes de cobro</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué obtiene esta consulta? SELECT Nombre FROM Empleado WHERE Salario > (SELECT MAX(Salario) FROM Empleado WHERE Departamento = 'Ventas');
+</enunciado>
+<A>Empleados mejor pagados que los de ventas</A>
+<B>Empleados sin salario</B>
+<C>Empleados con salario bajo</C>
+<D>Empleados en ventas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué resultado da esta consulta? SELECT COUNT(*) FROM Orden WHERE Fecha BETWEEN '2024-03-01' AND '2024-03-31';
+</enunciado>
+<A>Total de productos vendidos en marzo</A>
+<B>Órdenes realizadas en marzo</B>
+<C>Facturación en marzo</C>
+<D>Clientes nuevos en marzo</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué devuelve esta consulta? SELECT Nombre FROM Producto ORDER BY VecesSolicitado DESC LIMIT 1;
+</enunciado>
+<A>Producto menos vendido</A>
+<B>Producto más solicitado</B>
+<C>Producto más caro</C>
+<D>Producto sin stock</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué muestra esta consulta? SELECT p.Nombre, SUM(d.Cantidad) FROM Producto p JOIN Detalle d ON p.idProducto = d.idProducto GROUP BY p.Nombre;
+</enunciado>
+<A>Nombre del producto más vendido</A>
+<B>Cantidad total vendida por producto</B>
+<C>Productos sin stock</C>
+<D>Clientes por producto</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
 </documento>

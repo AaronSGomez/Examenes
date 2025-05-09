@@ -4482,7 +4482,7 @@
   <pregunta>
     <enunciado>
       ¿Cuál es la salida del siguiente código?
-                class A {
+             <code>   class A {
                     int x = 10;
                     void mostrar() {
                         System.out.println("Clase A: " + x);
@@ -4499,7 +4499,7 @@
                         A obj = new B();
                         obj.mostrar();
                     }
-                }
+                }</code>
     </enunciado>
     <A>
       Clase A: 10
@@ -4520,7 +4520,7 @@
   <pregunta>
     <enunciado>
       ¿Cuál es la salida del siguiente código?
-                class A {
+               <code> class A {
                     int x = 10;
                     void mostrar() {
                         System.out.println("Clase A: " + x);
@@ -4537,7 +4537,7 @@
                         A obj = new B();
                         obj.mostrar();
                     }
-                }
+                }</code>
     </enunciado>
     <A>
       Clase A: 10
