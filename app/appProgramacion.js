@@ -51,7 +51,7 @@ function mostrarPregunta() {
   });
 
   document.getElementById("pregunta-container").innerHTML = `
-    <h3>${preguntaActual.enunciado}</h3>
+    <p>${preguntaActual.enunciado}</p>
     <ul>${opcionesHTML}
       <li><button onclick="saltar()">Dejar sin contestar</button></li>
     </ul>

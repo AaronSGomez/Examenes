@@ -16,14 +16,36 @@
   padding: 0;
 }
 
-pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
+pre[class*="language-"]::before,
+pre[class*="language-"]::after {
+  content: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
+
+p{
+  font-size: 18px;
+  margin: 0.5em;
+}
+pre {
+  background-color: whitesmoke;
+  width: 75%;
+  margin: auto;
+  color: #2d2d2d;
+  display: block;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto; /* Hacer que sea desplazable si es necesario */
+  border: 1px solid #ddd;
+}
+
 code {
-    color: #007bff;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap; /* Permitir que el código se ajuste a la pantalla */
+  word-wrap: break-word; /* Ajustar las palabras largas */
+  display: block;
 }
 
 
@@ -217,7 +239,6 @@ button:focus {
     font-size: 12px;
     padding: 5px;
   }
-
   h1{
     font-size: 22px;
     padding: 0;
@@ -228,4 +249,27 @@ button:focus {
   .box{
     height: auto;
   }
- }
+    pre {
+    width: 90%; /* Usar todo el contenedor para pantallas pequeñas */
+    padding: 0.8em; /* Reducir padding en móvil */
+  }
+
+  code {
+    font-size: 12px; /* Reducir el tamaño de la fuente en móviles */
+  }
+
+}
+
+
+/* Responsivo adicional para pantallas muy pequeñas (por ejemplo, móviles muy pequeños) */
+@media (max-width: 400px) {
+  pre {
+    padding: 0.6em; /* Reducir más el padding */
+  }
+
+  code {
+      tab-size: -4;
+      -moz-tab-size: 1;
+    font-size: 11px; /* Ajustar aún más el tamaño de la fuente */
+  }
+}

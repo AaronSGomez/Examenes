@@ -1,8 +1,6 @@
 <documento>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se utiliza para leer datos desde consola?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se utiliza para leer datos desde consola?</p>]]></enunciado>
     <A>
       InputReader
     </A>
@@ -20,9 +18,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase en Java se utiliza para recibir entrada de datos desde la consola?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase en Java se utiliza para recibir entrada de datos desde la consola?</p>]]></enunciado>
     <A>
       System.out
     </A>
@@ -40,9 +36,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cómo se declara un array en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cómo se declara un array en Java?</p>]]></enunciado>
     <A>
       array[] nombre = new array[10];
     </A>
@@ -60,9 +54,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor tiene vector.length si declaramos int[] vector = new int[5];?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor tiene vector.length si declaramos int[] vector = new int[5];?</p>]]></enunciado>
     <A>
       4
     </A>
@@ -80,9 +72,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de la clase Arrays se usa para ordenar un array en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de la clase Arrays se usa para ordenar un array en Java?</p>]]></enunciado>
     <A>
       sort()
     </A>
@@ -100,9 +90,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de la clase String permite extraer una subcadena?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de la clase String permite extraer una subcadena?</p>]]></enunciado>
     <A>
       extract()
     </A>
@@ -120,9 +108,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué devuelve el método compareTo() de la clase String?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué devuelve el método compareTo() de la clase String?</p>]]></enunciado>
     <A>
       true si los Strings son iguales
     </A>
@@ -140,9 +126,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué diferencia hay entre equals() y == en la comparación de Strings?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué diferencia hay entre equals() y == en la comparación de Strings?</p>]]></enunciado>
     <A>
       == compara referencias y equals() el contenido
     </A>
@@ -160,9 +144,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?</p>]]></enunciado>
     <A>
       Deben tener el mismo nombre y mismos parámetros
     </A>
@@ -180,9 +162,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?</p>]]></enunciado>
     <A>
       public
     </A>
@@ -200,9 +180,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál será la salida del siguiente código?
-                    public class Test{
+    <enunciado><![CDATA[<p>¿Cuál será la salida del siguiente código?</p>
+<pre><code class="language-java">                    public class Test{
                         public static void main (String [] args){
                             int i = 0;
                             while (i &lt; 3){
@@ -210,8 +189,7 @@
                                 i++;
                             }
                         }
-                    }
-    </enunciado>
+                    }</code></pre>]]></enunciado>
     <A>
       0 1 2
     </A>
@@ -229,9 +207,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la estructura correcta para declarar una matriz 3x3 en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la estructura correcta para declarar una matriz 3x3 en Java?</p>]]></enunciado>
     <A>
       int[][] matriz = new int(3,3);
     </A>
@@ -249,9 +225,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de la clase Arrays se usa para copiar un array en otro?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de la clase Arrays se usa para copiar un array en otro?</p>]]></enunciado>
     <A>
       copy()
     </A>
@@ -269,9 +243,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué devuelve el método length de un array?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué devuelve el método length de un array?</p>]]></enunciado>
     <A>
       La cantidad de elementos
     </A>
@@ -289,9 +261,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre métodos sobrecargados es correcta?</p>]]></enunciado>
     <A>
       Deben tener el mismo nombre y mismos parámetros
     </A>
@@ -309,9 +279,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de acceso permite que un método sea usado solo dentro de la misma clase?</p>]]></enunciado>
     <A>
       public
     </A>
@@ -329,10 +297,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál será la salida del siguiente código?
-
-            public class Test {
+    <enunciado><![CDATA[<p>¿Cuál será la salida del siguiente código?
+</p>
+<pre><code class="language-java">            public class Test {
                 public static void main(String args[]) {
                     int x = 5;
                     if (x &gt; 2) {
@@ -343,8 +310,7 @@
                         }
                     }
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       A
     </A>
@@ -362,9 +328,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la diferencia entre while y do-while?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la diferencia entre while y do-while?</p>]]></enunciado>
     <A>
       while evalúa la condición al final del bucle, do-while al inicio
     </A>
@@ -382,9 +346,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En la estructura switch, ¿qué sucede si no se incluye la sentencia break en cada case?
-    </enunciado>
+    <enunciado><![CDATA[<p>En la estructura switch, ¿qué sucede si no se incluye la sentencia break en cada case?</p>]]></enunciado>
     <A>
       El programa lanza un error
     </A>
@@ -402,9 +364,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes estructuras de control permite iteraciones?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes estructuras de control permite iteraciones?</p>]]></enunciado>
     <A>
       if
     </A>
@@ -422,9 +382,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes estructuras de control se utiliza para tomar decisiones en un programa Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes estructuras de control se utiliza para tomar decisiones en un programa Java?</p>]]></enunciado>
     <A>
       for
     </A>
@@ -442,9 +400,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se utiliza para declarar una constante en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se utiliza para declarar una constante en Java?</p>]]></enunciado>
     <A>
       const
     </A>
@@ -462,9 +418,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el tipo de datos para números enteros más pequeño en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el tipo de datos para números enteros más pequeño en Java?</p>]]></enunciado>
     <A>
       byte
     </A>
@@ -482,9 +436,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la diferencia entre break y continue en un bucle?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la diferencia entre break y continue en un bucle?</p>]]></enunciado>
     <A>
       break detiene la ejecución del bucle y continue solo salta una iteración
     </A>
@@ -502,9 +454,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el valor predeterminado de un boolean en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el valor predeterminado de un boolean en Java?</p>]]></enunciado>
     <A>
       true
     </A>
@@ -522,9 +472,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es la herencia en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es la herencia en Java?</p>]]></enunciado>
     <A>
       Permite a una clase heredar métodos y atributos.
     </A>
@@ -542,9 +490,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se usa para heredar de una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se usa para heredar de una clase?</p>]]></enunciado>
     <A>
       this
     </A>
@@ -562,9 +508,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se puede heredar de una superclase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué se puede heredar de una superclase?</p>]]></enunciado>
     <A>
       Atributos públicos
     </A>
@@ -582,9 +526,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué se utiliza principalmente la palabra clave `super` en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué se utiliza principalmente la palabra clave `super` en Java?</p>]]></enunciado>
     <A>
       Para acceder a métodos y atributos de la superclase.
     </A>
@@ -602,9 +544,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es una característica fundamental de una clase abstracta en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es una característica fundamental de una clase abstracta en Java?</p>]]></enunciado>
     <A>
       Siempre debe extender otra clase abstracta.
     </A>
@@ -622,9 +562,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué operador se utiliza para comparar igualdad en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué operador se utiliza para comparar igualdad en Java?</p>]]></enunciado>
     <A>
       =
     </A>
@@ -642,9 +580,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes no es una palabra reservada en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes no es una palabra reservada en Java?</p>]]></enunciado>
     <A>
       static
     </A>
@@ -662,9 +598,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se utiliza para leer datos desde consola?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se utiliza para leer datos desde consola?</p>]]></enunciado>
     <A>
       InputReader
     </A>
@@ -682,9 +616,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes estructuras es una clase contenedora?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes estructuras es una clase contenedora?</p>]]></enunciado>
     <A>
       Array
     </A>
@@ -702,9 +634,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida de System.out.println(3 + "4")?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida de System.out.println(3 + "4")?</p>]]></enunciado>
     <A>
       7
     </A>
@@ -722,9 +652,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa que Java sea un lenguaje fuertemente tipado?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa que Java sea un lenguaje fuertemente tipado?</p>]]></enunciado>
     <A>
       Que se puede cambiar el tipo de una variable libremente.
     </A>
@@ -742,9 +670,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los operadores lógicos operan con valores booleanos, resultando:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los operadores lógicos operan con valores booleanos, resultando:</p>]]></enunciado>
     <A>
       Valores enteros.
     </A>
@@ -762,9 +688,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La evaluación de una expresión relacional puede generar un valor de tipo:
-    </enunciado>
+    <enunciado><![CDATA[<p>La evaluación de una expresión relacional puede generar un valor de tipo:</p>]]></enunciado>
     <A>
       Entero
     </A>
@@ -782,9 +706,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La expresión 3==3 &amp;&amp; 2&lt;3 &amp;&amp; 1!=2 resulta:
-    </enunciado>
+    <enunciado><![CDATA[<p>La expresión 3==3 &amp;&amp; 2&lt;3 &amp;&amp; 1!=2 resulta:</p>]]></enunciado>
     <A>
       Cierto
     </A>
@@ -802,9 +724,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La siguiente expresión, donde interviene la variable booleana a: 3!=3 || a || 1&lt;2, resulta:
-    </enunciado>
+    <enunciado><![CDATA[<p>La siguiente expresión, donde interviene la variable booleana a: 3!=3 || a || 1&lt;2, resulta:</p>]]></enunciado>
     <A>
       Dependerá del valor de a
     </A>
@@ -822,9 +742,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Elige los valores de las variables enteras (a, b y c) que permiten que la evaluación de la siguiente expresión sea cierta: a&lt;b &amp;&amp; b!=c &amp;&amp; b&lt;=c:
-    </enunciado>
+    <enunciado><![CDATA[<p>Elige los valores de las variables enteras (a, b y c) que permiten que la evaluación de la siguiente expresión sea cierta: a&lt;b &amp;&amp; b!=c &amp;&amp; b&lt;=c:</p>]]></enunciado>
     <A>
       a = 1, b = 1, c = 2
     </A>
@@ -842,9 +760,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El bloque de instrucciones de una sentencia if se ejecutará:
-    </enunciado>
+    <enunciado><![CDATA[<p>El bloque de instrucciones de una sentencia if se ejecutará:</p>]]></enunciado>
     <A>
       Siempre
     </A>
@@ -862,9 +778,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En una sentencia if-else los bloques de instrucciones (bloque true y bloque false) pueden ejecutarse:
-    </enunciado>
+    <enunciado><![CDATA[<p>En una sentencia if-else los bloques de instrucciones (bloque true y bloque false) pueden ejecutarse:</p>]]></enunciado>
     <A>
       Simultáneamente
     </A>
@@ -882,9 +796,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor toma la variable `a` en la siguiente expresión: a = 1 &lt; 2?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor toma la variable `a` en la siguiente expresión: a = 1 &lt; 2?</p>]]></enunciado>
     <A>
       0
     </A>
@@ -902,9 +814,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La cláusula default en la sentencia switch es:
-    </enunciado>
+    <enunciado><![CDATA[<p>La cláusula default en la sentencia switch es:</p>]]></enunciado>
     <A>
       Obligatoria y tiene que ser la última que aparezca
     </A>
@@ -922,9 +832,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Realiza una traza del siguiente fragmento de código y selecciona el valor que toma finalmente la variable a:
-            a = 0;
+    <enunciado><![CDATA[<p>Realiza una traza del siguiente fragmento de código y selecciona el valor que toma finalmente la variable a:</p>
+<pre><code class="language-java">            a = 0;
             switch (a + 1) {
             case 0:
             a = 2;
@@ -936,8 +845,7 @@
             case 3:
             a--;
             break;
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       a = 2.
     </A>
@@ -955,9 +863,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es una clase en Java?</p>]]></enunciado>
     <A>
       Un objeto instanciado.
     </A>
@@ -975,9 +881,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa encapsulación?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa encapsulación?</p>]]></enunciado>
     <A>
       Ocultar detalles internos de la implementación.
     </A>
@@ -995,9 +899,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se usa para crear objetos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se usa para crear objetos?</p>]]></enunciado>
     <A>
       class
     </A>
@@ -1015,9 +917,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es un atributo de una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es un atributo de una clase?</p>]]></enunciado>
     <A>
       Una función que realiza operaciones.
     </A>
@@ -1035,9 +935,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace la palabra clave this en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace la palabra clave this en Java?</p>]]></enunciado>
     <A>
       Hace referencia a la clase padre.
     </A>
@@ -1055,9 +953,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirve la interfaz `List` en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirve la interfaz `List` en Java?</p>]]></enunciado>
     <A>
       Permite almacenar elementos ordenados y duplicados.
     </A>
@@ -1075,9 +971,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede si no se define un constructor en una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué sucede si no se define un constructor en una clase?</p>]]></enunciado>
     <A>
       Java genera uno por defecto (heredado de la clase Object).
     </A>
@@ -1095,9 +989,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué métodos son conocidos como getters y setters?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué métodos son conocidos como getters y setters?</p>]]></enunciado>
     <A>
       Métodos que inicializan objetos.
     </A>
@@ -1115,9 +1007,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué afirmaciones sobre objetos en Java son ciertas?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué afirmaciones sobre objetos en Java son ciertas?</p>]]></enunciado>
     <A>
       Los objetos pueden tener métodos y atributos.
     </A>
@@ -1135,9 +1025,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa encapsulación?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa encapsulación?</p>]]></enunciado>
     <A>
       Ocultar detalles internos de la implementación.
     </A>
@@ -1155,9 +1043,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es una clase en Java?</p>]]></enunciado>
     <A>
       Un objeto instanciado.
     </A>
@@ -1175,9 +1061,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es un atributo de una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es un atributo de una clase?</p>]]></enunciado>
     <A>
       Una función que realiza operaciones.
     </A>
@@ -1195,9 +1079,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace la palabra clave this en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace la palabra clave this en Java?</p>]]></enunciado>
     <A>
       Hace referencia a la clase padre.
     </A>
@@ -1215,9 +1097,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es una característica del tipo `Set` en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es una característica del tipo `Set` en Java?</p>]]></enunciado>
     <A>
       No permite elementos duplicados.
     </A>
@@ -1235,9 +1115,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede si no se define un constructor en una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué sucede si no se define un constructor en una clase?</p>]]></enunciado>
     <A>
       Java genera uno por defecto (heredado de la clase Object).
     </A>
@@ -1255,9 +1133,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué métodos son conocidos como getters y setters?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué métodos son conocidos como getters y setters?</p>]]></enunciado>
     <A>
       Métodos que inicializan objetos.
     </A>
@@ -1275,9 +1151,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué afirmaciones sobre objetos en Java son ciertas?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué afirmaciones sobre objetos en Java son ciertas?</p>]]></enunciado>
     <A>
       Los objetos pueden tener métodos y atributos.
     </A>
@@ -1295,9 +1169,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el operador lógico 'AND' en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el operador lógico 'AND' en Java?</p>]]></enunciado>
     <A>
       &amp;
     </A>
@@ -1315,9 +1187,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué instrucción se usa para ejecutar código solo si una condición es verdadera?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué instrucción se usa para ejecutar código solo si una condición es verdadera?</p>]]></enunciado>
     <A>
       while
     </A>
@@ -1335,9 +1205,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un bucle do-while se ejecutará, como mínimo:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un bucle do-while se ejecutará, como mínimo:</p>]]></enunciado>
     <A>
       Cero veces
     </A>
@@ -1355,9 +1223,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El uso de llaves para encerrar el bloque de instrucciones de un bucle:
-    </enunciado>
+    <enunciado><![CDATA[<p>El uso de llaves para encerrar el bloque de instrucciones de un bucle:</p>]]></enunciado>
     <A>
       Es siempre opcional
     </A>
@@ -1375,9 +1241,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La instrucción que permite detener completamente las iteraciones de un bucle es:
-    </enunciado>
+    <enunciado><![CDATA[<p>La instrucción que permite detener completamente las iteraciones de un bucle es:</p>]]></enunciado>
     <A>
       stop
     </A>
@@ -1395,9 +1259,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En un bucle for, la inicialización, condición e incremento son:
-    </enunciado>
+    <enunciado><![CDATA[<p>En un bucle for, la inicialización, condición e incremento son:</p>]]></enunciado>
     <A>
       Todos obligatorios
     </A>
@@ -1415,9 +1277,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En el caso de que una función devuelva un valor, ¿cuál es la recomendación con respecto a la instrucción return?
-    </enunciado>
+    <enunciado><![CDATA[<p>En el caso de que una función devuelva un valor, ¿cuál es la recomendación con respecto a la instrucción return?</p>]]></enunciado>
     <A>
       Utilizar tantos como hagan falta
     </A>
@@ -1435,9 +1295,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuáles de las siguientes operaciones se pueden implementar fácilmente mediante funciones recursivas?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuáles de las siguientes operaciones se pueden implementar fácilmente mediante funciones recursivas?</p>]]></enunciado>
     <A>
       an = a × an-1
     </A>
@@ -1455,9 +1313,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En los identificadores de las funciones, al igual que en los de las variables, se recomienda utilizar la siguiente nomenclatura:
-    </enunciado>
+    <enunciado><![CDATA[<p>En los identificadores de las funciones, al igual que en los de las variables, se recomienda utilizar la siguiente nomenclatura:</p>]]></enunciado>
     <A>
       suma_notas_alumnos()
     </A>
@@ -1475,9 +1331,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave define un método que no devuelve valor?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave define un método que no devuelve valor?</p>]]></enunciado>
     <A>
       void
     </A>
@@ -1495,9 +1349,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cómo se llama un método dentro de una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cómo se llama un método dentro de una clase en Java?</p>]]></enunciado>
     <A>
       función
     </A>
@@ -1515,9 +1367,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los parámetros en la llamada a una función en Java pueden ser opcionales si:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los parámetros en la llamada a una función en Java pueden ser opcionales si:</p>]]></enunciado>
     <A>
       Todos los parámetros son del mismo tipo
     </A>
@@ -1535,9 +1385,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una variable local (declarada dentro de una función) puede usarse:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una variable local (declarada dentro de una función) puede usarse:</p>]]></enunciado>
     <A>
       En cualquier lugar del código
     </A>
@@ -1555,9 +1403,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El tipo devuelto de todas las funciones definidas en nuestro programa tiene que ser siempre:
-    </enunciado>
+    <enunciado><![CDATA[<p>El tipo devuelto de todas las funciones definidas en nuestro programa tiene que ser siempre:</p>]]></enunciado>
     <A>
       int
     </A>
@@ -1575,9 +1421,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué instrucción permite a una función devolver un valor?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué instrucción permite a una función devolver un valor?</p>]]></enunciado>
     <A>
       value
     </A>
@@ -1595,9 +1439,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La forma de distinguir entre dos o más funciones sobrecargadas es:
-    </enunciado>
+    <enunciado><![CDATA[<p>La forma de distinguir entre dos o más funciones sobrecargadas es:</p>]]></enunciado>
     <A>
       Mediante su nombre
     </A>
@@ -1615,9 +1457,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la definición de una función recursiva?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la definición de una función recursiva?</p>]]></enunciado>
     <A>
       Es aquella que se invoca desde dentro de su propio bloque de instrucciones
     </A>
@@ -1635,9 +1475,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El paso de parámetros a una función en Java es siempre:
-    </enunciado>
+    <enunciado><![CDATA[<p>El paso de parámetros a una función en Java es siempre:</p>]]></enunciado>
     <A>
       Un paso de parámetros por copia
     </A>
@@ -1655,9 +1493,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La comparación del contenido (los elementos) de dos tablas se realiza utilizando:
-    </enunciado>
+    <enunciado><![CDATA[<p>La comparación del contenido (los elementos) de dos tablas se realiza utilizando:</p>]]></enunciado>
     <A>
       Arrays.compare()
     </A>
@@ -1675,9 +1511,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué condición tiene que cumplir una tabla para que podamos realizar búsquedas dicotómicas en ella?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué condición tiene que cumplir una tabla para que podamos realizar búsquedas dicotómicas en ella?</p>]]></enunciado>
     <A>
       Que esté ordenada
     </A>
@@ -1695,9 +1529,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la principal diferencia entre Arrays.copyOf() y System.arraycopy()?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la principal diferencia entre Arrays.copyOf() y System.arraycopy()?</p>]]></enunciado>
     <A>
       No existe diferencia alguna, ambos métodos son idénticos
     </A>
@@ -1715,9 +1547,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cómo se declara un array de enteros en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cómo se declara un array de enteros en Java?</p>]]></enunciado>
     <A>
       int array = new int[];
     </A>
@@ -1735,9 +1565,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una tabla puede almacenar datos de distintos tipos, como por ejemplo enteros, booleanos, reales, etcétera:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una tabla puede almacenar datos de distintos tipos, como por ejemplo enteros, booleanos, reales, etcétera:</p>]]></enunciado>
     <A>
       Cierto, las tablas siempre pueden almacenar datos de distintos tipos
     </A>
@@ -1755,9 +1583,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En Java, la numeración de los índices que determina la identificación de cada elemento de una tabla comienza en:
-    </enunciado>
+    <enunciado><![CDATA[<p>En Java, la numeración de los índices que determina la identificación de cada elemento de una tabla comienza en:</p>]]></enunciado>
     <A>
       Cero
     </A>
@@ -1775,9 +1601,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si en una tabla de 10 elementos utilizamos el elemento con índice 11 (que se encuentra fuera de rango):
-    </enunciado>
+    <enunciado><![CDATA[<p>Si en una tabla de 10 elementos utilizamos el elemento con índice 11 (que se encuentra fuera de rango):</p>]]></enunciado>
     <A>
       Al salir del rango de la longitud, Java redimensiona la tabla de forma automática
     </A>
@@ -1795,9 +1619,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de la clase Arrays permite realizar una búsqueda dicotómica en una tabla?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de la clase Arrays permite realizar una búsqueda dicotómica en una tabla?</p>]]></enunciado>
     <A>
       Arrays.search()
     </A>
@@ -1815,9 +1637,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Con respecto a las tablas, el operador new:
-    </enunciado>
+    <enunciado><![CDATA[<p>Con respecto a las tablas, el operador new:</p>]]></enunciado>
     <A>
       Destruye, crea y redimensiona tablas
     </A>
@@ -1835,9 +1655,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la forma correcta de sugerir la ejecución del recolector de basura en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la forma correcta de sugerir la ejecución del recolector de basura en Java?</p>]]></enunciado>
     <A>
       Mediante System.gc()
     </A>
@@ -1855,9 +1673,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La forma de conocer la longitud de una tabla t es mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>La forma de conocer la longitud de una tabla t es mediante:</p>]]></enunciado>
     <A>
       t.size
     </A>
@@ -1875,9 +1691,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el índice del primer elemento de un array en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el índice del primer elemento de un array en Java?</p>]]></enunciado>
     <A>
       0
     </A>
@@ -1895,9 +1709,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La forma de concatenar dos cadenas es mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>La forma de concatenar dos cadenas es mediante:</p>]]></enunciado>
     <A>
       El operador +
     </A>
@@ -1915,9 +1727,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El método que permite eliminar los caracteres blancos del principio y el final de una cadena es:
-    </enunciado>
+    <enunciado><![CDATA[<p>El método que permite eliminar los caracteres blancos del principio y el final de una cadena es:</p>]]></enunciado>
     <A>
       isWhiteSpace()
     </A>
@@ -1935,9 +1745,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Existe una relación entre las cadenas (clase String) y las tablas de caracteres (char[]). ¿Qué métodos permiten convertir un String en un char[]?
-    </enunciado>
+    <enunciado><![CDATA[<p>Existe una relación entre las cadenas (clase String) y las tablas de caracteres (char[]). ¿Qué métodos permiten convertir un String en un char[]?</p>]]></enunciado>
     <A>
       toCharArray()
     </A>
@@ -1955,9 +1763,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En Java, al igual que en otros muchos lenguajes de programación, las secuencias de escape se escriben mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>En Java, al igual que en otros muchos lenguajes de programación, las secuencias de escape se escriben mediante:</p>]]></enunciado>
     <A>
       Dos puntos (:)
     </A>
@@ -1975,9 +1781,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La clase Character se encuentra ubicada en el paquete:
-    </enunciado>
+    <enunciado><![CDATA[<p>La clase Character se encuentra ubicada en el paquete:</p>]]></enunciado>
     <A>
       java.util
     </A>
@@ -1995,10 +1799,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La aritmética de caracteres permite que exista una fuerte relación entre el tipo char y el tipo int. Sabiendo que el carácter ‘a’ tiene una representación numérica de 0x61, ¿cómo conseguiremos mostrar el carácter ‘i’ por consola, a partir de la siguiente variable?
-            int codepoint = 0x61;
-    </enunciado>
+    <enunciado><![CDATA[<p>La aritmética de caracteres permite que exista una fuerte relación entre el tipo char y el tipo int. Sabiendo que el carácter ‘a’ tiene una representación numérica de 0x61, ¿cómo conseguiremos mostrar el carácter ‘i’ por consola, a partir de la siguiente variable?</p>
+<pre><code class="language-java">            int codepoint = 0x61;</code></pre>]]></enunciado>
     <A>
       System.out.println((char)(codepoint + '8'));
     </A>
@@ -2016,9 +1818,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Marca la opción que devuelve true:
-    </enunciado>
+    <enunciado><![CDATA[<p>Marca la opción que devuelve true:</p>]]></enunciado>
     <A>
       Character.isLetter('2');
     </A>
@@ -2036,9 +1836,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Señala qué opción es cierta:
-    </enunciado>
+    <enunciado><![CDATA[<p>Señala qué opción es cierta:</p>]]></enunciado>
     <A>
       ‘a’ es un carácter
     </A>
@@ -2056,9 +1854,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La forma correcta de comparar alfabéticamente dos cadenas es mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>La forma correcta de comparar alfabéticamente dos cadenas es mediante:</p>]]></enunciado>
     <A>
       El operador ==
     </A>
@@ -2076,9 +1872,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La forma de extraer el cuarto carácter de la cadena contenida en la variable cad es mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>La forma de extraer el cuarto carácter de la cadena contenida en la variable cad es mediante:</p>]]></enunciado>
     <A>
       cad.indexOf(3)
     </A>
@@ -2096,9 +1890,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se utiliza para trabajar con cadenas en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se utiliza para trabajar con cadenas en Java?</p>]]></enunciado>
     <A>
       char
     </A>
@@ -2116,9 +1908,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el método para obtener la longitud de una cadena?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el método para obtener la longitud de una cadena?</p>]]></enunciado>
     <A>
       length()
     </A>
@@ -2136,9 +1926,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se usa para definir una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se usa para definir una clase en Java?</p>]]></enunciado>
     <A>
       object
     </A>
@@ -2156,9 +1944,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de método se llama sin necesidad de crear una instancia?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de método se llama sin necesidad de crear una instancia?</p>]]></enunciado>
     <A>
       privado
     </A>
@@ -2176,9 +1962,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Dos clases se consideran vecinas siempre y cuando:
-    </enunciado>
+    <enunciado><![CDATA[<p>Dos clases se consideran vecinas siempre y cuando:</p>]]></enunciado>
     <A>
       Sean visibles
     </A>
@@ -2196,9 +1980,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un miembro cuyo modificador de acceso es private será visible desde:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un miembro cuyo modificador de acceso es private será visible desde:</p>]]></enunciado>
     <A>
       Todas las clases vecinas
     </A>
@@ -2216,9 +1998,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si desde un constructor queremos invocar a otro constructor de la misma clase, tendremos que usar:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si desde un constructor queremos invocar a otro constructor de la misma clase, tendremos que usar:</p>]]></enunciado>
     <A>
       set()
     </A>
@@ -2236,9 +2016,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si por error dejamos un objeto sin ninguna referencia, siempre podremos volver a referenciarlo mediante:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si por error dejamos un objeto sin ninguna referencia, siempre podremos volver a referenciarlo mediante:</p>]]></enunciado>
     <A>
       La referencia this
     </A>
@@ -2256,9 +2034,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace el operador new?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace el operador new?</p>]]></enunciado>
     <A>
       Construye un objeto, invoca al constructor y devuelve su referencia
     </A>
@@ -2276,9 +2052,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Cuando hablamos de miembros de una clase, nos estamos refiriendo a:
-    </enunciado>
+    <enunciado><![CDATA[<p>Cuando hablamos de miembros de una clase, nos estamos refiriendo a:</p>]]></enunciado>
     <A>
       Todos los atributos
     </A>
@@ -2296,9 +2070,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En la definición de una clase, los únicos modificadores de acceso que se pueden utilizar son:
-    </enunciado>
+    <enunciado><![CDATA[<p>En la definición de una clase, los únicos modificadores de acceso que se pueden utilizar son:</p>]]></enunciado>
     <A>
       public
     </A>
@@ -2316,9 +2088,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué diferencia un atributo estático definido en una clase de otro que no lo es?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué diferencia un atributo estático definido en una clase de otro que no lo es?</p>]]></enunciado>
     <A>
       El atributo estático es visible por todas las clases vecinas, mientras que el no estático solo será visible para las clases que usen importación
     </A>
@@ -2336,11 +2106,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué efecto tienen las siguientes líneas de código?
-            Cliente c;
-            c.nombre = "Pepita";
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué efecto tienen las siguientes líneas de código?</p>
+<pre><code class="language-java">            Cliente c;
+            c.nombre = "Pepita";</code></pre>]]></enunciado>
     <A>
       Inicializa el atributo nombre de Cliente con el valor «Pepita»
     </A>
@@ -2358,9 +2126,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La ocultación de atributos puede definirse como:
-    </enunciado>
+    <enunciado><![CDATA[<p>La ocultación de atributos puede definirse como:</p>]]></enunciado>
     <A>
       El proceso en el que un atributo pasa de ser público a privado
     </A>
@@ -2378,9 +2144,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La selección dinámica de métodos:
-    </enunciado>
+    <enunciado><![CDATA[<p>La selección dinámica de métodos:</p>]]></enunciado>
     <A>
       Se produce cuando una variable cambia de valor durante la ejecución de un programa
     </A>
@@ -2398,9 +2162,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</p>]]></enunciado>
     <A>
       Sirve para llamar al constructor de la superclase
     </A>
@@ -2418,9 +2180,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre una subclase es correcto afirmar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre una subclase es correcto afirmar que:</p>]]></enunciado>
     <A>
       Tiene menos atributos que su superclase
     </A>
@@ -2438,9 +2198,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En relación con las clases abstractas es correcto señalar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>En relación con las clases abstractas es correcto señalar que:</p>]]></enunciado>
     <A>
       Implementan todos sus métodos
     </A>
@@ -2458,9 +2216,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿En qué consiste la sustitución u overriding?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿En qué consiste la sustitución u overriding?</p>]]></enunciado>
     <A>
       En sustituir un método heredado por otro implementado en la propia clase
     </A>
@@ -2478,9 +2234,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre la clase Object es cierto indicar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre la clase Object es cierto indicar que:</p>]]></enunciado>
     <A>
       Es abstracta
     </A>
@@ -2498,9 +2252,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</p>]]></enunciado>
     <A>
       Hay que implementarlo, ya que es abstracto
     </A>
@@ -2518,9 +2270,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</p>]]></enunciado>
     <A>
       Sirve para mostrar la información que nos interesa de un objeto
     </A>
@@ -2538,9 +2288,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</p>]]></enunciado>
     <A>
       Convierte los objetos en clases
     </A>
@@ -2558,9 +2306,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una clase puede heredar:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una clase puede heredar:</p>]]></enunciado>
     <A>
       De una clase
     </A>
@@ -2578,9 +2324,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se usa para llamar al constructor de la superclase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se usa para llamar al constructor de la superclase?</p>]]></enunciado>
     <A>
       super()
     </A>
@@ -2598,9 +2342,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre una subclase es correcto afirmar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre una subclase es correcto afirmar que:</p>]]></enunciado>
     <A>
       Tiene menos atributos que su superclase.
     </A>
@@ -2618,9 +2360,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En relación con las clases abstractas es correcto señalar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>En relación con las clases abstractas es correcto señalar que:</p>]]></enunciado>
     <A>
       Implementan todos sus métodos.
     </A>
@@ -2638,9 +2378,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿En qué consiste la sustitución u overriding?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿En qué consiste la sustitución u overriding?</p>]]></enunciado>
     <A>
       En sustituir un método heredado por otro implementado en la propia clase.
     </A>
@@ -2658,9 +2396,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre la clase Object es cierto indicar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre la clase Object es cierto indicar que:</p>]]></enunciado>
     <A>
       Es abstracta.
     </A>
@@ -2678,9 +2414,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</p>]]></enunciado>
     <A>
       Hay que implementarlo, ya que es abstracto.
     </A>
@@ -2698,9 +2432,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</p>]]></enunciado>
     <A>
       Sirve para mostrar la información que nos interesa de un objeto.
     </A>
@@ -2718,9 +2450,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</p>]]></enunciado>
     <A>
       Convierte los objetos en clases.
     </A>
@@ -2738,9 +2468,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una clase puede heredar:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una clase puede heredar:</p>]]></enunciado>
     <A>
       De una clase.
     </A>
@@ -2758,9 +2486,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La selección dinámica de métodos:
-    </enunciado>
+    <enunciado><![CDATA[<p>La selección dinámica de métodos:</p>]]></enunciado>
     <A>
       Se produce cuando una variable cambia de valor durante la ejecución de un programa.
     </A>
@@ -2778,9 +2504,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</p>]]></enunciado>
     <A>
       Sirve para llamar al constructor de la superclase.
     </A>
@@ -2798,9 +2522,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el tipo de retorno del método main en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el tipo de retorno del método main en Java?</p>]]></enunciado>
     <A>
       void
     </A>
@@ -2818,9 +2540,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se utiliza para heredar una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se utiliza para heredar una clase en Java?</p>]]></enunciado>
     <A>
       this
     </A>
@@ -2838,9 +2558,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura se usa para seleccionar múltiples opciones en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura se usa para seleccionar múltiples opciones en Java?</p>]]></enunciado>
     <A>
       if
     </A>
@@ -2858,9 +2576,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el valor predeterminado de un boolean en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el valor predeterminado de un boolean en Java?</p>]]></enunciado>
     <A>
       true
     </A>
@@ -2878,9 +2594,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué operador se utiliza para comparar igualdad en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué operador se utiliza para comparar igualdad en Java?</p>]]></enunciado>
     <A>
       =
     </A>
@@ -2898,9 +2612,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes no es una palabra reservada en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes no es una palabra reservada en Java?</p>]]></enunciado>
     <A>
       static
     </A>
@@ -2918,9 +2630,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se utiliza para leer datos desde la consola?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se utiliza para leer datos desde la consola?</p>]]></enunciado>
     <A>
       InputReader
     </A>
@@ -2938,9 +2648,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes estructuras es una clase contenedora?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes estructuras es una clase contenedora?</p>]]></enunciado>
     <A>
       Array
     </A>
@@ -2958,9 +2666,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida de System.out.println(3 + "4")?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida de System.out.println(3 + "4")?</p>]]></enunciado>
     <A>
       7
     </A>
@@ -2978,9 +2684,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa que Java sea un lenguaje fuertemente tipado?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa que Java sea un lenguaje fuertemente tipado?</p>]]></enunciado>
     <A>
       Que se puede cambiar el tipo de una variable libremente.
     </A>
@@ -2998,9 +2702,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una interfaz sirve para:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una interfaz sirve para:</p>]]></enunciado>
     <A>
       Almacenar datos numéricos.
     </A>
@@ -3018,9 +2720,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una interfaz puede heredar de:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una interfaz puede heredar de:</p>]]></enunciado>
     <A>
       Una clase.
     </A>
@@ -3038,9 +2738,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un método declarado, pero no implementado, en una interfaz se llama:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un método declarado, pero no implementado, en una interfaz se llama:</p>]]></enunciado>
     <A>
       Método estático.
     </A>
@@ -3058,9 +2756,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En una interfaz se pueden definir:
-    </enunciado>
+    <enunciado><![CDATA[<p>En una interfaz se pueden definir:</p>]]></enunciado>
     <A>
       Sólo atributos.
     </A>
@@ -3078,9 +2774,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El criterio de orden natural en una clase es:
-    </enunciado>
+    <enunciado><![CDATA[<p>El criterio de orden natural en una clase es:</p>]]></enunciado>
     <A>
       El criterio más lógico.
     </A>
@@ -3098,9 +2792,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La interfaz Comparator se implementa en:
-    </enunciado>
+    <enunciado><![CDATA[<p>La interfaz Comparator se implementa en:</p>]]></enunciado>
     <A>
       Una clase que queremos ordenar.
     </A>
@@ -3118,9 +2810,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      El método compare() es invocado por:
-    </enunciado>
+    <enunciado><![CDATA[<p>El método compare() es invocado por:</p>]]></enunciado>
     <A>
       Un objeto que queremos comparar.
     </A>
@@ -3138,9 +2828,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una excepción en Java:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una excepción en Java:</p>]]></enunciado>
     <A>
       Se produce cuando un disco está defectuoso.
     </A>
@@ -3158,9 +2846,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una excepción comprobada es:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una excepción comprobada es:</p>]]></enunciado>
     <A>
       Una excepción que hemos reparado.
     </A>
@@ -3178,9 +2864,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Cuando llegamos al final de un flujo de entrada de tipo FileReader, el método read():
-    </enunciado>
+    <enunciado><![CDATA[<p>Cuando llegamos al final de un flujo de entrada de tipo FileReader, el método read():</p>]]></enunciado>
     <A>
       Muestra el mensaje: End of File
     </A>
@@ -3198,9 +2882,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La palabra reservada finally:
-    </enunciado>
+    <enunciado><![CDATA[<p>La palabra reservada finally:</p>]]></enunciado>
     <A>
       Termina la ejecución de un programa.
     </A>
@@ -3218,9 +2900,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un flujo de tipo BufferedReader:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un flujo de tipo BufferedReader:</p>]]></enunciado>
     <A>
       Crea un archivo de texto con búfer.
     </A>
@@ -3238,9 +2918,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La clase Scanner:
-    </enunciado>
+    <enunciado><![CDATA[<p>La clase Scanner:</p>]]></enunciado>
     <A>
       Solo permite leer texto de cualquier flujo de texto.
     </A>
@@ -3258,9 +2936,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Para cambiar de línea al escribir en el flujo salida de tipo BufferedWriter debemos ejecutar:
-    </enunciado>
+    <enunciado><![CDATA[<p>Para cambiar de línea al escribir en el flujo salida de tipo BufferedWriter debemos ejecutar:</p>]]></enunciado>
     <A>
       salida.write(“\n”)
     </A>
@@ -3278,9 +2954,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Nos tenemos que asegurar de que todos los flujos abiertos deben cerrarse antes de que termine la aplicación...
-    </enunciado>
+    <enunciado><![CDATA[<p>Nos tenemos que asegurar de que todos los flujos abiertos deben cerrarse antes de que termine la aplicación...</p>]]></enunciado>
     <A>
       Porque se quedarían abiertos hasta que se apague el ordenador.
     </A>
@@ -3298,9 +2972,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los flujos se cierran:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los flujos se cierran:</p>]]></enunciado>
     <A>
       Con el método close().
     </A>
@@ -3318,9 +2990,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Apertura de flujos con recursos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Apertura de flujos con recursos:</p>]]></enunciado>
     <A>
       Consiste en abrir flujos asociados con varios archivos a la vez.
     </A>
@@ -3338,9 +3008,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirve la clase File en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirve la clase File en Java?</p>]]></enunciado>
     <A>
       Para crear interfaces gráficas.
     </A>
@@ -3358,9 +3026,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se utiliza para comprobar si un archivo existe?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se utiliza para comprobar si un archivo existe?</p>]]></enunciado>
     <A>
       existsFile()
     </A>
@@ -3378,9 +3044,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se usa para escribir texto en un archivo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se usa para escribir texto en un archivo?</p>]]></enunciado>
     <A>
       FileReader
     </A>
@@ -3398,9 +3062,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Con qué clase combinamos BufferedWriter para mejorar el rendimiento al escribir archivos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Con qué clase combinamos BufferedWriter para mejorar el rendimiento al escribir archivos?</p>]]></enunciado>
     <A>
       Scanner
     </A>
@@ -3418,9 +3080,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué diferencia hay entre FileWriter y FileOutputStream?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué diferencia hay entre FileWriter y FileOutputStream?</p>]]></enunciado>
     <A>
       FileWriter escribe bytes, FileOutputStream caracteres.
     </A>
@@ -3438,9 +3098,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se utiliza para leer objetos guardados en un archivo binario?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se utiliza para leer objetos guardados en un archivo binario?</p>]]></enunciado>
     <A>
       ObjectOutputStream
     </A>
@@ -3458,9 +3116,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Para que un objeto pueda guardarse en un archivo binario, su clase debe:
-    </enunciado>
+    <enunciado><![CDATA[<p>Para que un objeto pueda guardarse en un archivo binario, su clase debe:</p>]]></enunciado>
     <A>
       Extender la clase File.
     </A>
@@ -3478,9 +3134,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el propósito de try-with-resources?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el propósito de try-with-resources?</p>]]></enunciado>
     <A>
       Evitar errores de compilación.
     </A>
@@ -3498,9 +3152,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase permite leer archivos binarios byte a byte?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase permite leer archivos binarios byte a byte?</p>]]></enunciado>
     <A>
       FileInputStream
     </A>
@@ -3518,9 +3170,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Los ficheros binarios se diferencian de los de texto en que...?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Los ficheros binarios se diferencian de los de texto en que...?</p>]]></enunciado>
     <A>
       Solo tienen ceros y unos.
     </A>
@@ -3538,9 +3188,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si queremos guardar una cadena de caracteres en un flujo binario de tipo ObjectOutputStream, usaremos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si queremos guardar una cadena de caracteres en un flujo binario de tipo ObjectOutputStream, usaremos:</p>]]></enunciado>
     <A>
       writeString().
     </A>
@@ -3558,9 +3206,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Para guardar una tabla del tipo int[] en un fichero binario con ObjectOutputStream, usaremos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Para guardar una tabla del tipo int[] en un fichero binario con ObjectOutputStream, usaremos:</p>]]></enunciado>
     <A>
       writeInt().
     </A>
@@ -3578,9 +3224,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si queremos leer una tabla de cadenas de caracteres de un flujo ObjectInputStream, escribiremos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si queremos leer una tabla de cadenas de caracteres de un flujo ObjectInputStream, escribiremos:</p>]]></enunciado>
     <A>
       String[] tabla = (String[]) entrada.readObject();
     </A>
@@ -3598,9 +3242,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un flujo de tipo ObjectInputStream permite leer de:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un flujo de tipo ObjectInputStream permite leer de:</p>]]></enunciado>
     <A>
       Cualquier archivo de Windows.
     </A>
@@ -3618,9 +3260,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un flujo de tipo ObjectInputStream permite acceder a:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un flujo de tipo ObjectInputStream permite acceder a:</p>]]></enunciado>
     <A>
       Solo archivos del disco duro.
     </A>
@@ -3638,9 +3278,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si guardamos una cadena de caracteres usando ObjectOutputStream, podemos leerla directamente del archivo:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si guardamos una cadena de caracteres usando ObjectOutputStream, podemos leerla directamente del archivo:</p>]]></enunciado>
     <A>
       Usando un procesador de texto.
     </A>
@@ -3658,9 +3296,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si guardamos una serie de objetos con ObjectOutputStream, los recuperaremos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si guardamos una serie de objetos con ObjectOutputStream, los recuperaremos:</p>]]></enunciado>
     <A>
       En el mismo orden en que se guardaron.
     </A>
@@ -3678,9 +3314,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los flujos binarios se cierran:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los flujos binarios se cierran:</p>]]></enunciado>
     <A>
       Con el método close().
     </A>
@@ -3698,9 +3332,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Hay que cerrar los flujos binarios?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Hay que cerrar los flujos binarios?</p>]]></enunciado>
     <A>
       Siempre.
     </A>
@@ -3718,9 +3350,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es Collection?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es Collection?</p>]]></enunciado>
     <A>
       Una interfaz.
     </A>
@@ -3738,9 +3368,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirven los tipos genéricos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirven los tipos genéricos?</p>]]></enunciado>
     <A>
       Usar objetos de la clase Object.
     </A>
@@ -3758,9 +3386,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirve una lista?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirve una lista?</p>]]></enunciado>
     <A>
       Guardar datos primitivos.
     </A>
@@ -3778,9 +3404,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un conjunto es una colección de elementos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un conjunto es una colección de elementos:</p>]]></enunciado>
     <A>
       Que no admiten orden.
     </A>
@@ -3798,9 +3422,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ArrayList y LinkedList se diferencian:
-    </enunciado>
+    <enunciado><![CDATA[<p>ArrayList y LinkedList se diferencian:</p>]]></enunciado>
     <A>
       En el número de elementos.
     </A>
@@ -3818,9 +3440,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los métodos de la interfaz Set:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los métodos de la interfaz Set:</p>]]></enunciado>
     <A>
       Son los mismos que los de List.
     </A>
@@ -3838,9 +3458,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):
-    </enunciado>
+    <enunciado><![CDATA[<p>Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):</p>]]></enunciado>
     <A>
       Devuelve un conjunto ordenado con los elementos de a.
     </A>
@@ -3858,9 +3476,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es Collections?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es Collections?</p>]]></enunciado>
     <A>
       Una clase cuyos objetos están repetidos.
     </A>
@@ -3878,9 +3494,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un mapa en Java es:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un mapa en Java es:</p>]]></enunciado>
     <A>
       Un gráfico con las relaciones de herencia entre interfaces.
     </A>
@@ -3898,9 +3512,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:</p>]]></enunciado>
     <A>
       put().
     </A>
@@ -3918,9 +3530,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es Collection?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es Collection?</p>]]></enunciado>
     <A>
       Una interfaz.
     </A>
@@ -3938,9 +3548,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirven los tipos genéricos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirven los tipos genéricos?</p>]]></enunciado>
     <A>
       Usar objetos de la clase Object.
     </A>
@@ -3958,9 +3566,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirve una lista?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirve una lista?</p>]]></enunciado>
     <A>
       Guardar datos primitivos.
     </A>
@@ -3978,9 +3584,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un conjunto es una colección de elementos:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un conjunto es una colección de elementos:</p>]]></enunciado>
     <A>
       Que no admiten orden.
     </A>
@@ -3998,9 +3602,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ArrayList y LinkedList se diferencian:
-    </enunciado>
+    <enunciado><![CDATA[<p>ArrayList y LinkedList se diferencian:</p>]]></enunciado>
     <A>
       En el número de elementos.
     </A>
@@ -4018,9 +3620,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Los métodos de la interfaz Set:
-    </enunciado>
+    <enunciado><![CDATA[<p>Los métodos de la interfaz Set:</p>]]></enunciado>
     <A>
       Son los mismos que los de List.
     </A>
@@ -4038,9 +3638,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):
-    </enunciado>
+    <enunciado><![CDATA[<p>Si la variable a referencia un objeto ArrayList, la expresión new TreeSet(a):</p>]]></enunciado>
     <A>
       Devuelve un conjunto ordenado con los elementos de a.
     </A>
@@ -4058,9 +3656,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es Collections?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es Collections?</p>]]></enunciado>
     <A>
       Una clase cuyos objetos están repetidos.
     </A>
@@ -4078,9 +3674,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Un mapa en Java es:
-    </enunciado>
+    <enunciado><![CDATA[<p>Un mapa en Java es:</p>]]></enunciado>
     <A>
       Un gráfico con las relaciones de herencia entre interfaces.
     </A>
@@ -4098,9 +3692,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:
-    </enunciado>
+    <enunciado><![CDATA[<p>Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:</p>]]></enunciado>
     <A>
       put().
     </A>
@@ -4118,9 +3710,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre una subclase es correcto afirmar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre una subclase es correcto afirmar que:</p>]]></enunciado>
     <A>
       Tiene menos atributos que su superclase.
     </A>
@@ -4138,9 +3728,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En relación con las clases abstractas es correcto señalar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>En relación con las clases abstractas es correcto señalar que:</p>]]></enunciado>
     <A>
       Implementan todos sus métodos.
     </A>
@@ -4158,9 +3746,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿En qué consiste la sustitución u overriding?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿En qué consiste la sustitución u overriding?</p>]]></enunciado>
     <A>
       En sustituir un método heredado por otro implementado en la propia clase.
     </A>
@@ -4178,9 +3764,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Sobre la clase Object es cierto indicar que:
-    </enunciado>
+    <enunciado><![CDATA[<p>Sobre la clase Object es cierto indicar que:</p>]]></enunciado>
     <A>
       Es abstracta.
     </A>
@@ -4198,9 +3782,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?</p>]]></enunciado>
     <A>
       Hay que implementarlo, ya que es abstracto.
     </A>
@@ -4218,9 +3800,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?</p>]]></enunciado>
     <A>
       Sirve para mostrar la información que nos interesa de un objeto.
     </A>
@@ -4238,9 +3818,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?</p>]]></enunciado>
     <A>
       Convierte los objetos en clases.
     </A>
@@ -4258,9 +3836,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Una clase puede heredar:
-    </enunciado>
+    <enunciado><![CDATA[<p>Una clase puede heredar:</p>]]></enunciado>
     <A>
       De una clase.
     </A>
@@ -4278,9 +3854,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      La selección dinámica de métodos:
-    </enunciado>
+    <enunciado><![CDATA[<p>La selección dinámica de métodos:</p>]]></enunciado>
     <A>
       Se produce cuando una variable cambia de valor durante la ejecución de un programa.
     </A>
@@ -4298,9 +3872,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?</p>]]></enunciado>
     <A>
       Sirve para llamar al constructor de la superclase.
     </A>
@@ -4318,9 +3890,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el tipo de retorno del método main en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el tipo de retorno del método main en Java?</p>]]></enunciado>
     <A>
       void
     </A>
@@ -4338,9 +3908,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es el overriding (sobreescritura)?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es el overriding (sobreescritura)?</p>]]></enunciado>
     <A>
       Repetir un método en la subclase con la misma firma.
     </A>
@@ -4358,9 +3926,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué condiciones debe cumplir un método para ser sobrescrito?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué condiciones debe cumplir un método para ser sobrescrito?</p>]]></enunciado>
     <A>
       Mismo nombre
     </A>
@@ -4378,9 +3944,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es el overloading (sobrecarga)?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es el overloading (sobrecarga)?</p>]]></enunciado>
     <A>
       Crear múltiples métodos con el mismo nombre pero distintos parámetros.
     </A>
@@ -4398,9 +3962,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es necesario para hacer un cast explícito?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es necesario para hacer un cast explícito?</p>]]></enunciado>
     <A>
       Que haya relación de herencia entre clases.
     </A>
@@ -4418,9 +3980,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué operador comprueba si un objeto pertenece a una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué operador comprueba si un objeto pertenece a una clase?</p>]]></enunciado>
     <A>
       instanceOf
     </A>
@@ -4438,9 +3998,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la diferencia entre this y super?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la diferencia entre this y super?</p>]]></enunciado>
     <A>
       this accede a la clase actual.
     </A>
@@ -4458,11 +4016,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-                    Persona p = new Persona("Ana", "López", "123456");
-                    System.out.println(p.getNombre());
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">                    Persona p = new Persona("Ana", "López", "123456");
+                    System.out.println(p.getNombre());</code></pre>]]></enunciado>
     <A>
       Ana
     </A>
@@ -4480,9 +4036,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-             <code>   class A {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">                class A {
                     int x = 10;
                     void mostrar() {
                         System.out.println("Clase A: " + x);
@@ -4499,8 +4054,7 @@
                         A obj = new B();
                         obj.mostrar();
                     }
-                }</code>
-    </enunciado>
+                }</code></pre>]]></enunciado>
     <A>
       Clase A: 10
     </A>
@@ -4518,9 +4072,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-               <code> class A {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">                class A {
                     int x = 10;
                     void mostrar() {
                         System.out.println("Clase A: " + x);
@@ -4537,8 +4090,7 @@
                         A obj = new B();
                         obj.mostrar();
                     }
-                }</code>
-    </enunciado>
+                }</code></pre>]]></enunciado>
     <A>
       Clase A: 10
     </A>
@@ -4556,16 +4108,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué salida produce este código?
-                public class Test {
+    <enunciado><![CDATA[<p>¿Qué salida produce este código?</p>
+<pre><code class="language-java">                public class Test {
                     public static void main(String[] args) {
                         int a = 5, b = 10;
                         System.out.println(a + b + "Resultado");
                         System.out.println("Resultado" + a + b);
                     }
-                }
-    </enunciado>
+                }</code></pre>]]></enunciado>
     <A>
       15Resultado Resultado15
     </A>
@@ -4583,9 +4133,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede al ejecutar este código?
-                class Padre {
+    <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
+<pre><code class="language-java">                class Padre {
                     void saludar() {
                         System.out.println("Hola desde Padre");
                     }
@@ -4600,8 +4149,7 @@
                         Padre p = new Hijo();
                         p.saludar();
                     }
-                }
-    </enunciado>
+                }</code></pre>]]></enunciado>
     <A>
       Hola desde Padre
     </A>
@@ -4619,9 +4167,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de estas clases implementa una estructura LIFO?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de estas clases implementa una estructura LIFO?</p>]]></enunciado>
     <A>
       Array
     </A>
@@ -4639,9 +4185,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones sobre los arrays en Java es verdadera?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre los arrays en Java es verdadera?</p>]]></enunciado>
     <A>
       No se puede acceder a un array con un índice numérico
     </A>
@@ -4659,9 +4203,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el método adecuado para añadir un elemento a una ArrayList?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el método adecuado para añadir un elemento a una ArrayList?</p>]]></enunciado>
     <A>
       put()
     </A>
@@ -4679,9 +4221,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la forma correcta de declarar y crear un array de enteros con 10 elementos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la forma correcta de declarar y crear un array de enteros con 10 elementos?</p>]]></enunciado>
     <A>
       array = int[10];
     </A>
@@ -4699,9 +4239,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la interfaz que implementan todas las colas en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la interfaz que implementan todas las colas en Java?</p>]]></enunciado>
     <A>
       Queue
     </A>
@@ -4719,17 +4257,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede al ejecutar este código?
-            interface A {
+    <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
+<pre><code class="language-java">            interface A {
                 void saludar();
             }
             class B implements A {
                 public void saludar() {
                     System.out.println("Hola");
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4747,13 +4283,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
             stack.push(10);
             stack.push(20);
-            System.out.println(stack.peek());
-    </enunciado>
+            System.out.println(stack.peek());</code></pre>]]></enunciado>
     <A>
       20
     </A>
@@ -4771,9 +4305,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?</p>]]></enunciado>
     <A>
       class MiClase implements MiInterfaz
     </A>
@@ -4791,9 +4323,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es una característica de una clase abstracta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es una característica de una clase abstracta?</p>]]></enunciado>
     <A>
       Puede tener métodos abstractos y concretos
     </A>
@@ -4811,17 +4341,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede al ejecutar este código?
-            interface A {
+    <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
+<pre><code class="language-java">            interface A {
                 void saludar();
             }
             class B implements A {
                 public void saludar() {
                     System.out.println("Hola");
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4839,13 +4367,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
             stack.push(10);
             stack.push(20);
-            System.out.println(stack.peek());
-    </enunciado>
+            System.out.println(stack.peek());</code></pre>]]></enunciado>
     <A>
       20
     </A>
@@ -4863,9 +4389,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?</p>]]></enunciado>
     <A>
       class MiClase implements MiInterfaz
     </A>
@@ -4883,9 +4407,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es una característica de una clase abstracta?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es una característica de una clase abstracta?</p>]]></enunciado>
     <A>
       Puede tener métodos abstractos y concretos
     </A>
@@ -4903,16 +4425,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
             Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             cola.add(1);
             cola.add(2);
             pila.push(cola.poll());
             pila.push(cola.poll());
-            System.out.println(pila.pop());
-    </enunciado>
+            System.out.println(pila.pop());</code></pre>]]></enunciado>
     <A>
       3
     </A>
@@ -4930,14 +4450,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Stack&lt;String&gt; historial = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Stack&lt;String&gt; historial = new Stack&lt;&gt;();
             historial.push("Escribir línea 1");
             historial.push("Escribir línea 2");
             historial.pop(); // deshacer
-            System.out.println(historial.peek());
-    </enunciado>
+            System.out.println(historial.peek());</code></pre>]]></enunciado>
     <A>
       Escribir línea 2
     </A>
@@ -4955,13 +4473,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            LinkedList&lt;Integer&gt; numeros = new LinkedList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            LinkedList&lt;Integer&gt; numeros = new LinkedList&lt;&gt;();
             numeros.addFirst(10);
             numeros.addLast(20);
-            System.out.println(numeros.size());
-    </enunciado>
+            System.out.println(numeros.size());</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4979,14 +4495,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
             pila.push(10);
             cola.add(20);
-            System.out.println(pila.pop() + cola.peek());
-    </enunciado>
+            System.out.println(pila.pop() + cola.peek());</code></pre>]]></enunciado>
     <A>
       1020
     </A>
@@ -5004,14 +4518,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
             Stack&lt;String&gt; pila = new Stack&lt;&gt;();
             lista.add("X");
             pila.push("Y");
-            System.out.println(lista.get(0) + pila.peek());
-    </enunciado>
+            System.out.println(lista.get(0) + pila.peek());</code></pre>]]></enunciado>
     <A>
       X Y
     </A>
@@ -5029,14 +4541,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             pila.push(5);
             pila.push(10);
             pila.pop();
-            System.out.println(pila.peek());
-    </enunciado>
+            System.out.println(pila.peek());</code></pre>]]></enunciado>
     <A>
       10
     </A>
@@ -5054,9 +4564,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de LinkedList añade un elemento al principio de la lista?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de LinkedList añade un elemento al principio de la lista?</p>]]></enunciado>
     <A>
       add()
     </A>
@@ -5074,9 +4582,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método elimina el último elemento en una Stack?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método elimina el último elemento en una Stack?</p>]]></enunciado>
     <A>
       getLast()
     </A>
@@ -5094,14 +4600,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      abstract class Figura {
-            abstract double area();
+    <enunciado><![CDATA[<p>abstract class Figura {</p>
+<pre><code class="language-java">            abstract double area();
         }
         class Cuadrado extends Figura {
             // Falta el método area()
-        }
-    </enunciado>
+        }</code></pre>]]></enunciado>
     <A>
       equals()
     </A>
@@ -5119,9 +4623,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se utiliza para ver el primer elemento de una Queue sin eliminarlo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se utiliza para ver el primer elemento de una Queue sin eliminarlo?</p>]]></enunciado>
     <A>
       pop()
     </A>
@@ -5139,15 +4641,13 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-             LinkedList&lt;String&gt; lista = new LinkedList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">             LinkedList&lt;String&gt; lista = new LinkedList&lt;&gt;();
              Stack&lt;String&gt; pila = new Stack&lt;&gt;();
              lista.add("Java");
              pila.push("Collections");
              lista.add(pila.pop());
-             System.out.println(lista);
-    </enunciado>
+             System.out.println(lista);</code></pre>]]></enunciado>
     <A>
       [Java, Collections]
     </A>
@@ -5165,14 +4665,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
              lista.add("A");
              lista.add("B");
              lista.add("C");
-             System.out.println(lista.get(1));
-    </enunciado>
+             System.out.println(lista.get(1));</code></pre>]]></enunciado>
     <A>
       C
     </A>
@@ -5190,15 +4688,13 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-             ArrayList&lt;Integer&gt; numeros = new ArrayList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">             ArrayList&lt;Integer&gt; numeros = new ArrayList&lt;&gt;();
              numeros.add(1);
              numeros.add(2);
              numeros.add(3);
              numeros.remove(1);
-             System.out.println(numeros);
-    </enunciado>
+             System.out.println(numeros);</code></pre>]]></enunciado>
     <A>
       [1, 2]
     </A>
@@ -5216,14 +4712,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
              LinkedList&lt;String&gt; linked = new LinkedList&lt;&gt;();
              lista.add("uno");
              linked.add("dos");
-             System.out.println(lista.get(0) + "-" + linked.get(0));
-    </enunciado>
+             System.out.println(lista.get(0) + "-" + linked.get(0));</code></pre>]]></enunciado>
     <A>
       uno-dos
     </A>
@@ -5241,9 +4735,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede si accedes a un índice que no existe en un ArrayList?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué sucede si accedes a un índice que no existe en un ArrayList?</p>]]></enunciado>
     <A>
       Se lanza una excepción IndexOutOfBoundsException
     </A>
@@ -5261,9 +4753,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de estas sentencias crea correctamente un objeto de la clase `Alumno`?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de estas sentencias crea correctamente un objeto de la clase `Alumno`?</p>]]></enunciado>
     <A>
       Alumno alumno();
     </A>
@@ -5281,13 +4771,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprimirá el siguiente fragmento?
-            int[][] matriz = {
+    <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente fragmento?</p>
+<pre><code class="language-java">            int[][] matriz = {
                 {1,2,3},{4,5,6}
             };
-            System.out.println(matriz[1][2]);
-    </enunciado>
+            System.out.println(matriz[1][2]);</code></pre>]]></enunciado>
     <A>
       4
     </A>
@@ -5305,9 +4793,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprimirá este código?
-            public static void imprime(int n) {
+    <enunciado><![CDATA[<p>¿Qué imprimirá este código?</p>
+<pre><code class="language-java">            public static void imprime(int n) {
                 n = 2 * n;
                 System.out.println(n);
             }
@@ -5315,8 +4802,7 @@
                 int n = 10;
                 imprime(n);
                 System.out.println(n);
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       20 y luego 10
     </A>
@@ -5334,9 +4820,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de Scanner lee un número entero?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de Scanner lee un número entero?</p>]]></enunciado>
     <A>
       next()
     </A>
@@ -5354,9 +4838,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de Stack devuelve el elemento del tope SIN eliminarlo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de Stack devuelve el elemento del tope SIN eliminarlo?</p>]]></enunciado>
     <A>
       pop()
     </A>
@@ -5374,9 +4856,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se ejecuta al arrancar una aplicación Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se ejecuta al arrancar una aplicación Java?</p>]]></enunciado>
     <A>
       init()
     </A>
@@ -5394,11 +4874,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué mostrará este código?
-            int[] valores = new int[4];
-            System.out.println(valores[1]);
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué mostrará este código?</p>
+<pre><code class="language-java">            int[] valores = new int[4];
+            System.out.println(valores[1]);</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -5416,13 +4894,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué muestra este código?
-            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Qué muestra este código?</p>
+<pre><code class="language-java">            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
             lista.add("A");
             lista.add("B");
-            System.out.println(lista.get(1));
-    </enunciado>
+            System.out.println(lista.get(1));</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -5440,17 +4916,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué muestra este código?
-            class Animal {
+    <enunciado><![CDATA[<p>¿Qué muestra este código?</p>
+<pre><code class="language-java">            class Animal {
                 void sonido() { System.out.println("Sonido genérico"); }
             }
             class Perro extends Animal {
                 void sonido() { System.out.println("Ladrido"); }
             }
             Animal a = new Perro();
-            a.sonido();
-    </enunciado>
+            a.sonido();</code></pre>]]></enunciado>
     <A>
       Ladrido
     </A>
@@ -5468,13 +4942,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué muestra este fragmento de código?
-            public static int suma(int a, int b) {
+    <enunciado><![CDATA[<p>¿Qué muestra este fragmento de código?</p>
+<pre><code class="language-java">            public static int suma(int a, int b) {
                 return a + b;
             }
-            System.out.println(suma(2,3));
-    </enunciado>
+            System.out.println(suma(2,3));</code></pre>]]></enunciado>
     <A>
       2
     </A>
@@ -5492,9 +4964,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué ocurre cuando un parámetro se pasa "por valor" en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué ocurre cuando un parámetro se pasa "por valor" en Java?</p>]]></enunciado>
     <A>
       Se pasa la referencia al objeto original.
     </A>
@@ -5512,9 +4982,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué ocurre si un atributo es declarado como `private`?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué ocurre si un atributo es declarado como `private`?</p>]]></enunciado>
     <A>
       Solo puede ser accedido desde métodos estáticos.
     </A>
@@ -5532,9 +5000,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué ocurre si un flujo no se cierra adecuadamente en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué ocurre si un flujo no se cierra adecuadamente en Java?</p>]]></enunciado>
     <A>
       Se lanza una excepción Checked automáticamente.
     </A>
@@ -5552,9 +5018,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué ocurre si una subclase quiere llamar al constructor de su superclase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué ocurre si una subclase quiere llamar al constructor de su superclase?</p>]]></enunciado>
     <A>
       No es posible llamar al constructor de la superclase.
     </A>
@@ -5572,9 +5036,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave indica que un método en Java no devuelve ningún valor?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave indica que un método en Java no devuelve ningún valor?</p>]]></enunciado>
     <A>
       void
     </A>
@@ -5592,9 +5054,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra reservada se utiliza para referirse al objeto actual dentro de sus propios métodos?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra reservada se utiliza para referirse al objeto actual dentro de sus propios métodos?</p>]]></enunciado>
     <A>
       object
     </A>
@@ -5612,9 +5072,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué realiza la sentencia `return` en un método?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué realiza la sentencia `return` en un método?</p>]]></enunciado>
     <A>
       Sale del método y devuelve un valor opcionalmente.
     </A>
@@ -5632,14 +5090,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué resultado muestra este código?
-            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+    <enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>
+<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
             pila.push(1);
             pila.push(2);
             pila.push(3);
-            System.out.println(pila.peek());
-    </enunciado>
+            System.out.println(pila.peek());</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -5657,9 +5113,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede si no se define ningún constructor en una clase?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué sucede si no se define ningún constructor en una clase?</p>]]></enunciado>
     <A>
       Hay que llamar manualmente a un método init().
     </A>
@@ -5677,9 +5131,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de herencia permite Java directamente entre clases?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de herencia permite Java directamente entre clases?</p>]]></enunciado>
     <A>
       Circular
     </A>
@@ -5697,10 +5149,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor tendrá datos[2] tras ejecutar este código?
-            int[] datos = {8, 10, 2, 3, 5};
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor tendrá datos[2] tras ejecutar este código?</p>
+<pre><code class="language-java">            int[] datos = {8, 10, 2, 3, 5};</code></pre>]]></enunciado>
     <A>
       8
     </A>
@@ -5718,9 +5168,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes opciones es CORRECTA sobre Stack en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes opciones es CORRECTA sobre Stack en Java?</p>]]></enunciado>
     <A>
       No permite elementos duplicados.
     </A>
@@ -5738,9 +5186,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de los siguientes métodos añade un elemento al final de un ArrayList?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de los siguientes métodos añade un elemento al final de un ArrayList?</p>]]></enunciado>
     <A>
       insert()
     </A>
@@ -5758,9 +5204,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la diferencia principal entre while y do-while?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la diferencia principal entre while y do-while?</p>]]></enunciado>
     <A>
       do-while siempre se ejecuta al menos una vez.
     </A>
@@ -5778,9 +5222,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué sirve un compilador en programación?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué sirve un compilador en programación?</p>]]></enunciado>
     <A>
       Para interpretar línea a línea un programa.
     </A>
@@ -5798,9 +5240,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué afirmación es CORRECTA sobre las clases abstractas en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué afirmación es CORRECTA sobre las clases abstractas en Java?</p>]]></enunciado>
     <A>
       Todos sus métodos deben ser estáticos.
     </A>
@@ -5818,9 +5258,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase permite leer datos desde la consola de una manera sencilla?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase permite leer datos desde la consola de una manera sencilla?</p>]]></enunciado>
     <A>
       Scanner
     </A>
@@ -5838,9 +5276,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se usa para leer caracteres de forma eficiente mediante búfer en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se usa para leer caracteres de forma eficiente mediante búfer en Java?</p>]]></enunciado>
     <A>
       OutputStreamWriter
     </A>
@@ -5858,9 +5294,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué define mejor un getter en una clase Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué define mejor un getter en una clase Java?</p>]]></enunciado>
     <A>
       Un constructor con parámetros.
     </A>
@@ -5878,9 +5312,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué devuelve el método equals() de la clase Arrays?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué devuelve el método equals() de la clase Arrays?</p>]]></enunciado>
     <A>
       True si dos arrays son iguales en tamaño y contenido.
     </A>
@@ -5898,9 +5330,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es el código fuente?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es el código fuente?</p>]]></enunciado>
     <A>
       El compilador de Java.
     </A>
@@ -5918,9 +5348,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es un array en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es un array en Java?</p>]]></enunciado>
     <A>
       Una colección de datos de tipos diferentes.
     </A>
@@ -5938,9 +5366,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es un ArrayList en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es un ArrayList en Java?</p>]]></enunciado>
     <A>
       Una colección de tamaño fijo.
     </A>
@@ -5958,9 +5384,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura de control ejecuta un bloque de instrucciones si una condición es verdadera?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura de control ejecuta un bloque de instrucciones si una condición es verdadera?</p>]]></enunciado>
     <A>
       do-while
     </A>
@@ -5978,9 +5402,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura de datos utiliza una Queue?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura de datos utiliza una Queue?</p>]]></enunciado>
     <A>
       Random Access
     </A>
@@ -5998,9 +5420,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace el método `poll()` en una Queue en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace el método `poll()` en una Queue en Java?</p>]]></enunciado>
     <A>
       Devuelve el último elemento sin eliminarlo.
     </A>
@@ -6018,14 +5438,12 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace este código?
-            int numero = 1;
+    <enunciado><![CDATA[<p>¿Qué hace este código?</p>
+<pre><code class="language-java">            int numero = 1;
             while (numero &lt;= 3) {
                 System.out.println(numero);
                 numero++;
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       No imprime nada
     </A>
@@ -6043,15 +5461,13 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace este método recursivo correctamente escrito?
-            void imprimir(int x) {
+    <enunciado><![CDATA[<p>¿Qué hace este método recursivo correctamente escrito?</p>
+<pre><code class="language-java">            void imprimir(int x) {
                 if (x &gt; 0) {
                     imprimir(x - 1);
                     System.out.println(x);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       No imprime nada.
     </A>
@@ -6069,11 +5485,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprimirá el siguiente código?
-            Persona p = new Persona("Ana", "García", "555123");
-            System.out.println(p.getNombre());
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente código?</p>
+<pre><code class="language-java">            Persona p = new Persona("Ana", "García", "555123");
+            System.out.println(p.getNombre());</code></pre>]]></enunciado>
     <A>
       García
     </A>
@@ -6091,12 +5505,10 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprimirá el siguiente fragmento de código?
-            for (int i = 0; i &lt; 3; i++) {
+    <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente fragmento de código?</p>
+<pre><code class="language-java">            for (int i = 0; i &lt; 3; i++) {
                 System.out.println(i);
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       1, 2
     </A>
@@ -6114,9 +5526,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones describe mejor el polimorfismo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones describe mejor el polimorfismo en Java?</p>]]></enunciado>
     <A>
       La sobrecarga de operadores.
     </A>
@@ -6134,9 +5544,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones es verdadera sobre el uso de la palabra clave super en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones es verdadera sobre el uso de la palabra clave super en Java?</p>]]></enunciado>
     <A>
       Se usa para definir métodos abstractos.
     </A>
@@ -6154,9 +5562,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el método para agregar un elemento a un ArrayList en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el método para agregar un elemento a un ArrayList en Java?</p>]]></enunciado>
     <A>
       add()
     </A>
@@ -6174,9 +5580,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el modificador de acceso más restrictivo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el modificador de acceso más restrictivo en Java?</p>]]></enunciado>
     <A>
       protected
     </A>
@@ -6194,9 +5598,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el modificador de acceso predeterminado si no se especifica ninguno en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el modificador de acceso predeterminado si no se especifica ninguno en Java?</p>]]></enunciado>
     <A>
       default
     </A>
@@ -6214,17 +5616,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el propósito de la interfaz?
-            interface Dibujable {
+    <enunciado><![CDATA[<p>¿Cuál es el propósito de la interfaz?</p>
+<pre><code class="language-java">            interface Dibujable {
                 void dibujar();
             }
             class Cuadro implements Dibujable {
                 public void dibujar() {
                     System.out.println("Dibujando cuadro");
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Crear objetos
     </A>
@@ -6242,9 +5642,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la forma correcta de crear un ArrayList en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la forma correcta de crear un ArrayList en Java?</p>]]></enunciado>
     <A>
       ArrayList&lt;Integer&gt; list = new ArrayList&lt;String&gt;();
     </A>
@@ -6262,9 +5660,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes afirmaciones es correcta sobre las diferencias entre una clase abstracta y una interfaz en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones es correcta sobre las diferencias entre una clase abstracta y una interfaz en Java?</p>]]></enunciado>
     <A>
       Una clase abstracta puede tener métodos con implementación, mientras que una interfaz solo puede tener métodos abstractos.
     </A>
@@ -6282,9 +5678,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del programa?
-            public class Recursiva {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del programa?</p>
+<pre><code class="language-java">            public class Recursiva {
                 public static int factorial(int n) {
                     if (n &lt;= 1) return 1;
                     return n * factorial(n - 1);
@@ -6292,8 +5687,7 @@
                 public static void main(String[] args) {
                     System.out.println(factorial(5));
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       120
     </A>
@@ -6311,9 +5705,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código recursivo al ser llamado con metodoRecursivo(4)?
-            public class Main {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código recursivo al ser llamado con metodoRecursivo(4)?</p>
+<pre><code class="language-java">            public class Main {
                 public static void main(String[] args) {
                     System.out.println(metodoRecursivo(4));
                 }
@@ -6326,8 +5719,7 @@
                     }
                     return resultado;
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       12
     </A>
@@ -6345,9 +5737,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            public class Main {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            public class Main {
                 public static void main(String[] args) {
                     int x = 5;
                     int y = 10;
@@ -6356,8 +5747,7 @@
                     x = x - y;
                     System.out.println("x: " + x + ", y: " + y);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       x: 0, y: 15
     </A>
@@ -6375,13 +5765,11 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            String pattern = "a*b";
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            String pattern = "a*b";
             String text = "aaaaab";
             boolean match = text.matches(pattern);
-            System.out.println(match);
-    </enunciado>
+            System.out.println(match);</code></pre>]]></enunciado>
     <A>
       aaaaab
     </A>
@@ -6399,16 +5787,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código?
-            public class Ciclo {
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
+<pre><code class="language-java">            public class Ciclo {
                 public static void main(String[] args) {
                     for (int i = 1; i &lt;= 3; i++) {
                         System.out.print(i + " ");
                     }
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -6426,9 +5812,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase en Java se utiliza para leer datos de un archivo de texto?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase en Java se utiliza para leer datos de un archivo de texto?</p>]]></enunciado>
     <A>
       FileInputStream
     </A>
@@ -6446,9 +5830,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura de datos en Java permite almacenar pares de clave y valor?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura de datos en Java permite almacenar pares de clave y valor?</p>]]></enunciado>
     <A>
       a y b son correctas.
     </A>
@@ -6466,9 +5848,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace este código?
-            public class Hilo extends Thread {
+    <enunciado><![CDATA[<p>¿Qué hace este código?</p>
+<pre><code class="language-java">            public class Hilo extends Thread {
                 public void run() {
                     System.out.println("Hilo ejecutándose");
                 }
@@ -6476,8 +5857,7 @@
                     Hilo h = new Hilo();
                     h.run();
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Lanza error
     </A>
@@ -6495,9 +5875,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime el código?
-            public class Contador {
+    <enunciado><![CDATA[<p>¿Qué imprime el código?</p>
+<pre><code class="language-java">            public class Contador {
                 private static int cuenta = 0;
                 public Contador() {
                     cuenta++;
@@ -6510,8 +5889,7 @@
                     new Contador();
                     System.out.println(Contador.getCuenta());
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -6529,17 +5907,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime el siguiente código?
-            public class Main {
+    <enunciado><![CDATA[<p>¿Qué imprime el siguiente código?</p>
+<pre><code class="language-java">            public class Main {
                 public static void main(String[] args) {
                     String s = "hello";
                     String t = "world";
                     String u = s + t;
                     System.out.println(u.length());
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       11
     </A>
@@ -6557,15 +5933,13 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime este código?
-            public class Incremento {
+    <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
+<pre><code class="language-java">            public class Incremento {
                 public static void main(String[] args) {
                     int a = 5;
                     System.out.println(++a);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       6
     </A>
@@ -6583,9 +5957,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime este código?
-            public class Suma {
+    <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
+<pre><code class="language-java">            public class Suma {
                 public static int suma(int[] numeros) {
                     int total = 0;
                     for (int i = 0; i &gt; numeros.length; i++) {
@@ -6597,8 +5970,7 @@
                     int[] num = {1, 2, 3};
                     System.out.println(suma(num));
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -6616,9 +5988,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime este programa?
-            import java.util.ArrayList;
+    <enunciado><![CDATA[<p>¿Qué imprime este programa?</p>
+<pre><code class="language-java">            import java.util.ArrayList;
             public class Lista {
                 public static void main(String[] args) {
                     ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
@@ -6626,8 +5997,7 @@
                     lista.add("dos");
                     System.out.println(lista.get(0));
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -6645,17 +6015,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime este programa?
-            import java.util.HashMap;
+    <enunciado><![CDATA[<p>¿Qué imprime este programa?</p>
+<pre><code class="language-java">            import java.util.HashMap;
             public class Mapa {
                 public static void main(String[] args) {
                     HashMap&lt;String, Integer&gt; mapa = new HashMap&lt;&gt;();
                     mapa.put("clave", 100);
                     System.out.println(mapa.get("clave"));
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       100
     </A>
@@ -6673,16 +6041,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué imprime este código?
-            public class StringTest {
+    <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
+<pre><code class="language-java">            public class StringTest {
                 public static void main(String[] args) {
                     String s1 = "Java";
                     String s2 = "Java";
                     System.out.println(s1 == s2);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -6700,9 +6066,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué mensaje imprime este código?
-            public class Excepcion {
+    <enunciado><![CDATA[<p>¿Qué mensaje imprime este código?</p>
+<pre><code class="language-java">            public class Excepcion {
                 public static void main(String[] args) {
                     try {
                         int a = 5 / 0;
@@ -6710,8 +6075,7 @@
                         System.out.println("Error aritmético");
                     }
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Error aritmético
     </A>
@@ -6729,9 +6093,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método de la clase String se usa para convertir todas las letras de una cadena a minúsculas?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método de la clase String se usa para convertir todas las letras de una cadena a minúsculas?</p>]]></enunciado>
     <A>
       toLowerCase()
     </A>
@@ -6749,9 +6111,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se usa para cerrar un archivo después de escribir en él usando la clase FileWriter?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se usa para cerrar un archivo después de escribir en él usando la clase FileWriter?</p>]]></enunciado>
     <A>
       end()
     </A>
@@ -6769,9 +6129,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se utiliza para obtener la longitud de un array en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se utiliza para obtener la longitud de un array en Java?</p>]]></enunciado>
     <A>
       length
     </A>
@@ -6789,9 +6147,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se utiliza para obtener un valor a partir de una clave en un HashMap en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se utiliza para obtener un valor a partir de una clave en un HashMap en Java?</p>]]></enunciado>
     <A>
       get()
     </A>
@@ -6809,9 +6165,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se utiliza para definir una clase que no puede ser extendida?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se utiliza para definir una clase que no puede ser extendida?</p>]]></enunciado>
     <A>
       final
     </A>
@@ -6829,9 +6183,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se utiliza para implementar una interfaz en una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se utiliza para implementar una interfaz en una clase en Java?</p>]]></enunciado>
     <A>
       extends
     </A>
@@ -6849,9 +6201,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué realiza este código?
-            import java.io.*;
+    <enunciado><![CDATA[<p>¿Qué realiza este código?</p>
+<pre><code class="language-java">            import java.io.*;
             public class Lectura {
                 public static void main(String[] args) throws IOException {
                     BufferedReader br = new BufferedReader(new FileReader("datos.txt"));
@@ -6861,8 +6212,7 @@
                     }
                     br.close();
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Lee línea por línea un archivo de texto, e imprime por consola la línea.
     </A>
@@ -6880,9 +6230,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué representa la clase Figura?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué representa la clase Figura?</p>]]></enunciado>
     <A>
       Una interfaz
     </A>
@@ -6900,9 +6248,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué representa PI?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué representa PI?</p>]]></enunciado>
     <A>
       Una clase
     </A>
@@ -6920,16 +6266,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué resultado imprime este código?
-            public class Comparar {
+    <enunciado><![CDATA[<p>¿Qué resultado imprime este código?</p>
+<pre><code class="language-java">            public class Comparar {
                 public static void main(String[] args) {
                     String a = "hola";
                     String b = new String("hola");
                     System.out.println(a.equals(b));
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       true
     </A>
@@ -6947,9 +6291,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué salida produce este código?
-            public class Persona {
+    <enunciado><![CDATA[<p>¿Qué salida produce este código?</p>
+<pre><code class="language-java">            public class Persona {
                 private String nombre;
                 public Persona(String nombre) {
                     this.nombre = nombre;
@@ -6961,8 +6304,7 @@
                     Persona p = new Persona("Ana");
                     p.saludar();
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       nombre
     </A>
@@ -6980,9 +6322,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué se imprime?</p>]]></enunciado>
     <A>
       Error
     </A>
@@ -7000,9 +6340,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué se imprime?</p>]]></enunciado>
     <A>
       Sonido de animal
     </A>
@@ -7020,9 +6358,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué se imprime?</p>]]></enunciado>
     <A>
       Error
     </A>
@@ -7040,9 +6376,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor se imprime?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor se imprime?</p>]]></enunciado>
     <A>
       3
     </A>
@@ -7060,9 +6394,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es la recursividad en programación?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es la recursividad en programación?</p>]]></enunciado>
     <A>
       Un método que se llama a sí mismo.
     </A>
@@ -7080,9 +6412,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida?</p>]]></enunciado>
     <A>
       Error
     </A>
@@ -7100,9 +6430,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la primera fase del ciclo de vida del software?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la primera fase del ciclo de vida del software?</p>]]></enunciado>
     <A>
       Pruebas
     </A>
@@ -7120,9 +6448,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de dato debe tener una variable para almacenar el valor de una letra?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de dato debe tener una variable para almacenar el valor de una letra?</p>]]></enunciado>
     <A>
       boolean
     </A>
@@ -7140,9 +6466,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de dato en Java se usa para representar valores decimales?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de dato en Java se usa para representar valores decimales?</p>]]></enunciado>
     <A>
       char
     </A>
@@ -7160,9 +6484,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la convención para nombrar una variable en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la convención para nombrar una variable en Java?</p>]]></enunciado>
     <A>
       Puede comenzar con un número
     </A>
@@ -7180,9 +6502,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes opciones es un tipo de dato primitivo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes opciones es un tipo de dato primitivo en Java?</p>]]></enunciado>
     <A>
       String
     </A>
@@ -7200,9 +6520,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué se usa la palabra clave final en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué se usa la palabra clave final en Java?</p>]]></enunciado>
     <A>
       Para iniciar un bucle
     </A>
@@ -7220,9 +6538,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor puede almacenar un dato de tipo boolean en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor puede almacenar un dato de tipo boolean en Java?</p>]]></enunciado>
     <A>
       true o false
     </A>
@@ -7240,9 +6556,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el operador correcto para realizar una multiplicación en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el operador correcto para realizar una multiplicación en Java?</p>]]></enunciado>
     <A>
       &lt;
     </A>
@@ -7260,9 +6574,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es el "casteo" en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es el "casteo" en Java?</p>]]></enunciado>
     <A>
       Crear una nueva clase
     </A>
@@ -7280,9 +6592,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el valor de la variable resultado después de esta operación? `int resultado = 10 / 3;`
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el valor de la variable resultado después de esta operación? `int resultado = 10 / 3;`</p>]]></enunciado>
     <A>
       0
     </A>
@@ -7300,9 +6610,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la función de System.out.println en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la función de System.out.println en Java?</p>]]></enunciado>
     <A>
       Define una variable
     </A>
@@ -7320,9 +6628,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes opciones es un ejemplo de ejercicio práctico de entrada y salida de datos en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes opciones es un ejemplo de ejercicio práctico de entrada y salida de datos en Java?</p>]]></enunciado>
     <A>
       Definir una variable sin mostrarla en pantalla
     </A>
@@ -7340,9 +6646,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué resultado genera el siguiente código? `System.out.println("Hola, mundo!");`
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué resultado genera el siguiente código? `System.out.println("Hola, mundo!");`</p>]]></enunciado>
     <A>
       Imprime "Hola, mundo!" en la consola
     </A>
@@ -7360,9 +6664,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Para qué se usa la clase Scanner en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Para qué se usa la clase Scanner en Java?</p>]]></enunciado>
     <A>
       Para leer datos de entrada desde la consola
     </A>
@@ -7380,9 +6682,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes líneas de código es correcta para crear un objeto Scanner?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes líneas de código es correcta para crear un objeto Scanner?</p>]]></enunciado>
     <A>
       Scanner entrada = Scanner(System.out);
     </A>
@@ -7400,9 +6700,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se usa para leer una cadena de texto ingresada por el usuario con Scanner?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se usa para leer una cadena de texto ingresada por el usuario con Scanner?</p>]]></enunciado>
     <A>
       nextDouble()
     </A>
@@ -7420,9 +6718,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el propósito de System.out.print en comparación con System.out.println?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el propósito de System.out.print en comparación con System.out.println?</p>]]></enunciado>
     <A>
       Imprime texto en mayúsculas automáticamente
     </A>
@@ -7440,9 +6736,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cómo se puede capturar un número entero ingresado por el usuario en la consola usando Scanner?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cómo se puede capturar un número entero ingresado por el usuario en la consola usando Scanner?</p>]]></enunciado>
     <A>
       entrada.nextDouble();
     </A>
@@ -7460,9 +6754,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué ocurrirá si el usuario ingresa un valor no numérico cuando se espera un número entero con nextInt()?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué ocurrirá si el usuario ingresa un valor no numérico cuando se espera un número entero con nextInt()?</p>]]></enunciado>
     <A>
       Se lanza una excepción InputMismatchException
     </A>
@@ -7480,9 +6772,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida del siguiente código? `System.out.print("Java "); System.out.print("es"); System.out.println("genial!");`
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código? `System.out.print("Java "); System.out.print("es"); System.out.println("genial!");`</p>]]></enunciado>
     <A>
       genial!
     </A>
@@ -7500,9 +6790,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el resultado de la expresión 10 % 3 en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el resultado de la expresión 10 % 3 en Java?</p>]]></enunciado>
     <A>
       1
     </A>
@@ -7520,9 +6808,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace el operador % en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace el operador % en Java?</p>]]></enunciado>
     <A>
       Compara dos valores
     </A>
@@ -7540,9 +6826,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué hace el operador += en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué hace el operador += en Java?</p>]]></enunciado>
     <A>
       Asigna un valor absoluto a una variable
     </A>
@@ -7560,9 +6844,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si x = 5, ¿cuál es el valor de x después de ejecutar x++?
-    </enunciado>
+    <enunciado><![CDATA[<p>Si x = 5, ¿cuál es el valor de x después de ejecutar x++?</p>]]></enunciado>
     <A>
       6
     </A>
@@ -7580,9 +6862,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la diferencia entre x++ y ++x en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la diferencia entre x++ y ++x en Java?</p>]]></enunciado>
     <A>
       No hay diferencia
     </A>
@@ -7600,9 +6880,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué operador se usa para verificar si dos valores son iguales en una expresión lógica?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué operador se usa para verificar si dos valores son iguales en una expresión lógica?</p>]]></enunciado>
     <A>
       !=
     </A>
@@ -7620,9 +6898,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor tiene la variable resultado después de la siguiente operación? `int resultado = 20 / 4 * 2 + 3;`
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor tiene la variable resultado después de la siguiente operación? `int resultado = 20 / 4 * 2 + 3;`</p>]]></enunciado>
     <A>
       15
     </A>
@@ -7640,9 +6916,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de los siguientes operadores se usa para negar una expresión booleana?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de los siguientes operadores se usa para negar una expresión booleana?</p>]]></enunciado>
     <A>
       &lt;&lt;
     </A>
@@ -7660,9 +6934,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Si `x = 10`, ¿qué resultado tiene `x -= 3;`?
-    </enunciado>
+    <enunciado><![CDATA[<p>Si `x = 10`, ¿qué resultado tiene `x -= 3;`?</p>]]></enunciado>
     <A>
       x = 7
     </A>
@@ -7680,9 +6952,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué valor tiene la expresión `true || false` en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué valor tiene la expresión `true || false` en Java?</p>]]></enunciado>
     <A>
       null
     </A>
@@ -7700,9 +6970,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es un algoritmo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es un algoritmo?</p>]]></enunciado>
     <A>
       Una secuencia de instrucciones para resolver un problema
     </A>
@@ -7720,9 +6988,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de estos ejemplos representa la conversión de pseudocódigo en código Java? Pseudocódigo: "Iniciar -&lt;definir variable x = 10 -&lt; mostrar x -&lt; Fin"
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de estos ejemplos representa la conversión de pseudocódigo en código Java? Pseudocódigo: "Iniciar -&lt;definir variable x = 10 -&lt; mostrar x -&lt; Fin"</p>]]></enunciado>
     <A>
       System.out.println(x);
     </A>
@@ -7740,9 +7006,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes opciones describe mejor un pseudocódigo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes opciones describe mejor un pseudocódigo?</p>]]></enunciado>
     <A>
       Texto sin estructura
     </A>
@@ -7760,9 +7024,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes estructuras es común en un pseudocódigo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes estructuras es común en un pseudocódigo?</p>]]></enunciado>
     <A>
       if-else, for, while
     </A>
@@ -7780,9 +7042,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué es lo primero que se debe hacer antes de escribir un algoritmo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué es lo primero que se debe hacer antes de escribir un algoritmo en Java?</p>]]></enunciado>
     <A>
       Configurar una base de datos
     </A>
@@ -7800,9 +7060,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la función del pseudocódigo en el desarrollo de un algoritmo?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la función del pseudocódigo en el desarrollo de un algoritmo?</p>]]></enunciado>
     <A>
       Ayudar a los desarrolladores a visualizar la lógica antes de programar
     </A>
@@ -7820,9 +7078,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura de control de flujo se usa para tomar decisiones en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura de control de flujo se usa para tomar decisiones en Java?</p>]]></enunciado>
     <A>
       if-else
     </A>
@@ -7840,9 +7096,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de los siguientes es un ejemplo de pseudocódigo para sumar dos números y mostrar el resultado?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de los siguientes es un ejemplo de pseudocódigo para sumar dos números y mostrar el resultado?</p>]]></enunciado>
     <A>
       Sumar dos números y mostrar el resultado
     </A>
@@ -7860,9 +7114,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      Al convertir un algoritmo en código Java, ¿cuál es el paso principal?
-    </enunciado>
+    <enunciado><![CDATA[<p>Al convertir un algoritmo en código Java, ¿cuál es el paso principal?</p>]]></enunciado>
     <A>
       Cambiar todos los nombres de las variables
     </A>
@@ -7880,9 +7132,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes es una práctica común en ejercicios de lógica básica en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes es una práctica común en ejercicios de lógica básica en Java?</p>]]></enunciado>
     <A>
       Definir solo variables estáticas
     </A>
@@ -7900,9 +7150,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra clave se usa para heredar una clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra clave se usa para heredar una clase en Java?</p>]]></enunciado>
     <A>
       this
     </A>
@@ -7920,9 +7168,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el tipo de dato utilizado para representar números decimales en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el tipo de dato utilizado para representar números decimales en Java?</p>]]></enunciado>
     <A>
       int
     </A>
@@ -7940,9 +7186,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de estas NO es una estructura de control en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de estas NO es una estructura de control en Java?</p>]]></enunciado>
     <A>
       for
     </A>
@@ -7960,9 +7204,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método se ejecuta primero al iniciar un programa en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método se ejecuta primero al iniciar un programa en Java?</p>]]></enunciado>
     <A>
       start()
     </A>
@@ -7980,9 +7222,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa JVM?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa JVM?</p>]]></enunciado>
     <A>
       Java Virtual Machine
     </A>
@@ -8000,9 +7240,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es la salida de: System.out.println(3 + "4")?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es la salida de: System.out.println(3 + "4")?</p>]]></enunciado>
     <A>
       7
     </A>
@@ -8020,9 +7258,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué operador se usa para comparar dos valores en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué operador se usa para comparar dos valores en Java?</p>]]></enunciado>
     <A>
       =
     </A>
@@ -8040,9 +7276,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué estructura se utiliza para capturar errores en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué estructura se utiliza para capturar errores en Java?</p>]]></enunciado>
     <A>
       if-else
     </A>
@@ -8060,9 +7294,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el modificador de acceso más restrictivo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el modificador de acceso más restrictivo en Java?</p>]]></enunciado>
     <A>
       private
     </A>
@@ -8080,9 +7312,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de estos NO es un tipo de dato primitivo en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de estos NO es un tipo de dato primitivo en Java?</p>]]></enunciado>
     <A>
       char
     </A>
@@ -8100,9 +7330,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué instrucción se usa para salir de un bucle en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué instrucción se usa para salir de un bucle en Java?</p>]]></enunciado>
     <A>
       stop
     </A>
@@ -8120,9 +7348,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué tipo de dato se usa para valores verdadero/falso en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué tipo de dato se usa para valores verdadero/falso en Java?</p>]]></enunciado>
     <A>
       boolean
     </A>
@@ -8140,9 +7366,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra se utiliza para crear una instancia de clase en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra se utiliza para crear una instancia de clase en Java?</p>]]></enunciado>
     <A>
       define
     </A>
@@ -8160,9 +7384,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué paquete se importa para usar la clase ArrayList en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué paquete se importa para usar la clase ArrayList en Java?</p>]]></enunciado>
     <A>
       java.utils
     </A>
@@ -8180,9 +7402,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué significa POO en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué significa POO en Java?</p>]]></enunciado>
     <A>
       Programación Ordenada y Optimizada
     </A>
@@ -8200,9 +7420,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el valor por defecto de un boolean en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el valor por defecto de un boolean en Java?</p>]]></enunciado>
     <A>
       true
     </A>
@@ -8220,9 +7438,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál es el símbolo del operador OR lógico en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál es el símbolo del operador OR lógico en Java?</p>]]></enunciado>
     <A>
       &amp;&amp;
     </A>
@@ -8240,9 +7456,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué clase se usa para mostrar datos por consola en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué clase se usa para mostrar datos por consola en Java?</p>]]></enunciado>
     <A>
       Scanner
     </A>
@@ -8260,9 +7474,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Cuál de las siguientes es una interfaz en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Cuál de las siguientes es una interfaz en Java?</p>]]></enunciado>
     <A>
       ArrayList
     </A>
@@ -8280,9 +7492,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué palabra reservada impide que una clase sea heredada en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué palabra reservada impide que una clase sea heredada en Java?</p>]]></enunciado>
     <A>
       abstract
     </A>
@@ -8300,9 +7510,7 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué método convierte una cadena en un entero en Java?
-    </enunciado>
+    <enunciado><![CDATA[<p>¿Qué método convierte una cadena en un entero en Java?</p>]]></enunciado>
     <A>
       parseInt()
     </A>
@@ -8320,9 +7528,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime al ejecutar el siguiente código?
-            public class Sobrecarga {
+    <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
+<pre><code class="language-java">            public class Sobrecarga {
                 void mostrar(int a) {
                     System.out.println("int");
                 }
@@ -8333,8 +7540,7 @@
                     Sobrecarga s = new Sobrecarga();
                     s.mostrar(5);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       int
     </A>
@@ -8352,9 +7558,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime al ejecutar el siguiente código?
-            interface Animal {
+    <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
+<pre><code class="language-java">            interface Animal {
                 void sonido();
             }
             class Perro implements Animal {
@@ -8371,8 +7576,7 @@
                     a.sonido();
                     // a.ladrar();  // Línea comentada
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Guau
     </A>
@@ -8390,17 +7594,15 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué se imprime al ejecutar el siguiente código?
-            public class Prioridad {
+    <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
+<pre><code class="language-java">            public class Prioridad {
                 public static void main(String[] args) {
                     int a = 5;
                     int b = 10;
                     int c = a++ + --b;
                     System.out.println(c);
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       15
     </A>
@@ -8418,9 +7620,8 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      ¿Qué sucede al ejecutar este código?
-            public class Excepcion {
+    <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
+<pre><code class="language-java">            public class Excepcion {
                 public static void main(String[] args) {
                     try {
                         int x = 10 / 0;
@@ -8431,8 +7632,7 @@
                         System.out.println("Finalizado");
                     }
                 }
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       Resultado: 0
     </A>
@@ -8450,10 +7650,9 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En el siguiente código, ¿qué método falta para que la clase compile correctamente?
-
-            abstract class Figura {
+    <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
+</p>
+<pre><code class="language-java">            abstract class Figura {
                 abstract double area();
             }
             class Circulo extends Figura {
@@ -8462,8 +7661,7 @@
                     this.radio = radio;
                 }
                 // Falta el método area()
-            }
-    </enunciado>
+            }</code></pre>]]></enunciado>
     <A>
       equals()
     </A>
@@ -8481,16 +7679,14 @@
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado>
-      En el siguiente código, ¿qué método falta para que la clase compile correctamente?
-
-                abstract class Figura {
+    <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
+</p>
+<pre><code class="language-java">                abstract class Figura {
                     abstract double area();
                 }
                 class Cuadrado extends Figura {
                     // Falta el método area()
-                }
-    </enunciado>
+                }</code></pre>]]></enunciado>
     <A>
       Ninguno, es opcional
     </A>
@@ -8510,7 +7706,7 @@
 
 
 <pregunta>
-<enunciado>¿Qué palabra clave se usa para declarar una constante en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Qué palabra clave se usa para declarar una constante en Java?</p>]]></enunciado>
 <A>CONST</A>
 <B>EXTENDS</B>
 <C>STATIC</C>
@@ -8518,7 +7714,7 @@
 <respuesta_correcta explicacion="">D</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué tipo de dato usarías para representar un número decimal?</enunciado>
+<enunciado><![CDATA[<p>¿Qué tipo de dato usarías para representar un número decimal?</p>]]></enunciado>
 <A>Byte</A>
 <B>Float</B>
 <C>Boolean</C>
@@ -8526,7 +7722,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué valor representa el literal ‘\t' en una cadena?</enunciado>
+<enunciado><![CDATA[<p>¿Qué valor representa el literal ‘\t' en una cadena?</p>]]></enunciado>
 <A>Tabulador</A>
 <B>Salto de línea</B>
 <C>Termina instrucción actual</C>
@@ -8534,7 +7730,7 @@
 <respuesta_correcta explicacion="">A</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué operador devuelve el resto de una división?</enunciado>
+<enunciado><![CDATA[<p>¿Qué operador devuelve el resto de una división?</p>]]></enunciado>
 <A>%</A>
 <B>/</B>
 <C>||</C>
@@ -8542,7 +7738,7 @@
 <respuesta_correcta explicacion="">A</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué ocurre si declaras dos variables con el mismo nombre en el mismo bloque?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si declaras dos variables con el mismo nombre en el mismo bloque?</p>]]></enunciado>
 <A>Se suman automáticamente</A>
 <B>Se concatenan automáticamente</B>
 <C>La segunda variable apunta a la primera variable.</C>
@@ -8550,7 +7746,7 @@
 <respuesta_correcta explicacion="">D</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué operador se utiliza para comparar si dos valores son iguales?</enunciado>
+<enunciado><![CDATA[<p>¿Qué operador se utiliza para comparar si dos valores son iguales?</p>]]></enunciado>
 <A>=</A>
 <B>==</B>
 <C>!=</C>
@@ -8558,7 +7754,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál es el resultado de: 7 % 3?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es el resultado de: 7 % 3?</p>]]></enunciado>
 <A>2</A>
 <B>1</B>
 <C>4</C>
@@ -8566,7 +7762,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál de estas variables es válida en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál de estas variables es válida en Java?</p>]]></enunciado>
 <A>1numero</A>
 <B>_edad</B>
 <C>Public</C>
@@ -8574,7 +7770,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué palabra clave hace que una variable no pueda modificarse?</enunciado>
+<enunciado><![CDATA[<p>¿Qué palabra clave hace que una variable no pueda modificarse?</p>]]></enunciado>
 <A>Static</A>
 <B>Final</B>
 <C>Private</C>
@@ -8582,7 +7778,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué significa que Java sea case-sensitive?</enunciado>
+<enunciado><![CDATA[<p>¿Qué significa que Java sea case-sensitive?</p>]]></enunciado>
 <A>Que no distingue entre mayúsculas y minúsculas</A>
 <B>Que ignora los espacios</B>
 <C>Que distingue entre mayúsculas y minúsculas</C>
@@ -8590,7 +7786,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál de estas afirmaciones es verdadera sobre el método main en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál de estas afirmaciones es verdadera sobre el método main en Java?</p>]]></enunciado>
 <A>Debe ser la primera instrucción dentro de la clase</A>
 <B>Es private por defecto</B>
 <C>Debe ser static y public</C>
@@ -8598,7 +7794,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué ocurre si usas una variable local sin inicializarla?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si usas una variable local sin inicializarla?</p>]]></enunciado>
 <A>Se inicializa con 0 automáticamente</A>
 <B>El programa imprime null</B>
 <C>Se lanza un error de compilación</C>
@@ -8606,7 +7802,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué operador lógico representa una disyunción (OR)?</enunciado>
+<enunciado><![CDATA[<p>¿Qué operador lógico representa una disyunción (OR)?</p>]]></enunciado>
 <A>&amp;&amp;&amp;</A>
 <B>&amp;&amp;</B>
 <C>||</C>
@@ -8614,7 +7810,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué resultado da la operación: 4 + 3 * 2?</enunciado>
+<enunciado><![CDATA[<p>¿Qué resultado da la operación: 4 + 3 * 2?</p>]]></enunciado>
 <A>14</A>
 <B>10</B>
 <C>11</C>
@@ -8622,7 +7818,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué valor tendrá x tras ejecutar el siguiente código?</enunciado>
+<enunciado><![CDATA[<p>¿Qué valor tendrá x tras ejecutar el siguiente código?</p>]]></enunciado>
 <A>6</A>
 <B>14</B>
 <C>4</C>
@@ -8630,7 +7826,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál de las siguientes opciones, es un comentario válido en java?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál de las siguientes opciones, es un comentario válido en java?</p>]]></enunciado>
 <A><!-- esto es un comentario --></A>
 <B>//esto es un comentario</B>
 <C>\\esto es un comentario</C>
@@ -8638,7 +7834,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué clase se utiliza para leer datos por teclado en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Qué clase se utiliza para leer datos por teclado en Java?</p>]]></enunciado>
 <A>InputReader</A>
 <B>Scanner</B>
 <C>Reader</C>
@@ -8646,7 +7842,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué método del objeto Scanner se usa para leer un número entero?</enunciado>
+<enunciado><![CDATA[<p>¿Qué método del objeto Scanner se usa para leer un número entero?</p>]]></enunciado>
 <A>nextLine ()</A>
 <B>next ()</B>
 <C>nextInt ()</C>
@@ -8654,7 +7850,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué estructura permite ejecutar un bloque solo si una condición es verdadera?</enunciado>
+<enunciado><![CDATA[<p>¿Qué estructura permite ejecutar un bloque solo si una condición es verdadera?</p>]]></enunciado>
 <A>Switch</A>
 <B>If</B>
 <C>Do.. While</C>
@@ -8662,7 +7858,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué palabra se usa para detener un bloque dentro de un switch?</enunciado>
+<enunciado><![CDATA[<p>¿Qué palabra se usa para detener un bloque dentro de un switch?</p>]]></enunciado>
 <A>Stop</A>
 <B>Exit</B>
 <C>Halt</C>
@@ -8670,7 +7866,7 @@
 <respuesta_correcta explicacion="">D</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál es la diferencia entre while y do- while ?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la diferencia entre while y do- while ?</p>]]></enunciado>
 <A>do- while puede no ejecutarse nunca</A>
 <B>while se ejecuta al menos una vez</B>
 <C>do- while garantiza una ejecución mínima</C>
@@ -8678,7 +7874,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál es la forma correcta de un bucle for ?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la forma correcta de un bucle for ?</p>]]></enunciado>
 <A>for (int i = 0; i &lt; 10; i++)</A>
 <B>for int i = 0 to 10</B>
 <C>for i = 1 while i &lt;= 10</C>
@@ -8686,7 +7882,7 @@
 <respuesta_correcta explicacion="">A</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué hace el método nextDouble () de la clase Scanner?</enunciado>
+<enunciado><![CDATA[<p>¿Qué hace el método nextDouble () de la clase Scanner?</p>]]></enunciado>
 <A>Lee un número entero</A>
 <B>Lee un booleano</B>
 <C>Lee un número decimal</C>
@@ -8694,7 +7890,7 @@
 <respuesta_correcta explicacion="">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cuál es la estructura básica más simple de un programa?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la estructura básica más simple de un programa?</p>]]></enunciado>
 <A>Repetición</A>
 <B>Secuencia</B>
 <C>Selección</C>
@@ -8703,7 +7899,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué ocurre si en un switch no se coloca 'break'?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si en un switch no se coloca 'break'?</p>]]></enunciado>
 <A>Nada se ejecuta</A>
 <B>Solo se ejecuta el case indicado</B>
 <C>Se ejecutan todos los case siguientes</C>
@@ -8712,7 +7908,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué método del Scanner se usa para leer una línea completa?</enunciado>
+<enunciado><![CDATA[<p>¿Qué método del Scanner se usa para leer una línea completa?</p>]]></enunciado>
 <A>readLine ()</A>
 <B>nextInt ()</B>
 <C>nextLine ()</C>
@@ -8721,7 +7917,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué ocurre si una condición en un bucle while nunca es falsa?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si una condición en un bucle while nunca es falsa?</p>]]></enunciado>
 <A>El programa se detiene automáticamente</A>
 <B>Se lanza una excepción</B>
 <C>El bucle se ejecuta infinitamente</C>
@@ -8730,7 +7926,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es el propósito del bloque default en un switch?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es el propósito del bloque default en un switch?</p>]]></enunciado>
 <A>Se ejecuta siempre</A>
 <B>Se ignora si hay break</B>
 <C>Termina el switch</C>
@@ -8739,7 +7935,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué muestra por pantalla?</enunciado>
+<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p>]]></enunciado>
 <A>4</A>
 <B>2</B>
 <C>7</C>
@@ -8748,7 +7944,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué valor se imprime?</enunciado>
+<enunciado><![CDATA[<p>¿Qué valor se imprime?</p>]]></enunciado>
 <A>2</A>
 <B>4</B>
 <C>3</C>
@@ -8757,7 +7953,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué muestra por pantalla?</enunciado>
+<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p>]]></enunciado>
 <A>1</A>
 <B>6</B>
 <C>Error en tiempo de ejecución</C>
@@ -8766,7 +7962,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué es un array en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Qué es un array en Java?</p>]]></enunciado>
 <A>Una variable que cambia de tamaño</A>
 <B>Una estructura que almacena datos en posiciones aleatorias</B>
 <C>Una colección ordenada de elementos del mismo tipo</C>
@@ -8775,7 +7971,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué tipo de datos se pueden almacenar en un array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué tipo de datos se pueden almacenar en un array?</p>]]></enunciado>
 <A>Solo enteros</A>
 <B>Datos de diferentes tipos</B>
 <C>Solo cadenas</C>
@@ -8784,7 +7980,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es la forma correcta de declarar un array de enteros?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la forma correcta de declarar un array de enteros?</p>]]></enunciado>
 <A>int[] array;</A>
 <B>array int [];</B>
 <C>int [] = array;</C>
@@ -8793,7 +7989,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué operador se usa para instanciar un array en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Qué operador se usa para instanciar un array en Java?</p>]]></enunciado>
 <A>Array</A>
 <B>Class</B>
 <C>New</C>
@@ -8802,7 +7998,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué valor tiene el índice inicial de un array en Java?</enunciado>
+<enunciado><![CDATA[<p>¿Qué valor tiene el índice inicial de un array en Java?</p>]]></enunciado>
 <A>Depende del tipo</A>
 <B>1</B>
 <C>-1</C>
@@ -8811,7 +8007,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué propiedad permite conocer el tamaño de un array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué propiedad permite conocer el tamaño de un array?</p>]]></enunciado>
 <A>size ()</A>
 <B>getSize ()</B>
 <C>Length ()</C>
@@ -8820,7 +8016,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué estructura es adecuada para recorrer un array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué estructura es adecuada para recorrer un array?</p>]]></enunciado>
 <A>Switch</A>
 <B>try-catch</B>
 <C>For</C>
@@ -8829,7 +8025,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué sucede si accedemos a un índice fuera de los límites del array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué sucede si accedemos a un índice fuera de los límites del array?</p>]]></enunciado>
 <A>Se devuelve null</A>
 <B>Se lanza una excepción</B>
 <C>Se devuelve -1</C>
@@ -8838,7 +8034,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es una forma válida de inicializar un array con valores?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es una forma válida de inicializar un array con valores?</p>]]></enunciado>
 <A>int [] datos = {1, 2, 3};</A>
 <B>int datos = [1, 2, 3];</B>
 <C>datos = new int (3);</C>
@@ -8847,7 +8043,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué tipo de estructura representa un array bidimensional?</enunciado>
+<enunciado><![CDATA[<p>¿Qué tipo de estructura representa un array bidimensional?</p>]]></enunciado>
 <A>Vector</A>
 <B>Matriz</B>
 <C>objeto JSON</C>
@@ -8856,7 +8052,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es la forma correcta de declarar un array bidimensional?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la forma correcta de declarar un array bidimensional?</p>]]></enunciado>
 <A>matriz int [];</A>
 <B>array int [2][2];</B>
 <C>int [] matriz[];</C>
@@ -8865,7 +8061,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cómo se accede al elemento en la fila 2, columna 3 de un array 2D?</enunciado>
+<enunciado><![CDATA[<p>¿Cómo se accede al elemento en la fila 2, columna 3 de un array 2D?</p>]]></enunciado>
 <A>array[3][2]</A>
 <B>array(2,3)</B>
 <C>array[2][3]</C>
@@ -8874,7 +8070,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué hace el método clone() con un array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué hace el método clone() con un array?</p>]]></enunciado>
 <A>Lo borra</A>
 <B>Lo intercambia</B>
 <C>Crea una copia nueva del array</C>
@@ -8883,7 +8079,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es el número de elementos en un array 3x3x3?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es el número de elementos en un array 3x3x3?</p>]]></enunciado>
 <A>9</A>
 <B>18</B>
 <C>27</C>
@@ -8892,7 +8088,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué método se usa para obtener la posición (índice) de un valor en un array?</enunciado>
+<enunciado><![CDATA[<p>¿Qué método se usa para obtener la posición (índice) de un valor en un array?</p>]]></enunciado>
 <A>indexOf ()</A>
 <B>getIndex ()</B>
 <C>buscar()</C>
@@ -8901,7 +8097,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál es la forma correcta de recorrer un array llamado notas?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál es la forma correcta de recorrer un array llamado notas?</p>]]></enunciado>
 <A>for ( int i = 1; i &lt; notas.length ; i++)</A>
 <B>for ( int i = 0; i &lt; notas.length ; i++)</B>
 <C>for ( int i = 0; i &lt;= notas.length ; i++)</C>
@@ -8910,7 +8106,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué ocurre si igualamos dos arrays así?: int [] b = a;</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si igualamos dos arrays así?: int [] b = a;</p>]]></enunciado>
 <A>Se copian los valores</A>
 <B>Apuntan al mismo espacio de memoria</B>
 <C>Se clonan automáticamente</C>
@@ -8919,7 +8115,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál de las siguientes afirmaciones sobre métodos en Java es correcta?</enunciado>
+<enunciado><![CDATA[<p>¿Cuál de las siguientes afirmaciones sobre métodos en Java es correcta?</p>]]></enunciado>
 <A>Siempre deben devolver un valor.</A>
 <B>No pueden tener parámetros.</B>
 <C>Los métodos se definen dentro del main .</C>
@@ -8928,7 +8124,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué hace el siguiente código?</enunciado>
+<enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p>]]></enunciado>
 <A>Imprime la suma de dos números.</A>
 <B>Muestra una cadena por pantalla.</B>
 <C>Devuelve la suma de dos enteros.</C>
@@ -8937,7 +8133,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué sucede si un método tiene más return después de que uno se ejecuta?</enunciado>
+<enunciado><![CDATA[<p>¿Qué sucede si un método tiene más return después de que uno se ejecuta?</p>]]></enunciado>
 <A>Se ejecutan todos los return .</A>
 <B>Se ignoran los que están después.</B>
 <C>Java lanza una excepción.</C>
@@ -8946,7 +8142,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué resultado muestra este código?</enunciado>
+<enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>]]></enunciado>
 <A>Comprueba si un número es par</A>
 <B>Comprueba si un número es primo</B>
 <C>Calcula la suma de divisores.</C>
@@ -8955,7 +8151,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué implica el paso de parámetros por valor?</enunciado>
+<enunciado><![CDATA[<p>¿Qué implica el paso de parámetros por valor?</p>]]></enunciado>
 <A>El método modifica directamente el valor original.</A>
 <B>Se pasa una referencia.</B>
 <C>Se copia el valor y no afecta al original.</C>
@@ -8964,7 +8160,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué palabra clave permite evitar que un método devuelva un valor?</enunciado>
+<enunciado><![CDATA[<p>¿Qué palabra clave permite evitar que un método devuelva un valor?</p>]]></enunciado>
 <A>Break</A>
 <B>Void</B>
 <C>Static</C>
@@ -8973,7 +8169,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué hace este código?</enunciado>
+<enunciado><![CDATA[<p>¿Qué hace este código?</p>]]></enunciado>
 <A>Imprime 3 2 1</A>
 <B>Imprime 1 2 3</B>
 <C>Imprime 0 1 2</C>
@@ -8982,7 +8178,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Qué sucede si no hay caso base en una función recursiva?</enunciado>
+<enunciado><![CDATA[<p>¿Qué sucede si no hay caso base en una función recursiva?</p>]]></enunciado>
 <A>Se ejecuta una sola vez.</A>
 <B>Se produce un desbordamiento de pila.</B>
 <C>No compila.</C>
@@ -8990,7 +8186,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Dónde se puede acceder a una variable local?</enunciado>
+<enunciado><![CDATA[<p>¿Dónde se puede acceder a una variable local?</p>]]></enunciado>
 <A>En cualquier parte del programa.</A>
 <B>Solo dentro del método o bloque donde se declara</B>
 <C>Desde todos los métodos.</C>
@@ -8998,7 +8194,7 @@
 <respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué ocurre si modificas una variable entera dentro de un método?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si modificas una variable entera dentro de un método?</p>]]></enunciado>
 <A>Se modifica solo dentro del método</A>
 <B>Depende del tipo de dato</B>
 <C>No se puede</C>
@@ -9006,7 +8202,7 @@
 <respuesta_correcta explicacion="">A</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué ocurre si modificas un array dentro de un método?</enunciado>
+<enunciado><![CDATA[<p>¿Qué ocurre si modificas un array dentro de un método?</p>]]></enunciado>
 <A>Se crea una copia</A>
 <B>Depende del tipo de dato</B>
 <C>No se puede</C>
