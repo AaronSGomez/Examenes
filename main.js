@@ -30,6 +30,11 @@ function iniciarExamen(xmlFile, titulo) {
   document.getElementById("zona-examen").style.display = "block";
   document.getElementById("titulo-examen").textContent = `Examen de ${titulo}`;
 
+  // ⚠️ Notifica a Vercel que se ha cambiado de "vista"
+  if (window.va && typeof window.va.track === "function") {
+    window.va.track(`${titulo}-exam-started`);
+  }
+
   cargarXML();
 }
 
@@ -63,6 +68,10 @@ async function cargarXML() {
 function mostrarPregunta() {
   if (indicePregunta >= seleccion.length) {
     let marcador = (aciertos * 0.25) - (fallos * 0.08);
+    //notifica a vercel el fin del examen
+     if (window.va && typeof window.va.track === "function") {
+    window.va.track(`${tituloExamen}-exam-finished`);
+    }
     document.getElementById("pregunta-container").innerHTML = `
       <h2>Juego terminado! Nota obtenida: ${marcador.toFixed(2)}</h2>
       <h2>Aciertos: ${aciertos}</h2>
