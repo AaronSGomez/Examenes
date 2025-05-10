@@ -7948,7 +7948,7 @@ public class Test {
 <B>2</B>
 <C>7</C>
 <D>9</D>
-<respuesta_correcta explicacion="El índice 2 en el array corresponde al valor 2, que es el tercer elemento, ya que los índices comienzan desde 0.">A</respuesta_correcta>
+<respuesta_correcta explicacion="El índice 2 en el array corresponde al valor 2, que es el tercer elemento, ya que los índices comienzan desde 0.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7975,7 +7975,7 @@ public class Test {
 <B>6</B>
 <C>Error en tiempo de ejecución</C>
 <D>4</D>
-<respuesta_correcta explicacion="El valor en la fila 1, columna 0 de la matriz es 4, ya que la matriz tiene dos filas, y en la segunda fila (índice 1) el primer valor es 4.">C</respuesta_correcta>
+<respuesta_correcta explicacion="El valor en la fila 1, columna 0 de la matriz es 4, ya que la matriz tiene dos filas, y en la segunda fila (índice 1) el primer valor es 4.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8175,7 +8175,7 @@ public class Test {
 <B>Comprueba si un número es primo</B>
 <C>Calcula la suma de divisores.</C>
 <D>Devuelve el resto de x entre 2.</D>
-<respuesta_correcta explicacion="El código verifica si un número x es primo. El método recorre todos los números desde 2 hasta x-1 y comprueba si alguno de esos números divide x sin dejar residuo. Si encuentra algún divisor, devuelve false, indicando que el número no es primo. Si no encuentra divisores, devuelve true, indicando que el número es primo.">A</respuesta_correcta>
+<respuesta_correcta explicacion="El código verifica si un número x es primo. El método recorre todos los números desde 2 hasta x-1 y comprueba si alguno de esos números divide x sin dejar residuo. Si encuentra algún divisor, devuelve false, indicando que el número no es primo. Si no encuentra divisores, devuelve true, indicando que el número es primo.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8211,7 +8211,7 @@ public class Test {
 <B>Imprime 1 2 3</B>
 <C>Imprime 0 1 2</C>
 <D>No imprime nada; ya que no entra nunca en el if .</D>
-<respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
