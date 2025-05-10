@@ -72,6 +72,7 @@ function mostrarPregunta() {
     //notifica a vercel el fin del examen
      if (window.va && typeof window.va.track === "function") {
     window.va.track(`${tituloExamen}-exam-finished`);
+    console.log(`✅ Evento enviado a Vercel Analytics: ${evento}`);
     }
     document.getElementById("pregunta-container").innerHTML = `
       <h2>Juego terminado! Nota obtenida: ${marcador.toFixed(2)}</h2>
