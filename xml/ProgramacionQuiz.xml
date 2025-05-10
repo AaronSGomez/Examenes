@@ -8169,7 +8169,7 @@ public class Test {
    if (x % i == o) return false;
   }
   return true;
- }<code><pre>
+ }</code></pre>
 ]]></enunciado>
 <A>Comprueba si un número es par</A>
 <B>Comprueba si un número es primo</B>

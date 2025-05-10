@@ -7,8 +7,40 @@ let cantidadPreguntas = 0;
 let respuestasIncorrectas = [];
 let preguntasSaltadas = [];
 
+// Almacena la ruta XML activa
+let xmlSeleccionado = "";
+let tituloExamen = "";
+
+// Inicia el examen al seleccionar un botón
+function iniciarExamen(xmlFile, titulo) {
+  xmlSeleccionado = `./xml/${xmlFile}`;
+  tituloExamen = titulo;
+
+  // Reset
+  seleccion = [];
+  indicePregunta = 0;
+  aciertos = 0;
+  fallos = 0;
+  saltadas = 0;
+  respuestasIncorrectas = [];
+  preguntasSaltadas = [];
+
+  // Mostrar examen y ocultar menú
+  document.getElementById("menu-principal").style.display = "none";
+  document.getElementById("zona-examen").style.display = "block";
+  document.getElementById("titulo-examen").textContent = `Examen de ${titulo}`;
+
+  cargarXML();
+}
+
+function mostrarMenu() {
+  document.getElementById("menu-principal").style.display = "block";
+  document.getElementById("zona-examen").style.display = "none";
+}
+
+// Carga y parsea el XML
 async function cargarXML() {
-  const response = await fetch('../xml/LenguajeMarcasQuiz.xml');
+  const response = await fetch(xmlSeleccionado);
   const text = await response.text();
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(text, "text/xml");
@@ -51,15 +83,14 @@ function mostrarPregunta() {
   });
 
   document.getElementById("pregunta-container").innerHTML = `
-    ${preguntaActual.enunciado}
+    <p>${preguntaActual.enunciado}</p>
     <ul>${opcionesHTML}
       <li><button onclick="saltar()">Dejar sin contestar</button></li>
     </ul>
     <p>Pregunta ${indicePregunta + 1} de 40. Preguntas XML total: ${cantidadPreguntas}</p>
   `;
 
-  // 👇 Necesario para que Prism funcione con contenido dinámico
-  Prism.highlightAll();
+  Prism.highlightAll(); // Para resaltar código si lo hay
 }
 
 function verificarRespuesta(letraSeleccionada) {
@@ -70,34 +101,23 @@ function verificarRespuesta(letraSeleccionada) {
   if (letraSeleccionada === letraCorrecta) {
     aciertos++;
     respuestaDiv.innerHTML = `¡Correcto!`;
-    setTimeout(() => {
-      respuestaDiv.style.display = "none";
-      cargarSiguientePregunta();
-    }, 2000);
   } else {
-    // Guardar información de la respuesta incorrecta
+    fallos++;
+    respuestaDiv.innerHTML = `Incorrecto.`;
     respuestasIncorrectas.push({
       enunciado: preguntaActual.enunciado,
-      opciones: {
-        A: preguntaActual.A,
-        B: preguntaActual.B,
-        C: preguntaActual.C,
-        D: preguntaActual.D
-      },
+      opciones: { ...preguntaActual },
       seleccionUsuario: letraSeleccionada,
       respuestaCorrecta: letraCorrecta,
       explicacion: preguntaActual.explicacion
     });
-
-    respuestaDiv.innerHTML = `Incorrecto.`;
-    fallos++;
-    setTimeout(() => {
-      respuestaDiv.style.display = "none";
-      cargarSiguientePregunta();
-    }, 2000);
   }
 
   respuestaDiv.style.display = "block";
+  setTimeout(() => {
+    respuestaDiv.style.display = "none";
+    cargarSiguientePregunta();
+  }, 2000);
 }
 
 function cargarSiguientePregunta() {
@@ -107,30 +127,23 @@ function cargarSiguientePregunta() {
 
 function saltar() {
   const preguntaActual = seleccion[indicePregunta];
-
   preguntasSaltadas.push({
     enunciado: preguntaActual.enunciado,
-    opciones: {
-      A: preguntaActual.A,
-      B: preguntaActual.B,
-      C: preguntaActual.C,
-      D: preguntaActual.D
-    },
+    opciones: { ...preguntaActual },
     respuestaCorrecta: preguntaActual.respuestaCorrecta,
-    explicacion: preguntaActual.explicacion,
+    explicacion: preguntaActual.explicacion
   });
-
   saltadas++;
   cargarSiguientePregunta();
 }
 
 function obtenerPreguntasAleatorias(preguntas, cantidad = 40) {
-  const preguntasCopia = [...preguntas];
-  for (let i = preguntasCopia.length - 1; i > 0; i--) {
+  const copia = [...preguntas];
+  for (let i = copia.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [preguntasCopia[i], preguntasCopia[j]] = [preguntasCopia[j], preguntasCopia[i]];
+    [copia[i], copia[j]] = [copia[j], copia[i]];
   }
-  return preguntasCopia.slice(0, cantidad);
+  return copia.slice(0, cantidad);
 }
 
 function mostrarRespuestasIncorrectas() {
@@ -138,58 +151,41 @@ function mostrarRespuestasIncorrectas() {
 
   if (respuestasIncorrectas.length > 0) {
     html += "<h2>Respuestas incorrectas:</h2>";
-
-    respuestasIncorrectas.forEach((item, index) => {
+    respuestasIncorrectas.forEach((item, i) => {
       html += `<div style="margin-bottom: 20px;">
-        <div class="enunciado">${index + 1}. ${item.enunciado}</div>
+        <div class="enunciado">${i + 1}. ${item.enunciado}</div>
         <ul class="resultados">`;
-
       ['A', 'B', 'C', 'D'].forEach(letra => {
         const texto = item.opciones[letra];
         let estilo = "";
-
-        if (letra === item.respuestaCorrecta) {
-          estilo = "color: green; font-weight: bold;";
-        } else if (letra === item.seleccionUsuario) {
-          estilo = "color: red;";
-        }
-
+        if (letra === item.respuestaCorrecta) estilo = "color: green; font-weight: bold;";
+        else if (letra === item.seleccionUsuario) estilo = "color: red;";
         html += `<li style="${estilo}">${letra}: ${texto}</li>`;
       });
-
       html += `</ul>`;
       if (item.explicacion) {
         html += `<div class="explicacion"><em>Explicación:</em> ${item.explicacion}</div>`;
       }
-
       html += `</div>`;
     });
   }
 
   if (preguntasSaltadas.length > 0) {
     html += "<h2>Preguntas no contestadas:</h2>";
-
-    preguntasSaltadas.forEach((item, index) => {
+    preguntasSaltadas.forEach((item, i) => {
       html += `<div style="margin-bottom: 20px;">
-        <div class="enunciado">${index + 1}. ${item.enunciado}</div>
+        <div class="enunciado">${i + 1}. ${item.enunciado}</div>
         <ul class="resultados">`;
-
-        ['A', 'B', 'C', 'D'].forEach(letra => {
-          const texto = item.opciones[letra];
-          let estilo = "";
-        
-          if (letra === item.respuestaCorrecta) {
-            estilo = "color: green; font-weight: bold;";
-          }
-        
-          html += `<li style="${estilo}">${letra}: ${texto}</li>`;
-        });
-
+      ['A', 'B', 'C', 'D'].forEach(letra => {
+        const texto = item.opciones[letra];
+        let estilo = "";
+        if (letra === item.respuestaCorrecta) estilo = "color: green; font-weight: bold;";
+        html += `<li style="${estilo}">${letra}: ${texto}</li>`;
+      });
       html += `</ul>`;
       if (item.explicacion) {
         html += `<div class="explicacion"><em>Explicación:</em> ${item.explicacion}</div>`;
       }
-
       html += `</div>`;
     });
   }
@@ -201,6 +197,3 @@ function mostrarRespuestasIncorrectas() {
   document.getElementById("pregunta-container").innerHTML = html;
   document.getElementById("respuesta").style.display = "none";
 }
-
-
-window.onload = cargarXML;
