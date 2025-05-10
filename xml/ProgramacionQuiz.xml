@@ -2107,8 +2107,9 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué efecto tienen las siguientes líneas de código?</p>
-<pre><code class="language-java">            Cliente c;
-            c.nombre = "Pepita";</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Cliente c;
+  c.nombre = "Pepita";</code></pre>]]></enunciado>
     <A>
       Inicializa el atributo nombre de Cliente con el valor «Pepita»
     </A>
@@ -4017,8 +4018,9 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">                    Persona p = new Persona("Ana", "López", "123456");
-                    System.out.println(p.getNombre());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Persona p = new Persona("Ana", "López", "123456");
+  System.out.println(p.getNombre());</code></pre>]]></enunciado>
     <A>
       Ana
     </A>
@@ -4037,24 +4039,25 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">                class A {
-                    int x = 10;
-                    void mostrar() {
-                        System.out.println("Clase A: " + x);
-                    }
-                }
-                class B extends A {
-                    int x = 20;
-                    void mostrar() {
-                        System.out.println("Clase B: " + x);
-                    }
-                }
-                public class Test {
-                    public static void main(String[] args) {
-                        A obj = new B();
-                        obj.mostrar();
-                    }
-                }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  class A {
+   int x = 10;
+   void mostrar() {
+    System.out.println("Clase A: " + x);
+   }
+  }
+  class B extends A {
+   int x = 20;
+   void mostrar() {
+    System.out.println("Clase B: " + x);
+   }
+  }
+  public class Test {
+   public static void main(String[] args) {
+    A obj = new B();
+    obj.mostrar();
+   }
+  }</code></pre>]]></enunciado>
     <A>
       Clase A: 10
     </A>
@@ -4073,24 +4076,25 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">                class A {
-                    int x = 10;
-                    void mostrar() {
-                        System.out.println("Clase A: " + x);
-                    }
-                }
-                class B extends A {
-                    int x = 20;
-                    void mostrar() {
-                        System.out.println("Clase B: " + x);
-                    }
-                }
-                public class Test {
-                    public static void main(String[] args) {
-                        A obj = new B();
-                        obj.mostrar();
-                    }
-                }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  class A {
+   int x = 10;
+   void mostrar() {
+    System.out.println("Clase A: " + x);
+   }
+  }
+  class B extends A {
+   int x = 20;
+   void mostrar() {
+    System.out.println("Clase B: " + x);
+   }
+  }
+  public class Test {
+   public static void main(String[] args) {
+    A obj = new B();
+    obj.mostrar();
+   }
+  }</code></pre>]]></enunciado>
     <A>
       Clase A: 10
     </A>
@@ -4109,13 +4113,14 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué salida produce este código?</p>
-<pre><code class="language-java">                public class Test {
-                    public static void main(String[] args) {
-                        int a = 5, b = 10;
-                        System.out.println(a + b + "Resultado");
-                        System.out.println("Resultado" + a + b);
-                    }
-                }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  public class Test {
+   public static void main(String[] args) {
+    int a = 5, b = 10;
+    System.out.println(a + b + "Resultado");
+    System.out.println("Resultado" + a + b);
+   }
+  }</code></pre>]]></enunciado>
     <A>
       15Resultado Resultado15
     </A>
@@ -4134,22 +4139,23 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
-<pre><code class="language-java">                class Padre {
-                    void saludar() {
-                        System.out.println("Hola desde Padre");
-                    }
-                }
-                class Hijo extends Padre {
-                    void saludar() {
-                        System.out.println("Hola desde Hijo");
-                    }
-                }
-                public class Test {
-                    public static void main(String[] args) {
-                        Padre p = new Hijo();
-                        p.saludar();
-                    }
-                }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ class Padre {
+  void saludar() {
+  System.out.println("Hola desde Padre");
+  }
+ }
+ class Hijo extends Padre {
+  void saludar() {
+   System.out.println("Hola desde Hijo");
+  }
+ }
+ public class Test {
+  public static void main(String[] args) {
+     Padre p = new Hijo();
+     p.saludar();
+  }
+ }</code></pre>]]></enunciado>
     <A>
       Hola desde Padre
     </A>
@@ -4258,14 +4264,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
-<pre><code class="language-java">            interface A {
-                void saludar();
-            }
-            class B implements A {
-                public void saludar() {
-                    System.out.println("Hola");
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  interface A {
+   void saludar();
+  }
+  class B implements A {
+   public void saludar() {
+   System.out.println("Hola");
+   }
+  }</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4284,10 +4291,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
-            stack.push(10);
-            stack.push(20);
-            System.out.println(stack.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
+  stack.push(10);
+  stack.push(20);
+  System.out.println(stack.peek());</code></pre>]]></enunciado>
     <A>
       20
     </A>
@@ -4342,14 +4350,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
-<pre><code class="language-java">            interface A {
-                void saludar();
-            }
-            class B implements A {
-                public void saludar() {
-                    System.out.println("Hola");
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ interface A {
+   void saludar();
+ }
+ class B implements A {
+   public void saludar() {
+     System.out.println("Hola");
+   }
+ }</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4368,10 +4377,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
-            stack.push(10);
-            stack.push(20);
-            System.out.println(stack.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Stack&lt;Integer&gt; stack = new Stack&lt;&gt;();
+  stack.push(10);
+  stack.push(20);
+  System.out.println(stack.peek());</code></pre>]]></enunciado>
     <A>
       20
     </A>
@@ -4426,13 +4436,14 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
-            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
-            cola.add(1);
-            cola.add(2);
-            pila.push(cola.poll());
-            pila.push(cola.poll());
-            System.out.println(pila.pop());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
+  Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+  cola.add(1);
+  cola.add(2);
+  pila.push(cola.poll());
+  pila.push(cola.poll());
+  System.out.println(pila.pop());</code></pre>]]></enunciado>
     <A>
       3
     </A>
@@ -4451,11 +4462,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Stack&lt;String&gt; historial = new Stack&lt;&gt;();
-            historial.push("Escribir línea 1");
-            historial.push("Escribir línea 2");
-            historial.pop(); // deshacer
-            System.out.println(historial.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Stack&lt;String&gt; historial = new Stack&lt;&gt;();
+  historial.push("Escribir línea 1");
+  historial.push("Escribir línea 2");
+  historial.pop(); // deshacer
+  System.out.println(historial.peek());</code></pre>]]></enunciado>
     <A>
       Escribir línea 2
     </A>
@@ -4474,10 +4486,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            LinkedList&lt;Integer&gt; numeros = new LinkedList&lt;&gt;();
-            numeros.addFirst(10);
-            numeros.addLast(20);
-            System.out.println(numeros.size());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  LinkedList&lt;Integer&gt; numeros = new LinkedList&lt;&gt;();
+  numeros.addFirst(10);
+  numeros.addLast(20);
+  System.out.println(numeros.size());</code></pre>]]></enunciado>
     <A>
       Error de compilación
     </A>
@@ -4496,11 +4509,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
-            Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
-            pila.push(10);
-            cola.add(20);
-            System.out.println(pila.pop() + cola.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+  Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
+  pila.push(10);
+  cola.add(20);
+  System.out.println(pila.pop() + cola.peek());</code></pre>]]></enunciado>
     <A>
       1020
     </A>
@@ -4519,11 +4533,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
-            Stack&lt;String&gt; pila = new Stack&lt;&gt;();
-            lista.add("X");
-            pila.push("Y");
-            System.out.println(lista.get(0) + pila.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+  Stack&lt;String&gt; pila = new Stack&lt;&gt;();
+  lista.add("X");
+  pila.push("Y");
+  System.out.println(lista.get(0) + pila.peek());</code></pre>]]></enunciado>
     <A>
       X Y
     </A>
@@ -4542,11 +4557,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
-            pila.push(5);
-            pila.push(10);
-            pila.pop();
-            System.out.println(pila.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+  pila.push(5);
+  pila.push(10);
+  pila.pop();
+  System.out.println(pila.peek());</code></pre>]]></enunciado>
     <A>
       10
     </A>
@@ -4601,11 +4617,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>abstract class Figura {</p>
-<pre><code class="language-java">            abstract double area();
-        }
-        class Cuadrado extends Figura {
-            // Falta el método area()
-        }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ abstract double area();
+ }
+ class Cuadrado extends Figura {
+  // Falta el método area()
+ }</code></pre>]]></enunciado>
     <A>
       equals()
     </A>
@@ -4642,12 +4659,13 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">             LinkedList&lt;String&gt; lista = new LinkedList&lt;&gt;();
-             Stack&lt;String&gt; pila = new Stack&lt;&gt;();
-             lista.add("Java");
-             pila.push("Collections");
-             lista.add(pila.pop());
-             System.out.println(lista);</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  LinkedList&lt;String&gt; lista = new LinkedList&lt;&gt;();
+  Stack&lt;String&gt; pila = new Stack&lt;&gt;();
+  lista.add("Java");
+  pila.push("Collections");
+  lista.add(pila.pop());
+  System.out.println(lista);</code></pre>]]></enunciado>
     <A>
       [Java, Collections]
     </A>
@@ -4666,11 +4684,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
-             lista.add("A");
-             lista.add("B");
-             lista.add("C");
-             System.out.println(lista.get(1));</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+  lista.add("A");
+  lista.add("B");
+  lista.add("C");
+  System.out.println(lista.get(1));</code></pre>]]></enunciado>
     <A>
       C
     </A>
@@ -4689,12 +4708,13 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">             ArrayList&lt;Integer&gt; numeros = new ArrayList&lt;&gt;();
-             numeros.add(1);
-             numeros.add(2);
-             numeros.add(3);
-             numeros.remove(1);
-             System.out.println(numeros);</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ ArrayList&lt;Integer&gt; numeros = new ArrayList&lt;&gt;();
+ numeros.add(1);
+ numeros.add(2);
+ numeros.add(3);
+ numeros.remove(1);
+ System.out.println(numeros);</code></pre>]]></enunciado>
     <A>
       [1, 2]
     </A>
@@ -4713,11 +4733,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">             ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
-             LinkedList&lt;String&gt; linked = new LinkedList&lt;&gt;();
-             lista.add("uno");
-             linked.add("dos");
-             System.out.println(lista.get(0) + "-" + linked.get(0));</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+  LinkedList&lt;String&gt; linked = new LinkedList&lt;&gt;();
+  lista.add("uno");
+  linked.add("dos");
+  System.out.println(lista.get(0) + "-" + linked.get(0));</code></pre>]]></enunciado>
     <A>
       uno-dos
     </A>
@@ -4772,10 +4793,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente fragmento?</p>
-<pre><code class="language-java">            int[][] matriz = {
-                {1,2,3},{4,5,6}
-            };
-            System.out.println(matriz[1][2]);</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ int[][] matriz = {
+   {1,2,3},
+   {4,5,6}
+ };
+  System.out.println(matriz[1][2]);</code></pre>]]></enunciado>
     <A>
       4
     </A>
@@ -4794,15 +4817,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprimirá este código?</p>
-<pre><code class="language-java">            public static void imprime(int n) {
-                n = 2 * n;
-                System.out.println(n);
-            }
-            public static void main(String[] args) {
-                int n = 10;
-                imprime(n);
-                System.out.println(n);
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  public static void imprime(int n) {
+   n = 2 * n;
+   System.out.println(n);
+  }
+  public static void main(String[] args) {
+   int n = 10;
+   imprime(n);
+   System.out.println(n);
+  }</code></pre>]]></enunciado>
     <A>
       20 y luego 10
     </A>
@@ -4875,8 +4899,9 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué mostrará este código?</p>
-<pre><code class="language-java">            int[] valores = new int[4];
-            System.out.println(valores[1]);</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ int[] valores = new int[4];
+ System.out.println(valores[1]);</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -4895,10 +4920,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué muestra este código?</p>
-<pre><code class="language-java">            ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
-            lista.add("A");
-            lista.add("B");
-            System.out.println(lista.get(1));</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+  lista.add("A");
+  lista.add("B");
+  System.out.println(lista.get(1));</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -4917,14 +4943,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué muestra este código?</p>
-<pre><code class="language-java">            class Animal {
-                void sonido() { System.out.println("Sonido genérico"); }
-            }
-            class Perro extends Animal {
-                void sonido() { System.out.println("Ladrido"); }
-            }
-            Animal a = new Perro();
-            a.sonido();</code></pre>]]></enunciado>
+<pre><code class="language-java">
+class Animal {
+  void sonido() { System.out.println("Sonido genérico"); }
+}
+class Perro extends Animal {
+ void sonido() { System.out.println("Ladrido"); }
+}
+ Animal a = new Perro();
+ a.sonido();</code></pre>]]></enunciado>
     <A>
       Ladrido
     </A>
@@ -4943,10 +4970,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué muestra este fragmento de código?</p>
-<pre><code class="language-java">            public static int suma(int a, int b) {
-                return a + b;
-            }
-            System.out.println(suma(2,3));</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public static int suma(int a, int b) {
+ return a + b;
+}
+ System.out.println(suma(2,3));</code></pre>]]></enunciado>
     <A>
       2
     </A>
@@ -5091,11 +5119,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>
-<pre><code class="language-java">            Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
-            pila.push(1);
-            pila.push(2);
-            pila.push(3);
-            System.out.println(pila.peek());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
+ pila.push(1);
+ pila.push(2);
+ pila.push(3);
+System.out.println(pila.peek());</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -5150,7 +5179,8 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué valor tendrá datos[2] tras ejecutar este código?</p>
-<pre><code class="language-java">            int[] datos = {8, 10, 2, 3, 5};</code></pre>]]></enunciado>
+<pre><code class="language-java">
+int[] datos = {8, 10, 2, 3, 5};</code></pre>]]></enunciado>
     <A>
       8
     </A>
@@ -5439,11 +5469,12 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué hace este código?</p>
-<pre><code class="language-java">            int numero = 1;
-            while (numero &lt;= 3) {
-                System.out.println(numero);
-                numero++;
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+int numero = 1;
+  while (numero &lt;= 3) {
+    System.out.println(numero);
+    numero++;
+  }</code></pre>]]></enunciado>
     <A>
       No imprime nada
     </A>
@@ -5462,12 +5493,13 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué hace este método recursivo correctamente escrito?</p>
-<pre><code class="language-java">            void imprimir(int x) {
-                if (x &gt; 0) {
-                    imprimir(x - 1);
-                    System.out.println(x);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+void imprimir(int x) {
+  if (x &gt; 0) {
+     imprimir(x - 1);
+     System.out.println(x);
+  }
+}</code></pre>]]></enunciado>
     <A>
       No imprime nada.
     </A>
@@ -5486,8 +5518,9 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente código?</p>
-<pre><code class="language-java">            Persona p = new Persona("Ana", "García", "555123");
-            System.out.println(p.getNombre());</code></pre>]]></enunciado>
+<pre><code class="language-java">
+Persona p = new Persona("Ana", "García", "555123");
+  System.out.println(p.getNombre());</code></pre>]]></enunciado>
     <A>
       García
     </A>
@@ -5506,9 +5539,10 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprimirá el siguiente fragmento de código?</p>
-<pre><code class="language-java">            for (int i = 0; i &lt; 3; i++) {
-                System.out.println(i);
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+for (int i = 0; i &lt; 3; i++) {
+   System.out.println(i);
+}</code></pre>]]></enunciado>
     <A>
       1, 2
     </A>
@@ -5617,14 +5651,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es el propósito de la interfaz?</p>
-<pre><code class="language-java">            interface Dibujable {
-                void dibujar();
-            }
-            class Cuadro implements Dibujable {
-                public void dibujar() {
-                    System.out.println("Dibujando cuadro");
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+interface Dibujable {
+ void dibujar();
+}
+class Cuadro implements Dibujable {
+  public void dibujar() {
+    System.out.println("Dibujando cuadro");
+  }
+}</code></pre>]]></enunciado>
     <A>
       Crear objetos
     </A>
@@ -5679,15 +5714,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del programa?</p>
-<pre><code class="language-java">            public class Recursiva {
-                public static int factorial(int n) {
-                    if (n &lt;= 1) return 1;
-                    return n * factorial(n - 1);
-                }
-                public static void main(String[] args) {
-                    System.out.println(factorial(5));
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Recursiva {
+  public static int factorial(int n) {
+   if (n &lt;= 1) return 1;
+   return n * factorial(n - 1);
+  }
+ public static void main(String[] args) {
+   System.out.println(factorial(5));
+ }
+}</code></pre>]]></enunciado>
     <A>
       120
     </A>
@@ -5706,20 +5742,21 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código recursivo al ser llamado con metodoRecursivo(4)?</p>
-<pre><code class="language-java">            public class Main {
-                public static void main(String[] args) {
-                    System.out.println(metodoRecursivo(4));
-                }
-                public static int metodoRecursivo(int n) {
-                    int resultado;
-                    if (n == 1) {
-                        resultado = 1;
-                    } else {
-                        resultado = n * metodoRecursivo(n - 1);
-                    }
-                    return resultado;
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Main {
+  public static void main(String[] args) {
+  System.out.println(metodoRecursivo(4));
+  }
+ public static int metodoRecursivo(int n) {
+  int resultado;
+  if (n == 1) {
+   resultado = 1;
+  } else {
+   resultado = n * metodoRecursivo(n - 1);
+  }
+   return resultado;
+ }
+}</code></pre>]]></enunciado>
     <A>
       12
     </A>
@@ -5738,16 +5775,17 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            public class Main {
-                public static void main(String[] args) {
-                    int x = 5;
-                    int y = 10;
-                    x = x + y;
-                    y = x - y;
-                    x = x - y;
-                    System.out.println("x: " + x + ", y: " + y);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Main {
+  public static void main(String[] args) {
+   int x = 5;
+   int y = 10;
+   x = x + y;
+   y = x - y;
+   x = x - y;
+   System.out.println("x: " + x + ", y: " + y);
+  }
+}</code></pre>]]></enunciado>
     <A>
       x: 0, y: 15
     </A>
@@ -5766,10 +5804,11 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            String pattern = "a*b";
-            String text = "aaaaab";
-            boolean match = text.matches(pattern);
-            System.out.println(match);</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  String pattern = "a*b";
+  String text = "aaaaab";
+  boolean match = text.matches(pattern);
+  System.out.println(match);</code></pre>]]></enunciado>
     <A>
       aaaaab
     </A>
@@ -5788,13 +5827,14 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">            public class Ciclo {
-                public static void main(String[] args) {
-                    for (int i = 1; i &lt;= 3; i++) {
-                        System.out.print(i + " ");
-                    }
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Ciclo {
+  public static void main(String[] args) {
+   for (int i = 1; i &lt;= 3; i++) {
+     System.out.print(i + " ");
+   }
+  }
+}</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -5849,15 +5889,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué hace este código?</p>
-<pre><code class="language-java">            public class Hilo extends Thread {
-                public void run() {
-                    System.out.println("Hilo ejecutándose");
-                }
-                public static void main(String[] args) {
-                    Hilo h = new Hilo();
-                    h.run();
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Hilo extends Thread {
+  public void run() {
+   System.out.println("Hilo ejecutándose");
+  }
+  public static void main(String[] args) {
+    Hilo h = new Hilo();
+    h.run();
+  }
+}</code></pre>]]></enunciado>
     <A>
       Lanza error
     </A>
@@ -5876,20 +5917,21 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime el código?</p>
-<pre><code class="language-java">            public class Contador {
-                private static int cuenta = 0;
-                public Contador() {
-                    cuenta++;
-                }
-                public static int getCuenta() {
-                    return cuenta;
-                }
-                public static void main(String[] args) {
-                    new Contador();
-                    new Contador();
-                    System.out.println(Contador.getCuenta());
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Contador {
+ private static int cuenta = 0;
+ public Contador() {
+   cuenta++;
+ }
+ public static int getCuenta() {
+   return cuenta;
+ }
+ public static void main(String[] args) {
+   new Contador();
+   new Contador();
+   System.out.println(Contador.getCuenta());
+ }
+}</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -5908,14 +5950,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime el siguiente código?</p>
-<pre><code class="language-java">            public class Main {
-                public static void main(String[] args) {
-                    String s = "hello";
-                    String t = "world";
-                    String u = s + t;
-                    System.out.println(u.length());
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Main {
+ public static void main(String[] args) {
+  String s = "hello";
+  String t = "world";
+  String u = s + t;
+  System.out.println(u.length());
+ }
+}</code></pre>]]></enunciado>
     <A>
       11
     </A>
@@ -5934,12 +5977,13 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
-<pre><code class="language-java">            public class Incremento {
-                public static void main(String[] args) {
-                    int a = 5;
-                    System.out.println(++a);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Incremento {
+ public static void main(String[] args) {
+  int a = 5;
+  System.out.println(++a);
+ }
+}</code></pre>]]></enunciado>
     <A>
       6
     </A>
@@ -5958,19 +6002,20 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
-<pre><code class="language-java">            public class Suma {
-                public static int suma(int[] numeros) {
-                    int total = 0;
-                    for (int i = 0; i &gt; numeros.length; i++) {
-                        total += numeros[i];
-                    }
-                    return total;
-                }
-                public static void main(String[] args) {
-                    int[] num = {1, 2, 3};
-                    System.out.println(suma(num));
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Suma {
+ public static int suma(int[] numeros) {
+  int total = 0;
+  for (int i = 0; i &gt; numeros.length; i++) {
+    total += numeros[i];
+  }
+  return total;
+ }
+ public static void main(String[] args) {
+  int[] num = {1, 2, 3};
+  System.out.println(suma(num));
+ }
+}</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -5989,15 +6034,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime este programa?</p>
-<pre><code class="language-java">            import java.util.ArrayList;
-            public class Lista {
-                public static void main(String[] args) {
-                    ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
-                    lista.add("uno");
-                    lista.add("dos");
-                    System.out.println(lista.get(0));
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+import java.util.ArrayList;
+public class Lista {
+ public static void main(String[] args) {
+  ArrayList&lt;String&gt; lista = new ArrayList&lt;&gt;();
+  lista.add("uno");
+  lista.add("dos");
+  System.out.println(lista.get(0));
+ }
+}</code></pre>]]></enunciado>
     <A>
       0
     </A>
@@ -6016,14 +6062,15 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime este programa?</p>
-<pre><code class="language-java">            import java.util.HashMap;
-            public class Mapa {
-                public static void main(String[] args) {
-                    HashMap&lt;String, Integer&gt; mapa = new HashMap&lt;&gt;();
-                    mapa.put("clave", 100);
-                    System.out.println(mapa.get("clave"));
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+import java.util.HashMap;
+ public class Mapa {
+ public static void main(String[] args) {
+  HashMap&lt;String, Integer&gt; mapa = new HashMap&lt;&gt;();
+  mapa.put("clave", 100);
+  System.out.println(mapa.get("clave"));
+ }
+}</code></pre>]]></enunciado>
     <A>
       100
     </A>
@@ -6042,13 +6089,14 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué imprime este código?</p>
-<pre><code class="language-java">            public class StringTest {
-                public static void main(String[] args) {
-                    String s1 = "Java";
-                    String s2 = "Java";
-                    System.out.println(s1 == s2);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class StringTest {
+ public static void main(String[] args) {
+  String s1 = "Java";
+  String s2 = "Java";
+  System.out.println(s1 == s2);
+ }
+}</code></pre>]]></enunciado>
     <A>
       Error
     </A>
@@ -6067,15 +6115,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué mensaje imprime este código?</p>
-<pre><code class="language-java">            public class Excepcion {
-                public static void main(String[] args) {
-                    try {
-                        int a = 5 / 0;
-                    } catch (ArithmeticException e) {
-                        System.out.println("Error aritmético");
-                    }
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Excepcion {
+ public static void main(String[] args) {
+  try {
+   int a = 5 / 0;
+  } catch (ArithmeticException e) {
+   System.out.println("Error aritmético");
+  }
+ }
+}</code></pre>]]></enunciado>
     <A>
       Error aritmético
     </A>
@@ -6202,17 +6251,18 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué realiza este código?</p>
-<pre><code class="language-java">            import java.io.*;
-            public class Lectura {
-                public static void main(String[] args) throws IOException {
-                    BufferedReader br = new BufferedReader(new FileReader("datos.txt"));
-                    String linea;
-                    while ((linea = br.readLine()) != null) {
-                        System.out.println(linea);
-                    }
-                    br.close();
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+import java.io.*;
+public class Lectura {
+ public static void main(String[] args) throws IOException {
+  BufferedReader br = new BufferedReader(new FileReader("datos.txt"));
+  String linea;
+  while ((linea = br.readLine()) != null) {
+   System.out.println(linea);
+  }
+  br.close();
+ }
+}</code></pre>]]></enunciado>
     <A>
       Lee línea por línea un archivo de texto, e imprime por consola la línea.
     </A>
@@ -6267,13 +6317,14 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué resultado imprime este código?</p>
-<pre><code class="language-java">            public class Comparar {
-                public static void main(String[] args) {
-                    String a = "hola";
-                    String b = new String("hola");
-                    System.out.println(a.equals(b));
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Comparar {
+ public static void main(String[] args) {
+  String a = "hola";
+  String b = new String("hola");
+  System.out.println(a.equals(b));
+ }
+}</code></pre>]]></enunciado>
     <A>
       true
     </A>
@@ -6292,19 +6343,20 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué salida produce este código?</p>
-<pre><code class="language-java">            public class Persona {
-                private String nombre;
-                public Persona(String nombre) {
-                    this.nombre = nombre;
-                }
-                public void saludar() {
-                    System.out.println("Hola, soy " + nombre);
-                }
-                public static void main(String[] args) {
-                    Persona p = new Persona("Ana");
-                    p.saludar();
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Persona {
+  private String nombre;
+ public Persona(String nombre) {
+  this.nombre = nombre;
+ }
+ public void saludar() {
+  System.out.println("Hola, soy " + nombre);
+ }
+ public static void main(String[] args) {
+  Persona p = new Persona("Ana");
+  p.saludar();
+ }
+}</code></pre>]]></enunciado>
     <A>
       nombre
     </A>
@@ -7529,18 +7581,19 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
-<pre><code class="language-java">            public class Sobrecarga {
-                void mostrar(int a) {
-                    System.out.println("int");
-                }
-                void mostrar(double a) {
-                    System.out.println("double");
-                }
-                public static void main(String[] args) {
-                    Sobrecarga s = new Sobrecarga();
-                    s.mostrar(5);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Sobrecarga {
+  void mostrar(int a) {
+  System.out.println("int");
+ }
+ void mostrar(double a) {
+  System.out.println("double");
+ }
+ public static void main(String[] args) {
+  Sobrecarga s = new Sobrecarga();
+  s.mostrar(5);
+ }
+}</code></pre>]]></enunciado>
     <A>
       int
     </A>
@@ -7559,24 +7612,26 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
-<pre><code class="language-java">            interface Animal {
-                void sonido();
-            }
-            class Perro implements Animal {
-                public void sonido() {
-                    System.out.println("Guau");
-                }
-                void ladrar() {
-                    System.out.println("El perro ladra");
-                }
-            }
-            public class Test {
-                public static void main(String[] args) {
-                    Animal a = new Perro();
-                    a.sonido();
-                    // a.ladrar();  // Línea comentada
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+interface Animal {
+ void sonido();
+}
+class Perro implements Animal {
+ public void sonido() {
+ System.out.println("Guau");
+}
+void ladrar() {
+  System.out.println("El perro ladra");
+}
+}
+public class Test {
+  public static void main(String[] args) {
+   Animal a = new Perro();
+   a.sonido();
+   // a.ladrar(); // Línea comentada
+  }
+}
+</code></pre>]]></enunciado>
     <A>
       Guau
     </A>
