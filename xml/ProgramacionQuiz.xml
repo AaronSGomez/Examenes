@@ -181,15 +181,16 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál será la salida del siguiente código?</p>
-<pre><code class="language-java">                    public class Test{
-                        public static void main (String [] args){
-                            int i = 0;
-                            while (i &lt; 3){
-                                System.out.println(i + " ");
-                                i++;
-                            }
-                        }
-                    }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+ public class Test{
+  public static void main (String [] args){
+   int i = 0;
+   while (i &lt; 3){
+    System.out.println(i + " ");
+    i++;
+   }
+  }
+ }</code></pre>]]></enunciado>
     <A>
       0 1 2
     </A>
@@ -299,18 +300,19 @@
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál será la salida del siguiente código?
 </p>
-<pre><code class="language-java">            public class Test {
-                public static void main(String args[]) {
-                    int x = 5;
-                    if (x &gt; 2) {
-                        if (x &lt; 10) {
-                            System.out.println("A");
-                        } else {
-                            System.out.println("B");
-                        }
-                    }
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+public class Test {
+ public static void main(String args[]) {
+  int x = 5;
+  if (x &gt; 2) {
+   if (x &lt; 10) {
+    System.out.println("A");
+   } else {
+    System.out.println("B");
+   }
+ }
+}
+ }</code></pre>]]></enunciado>
     <A>
       A
     </A>
@@ -833,19 +835,20 @@
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>Realiza una traza del siguiente fragmento de código y selecciona el valor que toma finalmente la variable a:</p>
-<pre><code class="language-java">            a = 0;
-            switch (a + 1) {
-            case 0:
-            a = 2;
-            case 1:
-            a = 3;
-            case 2:
-            a++;
-            break;
-            case 3:
-            a--;
-            break;
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  a = 0;
+ switch (a + 1) {
+  case 0:
+    a = 2;
+  case 1:
+    a = 3;
+  case 2:
+    a++;
+    break;
+  case 3:
+    a--;
+    break;
+ }</code></pre>]]></enunciado>
     <A>
       a = 2.
     </A>
@@ -7650,14 +7653,15 @@ public class Test {
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué se imprime al ejecutar el siguiente código?</p>
-<pre><code class="language-java">            public class Prioridad {
-                public static void main(String[] args) {
-                    int a = 5;
-                    int b = 10;
-                    int c = a++ + --b;
-                    System.out.println(c);
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java"> 
+  public class Prioridad {
+   public static void main(String[] args) {
+    int a = 5;
+    int b = 10;
+    int c = a++ + --b;
+    System.out.println(c);
+   }
+  }</code></pre>]]></enunciado>
     <A>
       15
     </A>
@@ -7676,18 +7680,19 @@ public class Test {
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué sucede al ejecutar este código?</p>
-<pre><code class="language-java">            public class Excepcion {
-                public static void main(String[] args) {
-                    try {
-                        int x = 10 / 0;
-                        System.out.println("Resultado: " + x);
-                    } catch (ArithmeticException e) {
-                        System.out.println("Error aritmético");
-                    } finally {
-                        System.out.println("Finalizado");
-                    }
-                }
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+  public class Excepcion {
+   public static void main(String[] args) {
+    try {
+     int x = 10 / 0;
+     System.out.println("Resultado: " + x);
+    } catch (ArithmeticException e) {
+     System.out.println("Error aritmético");
+    } finally {
+    System.out.println("Finalizado");
+    }
+   }
+  }</code></pre>]]></enunciado>
     <A>
       Resultado: 0
     </A>
@@ -7707,16 +7712,17 @@ public class Test {
   <pregunta>
     <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
 </p>
-<pre><code class="language-java">            abstract class Figura {
-                abstract double area();
-            }
-            class Circulo extends Figura {
-                double radio;
-                Circulo(double radio) {
-                    this.radio = radio;
-                }
-                // Falta el método area()
-            }</code></pre>]]></enunciado>
+<pre><code class="language-java"> 
+  abstract class Figura {
+   abstract double area();
+  }
+  class Circulo extends Figura {
+   double radio;
+   Circulo(double radio) {
+    this.radio = radio;
+   }
+   // Falta el método area()
+  }</code></pre>]]></enunciado>
     <A>
       equals()
     </A>
@@ -7737,12 +7743,12 @@ public class Test {
     <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
 </p>
 <pre><code class="language-java">
-abstract class Figura {
- abstract double area();
-}
-class Cuadrado extends Figura {
-  // Falta el método area()
-}</code></pre>]]></enunciado>
+ abstract class Figura {
+  abstract double area();
+ }
+ class Cuadrado extends Figura {
+   // Falta el método area()
+ }</code></pre>]]></enunciado>
     <A>
       Ninguno, es opcional
     </A>
@@ -7993,8 +7999,8 @@ class Cuadrado extends Figura {
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué muestra por pantalla?<pre>
 <code class="language-java">
-int[] datos = {4, 7, 2, 9};
-System.out.println(datos[2]);
+  int[] datos = {4, 7, 2, 9};
+  System.out.println(datos[2]);
 </code></pre></p>]]></enunciado>
 <A>4</A>
 <B>2</B>
@@ -8004,11 +8010,12 @@ System.out.println(datos[2]);
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué valor se imprime?<pre><code class="language-java">int[] valores = {1, 2, 3};
-for (int i = 0; i < valores.length; i++) {
- valores[i] = valores[i] * 2;
-}
-System.out.println(valores[1]);</p>]]</code></pre>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué valor se imprime?<pre><code class="language-java">
+ int[] valores = {1, 2, 3};
+ for (int i = 0; i < valores.length; i++) {
+  valores[i] = valores[i] * 2;
+ }
+ System.out.println(valores[1]);</p>]]</code></pre>]]></enunciado>
 <A>2</A>
 <B>4</B>
 <C>3</C>
@@ -8018,11 +8025,11 @@ System.out.println(valores[1]);</p>]]</code></pre>]]></enunciado>
 
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p><pre><code class="language-java">
-int[][] matriz = {
- {1, 2, 3},
- {4, 5, 6}
-};
-System.out.println(matriz[1][0]);</code></pre>]
+ int[][] matriz = {
+  {1, 2, 3},
+  {4, 5, 6}
+ };
+ System.out.println(matriz[1][0]);</code></pre>]
 ]]></enunciado>
 <A>1</A>
 <B>6</B>
@@ -8195,9 +8202,9 @@ System.out.println(matriz[1][0]);</code></pre>]
 
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p><pre><code class="language-java">
-public static int suma(int a, int b) {
-        return a + b;
-}<code><pre>
+ public static int suma(int a, int b) {
+   return a + b;
+ }<code><pre>
 ]]>
 </enunciado>
 <A>Imprime la suma de dos números.</A>
@@ -8219,12 +8226,12 @@ public static int suma(int a, int b) {
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>
 <code class="language-java">
-public static boolean esPrimo(int x){
-for (int i = 2; i < x; i++) {
- if (x % i == o) return false;
-}
- return true;
-}<code><pre>
+ public static boolean esPrimo(int x){
+  for (int i = 2; i < x; i++) {
+   if (x % i == o) return false;
+  }
+  return true;
+ }<code><pre>
 ]]></enunciado>
 <A>Comprueba si un número es par</A>
 <B>Comprueba si un número es primo</B>
@@ -8254,13 +8261,13 @@ for (int i = 2; i < x; i++) {
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué hace este código?</p>
 <code class="language-java">
-public static void imprimir(int x) {
- if (x > 0) {
-  imprimir(x - 1);
-  System.out.println(x);
+ public static void imprimir(int x) {
+  if (x > 0) {
+   imprimir(x - 1);
+   System.out.println(x);
+  }
  }
-}
-imprimir(3);
+ imprimir(3);
 <code><pre>
 ]]></enunciado>
 <A>Imprime 3 2 1</A>
