@@ -223,7 +223,19 @@ button:focus {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1500px) {
+  code{
+    padding-left: 7em;
+  }
+}
+@media (max-width: 1200px) {
+  code{
+    padding-left: 5em;
+  }
+}
+
+@media (max-width: 860px) {
+
   main{
     width: 95%;
     margin: 0;
@@ -250,18 +262,29 @@ button:focus {
   .box{
     height: auto;
   }
-    pre {
-    width: 90%; /* Usar todo el contenedor para pantallas pequeñas */
+    pre { 
     padding: 0.8em; /* Reducir padding en móvil */
   }
 
   code {
     font-size: 12px; /* Reducir el tamaño de la fuente en móviles */
     padding-left: 0;
+
   }
 
 }
+@media (max-width: 580px) {
+  pre {
+    width: 90%;
+    padding: 0.6em; /* Reducir más el padding */
+  }
 
+  code {
+     tab-size: -4;
+     -moz-tab-size: 1;
+     font-size: 11px; /* Ajustar aún más el tamaño de la fuente */
+  }
+}
 
 /* Responsivo adicional para pantallas muy pequeñas (por ejemplo, móviles muy pequeños) */
 @media (max-width: 400px) {
