@@ -7961,7 +7961,7 @@ public class Test {
 <B>4</B>
 <C>3</C>
 <D>6</D>
-<respuesta_correcta explicacion="El valor en la posición 1 del array es 2 antes de la modificación, y luego se multiplica por 2 dentro del bucle, resultando en 4.">C</respuesta_correcta>
+<respuesta_correcta explicacion="El valor en la posición 1 del array es 2 antes de la modificación, y luego se multiplica por 2 dentro del bucle, resultando en 4.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
