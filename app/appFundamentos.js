@@ -8,7 +8,7 @@ let respuestasIncorrectas = [];
 let preguntasSaltadas = [];
 
 async function cargarXML() {
-  const response = await fetch('../xml/FundamentosQuiz.xml');
+  const response = await fetch('../xml/xml_codificado.xml');
   const text = await response.text();
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(text, "text/xml");
@@ -51,7 +51,7 @@ function mostrarPregunta() {
   });
 
   document.getElementById("pregunta-container").innerHTML = `
-    <h3>${preguntaActual.enunciado}</h3>
+    <p>${preguntaActual.enunciado}</p>
     <ul>${opcionesHTML}
       <li><button onclick="saltar()">Dejar sin contestar</button></li>
     </ul>

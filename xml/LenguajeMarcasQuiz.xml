@@ -126,7 +126,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Qué atributo de la etiqueta &lt;img&gt; se utiliza para mostrar un texto alternativo si la imagen no se carga?</enunciado>
+  <enunciado>¿Qué atributo de la etiqueta &lt; img &gt; se utiliza para mostrar un texto alternativo si la imagen no se carga?</enunciado>
   <A>description</A>
   <B>alt</B>
   <C>text</C>
@@ -135,7 +135,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Qué atributo HTML es necesario para que un campo &lt;input&gt; de tipo checkbox esté seleccionado por defecto?</enunciado>
+  <enunciado>¿Qué atributo HTML es necesario para que un campo &lt; input &gt; de tipo checkbox esté seleccionado por defecto?</enunciado>
   <A>default</A>
   <B>value</B>
   <C>selected</C>

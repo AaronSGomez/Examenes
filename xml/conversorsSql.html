@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formatear enunciados con código</title>
+</head>
+<body>
+
+  <h2>Detectar y formatear código en XML</h2>
+  <input type="file" id="fileInput" accept=".xml">
+  <button id="procesarBtn">Formatear código</button>
+  <textarea id="resultado" style="width:100%;height:300px;margin-top:1em;"></textarea>
+  <button id="descargarBtn" disabled>Descargar XML modificado</button>
+
+  <script>
+    function pareceCodigo(texto) {
+      return /(;|\{|\}|\bSELECT\b|\bpublic\b|\bSystem\.out\b|\bint\b)/.test(texto)
+          || /^\s{4,}/m.test(texto); // líneas con indentación
+    }
+
+    function envolverEnPreCode(texto, lenguaje = 'java') {
+      const sinIndent = texto.replace(/^\s*\n/, '').trim();
+      return `<pre><code class="language-${lenguaje}">\n${sinIndent}\n</code></pre>`;
+    }
+
+    function procesarXML(xmlTexto) {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(xmlTexto, 'text/xml');
+      const preguntas = xmlDoc.querySelectorAll('pregunta');
+
+      preguntas.forEach(pregunta => {
+        const enunciado = pregunta.querySelector('enunciado');
+        if (!enunciado) return;
+
+        const texto = enunciado.textContent;
+        if (pareceCodigo(texto)) {
+          const lenguaje = texto.includes('SELECT') ? 'sql' : 'java'; // heurística simple
+          const nuevoContenido = envolverEnPreCode(texto, lenguaje);
+          enunciado.innerHTML = nuevoContenido;
+        }
+      });
+
+      const serializer = new XMLSerializer();
+      return serializer.serializeToString(xmlDoc);
+    }
+
+    document.getElementById('procesarBtn').addEventListener('click', () => {
+      const fileInput = document.getElementById('fileInput');
+      const resultado = document.getElementById('resultado');
+      const descargarBtn = document.getElementById('descargarBtn');
+
+      if (fileInput.files.length === 0) {
+        alert('Seleccioná un archivo XML.');
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = e => {
+        const xmlTexto = e.target.result;
+        const xmlModificado = procesarXML(xmlTexto);
+        resultado.value = xmlModificado;
+        descargarBtn.disabled = false;
+      };
+      reader.readAsText(fileInput.files[0]);
+    });
+
+    document.getElementById('descargarBtn').addEventListener('click', () => {
+      const contenido = document.getElementById('resultado').value;
+      const blob = new Blob([contenido], { type: 'application/xml' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'xml_codificado.xml';
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+
+</body>
+</html>

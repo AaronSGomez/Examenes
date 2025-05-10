@@ -7681,12 +7681,13 @@
   <pregunta>
     <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
 </p>
-<pre><code class="language-java">                abstract class Figura {
-                    abstract double area();
-                }
-                class Cuadrado extends Figura {
-                    // Falta el método area()
-                }</code></pre>]]></enunciado>
+<pre><code class="language-java">
+abstract class Figura {
+ abstract double area();
+}
+class Cuadrado extends Figura {
+  // Falta el método area()
+}</code></pre>]]></enunciado>
     <A>
       Ninguno, es opcional
     </A>
@@ -7935,30 +7936,44 @@
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué muestra por pantalla?<pre>
+<code class="language-java">
+int[] datos = {4, 7, 2, 9};
+System.out.println(datos[2]);
+</code></pre></p>]]></enunciado>
 <A>4</A>
 <B>2</B>
 <C>7</C>
 <D>9</D>
-<respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="El índice 2 en el array corresponde al valor 2, que es el tercer elemento, ya que los índices comienzan desde 0.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué valor se imprime?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué valor se imprime?<pre><code class="language-java">int[] valores = {1, 2, 3};
+for (int i = 0; i < valores.length; i++) {
+ valores[i] = valores[i] * 2;
+}
+System.out.println(valores[1]);</p>]]</code></pre>]]></enunciado>
 <A>2</A>
 <B>4</B>
 <C>3</C>
 <D>6</D>
-<respuesta_correcta explicacion="">C</respuesta_correcta>
+<respuesta_correcta explicacion="El valor en la posición 1 del array es 2 antes de la modificación, y luego se multiplica por 2 dentro del bucle, resultando en 4.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p><pre><code class="language-java">
+int[][] matriz = {
+ {1, 2, 3},
+ {4, 5, 6}
+};
+System.out.println(matriz[1][0]);</code></pre>]
+]]></enunciado>
 <A>1</A>
 <B>6</B>
 <C>Error en tiempo de ejecución</C>
 <D>4</D>
-<respuesta_correcta explicacion="">C</respuesta_correcta>
+<respuesta_correcta explicacion="El valor en la fila 1, columna 0 de la matriz es 4, ya que la matriz tiene dos filas, y en la segunda fila (índice 1) el primer valor es 4.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8124,7 +8139,12 @@
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p><pre><code class="language-java">
+public static int suma(int a, int b) {
+        return a + b;
+}<code><pre>
+]]>
+</enunciado>
 <A>Imprime la suma de dos números.</A>
 <B>Muestra una cadena por pantalla.</B>
 <C>Devuelve la suma de dos enteros.</C>
@@ -8142,12 +8162,20 @@
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>
+<code class="language-java">
+public static boolean esPrimo(int x){
+for (int i = 2; i < x; i++) {
+ if (x % i == o) return false;
+}
+ return true;
+}<code><pre>
+]]></enunciado>
 <A>Comprueba si un número es par</A>
 <B>Comprueba si un número es primo</B>
 <C>Calcula la suma de divisores.</C>
 <D>Devuelve el resto de x entre 2.</D>
-<respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="El código verifica si un número x es primo. El método recorre todos los números desde 2 hasta x-1 y comprueba si alguno de esos números divide x sin dejar residuo. Si encuentra algún divisor, devuelve false, indicando que el número no es primo. Si no encuentra divisores, devuelve true, indicando que el número es primo.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8169,7 +8197,17 @@
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué hace este código?</p>]]></enunciado>
+<enunciado><![CDATA[<p>¿Qué hace este código?</p>
+<code class="language-java">
+public static void imprimir(int x) {
+ if (x > 0) {
+  imprimir(x - 1);
+  System.out.println(x);
+ }
+}
+imprimir(3);
+<code><pre>
+]]></enunciado>
 <A>Imprime 3 2 1</A>
 <B>Imprime 1 2 3</B>
 <C>Imprime 0 1 2</C>
