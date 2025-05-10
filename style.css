@@ -40,6 +40,7 @@ pre {
 }
 
 code {
+  padding-left: 15em;
   font-family: Consolas, Monaco, 'Courier New', monospace;
   font-size: 14px;
   line-height: 1.5;
@@ -256,6 +257,7 @@ button:focus {
 
   code {
     font-size: 12px; /* Reducir el tamaño de la fuente en móviles */
+    padding-left: 0;
   }
 
 }
@@ -268,8 +270,8 @@ button:focus {
   }
 
   code {
-      tab-size: -4;
-      -moz-tab-size: 1;
-    font-size: 11px; /* Ajustar aún más el tamaño de la fuente */
+     tab-size: -4;
+     -moz-tab-size: 1;
+     font-size: 11px; /* Ajustar aún más el tamaño de la fuente */
   }
 }
