@@ -33,6 +33,7 @@ function iniciarExamen(xmlFile, titulo) {
   // ⚠️ Notifica a Vercel que se ha cambiado de "vista"
   if (window.va && typeof window.va.track === "function") {
     window.va.track(`${titulo}-exam-started`);
+    console.log(`✅ Evento enviado a Vercel Analytics: ${evento}`);
   }
 
   cargarXML();
