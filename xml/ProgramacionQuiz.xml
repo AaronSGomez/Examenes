@@ -4439,8 +4439,8 @@ public class Test {
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">
-  Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
+<pre>
+<code class="language-java">  Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
   Stack&lt;Integer&gt; pila = new Stack&lt;&gt;();
   cola.add(1);
   cola.add(2);
@@ -4465,8 +4465,7 @@ public class Test {
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Cuál es la salida del siguiente código?</p>
-<pre><code class="language-java">
-  Stack&lt;String&gt; historial = new Stack&lt;&gt;();
+<pre><code class="language-java">Stack&lt;String&gt; historial = new Stack&lt;&gt;();
   historial.push("Escribir línea 1");
   historial.push("Escribir línea 2");
   historial.pop(); // deshacer
@@ -6320,8 +6319,7 @@ public class Lectura {
   </pregunta>
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué resultado imprime este código?</p>
-<pre><code class="language-java">
-public class Comparar {
+<pre><code class="language-java">  public class Comparar {
  public static void main(String[] args) {
   String a = "hola";
   String b = new String("hola");
@@ -7712,8 +7710,8 @@ public class Test {
   <pregunta>
     <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
 </p>
-<pre><code class="language-java"> 
-  abstract class Figura {
+<pre>
+<code class="language-java">  abstract class Figura {
    abstract double area();
   }
   class Circulo extends Figura {
@@ -7742,8 +7740,7 @@ public class Test {
   <pregunta>
     <enunciado><![CDATA[<p>En el siguiente código, ¿qué método falta para que la clase compile correctamente?
 </p>
-<pre><code class="language-java">
- abstract class Figura {
+<pre><code class="language-java"> abstract class Figura {
   abstract double area();
  }
  class Cuadrado extends Figura {
@@ -7998,8 +7995,7 @@ public class Test {
 
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué muestra por pantalla?<pre>
-<code class="language-java">
-  int[] datos = {4, 7, 2, 9};
+<code class="language-java">  int[] datos = {4, 7, 2, 9};
   System.out.println(datos[2]);
 </code></pre></p>]]></enunciado>
 <A>4</A>
@@ -8010,8 +8006,7 @@ public class Test {
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué valor se imprime?<pre><code class="language-java">
- int[] valores = {1, 2, 3};
+<enunciado><![CDATA[<p>¿Qué valor se imprime?<pre><code class="language-java"> int[] valores = {1, 2, 3};
  for (int i = 0; i < valores.length; i++) {
   valores[i] = valores[i] * 2;
  }
@@ -8024,8 +8019,7 @@ public class Test {
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p><pre><code class="language-java">
- int[][] matriz = {
+<enunciado><![CDATA[<p>¿Qué muestra por pantalla?</p><pre><code class="language-java"> int[][] matriz = {
   {1, 2, 3},
   {4, 5, 6}
  };
@@ -8201,8 +8195,7 @@ public class Test {
 </pregunta>
 
 <pregunta>
-<enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p><pre><code class="language-java">
- public static int suma(int a, int b) {
+<enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p><pre><code class="language-java"> public static int suma(int a, int b) {
    return a + b;
  }<code><pre>
 ]]>
@@ -8225,8 +8218,7 @@ public class Test {
 
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué resultado muestra este código?</p>
-<code class="language-java">
- public static boolean esPrimo(int x){
+<pre><code class="language-java"> public static boolean esPrimo(int x){
   for (int i = 2; i < x; i++) {
    if (x % i == o) return false;
   }
@@ -8260,8 +8252,7 @@ public class Test {
 
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué hace este código?</p>
-<code class="language-java">
- public static void imprimir(int x) {
+<pre><code class="language-java"> public static void imprimir(int x) {
   if (x > 0) {
    imprimir(x - 1);
    System.out.println(x);

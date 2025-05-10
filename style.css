@@ -30,8 +30,8 @@ p{
 pre {
   background-color: whitesmoke;
   width: 75%;
-  margin: auto;
-  color: #2d2d2d;
+  margin: auto !important;
+  /* color: #2d2d2d; */
   display: block;
   padding: 1em;
   border-radius: 6px;
@@ -41,6 +41,7 @@ pre {
 
 code {
   padding-left: 15em;
+  padding-top: 0em;
   font-family: Consolas, Monaco, 'Courier New', monospace;
   font-size: 14px;
   line-height: 1.5;
