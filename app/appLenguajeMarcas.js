@@ -51,12 +51,15 @@ function mostrarPregunta() {
   });
 
   document.getElementById("pregunta-container").innerHTML = `
-    <h3>${preguntaActual.enunciado}</h3>
+    ${preguntaActual.enunciado}
     <ul>${opcionesHTML}
       <li><button onclick="saltar()">Dejar sin contestar</button></li>
     </ul>
     <p>Pregunta ${indicePregunta + 1} de 40. Preguntas XML total: ${cantidadPreguntas}</p>
   `;
+
+  // 👇 Necesario para que Prism funcione con contenido dinámico
+  Prism.highlightAll();
 }
 
 function verificarRespuesta(letraSeleccionada) {
