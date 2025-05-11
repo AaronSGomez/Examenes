@@ -209,7 +209,7 @@
   <pregunta>
     <enunciado><![CDATA[¿Cuál es la estructura correcta para declarar una matriz 3x3 en Java?]]></enunciado>
     <A>
-      int[][] matriz = new int(3,3);
+      int[][] matriz = new int[3][3];
     </A>
     <B>
       int matriz[][] = new int[3][3];
@@ -220,8 +220,8 @@
     <D>
       new int matriz[3][3];
     </D>
-    <respuesta_correcta explicacion="La forma correcta de declarar una matriz en Java es `int matriz[][] = new int[3][3];`.">
-      B
+    <respuesta_correcta explicacion="La forma correcta de declarar una matriz en Java es `int[][] matriz = new int[3][3];`.">
+      A
     </respuesta_correcta>
   </pregunta>
   <pregunta>
