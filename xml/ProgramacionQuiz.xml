@@ -5646,18 +5646,18 @@ class Cuadro implements Dibujable {
   <pregunta>
     <enunciado><![CDATA[¿Cuál es la forma correcta de crear un ArrayList en Java?]]></enunciado>
     <A>
-      ArrayList&lt;Integer&gt; list = new ArrayList&lt;String&gt;();
+      ArrayList &lt; Integer &gt; list = new ArrayList &lt; String &gt;();
     </A>
     <B>
-      ArrayList&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();
+      ArrayList &lt; Integer &gt; list = new ArrayList &lt; Integer &gt;();
     </B>
     <C>
-      ArrayList&lt;int&gt; list = new ArrayList&lt;int&gt;();
+      ArrayList &lt; int &gt; list = new ArrayList &lt; int &gt;();
     </C>
     <D>
-      ArrayList&lt;int&gt; list = new ArrayList&lt;&gt;();
+      ArrayList &lt; int &gt; list = new ArrayList &lt; &gt;();
     </D>
-    <respuesta_correcta explicacion="La forma correcta de crear un `ArrayList` es especificando el mismo tipo genérico en ambos lados, como `ArrayList&lt;Integer&gt; list = new ArrayList&lt;Integer&gt;();`. Los tipos primitivos como `int` no son válidos, se debe usar su clase envolvente (`Integer`).">
+    <respuesta_correcta explicacion="La forma correcta de crear un `ArrayList` es especificando el mismo tipo genérico en ambos lados, como `ArrayList &lt; Integer &gt; list = new ArrayList &lt; Integer &gt; ();`. Los tipos primitivos como `int` no son válidos, se debe usar su clase envolvente (`Integer`).">
       B
     </respuesta_correcta>
   </pregunta>
@@ -6324,25 +6324,7 @@ public class Lectura {
       B
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Qué se imprime?]]></enunciado>
-    <A>
-      Error
-    </A>
-    <B>
-      Constructor B\nConstructor A
-    </B>
-    <C>
-      Solo Constructor B
-    </C>
-    <D>
-      Constructor A\nConstructor B
-    </D>
-    <respuesta_correcta explicacion="Cuando se crea un objeto de la clase `B`, primero se ejecuta el constructor de la clase padre `A` y luego el constructor de la clase `B`. Por lo tanto, la salida es &quot;Constructor A\nConstructor B&quot;.">
-      D
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+   <pregunta>
     <enunciado><![CDATA[¿Qué se imprime?]]></enunciado>
     <A>
       Sonido de animal
@@ -6361,25 +6343,7 @@ public class Lectura {
     </respuesta_correcta>
   </pregunta>
 
-  <pregunta>
-    <enunciado><![CDATA[¿Qué valor se imprime?]]></enunciado>
-    <A>
-      3
-    </A>
-    <B>
-      1
-    </B>
-    <C>
-      2
-    </C>
-    <D>
-      Error
-    </D>
-    <respuesta_correcta explicacion="El índice 2 en el array `numeros` corresponde al tercer elemento, que es 3. Por lo tanto, se imprime 3.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+   <pregunta>
     <enunciado><![CDATA[¿Qué es la recursividad en programación?]]></enunciado>
     <A>
       Un método que se llama a sí mismo.
@@ -7637,10 +7601,7 @@ public class Test {
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado><![CDATA[En el siguiente código, ¿qué método falta para que la clase compile correctamente?
-
-<pre>
-<code class="language-java">  abstract class Figura {
+    <enunciado><![CDATA[En el siguiente código, ¿qué método falta para que la clase compile correctamente?<pre><code class="language-java"> abstract class Figura {
    abstract double area();
   }
   class Circulo extends Figura {
