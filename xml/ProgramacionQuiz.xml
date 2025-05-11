@@ -5834,13 +5834,13 @@ class Cuadro implements Dibujable {
   <pregunta>
     <enunciado><![CDATA[¿Qué estructura de datos en Java permite almacenar pares de clave y valor?]]></enunciado>
     <A>
-      a y b son correctas.
+      ArrayList
     </A>
     <B>
       HashMap
     </B>
     <C>
-      ArrayList
+       a y b son correctas.
     </C>
     <D>
       Ninguna es correcta
@@ -6294,8 +6294,7 @@ public class Lectura {
     </respuesta_correcta>
   </pregunta>
   <pregunta>
-    <enunciado><![CDATA[¿Qué salida produce este código?
-<pre><code class="language-java">public class Persona {
+    <enunciado><![CDATA[¿Qué salida produce este código? <pre><code class="language-java">public class Persona {
   private String nombre;
  public Persona(String nombre) {
   this.nombre = nombre;
@@ -6325,7 +6324,23 @@ public class Lectura {
     </respuesta_correcta>
   </pregunta>
    <pregunta>
-    <enunciado><![CDATA[¿Qué se imprime?]]></enunciado>
+    <enunciado><![CDATA[¿Qué se imprime?<pre><code class="language-java">class Animal {
+    void sonido() {
+        System.out.println("Animalitozzz");
+    }
+}
+class Gato extends Animal {
+    @Override
+    void sonido() {
+        System.out.println("Miau");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Animal miGato = new Gato(); 
+        miGato.sonido(); 
+}
+}</code></pre>]]></enunciado>
     <A>
       Sonido de animal
     </A>
