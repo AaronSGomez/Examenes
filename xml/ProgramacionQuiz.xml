@@ -6360,24 +6360,7 @@ public class Lectura {
       D
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[<p>¿Qué se imprime?</p>]]></enunciado>
-    <A>
-      Error
-    </A>
-    <B>
-      Hola Mundo
-    </B>
-    <C>
-      Hola
-    </C>
-    <D>
-      Mundo
-    </D>
-    <respuesta_correcta explicacion="El método `substring(5)` devuelve la subcadena que comienza en el índice 5 (basado en 0) hasta el final de la cadena. En este caso, imprime &quot;Mundo&quot;.">
-      D
-    </respuesta_correcta>
-  </pregunta>
+
   <pregunta>
     <enunciado><![CDATA[<p>¿Qué valor se imprime?</p>]]></enunciado>
     <A>
@@ -8143,7 +8126,7 @@ public class Test {
 <pregunta>
 <enunciado><![CDATA[<p>¿Qué hace el siguiente código?</p><pre><code class="language-java"> public static int suma(int a, int b) {
    return a + b;
- }<code><pre>
+ }</code></pre>
 ]]>
 </enunciado>
 <A>Imprime la suma de dos números.</A>
