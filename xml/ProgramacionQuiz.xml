@@ -6325,20 +6325,20 @@ public class Lectura {
   </pregunta>
    <pregunta>
     <enunciado><![CDATA[¿Qué se imprime?<pre><code class="language-java">class Animal {
-    void sonido() {
-        System.out.println("Animalitozzz");
-    }
+  void sonido() {
+    System.out.println("Animalitozzz");
+  }
 }
 class Gato extends Animal {
-    @Override
-    void sonido() {
-        System.out.println("Miau");
-    }
+  @Override
+  void sonido() {
+   System.out.println("Miau");
+  }
 }
 public class Main {
-    public static void main(String[] args) {
-        Animal miGato = new Gato(); 
-        miGato.sonido(); 
+  public static void main(String[] args) {
+   Animal miGato = new Gato(); 
+   miGato.sonido(); 
 }
 }</code></pre>]]></enunciado>
     <A>
