@@ -8188,7 +8188,7 @@ public class Test {
   }
  }
  imprimir(3);
-<code><pre>
+</code></pre>
 ]]></enunciado>
 <A>Imprime 3 2 1</A>
 <B>Imprime 1 2 3</B>
