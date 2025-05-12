@@ -358,4 +358,337 @@
   <respuesta_correcta explicacion="La propiedad flex-wrap permite que los elementos se ajusten y se muevan a la siguiente línea si no hay suficiente espacio."> C </respuesta_correcta>
 </pregunta>
 
+<pregunta>
+<enunciado>
+¿Cómo se accede al texto dentro de una etiqueta XML, como
+<nombre>Juan</nombre>
+?
+</enunciado>
+<A>.textContent</A>
+<B>.text()</B>
+<C>.nodeText</C>
+<D>.innerValue</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo puedes evitar que un contenedor Flexbox se desborde cuando sus elementos exceden el tamaño disponible?</enunciado>
+<A>Usar flex-wrap: wrap;</A>
+<B>Usar overflow: hidden;</B>
+<C>Usar white-space: nowrap;</C>
+<D>Usar align-items: flex-start;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo se asignan nombres a distintas zonas dentro de una cuadrícula en CSS Grid?</enunciado>
+<A>grid-gap</A>
+<B>grid-template-columns</B>
+<C>grid-row-gap</C>
+<D>grid-template-areas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo se comportan los elementos en un grid sin columnas definidas?</enunciado>
+<A>Se alinean en fila</A>
+<B>Da error</B>
+<C>Se apilan en una columna</C>
+<D>Se vuelven invisibles</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo se indica en Flexbox que los elementos deben organizarse de arriba a abajo, en vez de de izquierda a derecha?</enunciado>
+<A>display: inline-flex;</A>
+<B>flex-direction: column;</B>
+<C>align-self: stretch;</C>
+<D>justify-items: center;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de estas propiedades de Flexbox permite cambiar el orden visual de los elementos sin modificar el HTML?</enunciado>
+<A>align-self</A>
+<B>order</B>
+<C>flex-basis</C>
+<D>gap</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de las siguientes clases de Bootstrap crea una fila que puede contener columnas?</enunciado>
+<A>.row</A>
+<B>.d-flex</B>
+<C>.col-12</C>
+<D>.grid-template</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál de las siguientes es una forma correcta de insertar una imagen en HTML?</enunciado>
+<A>img src="foto.jpg"</A>
+<B>image src="foto.jpg"</B>
+<C>img href="foto.jpg"</C>
+<D>
+pic src="foto.jpg"
+<pic src="foto.jpg"/>
+</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la función de la propiedad align-content en CSS Grid?</enunciado>
+<A>Controlar la alineación de las áreas de la cuadrícula en el contenedor.</A>
+<B>Controlar cómo se alinean las filas dentro de un contenedor.</B>
+<C>Controlar el espaciado entre las columnas.</C>
+<D>Definir el comportamiento de los elementos dentro de una celda de la cuadrícula.</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la función del elemento aside en HTML5?</enunciado>
+<A>Representa contenido tangencial o complementario al contenido principal</A>
+<B>
+Es un sinónimo de
+<article/>
+</B>
+<C>
+Reemplaza al
+<section> cuando hay imágenes</section>
+</C>
+<D>Sirve para definir secciones principales de la página</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cuál es la propiedad de CSS Grid que define el número de filas en una cuadrícula?</enunciado>
+<A>grid-template-rows</A>
+<B>grid-template-areas</B>
+<C>grid-template-columns</C>
+<D>grid-auto-rows</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué afirmación sobre el atributo id en HTML es correcta?</enunciado>
+<A>Puede aplicarse a varios elementos</A>
+<B>Debe ser único dentro de la página</B>
+<C>Solo se puede usar en formularios</C>
+<D>Se escribe con punto (.)</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué clase de Bootstrap aplica bordes redondeados a una imagen sin hacerla circular?</enunciado>
+<A>.rounded-circle</A>
+<B>.img-rounded</B>
+<C>.rounded</C>
+<D>.img-soft</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué combinación de elementos HTML5 es correcta según su uso semántico?</enunciado>
+<A>nav para comentarios y article aside para el contenido principal</A>
+<B>article para una noticia completa y aside para contenido complementario</B>
+<C>nav para encabezados y article para menús</C>
+<D>nav para artículos y aside para publicidades</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué combinación de propiedades permite nombrar áreas en una cuadrícula CSS y luego asignarlas a elementos?</enunciado>
+<A>grid-columns y grid-rows</A>
+<B>grid-template-columns y grid-template-rows</B>
+<C>grid-template-areas y grid-area</C>
+<D>justify-content y align-items</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué contiene e.target.result dentro del evento onload del FileReader?</enunciado>
+<A>El contenido del archivo leído</A>
+<B>El nombre del archivo</B>
+<C>El tipo MIME del archivo</C>
+<D>El tamaño del archivo</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué contiene e.target.result cuando se utiliza readAsText() con FileReader?</enunciado>
+<A>Una cadena de texto con el contenido del archivo</A>
+<B>Una cadena codificada en base64</B>
+<C>Un array de bytes</C>
+<D>Un objeto JSON</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué devuelve element.value si el campo está vacío pero el elemento existe?</enunciado>
+<A>""</A>
+<B>null</B>
+<C>false</C>
+<D>undefined</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace el método readAsText() de FileReader en JavaScript?</enunciado>
+<A>Leer un archivo como texto plano</A>
+<B>Leer archivos binarios</B>
+<C>Escribir contenido en un archivo</C>
+<D>Convertir texto en XML</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué hace la expresión repeat(3, 1fr) dentro de grid-template-columns?</enunciado>
+<A>Crea tres columnas que comparten el espacio disponible de forma equitativa</A>
+<B>Aplica tres filas automáticas</B>
+<C>Establece márgenes entre columnas</C>
+<D>Repite el contenido tres veces</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método convierte texto XML en un documento navegable?</enunciado>
+<A>DOMParser.parseFromString()</A>
+<B>createElementFromXML()</B>
+<C>FileParser.readAsDOM()</C>
+<D>XMLLoader.parse()</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método se usa para obtener todos los nodos persona de un documento XML?</enunciado>
+<A>getElementsByTagName("persona")</A>
+<B>getElementById("persona")</B>
+<C>selectNodes("persona")</C>
+<D>queryXML("persona")</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué método se utiliza en JavaScript para seleccionar todos los elementos con una determinada clase?</enunciado>
+<A>getElementById()</A>
+<B>getElementsByClassName()</B>
+<C>queryByClass()</C>
+<D>selectByClassName()</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué objeto de JavaScript se utiliza para leer el contenido de un archivo cargado por el usuario?</enunciado>
+<A>FileReader</A>
+<B>LocalStorage</B>
+<C>DocumentReader</C>
+<D>JSONParser</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué palabra clave evita que se siga ejecutando el resto del código en una función?</enunciado>
+<A>return</A>
+<B>continue</B>
+<C>pause</C>
+<D>halt</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué palabra clave en JavaScript se utiliza para devolver un valor y salir de la función?</enunciado>
+<A>return</A>
+<B>continue</B>
+<C>break</C>
+<D>exit</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad de CSS Grid permite establecer el espacio entre filas?</enunciado>
+<A>row-gap</A>
+<B>column-gap</B>
+<C>grid-gap</C>
+<D>gap</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad de Flexbox permite cambiar el orden visual de los elementos sin modificar el HTML?</enunciado>
+<A>order</A>
+<B>align-self</B>
+<C>flex-basis</C>
+<D>gap</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad debe tener un contenedor para que align-items afecte a sus elementos hijos?</enunciado>
+<A>display: flex;</A>
+<B>float: left;</B>
+<C>grid-template-rows:</C>
+<D>width: 100%;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad en CSS permite que un contenedor Flexbox haga que sus elementos hijos se ajusten al tamaño disponible?</enunciado>
+<A>flex-grow</A>
+<B>align-self</B>
+<C>flex-basis</C>
+<D>justify-items</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad se usa en CSS para hacer que el ancho de un elemento no se vea afectado por el padding o el borde?</enunciado>
+<A>box-model</A>
+<B>border-collapse</B>
+<C>display: block</C>
+<D>box-sizing: border-box</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué propiedad y valor de Flexbox permite colocar los elementos hijos en una columna?</enunciado>
+<A>flex-direction: column;</A>
+<B>align-items: center;</B>
+<C>flex-wrap: wrap;</C>
+<D>justify-content: flex-start;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué tipo de elemento HTML se necesita para que el usuario seleccione un archivo que luego se lea con FileReader?</enunciado>
+<A>  &lt; input type="file" &gt; </A>
+<B> &lt; text &gt;</B>
+<C> &lt; button &gt;</C>
+<D> &lt; textarea &gt;</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué tipo de input es necesario para leer archivos con FileReader?</enunciado>
+<A>type="file"</A>
+<B>type="submit"</B>
+<C>type="hidden"</C>
+<D>type="text"</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué unidad en CSS es relativa al tamaño de fuente del elemento padre?</enunciado>
+<A>em</A>
+<B>rem</B>
+<C>px</C>
+<D>%</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué unidad en CSS Grid permite distribuir automáticamente el espacio restante entre columnas?</enunciado>
+<A>%</A>
+<B>px</B>
+<C>vw</C>
+<D>fr</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor de la propiedad flex-wrap permite que los elementos se acomoden en varias líneas si es necesario?</enunciado>
+<A>nowrap</A>
+<B>wrap</B>
+<C>reverse</C>
+<D>inherit</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué valor devuelve document.querySelector('input[name="x"]:checked') si no hay selección?</enunciado>
+<A>null</A>
+<B>false</B>
+<C>"undefined"</C>
+<D>""</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>En Flexbox, ¿cómo se distribuyen los elementos cuando se usa justify-content: space-between?</enunciado>
+<A>Los elementos se distribuyen uniformemente con espacio entre ellos, pero no al principio ni al final.</A>
+<B>Los elementos se alinean al centro con espacio entre ellos.</B>
+<C>Los elementos se colocan de manera que el espacio sea igual en todos los lados.</C>
+<D>Los elementos se distribuyen con espacio alrededor y dentro de ellos.</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>Si quieres que las columnas se generen automáticamente con un ancho fijo en un contenedor Grid, ¿qué propiedad utilizarías?</enunciado>
+<A>grid-template-rows</A>
+<B>grid-gap</B>
+<C>grid-auto-columns</C>
+<D>justify-content</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
 </documento>
