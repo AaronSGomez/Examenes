@@ -2218,7 +2218,7 @@
       C
     </respuesta_correcta>
   </pregunta>
-
+    <pregunta>
     <enunciado><![CDATA[¿Qué método se usa para llamar al constructor de la superclase?]]></enunciado>
     <A>
       super()
@@ -3999,8 +3999,6 @@
       A
     </respuesta_correcta>
   </pregunta>
-    </pregunta>
-
   <pregunta>
     <enunciado><![CDATA[¿Cuál es la salida del siguiente código?
 <pre>
