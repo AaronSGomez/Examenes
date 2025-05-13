@@ -336,7 +336,7 @@
   <A>em</A>
   <B>rem</B>
   <C>vw</C>
-  <D>vh</D>
+  <D>vm</D>
   <respuesta_correcta explicacion="Las unidades vw (viewport width) y vh (viewport height) son relativas al tamaño de la pantalla."> C </respuesta_correcta>
 </pregunta>
 
