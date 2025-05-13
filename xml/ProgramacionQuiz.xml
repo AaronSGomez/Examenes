@@ -2143,24 +2143,7 @@
       B
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[La selección dinámica de métodos:]]></enunciado>
-    <A>
-      Se produce cuando una variable cambia de valor durante la ejecución de un programa
-    </A>
-    <B>
-      Es el cambio de tipo de una variable en tiempo de ejecución
-    </B>
-    <C>
-      Es la asignación de un mismo objeto a más de una variable en tiempo de ejecución
-    </C>
-    <D>
-      Es la ejecución de distintas implementaciones de un mismo método, asignando objetos de distintas clases a una misma variable, en tiempo de ejecución
-    </D>
-    <respuesta_correcta explicacion="Esto se llama polimorfismo. Se ejecuta el método correspondiente al tipo real del objeto, no al tipo de la variable.">
-      D
-    </respuesta_correcta>
-  </pregunta>
+
   <pregunta>
     <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?]]></enunciado>
     <A>
@@ -2179,42 +2162,8 @@
       A
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Sobre una subclase es correcto afirmar que:]]></enunciado>
-    <A>
-      Tiene menos atributos que su superclase
-    </A>
-    <B>
-      Tiene menos miembros que su superclase
-    </B>
-    <C>
-      Hereda los miembros no privados de su superclase
-    </C>
-    <D>
-      Hereda todos los miembros de su superclase
-    </D>
-    <respuesta_correcta explicacion="Una subclase hereda los miembros públicos y protegidos, pero no los privados.">
-      C
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[En relación con las clases abstractas es correcto señalar que:]]></enunciado>
-    <A>
-      Implementan todos sus métodos
-    </A>
-    <B>
-      No implementan ningún método
-    </B>
-    <C>
-      No tienen atributos
-    </C>
-    <D>
-      Tienen algún método abstracto
-    </D>
-    <respuesta_correcta explicacion="Las clases abstractas pueden tener métodos implementados, pero deben incluir al menos un método abstracto.">
-      D
-    </respuesta_correcta>
-  </pregunta>
+
+
   <pregunta>
     <enunciado><![CDATA[¿En qué consiste la sustitución u overriding?]]></enunciado>
     <A>
@@ -2269,61 +2218,7 @@
       C
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?]]></enunciado>
-    <A>
-      Sirve para mostrar la información que nos interesa de un objeto
-    </A>
-    <B>
-      Convierte automáticamente un objeto en una cadena
-    </B>
-    <C>
-      Encadena varios objetos
-    </C>
-    <D>
-      Es un método abstracto de Object que tenemos que implementar
-    </D>
-    <respuesta_correcta explicacion="`toString()` devuelve una representación textual del objeto. Se puede sobrescribir para personalizarla.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?]]></enunciado>
-    <A>
-      Convierte los objetos en clases
-    </A>
-    <B>
-      Obtiene la clase a la que pertenece un objeto
-    </B>
-    <C>
-      Obtiene la superclase de una clase
-    </C>
-    <D>
-      Obtiene una clase a partir de su nombre
-    </D>
-    <respuesta_correcta explicacion="`getClass()` devuelve un objeto de tipo `Class` que representa la clase real del objeto.">
-      B
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Una clase puede heredar:]]></enunciado>
-    <A>
-      De una clase
-    </A>
-    <B>
-      De dos clases
-    </B>
-    <C>
-      De todas las clases que queramos
-    </C>
-    <D>
-      Solo de la clase Object
-    </D>
-    <respuesta_correcta explicacion="Java solo permite herencia simple: una clase puede heredar de una única superclase.&#xA;            ¿Cuál es la palabra clave para heredar una clase?&#xA;            a) inherits&#xA;            b) extends&#xA;            c) super&#xA;            d) base&#xA;            Respuesta correcta: b&#xA;            'extends' se usa para heredar una clase en Java.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+
     <enunciado><![CDATA[¿Qué método se usa para llamar al constructor de la superclase?]]></enunciado>
     <A>
       super()
@@ -2359,78 +2254,8 @@
       C
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[En relación con las clases abstractas es correcto señalar que:]]></enunciado>
-    <A>
-      Implementan todos sus métodos.
-    </A>
-    <B>
-      No implementan ningún método.
-    </B>
-    <C>
-      No tienen atributos.
-    </C>
-    <D>
-      Tienen algún método abstracto.
-    </D>
-    <respuesta_correcta explicacion="Las clases abstractas pueden tener métodos implementados y atributos, pero deben tener al menos un método abstracto.">
-      D
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿En qué consiste la sustitución u overriding?]]></enunciado>
-    <A>
-      En sustituir un método heredado por otro implementado en la propia clase.
-    </A>
-    <B>
-      En sustituir un atributo por otro del mismo nombre.
-    </B>
-    <C>
-      En sustituir una clase por una subclase.
-    </C>
-    <D>
-      En sustituir un valor de una variable por otro.
-    </D>
-    <respuesta_correcta explicacion="Overriding es redefinir un método heredado en una subclase con una nueva implementación.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Sobre la clase Object es cierto indicar que:]]></enunciado>
-    <A>
-      Es abstracta.
-    </A>
-    <B>
-      Hereda de todas las demás.
-    </B>
-    <C>
-      Tiene todos sus métodos abstractos.
-    </C>
-    <D>
-      Es superclase de todas las demás clases.
-    </D>
-    <respuesta_correcta explicacion="Object es la superclase de todas las clases en Java.">
-      D
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?]]></enunciado>
-    <A>
-      Hay que implementarlo, ya que es abstracto.
-    </A>
-    <B>
-      Sirve para comparar solo objetos de la clase Object.
-    </B>
-    <C>
-      Se hereda de Object, pero debemos reimplementarlo al definirlo en una clase.
-    </C>
-    <D>
-      No hay que implementarlo, ya que se hereda de Object.
-    </D>
-    <respuesta_correcta explicacion="Se hereda de Object, pero se recomienda sobrescribirlo para una comparación personalizada.">
-      C
-    </respuesta_correcta>
-  </pregunta>
+
+
   <pregunta>
     <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?]]></enunciado>
     <A>
@@ -2501,24 +2326,6 @@
     </D>
     <respuesta_correcta explicacion="Esto es polimorfismo: permite ejecutar la versión del método correspondiente al tipo real del objeto.">
       D
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?]]></enunciado>
-    <A>
-      Sirve para llamar al constructor de la superclase.
-    </A>
-    <B>
-      Sirve para invocar un método escrito más arriba en el código.
-    </B>
-    <C>
-      Sirve para llamar a cualquier método de la superclase.
-    </C>
-    <D>
-      Sirve para hacer referencia a un atributo de la superclase.
-    </D>
-    <respuesta_correcta explicacion="super() se usa para llamar al constructor de la clase base desde una subclase.">
-      A
     </respuesta_correcta>
   </pregunta>
   <pregunta>
@@ -3511,25 +3318,7 @@
       D
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Si queremos cambiar el valor de una entrada en un mapa, usaremos el método:]]></enunciado>
-    <A>
-      put().
-    </A>
-    <B>
-      set().
-    </B>
-    <C>
-      add().
-    </C>
-    <D>
-      insert().
-    </D>
-    <respuesta_correcta explicacion="put(clave, nuevoValor) actualiza o inserta una nueva entrada en el mapa.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+    <pregunta>
     <enunciado><![CDATA[¿Qué es Collection?]]></enunciado>
     <A>
       Una interfaz.
@@ -3709,24 +3498,7 @@
       A
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Sobre una subclase es correcto afirmar que:]]></enunciado>
-    <A>
-      Tiene menos atributos que su superclase.
-    </A>
-    <B>
-      Tiene menos miembros que su superclase.
-    </B>
-    <C>
-      Hereda los miembros no privados de su superclase.
-    </C>
-    <D>
-      Hereda todos los miembros de su superclase.
-    </D>
-    <respuesta_correcta explicacion="Una subclase hereda los miembros públicos y protegidos de su superclase, no los privados.">
-      C
-    </respuesta_correcta>
-  </pregunta>
+
   <pregunta>
     <enunciado><![CDATA[En relación con las clases abstractas es correcto señalar que:]]></enunciado>
     <A>
@@ -3745,132 +3517,7 @@
       D
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿En qué consiste la sustitución u overriding?]]></enunciado>
-    <A>
-      En sustituir un método heredado por otro implementado en la propia clase.
-    </A>
-    <B>
-      En sustituir un atributo por otro del mismo nombre.
-    </B>
-    <C>
-      En sustituir una clase por una subclase.
-    </C>
-    <D>
-      En sustituir un valor de una variable por otro.
-    </D>
-    <respuesta_correcta explicacion="Overriding es redefinir un método heredado en una subclase con una nueva implementación.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Sobre la clase Object es cierto indicar que:]]></enunciado>
-    <A>
-      Es abstracta.
-    </A>
-    <B>
-      Hereda de todas las demás.
-    </B>
-    <C>
-      Tiene todos sus métodos abstractos.
-    </C>
-    <D>
-      Es superclase de todas las demás clases.
-    </D>
-    <respuesta_correcta explicacion="Object es la superclase de todas las clases en Java.">
-      D
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método equals() es correcta?]]></enunciado>
-    <A>
-      Hay que implementarlo, ya que es abstracto.
-    </A>
-    <B>
-      Sirve para comparar solo objetos de la clase Object.
-    </B>
-    <C>
-      Se hereda de Object, pero debemos reimplementarlo al definirlo en una clase.
-    </C>
-    <D>
-      No hay que implementarlo, ya que se hereda de Object.
-    </D>
-    <respuesta_correcta explicacion="Se hereda de Object, pero se recomienda sobrescribirlo para una comparación personalizada.">
-      C
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método toString() es correcta?]]></enunciado>
-    <A>
-      Sirve para mostrar la información que nos interesa de un objeto.
-    </A>
-    <B>
-      Convierte automáticamente un objeto en una cadena.
-    </B>
-    <C>
-      Encadena varios objetos.
-    </C>
-    <D>
-      Es un método abstracto de Object que tenemos que implementar.
-    </D>
-    <respuesta_correcta explicacion="toString() sirve para devolver una representación textual personalizada de un objeto.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método getClass() es correcta?]]></enunciado>
-    <A>
-      Convierte los objetos en clases.
-    </A>
-    <B>
-      Obtiene la clase a la que pertenece un objeto.
-    </B>
-    <C>
-      Obtiene la superclase de una clase.
-    </C>
-    <D>
-      Obtiene una clase a partir de su nombre.
-    </D>
-    <respuesta_correcta explicacion="getClass() devuelve la clase real del objeto en tiempo de ejecución.">
-      B
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[Una clase puede heredar:]]></enunciado>
-    <A>
-      De una clase.
-    </A>
-    <B>
-      De dos clases.
-    </B>
-    <C>
-      De todas las clases que queramos.
-    </C>
-    <D>
-      Solo de la clase Object.
-    </D>
-    <respuesta_correcta explicacion="En Java solo se permite heredar de una única clase (herencia simple).">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[La selección dinámica de métodos:]]></enunciado>
-    <A>
-      Se produce cuando una variable cambia de valor durante la ejecución de un programa.
-    </A>
-    <B>
-      Es el cambio de tipo de una variable en tiempo de ejecución.
-    </B>
-    <C>
-      Es la asignación de un mismo objeto a más de una variable en tiempo de ejecución.
-    </C>
-    <D>
-      Es la ejecución de distintas implementaciones de un mismo método, asignando objetos de distintas clases a una misma variable, en tiempo de ejecución.
-    </D>
-    <respuesta_correcta explicacion="Esto es polimorfismo: permite ejecutar la versión del método correspondiente al tipo real del objeto.">
-      D
-    </respuesta_correcta>
-  </pregunta>
+
   <pregunta>
     <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el método super() es correcta?]]></enunciado>
     <A>
@@ -4071,43 +3718,7 @@
       B
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál es la salida del siguiente código?
-<pre><code class="language-java">  class A {
-   int x = 10;
-   void mostrar() {
-    System.out.println("Clase A: " + x);
-   }
-  }
-  class B extends A {
-   int x = 20;
-   void mostrar() {
-    System.out.println("Clase B: " + x);
-   }
-  }
-  public class Test {
-   public static void main(String[] args) {
-    A obj = new B();
-    obj.mostrar();
-   }
-  }</code></pre>]]></enunciado>
-    <A>
-      Clase A: 10
-    </A>
-    <B>
-      Clase B: 20
-    </B>
-    <C>
-      Clase A: 20
-    </C>
-    <D>
-      Clase B: 10
-    </D>
-    <respuesta_correcta explicacion="La salida es &quot;Clase B: 20&quot; porque el método `mostrar()` es sobrescrito en la clase `B`. Aunque la referencia es de tipo `A`, el objeto real es de tipo `B`, por lo que se ejecuta el método de la clase `B` debido al polimorfismo.">
-      B
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+    <pregunta>
     <enunciado><![CDATA[¿Qué salida produce este código?
 <pre><code class="language-java">  public class Test {
    public static void main(String[] args) {
@@ -4388,42 +3999,8 @@
       A
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál es la sintaxis correcta para que una clase implemente una interfaz?]]></enunciado>
-    <A>
-      class MiClase implements MiInterfaz
-    </A>
-    <B>
-      class MiClase extends MiInterfaz
-    </B>
-    <C>
-      class MiClase : MiInterfaz
-    </C>
-    <D>
-      class MiClase inherits MiInterfaz
-    </D>
-    <respuesta_correcta explicacion="La palabra clave `implements` se utiliza para que una clase implemente una interfaz en Java.">
-      A
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál es una característica de una clase abstracta?]]></enunciado>
-    <A>
-      Puede tener métodos abstractos y concretos
-    </A>
-    <B>
-      Solo puede tener atributos estáticos
-    </B>
-    <C>
-      Se puede instanciar directamente
-    </C>
-    <D>
-      No puede tener métodos implementados
-    </D>
-    <respuesta_correcta explicacion="Una clase abstracta puede tener métodos abstractos (sin implementación) y métodos concretos (con implementación).">
-      A
-    </respuesta_correcta>
-  </pregunta>
+    </pregunta>
+
   <pregunta>
     <enunciado><![CDATA[¿Cuál es la salida del siguiente código?
 <pre>
@@ -5581,25 +5158,7 @@ System.out.println(pila.peek());</code></pre>]]></enunciado>
       A
     </respuesta_correcta>
   </pregunta>
-  <pregunta>
-    <enunciado><![CDATA[¿Cuál es el modificador de acceso más restrictivo en Java?]]></enunciado>
-    <A>
-      protected
-    </A>
-    <B>
-      public
-    </B>
-    <C>
-      private
-    </C>
-    <D>
-      default
-    </D>
-    <respuesta_correcta explicacion="El modificador `private` es el más restrictivo en Java, ya que limita el acceso únicamente a la clase donde se declara.">
-      C
-    </respuesta_correcta>
-  </pregunta>
-  <pregunta>
+    <pregunta>
     <enunciado><![CDATA[¿Cuál es el modificador de acceso predeterminado si no se especifica ninguno en Java?]]></enunciado>
     <A>
       default
