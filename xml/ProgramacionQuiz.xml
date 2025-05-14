@@ -7762,4 +7762,484 @@ public class Test {
 <D>Se modifica el original</D>
 <respuesta_correcta explicacion="">D</respuesta_correcta>
 </pregunta>
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES LA FINALIDAD DEL USO DE THIS EN UN CONSTRUCTOR O MÉTODO?]]></enunciado>
+  <A>Referenciar los atributos del objeto actual para evitar ambigüedades</A>
+  <B>Crear métodos vacíos</B>
+  <C>Eliminar atributos duplicados</C>
+  <D>Declarar atributos como privados</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿POR QUÉ SE RECOMIENDA USAR MÉTODOS GETTERS Y SETTERS EN LUGAR DE ACCEDER DIRECTAMENTE A LOS ATRIBUTOS?]]></enunciado>
+  <A>Para escribir menos código</A>
+  <B>Para mantener el principio de encapsulamiento y controlar el acceso</B>
+  <C>Porque Java no permite el acceso directo</C>
+  <D>Para poder usar static en los atributos</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES UNA CARACTERÍSTICA DE LOS CONSTRUCTORES EN JAVA?]]></enunciado>
+  <A>Devuelven siempre un valor</A>
+  <B>Pueden tener nombre distinto al de la clase</B>
+  <C>Deben ser static y public</C>
+  <D>Tienen el mismo nombre que la clase y no devuelven valo</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE AL EJECUTAR ESTE CÓDIGO? <pre><code class="language-java"> public class Alumno {
+  private String nombre;
+  public Alumno(String n){
+   this.nombre=n;
+  }
+}
+&quot;Alumno creado“
+</code></pre>]]></enunciado>
+  <A>Error: falta el método getNombre()</A>
+  <B>Se crea el objeto correctamente y se imprime</B>
+  <C>El constructor debe ser static</C>
+  <D>El atributo nombre se imprime automáticamente</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿ES CORRECTA ESTA DEFINICIÓN DE UN CONSTRUCTOR? <pre><code class="language-java"> public class Libro{
+  private String titulo;
+  public void Libro(String t){
+   titulo=t;
+  }
+}
+</code></pre>]]></enunciado>
+  <A>No, ya que el título es private</A>
+  <B>Si, es correcto.</B>
+  <C>No, porque falta un parámetro.</C>
+  <D>No, porque tiene void, y por tanto no es un constructor sino un método</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES LA PRINCIPAL VENTAJA DE UN ARRAYLIST FRENTE A UN ARRAY TRADICIONAL?]]></enunciado>
+  <A>Es más rápido</A>
+  <B>Su tamaño es dinámico</B>
+  <C>Permite tipos primitivos</C>
+  <D>No necesita importar librerías</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ DIFERENCIA PRINCIPAL HAY ENTRE ARRAYLIST Y LINKEDLIST?]]></enunciado>
+  <A>LinkedList no permite duplicados, en cambio el arraylist si, ya que va por posición</A>
+  <B>LinkedList es más eficiente para insertar/eliminar elementos</B>
+  <C>ArrayList no se puede ordenar, en cambio un arraylist es muy fácil de ordenar</C>
+  <D>ArrayList ocupa más memoria ya que guarda posiciones</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ TIPO DE ESTRUCTURA ES UNA PILA (STACK)?]]></enunciado>
+  <A>FIFO</A>
+  <B>RIFO</B>
+  <C>Aleatoria</C>
+  <D>LIFO</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI POP() SE LLAMA SOBRE UNA COLA VACÍA?]]></enunciado>
+  <A>Devuelve null</A>
+  <B>Lanza una excepción</B>
+  <C>Reinicia la cola</C>
+  <D>Elimina el frente</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ DIFERENCIA HAY ENTRE POP() Y PEEK EN UNA STACK?]]></enunciado>
+  <A>pop() elimina y devuelve el elemento en la cima. Peek() devuelve el elemento de la cima sin eliminarlo.</A>
+  <B>Peek() elimina y devuelve el elemento en la cima. Pop() devuelve el elemento de la cima sin eliminarlo.</B>
+  <C>pop() devuelve true si la pila está vacia, peek devuelve un número menor que cero</C>
+  <D>pop() elimina y devuelve el elemento en la cima. Peek() apila un elemento en la cima</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ IMPRIME ESTE CÓDIGO?<pre><code class="language-java"> Stack&lt;String&gt; pila = new Stack&lt;&gt;();
+ pila.push(&quot;uno&quot;)
+ pila.push(&quot;dos&quot;)
+ System.out.println(pila.pop());
+</code></pre>]]></enunciado>
+  <A>Uno</A>
+  <B>Dos</B>
+  <C>Error</C>
+  <D>null</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ TIPO DE ESTRUCTURA REPRESENTA UNA COLA (QUEUE) EN JAVA?]]></enunciado>
+  <A>LIFO</A>
+  <B>FIFO</B>
+  <C>Circular doble</C>
+  <D>Bidireccional</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ CLASE SE USA COMÚNMENTE PARA IMPLEMENTAR UNA COLA EN JAVA?]]></enunciado>
+  <A>LinkedList</A>
+  <B>ArrayList</B>
+  <C>TreeSet</C>
+  <D>Stack</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI SE LLAMA REMOVE() SOBRE UNA COLA VACÍA?]]></enunciado>
+  <A>Devuelve null</A>
+  <B>Lanza una excepción</B>
+  <C>Se bloquea el programa</C>
+  <D>Elimina el último valor</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ HACE ESTE CÓDIGO? <pre><code class="language-java"> Queue &lt;String&gt; cola = new LinkedList&lt;&gt;();
+cola.add(&quot;A&quot;);
+cola.add(&quot;B&quot;);
+System.out.println(cola.remove());
+</code></pre>]]></enunciado>
+  <A>Null</A>
+  <B>B</B>
+  <C>Error de compilación</C>
+  <D>A</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ HACE EL MÉTODO INSERTAR() EN UNA IMPLEMENTACIÓN DE COLA ?]]></enunciado>
+  <A>Elimina el último elemento</A>
+  <B>Inserta al principio</B>
+  <C>Añade un nuevo elemento al final</C>
+  <D>Reemplaza el primero</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ PALABRA CLAVE SE UTILIZA EN JAVA PARA INDICAR QUE UNA CLASE HEREDA DE OTRA?]]></enunciado>
+  <A>Inherit</A>
+  <B>Include</B>
+  <C>Extends</C>
+  <D>implements</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ PALABRA CLAVE PERMITE ACCEDER A UN ATRIBUTO O MÉTODO SOBRESCRITO EN LA SUPERCLASE?]]></enunciado>
+  <A>This</A>
+  <B>Super</B>
+  <C>Parent</C>
+  <D>base</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL DE LAS SIGUIENTES AFIRMACIONES ES VERDADERA SOBRE LAS CLASES ABSTRACTAS EN JAVA?]]></enunciado>
+  <A>Pueden instanciarse directamente.</A>
+  <B>Todos sus métodos deben ser abstractos.</B>
+  <C>Solo se usan para interfaces o en el interior de otras clases.</C>
+  <D>Pueden contener métodos abstractos y no abstractos.</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES LA DIFERENCIA PRINCIPAL ENTRE UNA CLASE ABSTRACTA Y UNA INTERFAZ EN JAVA?]]></enunciado>
+  <A>Las interfaces pueden tener constructores</A>
+  <B>Las clases abstractas no permiten atributos</B>
+  <C>Las interfaces no tienen implementación, solo declaraciones de métodos</C>
+  <D>Las clases abstractas no tienen implementación, solo declaraciones de métodos</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ IMPRIME EL SIGUIENTE CÓDIGO? <pre><code class="language-java"> class Empleado{
+ public String getTipo(){
+  return &quot;Empleado&quot;;
+}
+}
+class Gerente extends Empleado{
+ public String getTipo(){
+  return &quot;Gerente&quot;;
+}
+ Empleado e= new Gerente();
+ System.out.println(e.getTipo());
+</code></pre>]]></enunciado>
+  <A>Empleado</A>
+  <B>Gerente</B>
+  <C>Error de compilación</C>
+  <D>null</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES EL POLIMORFISMO EN JAVA?]]></enunciado>
+  <A>La capacidad de una clase de cambiar de nombre</A>
+  <B>La posibilidad de que un mismo método se comporte de forma diferente según el objeto que lo invoque</B>
+  <C>El uso de muchas clases a la vez</C>
+  <D>El proceso de ocultar atributos privados</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ IMPRIME EL SIGUIENTE CÓDIGO? <pre><code class="language-java"> class Vehiculo {
+ public void encender() {
+  System.out.println(&quot;Vehículo encendido&quot;);
+}
+}
+class Moto extends Vehiculo {
+ public void encender() {
+  System.out.println(&quot;Moto encendida&quot;);
+}
+}
+public class Main {
+ public static void main(String[] args) {
+  Vehiculo v = new Moto();
+  v.encender();
+}
+}
+</code></pre>]]></enunciado>
+  <A>Moto encendida</A>
+  <B>Vehículo encendido</B>
+  <C>Error</C>
+  <D>null</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL DE LAS SIGUIENTES AFIRMACIONES ES VERDADERA SOBRE LAS INTERFACES EN JAVA?]]></enunciado>
+  <A>Pueden contener atributos private</A>
+  <B>Deben contener al menos un método main</B>
+  <C>Solo pueden ser usadas en clases abstractas</C>
+  <D>No pueden tener atributos de instancia</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ PALABRA CLAVE SE USA PARA DECLARAR UNA CLASE ABSTRACTA EN JAVA?]]></enunciado>
+  <A>Interface</A>
+  <B>Abstract</B>
+  <C>Super</C>
+  <D>static</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿TIENE ALGÚN ERROR ESTE CÓDIGO?<pre><code class="language-java"> abstract class Figura{
+abstract void dibujar();
+}
+class Cuadrado extends Figura{}
+</code></pre>]]></enunciado>
+  <A>Si, cuadrado no implementa el método abstracto dibujar().</A>
+  <B>No, el código es correcto.</B>
+  <C>Si, Cuadrado debe ser abstracto también.</C>
+  <D>Si, falta el constructor.</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ PERMITE LA IMPLEMENTACIÓN MÚLTIPLE DE INTERFACES EN JAVA?]]></enunciado>
+  <A>Heredar de varias clases a la vez</A>
+  <B>Reutilizar atributos entre clases, siempre que sean public o protected</B>
+  <C>Implementar varios comportamientos distintos en una sola clase</C>
+  <D>Evitar el uso de métodos abstractos y así garantizar el encapsulamiento</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI INTENTAMOS CREAR UN OBJETO DIRECTAMENTE DE UNA CLASE ABSTRACTA?]]></enunciado>
+  <A>Se crea con métodos vacíos</A>
+  <B>Da error de compilación</B>
+  <C>Se crea si tiene constructor</C>
+  <D>Solo da error si tiene métodos abstractos</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿PARA QUÉ SIRVE UN BLOQUE TRY-CATCH EN JAVA?]]></enunciado>
+  <A>Para ordenar excepciones</A>
+  <B>Para evitar que el programa termine abruptamente ante un error</B>
+  <C>Para ejecutar código en paralelo</C>
+  <D>Para mejorar el rendimiento al no tener que utilizar tantos bucles</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI NO SE CAPTURA UNA EXCEPCIÓN NO CONTROLADA (UNCHECKED)?]]></enunciado>
+  <A>El programa se detiene con un error en tiempo de ejecución.</A>
+  <B>El compilador da error.</B>
+  <C>Se ignora automáticamente.</C>
+  <D>Se convierte en una excepción controlada.</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL DE ESTAS ESTRUCTURAS ES VÁLIDA PARA EL MANEJO DE EXCEPCIONES?]]></enunciado>
+  <A>try { } then { }</A>
+  <B>catch { } try { }</B>
+  <C>if (error) { } else { }</C>
+  <D>try { } catch (Exception e) { }</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ HACE EL BLOQUE FINALLY?]]></enunciado>
+  <A>Se ejecuta solo si ocurre una excepción</A>
+  <B>Se ejecuta siempre, ocurra o no la excepción</B>
+  <C>Es obligatorio en todo try-catch</C>
+  <D>Solo funciona con IOException</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ IMPRIME ESTE CÓDIGO? <pre><code class="language-java"> try{
+  int a = 10 / 0;
+}catch (ArithmeticException e){
+ System.out.println (&quot;Error: &quot; + e.getMessage());
+}
+</code></pre>]]></enunciado>
+  <A>Error: null</A>
+  <B>Error: / by zero</B>
+  <C>0</C>
+  <D>Error de compilación</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ CLASE ES LA BASE DE TODAS LAS EXCEPCIONES EN JAVA?]]></enunciado>
+  <A>Throwable</A>
+  <B>Error</B>
+  <C>RuntimeException</C>
+  <D>Exception</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ TIPO DE EXCEPCIONES SE DEBEN CAPTURAR OBLIGATORIAMENTE?]]></enunciado>
+  <A>Unchecked</A>
+  <B>Checked</B>
+  <C>RuntimeException</C>
+  <D>NullPointerException</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL DE ESTAS ES UNA EXCEPCIÓN NO CONTROLADA (UNCHECKED)?]]></enunciado>
+  <A>IOException</A>
+  <B>SQLException</B>
+  <C>FileNotFoundException</C>
+  <D>ArithmeticException</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL DE ESTAS EXCEPCIONES DEBE MANEJARSE CON TRY-CATCH O DECLARARSE CON THROWS?]]></enunciado>
+  <A>NullPointerException</A>
+  <B>ArithmeticException</B>
+  <C>FileNotFoundException</C>
+  <D>ArrayIndexOutOfBoundsException</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ INDICA UN STACK TRACE AL PRODUCIRSE UNA EXCEPCIÓN?]]></enunciado>
+  <A>La pila de llamadas hasta el punto del error</A>
+  <B>El tiempo de ejecución</B>
+  <C>El contenido de los arrays</C>
+  <D>Las excepciones que no fueron lanzadas</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES UNA EXCEPCIÓN PERSONALIZADA?]]></enunciado>
+  <A>Una excepción del sistema renombrada</A>
+  <B>Una clase que hereda de Exception o RuntimeException creada por el programador</B>
+  <C>Una excepción automática</C>
+  <D>Un error de sintaxis, que se soluciona al hacer throws desde la clase FileException</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CÓMO SE LANZA UNA EXCEPCIÓN PERSONALIZADA?]]></enunciado>
+  <A>throw new MyException;</A>
+  <B>throw new MiExcepcion(&quot;mensaje&quot;);</B>
+  <C>throws MiExcepcion();</C>
+  <D>launch MiExcepcion();</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL ERROR EN EL SIGUIENTE CÓDIGO? <pre><code class="language-java">try{
+int a = 10 / 0;
+}catch {
+Sysyem.out.println(&quot;Error&quot;);
+}</code></pre>]]></enunciado>
+  <A>El bloque try está mal indentado</A>
+  <B>System.out.println no puede usarse en catch</B>
+  <C>No se puede dividir en un bloque try</C>
+  <D>Falta el tipo de excepción entre paréntesis en catch</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL PROBLEMA EN ESTE CÓDIGO?<pre><code class="language-java"> public static void main(String[] args){
+FileReader fr = new FileReader(&quot;datos.txt&quot;);
+}</code></pre>]]></enunciado>
+  <A>Falta manejar la excepción con try-catch o declarar throws IOException</A>
+  <B>FileReader solo acepta ficheros .xml</B>
+  <C>El método main no puede tener código con archivos</C>
+  <D>FileReader requiere usar System.in</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ERROR CONTIENE ESTE CÓDIGO?<pre><code class="language-java"> try {
+int[] array = new int[3];
+array[5] = 10;
+} catch (IndexOutOfBoundsException e) {
+System.out.println(&quot;Fuera de rango&quot;);
+}</code></pre>]]></enunciado>
+  <A>El tipo de excepción debe ser ArrayIndexOutOfBoundsException para capturar correctamente</A>
+  <B>Falta el bloque finally</B>
+  <C>El array debe declararse fuera del try</C>
+  <D>El try no puede tener arrays</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI SE EJECUTA ESTE CÓDIGO?<pre><code class="language-java"> try {
+System.out.println(&quot;Inicio&quot;);
+} finally{
+System.out.println(&quot;Final&quot;);
+}</code></pre>]]></enunciado>
+  <A>Lanza una excepción</A>
+  <B>Solo imprime &quot;Final“</B>
+  <C>Imprime ambos mensajes: &quot;Inicio&quot; y luego &quot;Final“</C>
+  <D>No compila sin catch</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL ERROR EN ESTA DECLARACIÓN DE EXCEPCIÓN PERSONALIZADA?<pre><code class="language-java"> public static void main(String[] args){
+public void MiExcepcion(String mensaje){
+super(mensaje);
+}
+}</code></pre>]]></enunciado>
+  <A>Exception no se puede extender.</A>
+  <B>Falta implementar un método, controlando la excepción.</B>
+  <C>super(mensaje) debe ir en un método main.</C>
+  <D>El constructor tiene void: debería ser un constructor real, sin tipo de retorno.</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
 </documento>
