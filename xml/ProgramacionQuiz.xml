@@ -7227,7 +7227,6 @@ public class Test {
     </respuesta_correcta>
   </pregunta>
 
-
 <pregunta>
 <enunciado><![CDATA[¿Qué palabra clave se usa para declarar una constante en Java?]]></enunciado>
 <A>CONST</A>
@@ -8241,5 +8240,175 @@ super(mensaje);
   <C>super(mensaje) debe ir en un método main.</C>
   <D>El constructor tiene void: debería ser un constructor real, sin tipo de retorno.</D>
   <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL PROPÓSITO DE LA INTERFAZ JAVA.IO.SERIALIZABLE?]]></enunciado>
+  <A>Indicar que los objetos de una clase pueden ser serializados</A>
+  <B>Permitir acceso a archivos</B>
+  <C>Crear flujos de datos</C>
+  <D>Añadir métodos a una clase</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ CLASE PERMITE LEER CARACTERES DESDE UN ARCHIVO?]]></enunciado>
+  <A>FileOutputStream</A>
+  <B>FileReader</B>
+  <C>Scanner</C>
+  <D>DataInputStream</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL CONTENEDOR SWING PRINCIPAL PARA UNA VENTANA?]]></enunciado>
+  <A>Jpanel</A>
+  <B>JFrame</B>
+  <C>Jbutton</C>
+  <D>JTextArea</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[EN JAVA, ¿QUÉ ES SWING?]]></enunciado>
+  <A>La forma de guardar objetos en ficheros de forma más sencilla, utilizando buffers.</A>
+  <B>Un motor gráfico 3D para videojuegos</B>
+  <C>Una base de datos integrada en Java</C>
+  <D>Una biblioteca gráfica para crear interfaces de usuario (GUI)</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE AL EJECUTAR ESTE CÓDIGO? <pre><code class="language-java"> FileOutputStream fos = new FileOutputStream(&quot;salida.txt&quot;);
+ObjetOutputStream oos = new ObjetOutputStream(fos);
+oos.writeObjet(new Persona(&quot;Ana&quot;));</code></pre>]]></enunciado>
+  <A>Guarda la persona como texto legible</A>
+  <B>El archivo se guarda en modo lectura</B>
+  <C>Lanza error si Persona no tiene constructor</C>
+  <D>Guarda el objeto serializado en formato binario</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ERROR TIENE ESTE CÓDIGO? <pre><code class="language-java"> public class Libro{
+private String titulo;
+private String autor;
+}
+FileOutputStream fos = new FileOutputStream(&quot;libro.dat&quot;);
+ObjetOutputStream oos = new ObjetOutputStream(fos);
+oos.writeObjet(new Libro());
+</code></pre>]]></enunciado>
+  <A>El archivo no se puede crear</A>
+  <B>La clase Libro no implementa Serializable</B>
+  <C>No se puede usar FileOutputStream en Java</C>
+  <D>writeObject no funciona con clases propias</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES EL CONTENEDOR PRINCIPAL DE UNA APLICACIÓN EN SWING?]]></enunciado>
+  <A>Jpanel</A>
+  <B>Jcomponent</B>
+  <C>Jwindow</C>
+  <D>JFrame</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CUÁL ES LA DIFERENCIA ENTRE FILEWRITER Y DATAOUTPUTSTREAM?]]></enunciado>
+  <A>Ambos escriben texto</A>
+  <B>FileWriter escribe caracteres, DataOutputStream escribe datos primitivos</B>
+  <C>DataOutputStream es solo para redes</C>
+  <D>FileWriter no permite escritura</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI FILEWRITER SE CREA CON EL PARÁMETRO APPEND=FALSE?]]></enunciado>
+  <A>Añade contenido al final</A>
+  <B>Sobrescribe el fichero existente</B>
+  <C>Da error</C>
+  <D>Borra el archivo</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ OCURRE SI FILEWRITER SE CREA SIN EL PARÁMETRO APPEND=TRUE?]]></enunciado>
+  <A>Añade contenido al final</A>
+  <B>Sobrescribe el fichero existente</B>
+  <C>Da error</C>
+  <D>Borra el archivo</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ SE NECESITA PARA QUE UN BOTÓN REACCIONE A UNA ACCIÓN EN UNA INTERFAZ SWING?]]></enunciado>
+  <A>Crear un hilo</A>
+  <B>Añadir un ActionListener</B>
+  <C>Llamar a run()</C>
+  <D>Asociar un KeyEvent</D>
+  <respuesta_correcta explicacion="">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿CÓMO SE ORGANIZAN LOS ELEMENTOS (COMPONENTES) DENTRO DE UNA VENTANA EN SWING?]]></enunciado>
+  <A>Usando gestores de diseño (Layout Managers)</A>
+  <B>Utilizando setSize() en cada componente</B>
+  <C>Añadiendo todos los elementos directamente al Jlabel</C>
+  <D>Llamando a pack() antes de añadir los componentes</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ BUENA PRÁCTICA SE RECOMIENDA SIEMPRE AL TRABAJAR CON JDBC?]]></enunciado>
+  <A>Usar archivos .sql externos</A>
+  <B>No capturar excepciones</B>
+  <C>Cerrar conexiones y usar try-with-resources</C>
+  <D>Ejecutar solo consultas SELECT</D>
+  <respuesta_correcta explicacion="">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES JDBC?]]></enunciado>
+  <A>API de Java que permite conectar y ejecutar consultas sobre bases de datosdesde Java.</A>
+  <B>Unas librerías de javascript que podemos utilizar en java, y que permiten trabajar con ficheros binarios</B>
+  <C>El método que si es insertado dentro de un try..catch, me permite realizar consultas sobre unas tablas de la base de datos</C>
+  <D>Unas librerías propias de Java, que permiten trabajar con ficheros binarios</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUE NECESITAMOS PARA CONECTAR DESDE JAVA A CUALQUIER BASE DE DATOS?]]></enunciado>
+  <A>El driver de la base de datos en concreto</A>
+  <B>Únicamente podemos desde Maven</B>
+  <C>Una API de Java</C>
+  <D>Un teléfono móvil</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES MAVEN?]]></enunciado>
+  <A>Una API para trabajar con bases de datos</A>
+  <B>La clase DOM con la que accedor a una base de datos MongoDB</B>
+  <C>Una API para trabajar con ficheros de texto</C>
+  <D>Herramienta de automatización y gestión de proyectos</D>
+  <respuesta_correcta explicacion="">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES POM.XML?]]></enunciado>
+  <A>Archivo de Maven, donde se define toda la configuración del proyecto</A>
+  <B>API de java que me permite trabajar con bases de datos</B>
+  <C>API de Java que me permite trabajar con ficheros de texto</C>
+  <D>API de java que me permite trabajar con ficheros binarios</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿QUÉ ES RECOMENDABLE CUANDO TRABAJAMOS CON JDBC?]]></enunciado>
+  <A>Siempre cerrar conexiones, y/o usar try-with-resources</A>
+  <B>Utilizar Maben</B>
+  <C>Volcar primero en el buffer de entrada</C>
+  <D>Utilizar como apoyo la clase Scanner</D>
+  <respuesta_correcta explicacion="">A</respuesta_correcta>
 </pregunta>
 </documento>
