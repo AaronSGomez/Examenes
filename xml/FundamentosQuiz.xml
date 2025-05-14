@@ -1400,98 +1400,6 @@ Si quieres mostrar solo el día de una fecha completa, ¿qué función debes usa
 <respuesta_correcta>B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>
-¿Cómo se denomina el tipo de atributo que representa "Teléfono"?
-</enunciado>
-<A>Multievaluado</A>
-<B>Multivalor</B>
-<C>De alto valor</C>
-<D>Multivaluado</D>
-<respuesta_correcta>D</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-Según este diagrama ¿Qué campos contendrá la tabla "Ingeniero"?
-</enunciado>
-<A>Ninguno</A>
-<B>IdEmpleado, Especialidad, AñosExperiencia</B>
-<C>
-IdEmpleado, Especialidad, AñosExperiencia, Nombre, Dirección, Fechanacimiento, Salario, Puesto
-</C>
-<D>Especialidad, AñosExperiencia</D>
-<respuesta_correcta>B</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-Tal y como se muestra la imagen, ¿Cuántos teléfonos puede tener un cliente?
-</enunciado>
-<A>Ninguna de las anteriores</A>
-<B>1</B>
-<C>Indefinidos</C>
-<D>10</D>
-<respuesta_correcta>C</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-¿Cómo se lleva a cabo el paso a tablas del atributo teléfono?
-</enunciado>
-<A>
-Se crea una tabla con los atributos (IDTELÉFONO, TELÉFONO)
-</A>
-<B>Se añade como clave foránea de tabla Cliente</B>
-<C>
-Se crea una tabla con los atributos ((FK)IDCLIENTE, TELÉFONO)
-</C>
-<D>
-Se reservan 10 columnas (Teléfono1, Teléfono2, ...) en la tabla Cliente
-</D>
-<respuesta_correcta>C</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-¿Según este diagrama un empleado puede ser arquitecto y administrativo a la vez?
-</enunciado>
-<A>
-No, porque solo un Dios y un gato (porque es gato y araña) puede ser dos cosas a la vez.
-</A>
-<B>Sí claro.</B>
-<C>No, porque es una generalización disjunta.</C>
-<D>Depende.</D>
-<respuesta_correcta>C</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-¿Por qué hay un atributo rodeado de una línea discontinua en este diagrama?
-</enunciado>
-<A>Es un atributo calculado</A>
-<B>Ninguna de las anteriores</B>
-<C>Queda bonito</C>
-<D>Es un atributo multivaluado</D>
-<respuesta_correcta>A</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>¿Cómo pasaría a tablas el atributo antigüedad?</enunciado>
-<A>Las tablas no existen, son los padres</A>
-<B>No se pueden incluir campos con símbolos como ¨</B>
-<C>
-No se pasa a tablas por que se calculará cada vez que se consulte
-</C>
-<D>
-Se crea una nueva tabla Antigüedad_Camarero((FK)idCamarero, Antigüedad)
-</D>
-<respuesta_correcta>C</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>¿Detectas algún problema en este diagrama?</enunciado>
-<A>Faltan relaciones</A>
-<B>No</B>
-<C>idCamarero no puede ser clave primaria</C>
-<D>
-No hay un campo que nos permita calcular "antigüedad"
-</D>
-<respuesta_correcta>D</respuesta_correcta>
-</pregunta>
-<pregunta>
 <enunciado>¿Cómo se calcula "antigüedad"?</enunciado>
 <A>Se pide al usuario cada vez que se necesita</A>
 <B>
@@ -1935,24 +1843,6 @@ Definición, análisis de requisitos, diseño de la base de datos, diseño de la
 </pregunta>
 <pregunta>
 <enunciado>
-La característica más importante de los Big Data es:
-</enunciado>
-<A>
-Supone una colección de almacenes de datos para la búsqueda de patrones.
-</A>
-<B>
-El procesamiento de la información disponible en los grandes almacenes de datos se proyecta en tiempo real.
-</B>
-<C>
-Es la colección de muchas bases de datos relacionales.
-</C>
-<D>
-Es una base de datos NoSQL para el análisis de datos en la toma de decisiones.
-</D>
-<respuesta_correcta>B</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
 Si un atributo tiene propiedades que almacenar, este se considera:
 </enunciado>
 <A>Atributo multivaluado.</A>
@@ -2218,24 +2108,6 @@ Creando una nueva relación con atributo principal, el de la relación original.
 <respuesta_correcta>B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>
-Un subtipo de un tipo de entidad supertipo se transforma:
-</enunciado>
-<A>
-Transformándolo como relación con clave primaria la del supertipo y añadiendo el discriminador del supertipo como clave ajena que apunta a él.
-</A>
-<B>
-Transformándolo como relación con clave primaria y clave ajena, la del supertipo, y añadiendo el discriminador del supertipo.
-</B>
-<C>
-Transformándolo como relación con clave primaria y clave ajena, la del supertipo, y apuntando al subtipo.
-</C>
-<D>
-Transformándolo como relación con clave primaria y clave ajena, la del supertipo, y apuntando al supertipo.
-</D>
-<respuesta_correcta>D</respuesta_correcta>
-</pregunta>
-<pregunta>
 <enunciado>Con respecto a la normalización:</enunciado>
 <A>
 Una tabla está en primera forma normal cuando sus atributos contienen valores atómicos.
@@ -2374,16 +2246,6 @@ ALTER TABLE Empleado SET sgApellido='Palacios' WHERE dni=34567891;
 UPDATE Empleado SET sgApellido='Palacios' WHERE dni=34567891;
 </D>
 <respuesta_correcta>D</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>
-¿Cuál de las siguientes cláusula STORAGE está bien escrita?
-</enunciado>
-<A>STORAGE(INIT 10M NEXT 15M NEXT 30)</A>
-<B>STORAGE(INITIAL 10M NEXT 15M PCTINCREASE 30)</B>
-<C>STORAGE(10M, 15M,30)</C>
-<D>STORAGE(INIT 10M NEXT 15M PCTINCREASE 30)</D>
-<respuesta_correcta>B</respuesta_correcta>
 </pregunta>
 <pregunta>
 <enunciado>
