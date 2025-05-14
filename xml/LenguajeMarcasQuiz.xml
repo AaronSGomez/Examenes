@@ -173,13 +173,13 @@
   <enunciado>¿Cuál de estas formas es correcta para reaccionar a un clic en un botón en JavaScript moderno?</enunciado>
   <A>addClick(btn, function)</A>
   <B>btn.on("click", function)</B>
-  <C>document.querySelector("#btn").addEventListener("click", function() { /*...*/ })</C>
+  <C>document.querySelector("#btn").addEventListener( "click", function() { /*...*/ })</C>
   <D>click(btn, function)</D>
   <respuesta_correcta explicacion="La forma correcta es usar addEventListener() para escuchar eventos en JavaScript moderno."> C </respuesta_correcta>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Qué hace document.querySelector("input[type='email']")?</enunciado>
+  <enunciado>¿Qué hace document.querySelector( "input[type='email']")?</enunciado>
   <A>Selecciona todos los campos de texto</A>
   <B>Selecciona cualquier input</B>
   <C>Selecciona el primer input de tipo email</C>

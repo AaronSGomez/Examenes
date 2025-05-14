@@ -14,7 +14,6 @@
  
 ¿Qué comando se usa para agregar una nueva fila a una tabla?</enunciado><A>APPEND</A><B>PUSH INTO</B><C>INSERT INTO</C><D>ADD</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
 
- 
 ¿Cuál es la cláusula que se usa para agrupar resultados que tienen el mismo valor en una 
 columna?</enunciado><A>CLUSTER BY</A><B>JOIN</B><C>GROUP BY</C><D>ORDER BY</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
@@ -29,9 +28,6 @@ tabla en sí?</enunciado><A>TRUNCATE TABLE</A><B>DROP TABLE</B><C>DELETE DATABAS
  
 ¿Cuál de las siguientes sentencias se usa para recuperar datos de una base de datos?</enunciado><A>GET</A><B>EXTRACT</B><C>SELECT</C><D>FETCH</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
-
 ¿Qué palabra clave se usa en SQL para asegurar que una columna no pueda contener 
 valores NULL?</enunciado><A>REQUIRED</A><B>NOT NULL</B><C>UNIQUE</C><D>NO EMPTY</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
@@ -45,12 +41,6 @@ valores NULL?</enunciado><A>REQUIRED</A><B>NOT NULL</B><C>UNIQUE</C><D>NO EMPTY<
  
 ¿Cuál es el propósito de un alias en una consulta SQL?</enunciado><A>Crear índices en tablas</A><B>Cambiar temporalmente el nombre de una tabla o columna</B><C>Eliminar registros duplicados</C><D>Actualizar datos automáticamente</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
- 
-
 ¿Cuál es el resultado de una función agregada como SUM() en SQL?</enunciado><A>Devuelve la suma de valores de una columna</A><B>Devuelve el número total de filas</B><C>Devuelve el valor máximo de una columna</C><D>Devuelve el primer valor encontrado</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué palabra clave se usa para extraer datos de varias tablas basándose en una relación 
@@ -65,11 +55,6 @@ resultados?</enunciado><A>CONTAINS</A><B>ANY</B><C>IN</C><D>HAS</D><respuesta_co
  
 ¿Qué función se puede usar para redondear siempre a la alta un número decimal en SQL?</enunciado><A>CEIL()</A><B>ROUND()</B><C>FLOOR()</C><D>TRUNCATE()</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
-
 ¿Cuál de las siguientes instrucciones se usa para crear una nueva tabla en SQL?</enunciado><A>MAKE TABLE</A><B>CREATE TABLE</B><C>NEW TABLE</C><D>BUILD TABLE</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué comando se usa para eliminar filas específicas de una tabla basándose en una 
@@ -83,10 +68,6 @@ condición?</enunciado><A>ERASE</A><B>REMOVE</B><C>DELETE FROM</C><D>DROP</D><re
  
 ¿Cuál es la diferencia principal entre INNER JOIN y LEFT JOIN?</enunciado><A>LEFT JOIN devuelve todas las filas de la tabla de la izquierda, INNER JOIN solo las 
 coincidentes</A><B>INNER JOIN devuelve más resultados que LEFT JOIN</B><C>LEFT JOIN elimina duplicados automáticamente</C><D>INNER JOIN permite datos NULL en la tabla de la izquierda</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
- 
- 
- 
- 
  
 
 ¿Cuál de estas funciones de agregación devuelve el valor más grande de una columna?</enunciado><A>MAX()</A><B>GREATEST()</B><C>TOP()</C><D>BIGGEST()</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -126,11 +107,6 @@ En un modelo E/R, ¿cómo se representa una relación N:M entre las tablas BOOKS
 AUTHORS?</enunciado><A>Una tabla intermedia BOOKS_AUTHORS que contiene las referencias a las claves 
 primarias de ambas tablas</A><B>Un campo author_id en la tabla BOOKS</B><C>Un campo book_id en la tabla AUTHORS</C><D>Ninguna de las anteriores</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
-
 ¿Qué sucede si se usa un RIGHT JOIN entre dos tablas en SQL?</enunciado><A>Se obtienen todas las filas de la tabla de la izquierda, y solo las filas coincidentes de la 
 tabla de la derecha (las no coincidentes mostrarán NULL)</A><B>Se obtienen solo las filas coincidentes de ambas tablas</B><C>Se obtienen todas las filas de la tabla de la derecha, y solo las filas coincidentes de la 
 tabla de la izquierda (las no coincidentes mostrarán NULL)</C><D>Se obtienen todas las filas de ambas tablas, sin importar si coinciden o no</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -148,8 +124,6 @@ mayor a menor?</enunciado><A>SELECT * FROM products WHERE price &gt; 100 ORDER B
  
 ¿Cuál es el resultado de esta consulta? SELECT AVG(price) FROM products;</enunciado><A>Suma todos los precios de productos.</A><B>Calcula el precio más bajo entre todos los productos.</B><C>Calcula la media de los precios de todos los productos.</C><D>Devuelve el precio más alto de la tabla productos.</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
-
 ¿Qué consulta devolvería los pedidos realizados entre 2023-01-01 y 2023-12-31?</enunciado><A>SELECT * FROM orders WHERE order_date IN (2023-01-01, 2023-12-31);</A><B>SELECT * FROM orders WHERE order_date BETWEEN '2023-01-01' AND '2023-12-31';</B><C>SELECT * FROM orders WHERE order_date = '2023-01-01' OR '2023-12-31';</C><D>SELECT * FROM orders WHERE order_date &gt; '2023-01-01';</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué efecto tiene usar GROUP BY en una consulta?</enunciado><A>Agrupa filas que tienen los mismos valores en las columnas especificadas.</A><B>Combina dos tablas en una sola.</B><C>Filtra las filas que cumplen una condición.</C><D>Ordena las filas de la consulta.</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -165,10 +139,6 @@ no tienen stock disponible?</enunciado><A>SELECT * FROM products WHERE stock = 0
 ¿Qué consulta devuelve los nombres de los productos con un precio superior al precio 
 medio de todos los productos?</enunciado><A>SELECT name FROM products WHERE price &gt; (SELECT price FROM products);</A><B>SELECT name FROM products WHERE price &gt; (SELECT AVG(price) FROM products);</B><C>SELECT name FROM products WHERE price IN (SELECT AVG(price) FROM products);</C><D>SELECT name FROM products WHERE price &gt; AVG(price);</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
-
 ¿Qué hace una cláusula HAVING en SQL?</enunciado><A>Filtra filas después de hacer un GROUP BY.</A><B>Filtra columnas seleccionadas en la consulta.</B><C>Establece condiciones para combinaciones de tablas.</C><D>Elimina filas duplicadas en el resultado.</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Cuál de estas consultas devuelve los clientes que han realizado más de 5 pedidos?</enunciado><A>SELECT client_id FROM orders WHERE COUNT(*) &gt; 5;</A><B>SELECT client_id FROM orders GROUP BY client_id HAVING COUNT(*) &gt; 5;</B><C>SELECT client_id FROM orders GROUP BY client_id WHERE COUNT(*) &gt; 5;</C><D>SELECT client_id FROM orders WHERE client_id &gt; 5 GROUP BY client_id;</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -186,8 +156,6 @@ product_id;</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><e
  
 ¿Cuál de estas consultas muestra el producto más caro utilizando una subconsulta?</enunciado><A>SELECT * FROM products WHERE price = (SELECT MIN(price) FROM products);</A><B>SELECT * FROM products WHERE price = (SELECT MAX(price) FROM products);</B><C>SELECT * FROM products ORDER BY price ASC LIMIT 1;</C><D>SELECT name FROM products GROUP BY price;</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
-
 ¿Qué significa hacer un INNER JOIN entre dos tablas?</enunciado><A>Combinar todas las filas de ambas tablas, independientemente de coincidencias.</A><B>Combinar filas que tienen coincidencias en ambas tablas.</B><C>Combinar filas sin coincidencias.</C><D>Mostrar únicamente filas de la primera tabla.</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué hace esta consulta? SELECT name, SUM(quantity) FROM sales GROUP BY name 
@@ -206,11 +174,6 @@ another_table_name(column);</D><respuesta_correcta>A</respuesta_correcta></pregu
 ¿Qué sucede si intentamos eliminar una fila de una tabla principal a la que apunta una clave 
 externa sin ON DELETE?</enunciado><A>Se elimina automáticamente en la tabla secundaria.</A><B>La operación falla con un error de restricción.</B><C>Se actualiza la clave externa a NULL.</C><D>Se elimina también la clave primaria.</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
-
 ¿Cuál de las siguientes opciones elimina correctamente una clave primaria de una tabla 
 existente?</enunciado><A>ALTER TABLE table DROP PRIMARY KEY;</A><B>ALTER TABLE table DELETE PRIMARY KEY;</B><C>ALTER TABLE table REMOVE PRIMARY KEY;</C><D>ALTER TABLE table SET PRIMARY KEY NULL;</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
@@ -258,11 +221,6 @@ another_table(id);</D><respuesta_correcta>A</respuesta_correcta></pregunta><preg
 ¿Cuál de las siguientes restricciones garantiza que una columna sea única y no nula al 
 mismo tiempo?</enunciado><A>FOREIGN KEY</A><B>NOT NULL UNIQUE</B><C>CHECK</C><D>DEFAULT</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
-
 ¿Qué hace la restricción PRIMARY KEY en una tabla?</enunciado><A>Permite varios valores repetidos</A><B>Establece una combinación de valores predeterminados</B><C>Identifica de manera única cada fila en una tabla</C><D>Verifica condiciones entre tablas</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué restricción se utiliza para asegurar que una columna apunte a una fila existente en 
@@ -276,12 +234,6 @@ otra tabla?</enunciado><A>CHECK</A><B>FOREIGN KEY</B><C>UNIQUE</C><D>DEFAULT</D>
  
 ¿Cuándo suele utilizarse una clave compuesta?</enunciado><A>Cuando un solo atributo no puede identificar de manera única una fila</A><B>Cuando se necesita una restricción de unicidad adicional</B><C>Para almacenar funciones de agregación</C><D>Para limitar el tamaño de una tabla</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
- 
- 
-
 ¿Qué afirmación describe mejor una entidad fuerte?</enunciado><A>Depende de otra entidad para su existencia</A><B>No necesita de otra entidad para existir</B><C>Solo puede existir si existe una clave externa</C><D>Siempre requiere una clave compuesta</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué característica define a una entidad débil en un modelo E/R?</enunciado><A>Tiene su propia clave primaria independiente</A><B>No puede existir sin estar relacionada a una entidad fuerte</B><C>Siempre tiene atributos multivaluados</C><D>Nunca puede tener una relación 1:N</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -293,13 +245,6 @@ otra tabla?</enunciado><A>CHECK</A><B>FOREIGN KEY</B><C>UNIQUE</C><D>DEFAULT</D>
 En un esquema E/R, ¿cómo se representa normalmente una entidad débil?</enunciado><A>Con un rectángulo de doble línea</A><B>Con un rombo punteado</B><C>Con un óvalo doble</C><D>Con un rectángulo punteado</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué ocurre si se elimina una entidad fuerte relacionada con una entidad débil?</enunciado><A>La entidad débil se convierte en fuerte</A><B>La entidad débil se elimina también (si hay ON DELETE CASCADE)</B><C>La entidad débil permanece inalterada</C><D>La base de datos ignora la relación</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
- 
- 
- 
- 
- 
- 
- 
 
 ¿Qué significa tener una clave primaria compuesta?</enunciado><A>Que no puedo repetir ninguna de las claves externas que la componen. Ni por separado 
 ni juntas</A><B>Que una de las dos claves externas puede ser NULL, pero solo una vez cada una, para 
@@ -323,8 +268,6 @@ puede ser NULL</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta
  
 ¿Qué representa un rectángulo en un diagrama E/R?</enunciado><A>Un atributo</A><B>Una relación</B><C>Una entidad</C><D>Una clave primaria</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
-
 ¿Cómo se representa gráficamente una relación en un esquema E/R?</enunciado><A>Mediante un rectángulo</A><B>Mediante un óvalo</B><C>Mediante un rombo</C><D>Mediante un cuadrado</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Qué indica un óvalo con doble línea en un esquema E/R?</enunciado><A>Atributo clave</A><B>Atributo derivado</B><C>Atributo multivaluado</C><D>Relación compuesta</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -339,7 +282,6 @@ puede ser NULL</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta
  
 ¿Cómo se representa un atributo derivado en un diagrama E/R?</enunciado><A>Con un óvalo de doble línea</A><B>Con un rombo punteado</B><C>Con un óvalo de línea discontinua</C><D>Con un rectángulo sombreado</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
 
- 
 ¿Qué tipo de JOIN devuelve solo las filas que tienen coincidencias en ambas tablas?</enunciado><A>RIGHT JOIN</A><B>FULL JOIN</B><C>LEFT JOIN</C><D>INNER JOIN</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 Cuando en una consulta SQL se asigna un alias a una tabla, ¿cuál es su propósito 
@@ -354,10 +296,6 @@ solo las coincidencias de la tabla de la derecha?</enunciado><A>FULL JOIN</A><B>
  
 ¿Cuál es el resultado de realizar un RIGHT JOIN entre dos tablas A y B?</enunciado><A>Todas las filas de A y solo las coincidencias de B</A><B>Solo las filas coincidentes entre A y B</B><C>Todas las filas de B y las coincidencias de A</C><D>Solo las filas de A</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
- 
- 
- 
-
 ¿Qué función de agregación se utiliza para obtener la suma de los valores de una columna?</enunciado><A>COUNT</A><B>AVG</B><C>SUM</C><D>MIN</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
 ¿Cuál de las siguientes funciones devuelve el número de filas en una consulta?</enunciado><A>MAX</A><B>SUM</B><C>AVG</C><D>COUNT</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado> 
@@ -366,8 +304,10 @@ solo las coincidencias de la tabla de la derecha?</enunciado><A>FULL JOIN</A><B>
  
 ¿Cuál es la función SQL adecuada para calcular la media de los valores en una columna?</enunciado><A>SUM</A><B>MIN</B><C>AVG</C><D>COUNT</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado> 
  
-¿Qué se utiliza para conocer la hora exacta?</enunciado><A>DATETIME</A><B>CURRENT_TIMESTAMP</B><C>TIME</C><D>CURDATE</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado> 
- 
+¿Qué se utiliza para conocer la hora exacta?</enunciado><A>DATETIME</A><B>CURRENT_TIMESTAMP</B><C>TIME</C><D>CURDATE</D><respuesta_correcta>B</respuesta_correcta></pregunta>
+
+
+<pregunta><enunciado> 
 Si quieres mostrar solo el día de una fecha completa, ¿qué función debes usar?</enunciado><A>DAYNAME()</A><B>DAY()</B><C>MONTH()</C><D>WEEKDAY()</D><respuesta_correcta>B</respuesta_correcta></pregunta>
 <pregunta><enunciado>¿Cómo se denomina el tipo de atributo que representa "Teléfono"?</enunciado><A>Multievaluado</A><B>Multivalor</B><C>De alto valor</C><D>Multivaluado</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>Según este diagrama ¿Qué campos contendrá la tabla "Ingeniero"?</enunciado><A>Ninguno</A><B>IdEmpleado, Especialidad, AñosExperiencia</B><C>IdEmpleado, Especialidad, AñosExperiencia, Nombre, Dirección, Fechanacimiento, Salario, Puesto</C><D>Especialidad, AñosExperiencia</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado>Tal y como se muestra la imagen, ¿Cuántos teléfonos puede tener un cliente?</enunciado><A>Ninguna de las anteriores</A><B>1</B><C>Indefinidos</C><D>10</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>¿Cómo se lleva a cabo el paso a tablas del atributo teléfono?</enunciado><A>Se crea una tabla con los atributos (IDTELÉFONO, TELÉFONO)</A><B>Se añade como clave foránea de tabla Cliente</B><C>Se crea una tabla con los atributos ((FK)IDCLIENTE, TELÉFONO)</C><D>Se reservan 10 columnas (Teléfono1, Teléfono2, ...) en la tabla Cliente</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>¿Según este diagrama un empleado puede ser arquitecto y administrativo a la vez?</enunciado><A>No, porque solo un Dios y un gato (porque es gato y araña) puede ser dos cosas a la vez.</A><B>Sí claro.</B><C>No, porque es una generalización disjunta.</C><D>Depende.</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>¿Por qué hay un atributo rodeado de una línea discontinua en este diagrama?</enunciado><A>Es un atributo calculado</A><B>Ninguna de las anteriores</B><C>Queda bonito</C><D>Es un atributo multivaluado</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>¿Cómo pasaría a tablas el atributo antigüedad?</enunciado><A>Las tablas no existen, son los padres</A><B>No se pueden incluir campos con símbolos como ¨</B><C>No se pasa a tablas por que se calculará cada vez que se consulte</C><D>Se crea una nueva tabla Antigüedad_Camarero((FK)idCamarero, Antigüedad)</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>¿Detectas algún problema en este diagrama?</enunciado><A>Faltan relaciones</A><B>No</B><C>idCamarero no puede ser clave primaria</C><D>No hay un campo que nos permita calcular "antigüedad"</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>¿Cómo se calcula "antigüedad"?</enunciado><A>Se pide al usuario cada vez que se necesita</A><B>Hay que guardar un "TimeStamp" cuando se registre el camarero, y se resta la fecha actual cada vez
                 que se consulta.</B><C>Todas las bases de datos del mundo están interconectadas y se busca el dato en ellas</C><D>En base a la fecha de incorporación</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>¿Cómo pasamos a tablas el atributo "F. Inicio"?</enunciado><A>Se crea una tabla Autores_Cursos((FK)CodigoEmpleado, (FK)CodigoCurso, F.Inicio)</A><B>No se pasa a tablas</B><C>Se incorpora a la tabla Empleados</C><D>Se incorpora a la tabla Cursos</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>En la tabla Camarero_Emite_Ticket, que se genera con la relación "Emite", ¿Cuál será la clave primaria?</enunciado><A>(FK)IDCAMARERO</A><B>((FK)IDCAMARERO, (FK)IDTICKET)</B><C>(FK)IDTICKET</C><D>idEmite</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado>¿Qué tipo de entidad es "Línea Ticket"?</enunciado><A>Entidad débil</A><B>Entidad floja</B><C>Entidad multivaluada</C><D>Entidad normal</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>¿Cuál será la clave de Línea Ticket?</enunciado><A>idLinea</A><B>NumLinea, idLinea</B><C>NumTicket, NumLinea</C><D>NumTicket</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>Un médico puede atender a varios pacientes, y un paciente puede ser atendido por varios médicos. ¿Cuál es la
@@ -399,7 +339,9 @@ Si quieres mostrar solo el día de una fecha completa, ¿qué función debes usa
                 datos, implementación, prueba y mantenimiento.</A><B>Definición, análisis de requisitos, diseño de la aplicación, diseño de la base de datos,
                 implementación, prototipado, prueba y mantenimiento.</B><C>Planificación, definición, análisis de requisitos, diseño de la aplicación, diseño de la base de
                 datos, implementación y mantenimiento.</C><D>Definición, análisis de requisitos, diseño de la base de datos, diseño de la aplicación,
-                prototipado, implementación, prueba y mantenimiento.</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>Con respecto al fichero /etc/shadow, ¿cuál de las respuestas no es correcta?</enunciado><A>Contiene cada una de las contraseñas cifradas, pero pueden estar sin cifrar.</A><B>Se puede indicar el número de días sin poder cambiar la contraseña.</B><C>Se puede indicar el número de días antes del vencimiento de la contraseña.</C><D>Se puede indicar el número de días a partir de los cuales se debe cambiar la contraseña.</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>En cuanto a los sistemas de soporte a decisiones:</enunciado><A>No son sistemas de información para su procesamiento, almacenamiento y flujo.</A><B>Son sistemas de información para su procesamiento y almacenamiento.</B><C>Son lo mismo que los almacenes de datos o Data Warehouse.</C><D>No hacen uso de los almacenes de datos o Data Warehouse.</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado>En relación a los sistemas transaccionales:</enunciado><A>OLAP es un ejemplo de ellos.</A><B>Los sistemas DDS son un ejemplo de ellos.</B><C>También son conocidos como almacenes de datos.</C><D>OLTP es un ejemplo de ellos.</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>¿Cuál es el objetivo de la minería de datos?</enunciado><A>Establecer las estructuras relacionales necesarias para las grandes bases de datos.</A><B>Cruzar los datos con distintos niveles de agregación en bases de datos multidimensionales.</B><C>Buscar reglas y estructuras a partir de los datos almacenados en almacenes de datos.</C><D>Recolectar masivamente los datos y procesarlos en tiempo real.</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>La característica más importante de los Big Data es:</enunciado><A>Supone una colección de almacenes de datos para la búsqueda de patrones.</A><B>El procesamiento de la información disponible en los grandes almacenes de datos se proyecta en
+                prototipado, implementación, prueba y mantenimiento.</D><respuesta_correcta>D</respuesta_correcta></pregunta>
+
+<pregunta><enunciado>La característica más importante de los Big Data es:</enunciado><A>Supone una colección de almacenes de datos para la búsqueda de patrones.</A><B>El procesamiento de la información disponible en los grandes almacenes de datos se proyecta en
                 tiempo real.</B><C>Es la colección de muchas bases de datos relacionales.</C><D>Es una base de datos NoSQL para el análisis de datos en la toma de decisiones.</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado>Si un atributo tiene propiedades que almacenar, este se considera:</enunciado><A>Atributo multivaluado.</A><B>Un tipo de interrelación con un atributo.</B><C>Un tipo de entidad.</C><D>Un atributo principal.</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>En relación a los atributos secundarios:</enunciado><A>Es lo mismo que un atributo principal.</A><B>Identifica unívocamente a cada entidad.</B><C>No identifica unívocamente cada entidad, ya que puede ser opcional.</C><D>Se usará para relacionar las entidades de dos tipos de entidad.</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>Si se desea almacenar la o las tarjetas bancarias que usa un cliente en las compras de un sitio
             web:</enunciado><A>Se añadirá el atributo simple tarjeta al tipo de entidad Cliente.</A><B>Se añadirá el atributo compuesto tarjeta al tipo de entidad Cliente.</B><C>Se añadirá el atributo principal tarjeta al tipo de entidad Cliente.</C><D>Se añadirá el atributo multivaluado tarjeta al tipo de entidad Cliente.</D><respuesta_correcta>D</respuesta_correcta></pregunta><pregunta><enunciado>En las relaciones N:M las cardinalidades de los dos tipos de entidad que unen son:</enunciado><A>(0,1),(1,1),(1,n) o (2,n).</A><B>(0,1),(1,1) o (1,n).</B><C>(0,n),(1,n) o (x,n).</C><D>(0,n) o (1,n).</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>En cuanto a las relaciones ternarias:</enunciado><A>Siempre tienen su representación con dos interrelaciones binarias sin que por ello se pierda
                 semántica.</A><B>No siempre tienen su representación con dos interrelaciones binarias conservando la semántica.</B><C>La cardinalidad mínima y máxima en uno de los tipos de entidad son 1 y n, respectivamente.</C><D>Siempre se deben convertir en un tipo de entidad.</D><respuesta_correcta>B</respuesta_correcta></pregunta><pregunta><enunciado>Si se quiere cerrar el dominio del atributo color, ¿cuál es la mejor forma?</enunciado><A>Añadirlo como atributo no nulo.</A><B>Añadirlo como atributo secundario.</B><C>Añadirlo como una interrelación con un tipo de entidad llamado Color.</C><D>Añadirlo como un atributo primario llamado color y un tipo de entidad llamado Color.</D><respuesta_correcta>C</respuesta_correcta></pregunta><pregunta><enunciado>Los atributos en las interrelaciones:</enunciado><A>Pueden participar como parte del atributo principal.</A><B>No se debe añadir a las que son de multiplicidad 1:N.</B><C>Siempre son temporales y forman parte del identificador de la interrelación.</C><D>Se añade al tipo de entidad de mayor cardinalidad.</D><respuesta_correcta>A</respuesta_correcta></pregunta><pregunta><enunciado>En las relaciones reflexivas siempre se debe añadir en el otro extremo la cardinalidad mínima y
