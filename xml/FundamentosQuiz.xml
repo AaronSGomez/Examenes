@@ -3019,7 +3019,7 @@ CREATE OR REPLACE FUNCTION Formatear(IN cad VARCHAR2) RETURN VARCHAR2 IS
 </pregunta>
 <pregunta>
 <enunciado>
-¿Qué sentencia INSERT sería correcta para añadir el grupo U2?
+¿Qué sentencia INSERT sería correcta para añadir el grupo U2? teniendo en cuenta: en la tabla grupos, cod_grupo no es AUTO_INCREMENT
 </enunciado>
 <A>
 INSERT INTO grupos VALUES (1, 'U2', 'Irlandesa', 'U2 es una banda de rock originaria de Dublín (Irlanda) formada en 1976.');
