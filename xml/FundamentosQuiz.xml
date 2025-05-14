@@ -1400,28 +1400,6 @@ Si quieres mostrar solo el día de una fecha completa, ¿qué función debes usa
 <respuesta_correcta>B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Cómo se calcula "antigüedad"?</enunciado>
-<A>Se pide al usuario cada vez que se necesita</A>
-<B>
-Hay que guardar un "TimeStamp" cuando se registre el camarero, y se resta la fecha actual cada vez que se consulta.
-</B>
-<C>
-Todas las bases de datos del mundo están interconectadas y se busca el dato en ellas
-</C>
-<D>En base a la fecha de incorporación</D>
-<respuesta_correcta>D</respuesta_correcta>
-</pregunta>
-<pregunta>
-<enunciado>¿Cómo pasamos a tablas el atributo "F. Inicio"?</enunciado>
-<A>
-Se crea una tabla Autores_Cursos((FK)CodigoEmpleado, (FK)CodigoCurso, F.Inicio)
-</A>
-<B>No se pasa a tablas</B>
-<C>Se incorpora a la tabla Empleados</C>
-<D>Se incorpora a la tabla Cursos</D>
-<respuesta_correcta>A</respuesta_correcta>
-</pregunta>
-<pregunta>
 <enunciado>
 En la tabla Camarero_Emite_Ticket, que se genera con la relación "Emite", ¿Cuál será la clave primaria?
 </enunciado>
