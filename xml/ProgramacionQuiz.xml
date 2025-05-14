@@ -7350,7 +7350,7 @@ public class Test {
 </pregunta>
 <pregunta>
 <enunciado><![CDATA[¿Cuál de las siguientes opciones, es un comentario válido en java?]]></enunciado>
-<A><!-- esto es un comentario --></A>
+<A> &lt; !-- esto es un comentario -- &gt; </A>
 <B>//esto es un comentario</B>
 <C>\\esto es un comentario</C>
 <D>*// esto es un comentario //*</D>
