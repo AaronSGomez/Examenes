@@ -468,20 +468,20 @@ Reemplaza al
 <respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué clase de Bootstrap aplica bordes redondeados a una imagen sin hacerla circular?</enunciado>
-<A>.rounded-circle</A>
-<B>.img-rounded</B>
-<C>.rounded</C>
-<D>.img-soft</D>
-<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+  <enunciado>¿Qué clase de Bootstrap aplica bordes redondeados a una imagen sin hacerla circular?</enunciado>
+  <A>.rounded-circle</A>
+  <B>.img-rounded</B>
+  <C>.rounded</C>
+  <D>.img-soft</D>
+  <respuesta_correcta explicacion="La clase .rounded aplica bordes redondeados sin hacer la imagen circular.">C</respuesta_correcta>
 </pregunta>
 <pregunta>
-<enunciado>¿Qué combinación de elementos HTML5 es correcta según su uso semántico?</enunciado>
-<A>nav para comentarios y article aside para el contenido principal</A>
-<B>article para una noticia completa y aside para contenido complementario</B>
-<C>nav para encabezados y article para menús</C>
-<D>nav para artículos y aside para publicidades</D>
-<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+  <enunciado>¿Qué combinación de elementos HTML5 es correcta según su uso semántico?</enunciado>
+  <A>nav para comentarios y article aside para el contenido principal</A>
+  <B>article para una noticia completa y aside para contenido complementario</B>
+  <C>nav para encabezados y article para menús</C>
+  <D>nav para artículos y aside para publicidades</D>
+  <respuesta_correcta explicacion="La etiqueta <article> se usa para contenido principal e independiente como una noticia, y <aside> para información secundaria o complementaria.">B</respuesta_correcta>
 </pregunta>
 <pregunta>
 <enunciado>¿Qué combinación de propiedades permite nombrar áreas en una cuadrícula CSS y luego asignarlas a elementos?</enunciado>
