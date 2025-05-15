@@ -678,6 +678,421 @@
 <D>Implementación</D>
 <respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
 </pregunta>
-
+<pregunta>
+<enunciado>
+¿Cuál es el principal objetivo del mantenimiento perfectivo en el software?
+</enunciado>
+<A>Corregir errores detectados</A>
+<B>Adaptar el sistema a nuevos entornos</B>
+<C>Mejorar o ampliar funcionalidades</C>
+<D>Reducir el consumo energético del sistema</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué permite determinar la complejidad ciclomática de una función?
+</enunciado>
+<A>El número de líneas de código</A>
+<B>El número de entradas del usuario</B>
+<C>El número de caminos independientes en el flujo</C>
+<D>La cantidad de funciones llamadas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Cómo se representa un caso de uso en UML?</enunciado>
+<A>Rectángulo</A>
+<B>Rayo</B>
+<C>Elipse u óvalo</C>
+<D>Rombo</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué técnica permite agrupar entradas de prueba válidas en subconjuntos que representen clases?
+</enunciado>
+<A>Partición de clases de equivalencia</A>
+<B>Análisis de valores límite</B>
+<C>Pruebas de regresión</C>
+<D>Diseño de casos de uso</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué tipo de relación UML indica que una clase utiliza otra de forma temporal sin necesidad de poseerla?
+</enunciado>
+<A>Herencia</A>
+<B>Composición</B>
+<C>Agregación</C>
+<D>Dependencia</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">D</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué característica distingue a una prueba de sistema?
+</enunciado>
+<A>Se enfoca en unidades individuales</A>
+<B>Evalúa la interacción con la base de datos</B>
+<C>Valida el sistema como un todo</C>
+<D>Prueba el rendimiento del hardware</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+En el ciclo de vida del software, ¿qué fase se encarga de realizar pruebas para asegurar que los módulos interactúan correctamente?
+</enunciado>
+<A>Pruebas unitarias</A>
+<B>Pruebas de integración</B>
+<C>Pruebas de validación</C>
+<D>Pruebas de aceptación</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál de los siguientes elementos suele formar parte de un entorno de desarrollo integrado (IDE)?
+</enunciado>
+<A>Sistema de arranque</A>
+<B>Panel de configuración de hardware</B>
+<C>Editor de código, compilador y depurador</C>
+<D>Consola de administración de red</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál de los siguientes lenguajes es típicamente considerado de bajo nivel?
+</enunciado>
+<A>Java</A>
+<B>C</B>
+<C>Python</C>
+<D>Kotlin</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál de los siguientes representa un atributo de una clase con demasiadas responsabilidades?
+</enunciado>
+<A>Muchos métodos o atributos</A>
+<B>Nombre corto</B>
+<C>Comentarios extensos</C>
+<D>Atributos privados</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál es el comando correcto para configurar el correo electrónico global en Git?
+</enunciado>
+<A>
+git config --global user.email "correo@example.com"
+</A>
+<B>git config user.email "correo@example.com"</B>
+<C>git mail config --global</C>
+<D>git config user.name</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál es el principal beneficio de una prueba de integración?
+</enunciado>
+<A>Validar interfaces gráficas</A>
+<B>
+Verificar que las clases se construyen correctamente
+</B>
+<C>Asegurar que los módulos trabajan bien juntos</C>
+<D>Ejecutar scripts automatizados</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Cuál es la utilidad de la relación «extends» en UML?
+</enunciado>
+<A>Obligar la ejecución conjunta de casos de uso</A>
+<B>Permitir comportamiento opcional o alternativo</B>
+<C>Indicar herencia entre actores</C>
+<D>Definir atributos de una clase</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿En qué fase del ciclo de vida del software se implementa el diseño del sistema mediante código?
+</enunciado>
+<A>Implementación</A>
+<B>Análisis de Requisitos</B>
+<C>Mantenimiento</C>
+<D>Pruebas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿En qué fase del ciclo de vida del software se realizan ajustes a los requisitos, arquitectura y diseño?
+</enunciado>
+<A>Análisis</A>
+<B>Mantenimiento</B>
+<C>Implementación</C>
+<D>Pruebas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿En qué tipo de proyectos es más adecuado el modelo iterativo?
+</enunciado>
+<A>Proyectos con requisitos estables</A>
+<B>Proyectos con alta regulación o certificación</B>
+<C>Proyectos con requisitos cambiantes y evolutivos</C>
+<D>Proyectos con un diseño final predefinido</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Por qué es importante documentar el software?</enunciado>
+<A>Facilita el mantenimiento y la colaboración</A>
+<B>Garantiza la seguridad del código</B>
+<C>Acelera el desarrollo de software</C>
+<D>Ninguna de las anteriores</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Por qué se recomienda dividir las responsabilidades de una clase en componentes más pequeños?
+</enunciado>
+<A>Evita escribir comentarios detallados</A>
+<B>Reduce la cantidad de casos necesarios en pruebas</B>
+<C>Facilita la reutilización del código</C>
+<D>Automatiza todo el proceso de pruebas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué característica define el modelo ágil?</enunciado>
+<A>Fases secuenciales y bien definidas</A>
+<B>Equipos multifuncionales y trabajo colaborativo</B>
+<C>Requisitos fijos desde el inicio</C>
+<D>Enfoque en documentación exhaustiva</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué caracteriza a una prueba funcional o de caja negra?
+</enunciado>
+<A>Se enfoca en la estructura interna del sistema</A>
+<B>
+Se prueba el sistema sin conocer su estructura interna
+</B>
+<C>Analiza el rendimiento del sistema</C>
+<D>Depende de los valores esperados de las variables</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué comando de Git permite subir los cambios locales al repositorio remoto?
+</enunciado>
+<A>git push</A>
+<B>git upload</B>
+<C>git deploy</C>
+<D>git export</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué comando en Git permite configurar el nombre de usuario global?
+</enunciado>
+<A>git name set</A>
+<B>git config user.name</B>
+<C>git config --global user.name</C>
+<D>git init user.name</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>¿Qué diferencia a la agregación de la composición?</enunciado>
+<A>
+En la composición, la vida del contenido depende del contenedor
+</A>
+<B>En la agregación no hay relación de pertenencia</B>
+<C>
+En la composición los objetos existen de forma independiente
+</C>
+<D>No existe diferencia real</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué documento se elabora durante el análisis de requisitos?
+</enunciado>
+<A>Especificación funcional</A>
+<B>Manual de usuario</B>
+<C>Plan de pruebas</C>
+<D>Informe de validación</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué fase del ciclo de vida del software se encarga de verificar que se cumplan los requisitos establecidos?
+</enunciado>
+<A>Implementación</A>
+<B>Mantenimiento</B>
+<C>Pruebas</C>
+<D>Diseño</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué fase del ciclo de vida del software está encargada de poner el sistema en producción?
+</enunciado>
+<A>Implementación</A>
+<B>Mantenimiento</B>
+<C>Diseño</C>
+<D>Pruebas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué fase del ciclo de vida del software se enfoca en asegurar que las funcionalidades clave del sistema funcionen correctamente?
+</enunciado>
+<A>Mantenimiento</A>
+<B>Implementación</B>
+<C>Pruebas funcionales</C>
+<D>Diseño</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué función clave cumple la documentación en proyectos con múltiples desarrolladores?
+</enunciado>
+<A>Elimina la necesidad de reuniones</A>
+<B>
+Permite alinear la comprensión entre equipos distribuidos
+</B>
+<C>Evita que se comenten los cambios</C>
+<D>Reduce la velocidad del desarrollo</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué función tiene el hipervisor en un entorno de virtualización?
+</enunciado>
+<A>Traducir código de alto nivel</A>
+<B>
+Administrar y aislar máquinas virtuales sobre el hardware físico
+</B>
+<C>Compilar el kernel</C>
+<D>Gestionar el diseño del sistema</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué función tiene el hipervisor en un entorno de virtualización?
+</enunciado>
+<A>
+Administrar y aislar máquinas virtuales sobre el hardware físico
+</A>
+<B>Traducir código de alto nivel</B>
+<C>Compilar el kernel</C>
+<D>Gestionar el diseño del sistema</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué problema refleja el mal olor de código llamado "Shotgun Surgery"?
+</enunciado>
+<A>Clases sin métodos</A>
+<B>Repetición de estructuras de control</B>
+<C>
+Cambiar una parte del sistema implica modificar muchas otras
+</C>
+<D>Uso excesivo de herencia</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué representa la complejidad ciclomática en un bloque de código?
+</enunciado>
+<A>La cantidad de comentarios por línea</A>
+<B>
+El número de caminos independientes en el flujo del programa
+</B>
+<C>La cantidad de clases heredadas</C>
+<D>El número de variables globales</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué representa un componente en un diagrama de componentes UML?
+</enunciado>
+<A>Un actor externo</A>
+<B>Una unidad funcional ejecutable del sistema</B>
+<C>Un flujo de datos</C>
+<D>Un entorno de ejecución</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué representa una entrada fuera del rango permitido en una clase de equivalencia?
+</enunciado>
+<A>Un valor duplicado</A>
+<B>Un dato opcional</B>
+<C>Una partición inválida</C>
+<D>Una entrada crítica</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué tipo de máquina virtual ejecuta un sistema operativo completo de manera aislada?
+</enunciado>
+<A>Máquina virtual de hardware</A>
+<B>Máquina virtual de proceso</B>
+<C>Contenedor</C>
+<D>Microkernel</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué ventaja ofrece el uso de clases de equivalencia en pruebas?
+</enunciado>
+<A>Evita documentar los casos</A>
+<B>Elimina pruebas funcionales</B>
+<C>
+Reduce la cantidad de casos necesarios sin perder cobertura
+</C>
+<D>Automatiza todo el proceso de pruebas</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué ventaja tiene un lenguaje de alto nivel frente a uno de bajo nivel?
+</enunciado>
+<A>Mayor control de memoria</A>
+<B>Mayor complejidad en la sintaxis</B>
+<C>
+Mayor legibilidad y menor complejidad para el programador
+</C>
+<D>Acceso directo a registros del procesador</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué estrategia ayuda a identificar defectos antes de la ejecución del código?
+</enunciado>
+<A>Pruebas exploratorias</A>
+<B>Análisis estático del código</B>
+<C>Pruebas funcionales</C>
+<D>Refactorización</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">B</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Qué herramienta facilita la automatización de pruebas repetitivas y validación continua?
+</enunciado>
+<A>Editor de texto</A>
+<B>Depurador de código</B>
+<C>Framework de pruebas</C>
+<D>Gestor de versiones</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
+<pregunta>
+<enunciado>
+¿Por qué se prefiere un lenguaje de alto nivel en desarrollo ágil?
+</enunciado>
+<A>Mayor acceso a registros de CPU</A>
+<B>Menor seguridad</B>
+<C>Mayor legibilidad y facilidad de mantenimiento</C>
+<D>Mejor rendimiento sin compilación</D>
+<respuesta_correcta explicacion="Respuesta correcta con fracción positiva.">C</respuesta_correcta>
+</pregunta>
 </documento>
 
