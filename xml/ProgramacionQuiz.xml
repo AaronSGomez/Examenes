@@ -8181,7 +8181,7 @@ class Cuadrado extends Figura{}
   <B>throw new MiExcepcion(&quot;mensaje&quot;);</B>
   <C>throws MiExcepcion();</C>
   <D>launch MiExcepcion();</D>
-  <respuesta_correcta explicacion="Se lanza una excepción personalizada usando la palabra clave throw seguida de una nueva instancia de la excepción con sus parámetros, por ejemplo: throw new MiExcepcion("mensaje");">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Se lanza una excepción personalizada usando la palabra clave throw seguida de una nueva instancia de la excepción con sus parámetros, por ejemplo: throw new MiExcepcion(mensaje);">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8417,5 +8417,417 @@ oos.writeObjet(new Libro());
   <C>Volcar primero en el buffer de entrada</C>
   <D>Utilizar como apoyo la clase Scanner</D>
   <respuesta_correcta explicacion="Es recomendable cerrar siempre las conexiones a la base de datos para evitar fugas de recursos, y usar try-with-resources para gestionar automáticamente el cierre.">A</respuesta_correcta>
+</pregunta>
+<pregunta>
+  <enunciado><![CDATA[¿Cuál de estas excepciones es no comprobada (unchecked)?]]></enunciado>
+  <A>SQLException</A>
+  <B>ArithmeticException</B>
+  <C>FileNotFoundException</C>
+  <D>IOException</D>
+  <respuesta_correcta explicacion="La excepción ArithmeticException es una excepción no comprobada (unchecked), lo que significa que no es necesario manejarla o declararla en la firma del método. Las excepciones comprobadas (checked) como SQLException, FileNotFoundException e IOException deben ser manejadas o declaradas.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál de las siguientes afirmaciones sobre el uso de FileWriter sin append=true es correcta?]]></enunciado>
+  <A>Sobrescribe el contenido del archivo</A>
+  <B>Añade contenido al final del archivo existente</B>
+  <C>Cierra automáticamente el archivo</C>
+  <D>Lanza una excepción</D>
+  <respuesta_correcta explicacion="Si se utiliza FileWriter sin el parámetro append=true, sobrescribirá el contenido del archivo existente. Si se desea añadir contenido al final del archivo, se debe usar append=true al crear el FileWriter.">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál de las siguientes opciones declara una constante de clase correctamente en Java?]]></enunciado>
+  <A>final static int MAX = &quot;50&quot;;</A>
+  <B>public static final int MAX = 50;</B>
+  <C>static const int MAX = 50;</C>
+  <D>const int MAX = 50;</D>
+  <respuesta_correcta explicacion="La opción B declara correctamente una constante de clase en Java. Se utiliza la palabra clave final para indicar que el valor no puede cambiar y static para indicar que es una constante de clase. La opción A es incorrecta porque el valor debe ser un número entero, no una cadena. La opción C es incorrecta porque &quot;const&quot; no es una palabra clave válida en Java. La opción D es incorrecta porque falta la palabra clave static.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál de las siguientes opciones no es una forma válida de comentario en Java?
+repuesta_correcta C]]></enunciado>
+  <A>// Comentario de una línea.</A>
+  <B>/* Comentario de varias líneas /</B>
+  <C>&lt;!-- Comentario --&gt;</C>
+  <D>/* Comentario de documentación */</D>
+  <respuesta_correcta explicacion="La opción C no es una forma válida de comentario en Java. Los comentarios en Java pueden ser de una línea (//), de varias líneas (/* ... */) o de documentación (/** ... */). La opción C utiliza la sintaxis de comentarios HTML, que no es válida en Java."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál de los siguientes tipos de datos puede almacenar un ArrayList en Java?]]></enunciado>
+  <A>Tipos primitivos.</A>
+  <B>Solo enteros.</B>
+  <C>Solo cadenas de texto.</C>
+  <D>Cualquier tipo de objeto.</D>
+  <respuesta_correcta explicacion="Un ArrayList en Java puede almacenar cualquier tipo de objeto, incluidos objetos de clases personalizadas. Sin embargo, no puede almacenar tipos primitivos directamente; se deben usar sus correspondientes clases envolventes (como Integer para int, Double para double, etc.) para almacenar tipos primitivos en un ArrayList.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es el orden de ejecución correcto en una estructura try-catch-finally si no hay excepción?]]></enunciado>
+  <A>finally → try → catch</A>
+  <B>try → catch → finally</B>
+  <C>catch → finally → try</C>
+  <D>try → finally</D>
+  <respuesta_correcta explicacion="En una estructura try-catch-finally, si no hay excepción, el bloque try se ejecuta primero y luego el bloque finally. El bloque catch no se ejecuta porque no hay excepción que manejar. Por lo tanto, el orden correcto es try → finally.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es el propósito de los métodos getter en Java?
+repuesta_correcta D]]></enunciado>
+  <A>Inicializar el constructor</A>
+  <B>Ejecutar tareas en segundo plano</B>
+  <C>Asignar valores a atributos</C>
+  <D>Obtener valores de atributos privados</D>
+  <respuesta_correcta explicacion="Los métodos getter en Java se utilizan para obtener valores de atributos privados de una clase. Permiten acceder a los valores de los atributos sin permitir la modificación directa de estos, lo que ayuda a mantener la encapsulación y la integridad de los datos. Los métodos setter, por otro lado, se utilizan para asignar valores a los atributos."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es el propósito del método peek() en una Queue?
+repuesta_correcta B]]></enunciado>
+  <A>Ordenar la cola</A>
+  <B>Obtener el primer elemento sin eliminarlo</B>
+  <C>Eliminar el primer elemento</C>
+  <D>Insertar un elemento</D>
+  <respuesta_correcta explicacion="El método peek() en una Queue se utiliza para obtener el primer elemento de la cola sin eliminarlo. Esto permite ver el elemento que está en la parte frontal de la cola sin modificar la cola misma. Si la cola está vacía, peek() generalmente devuelve null o lanza una excepción, dependiendo de la implementación de la cola."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es la diferencia entre una clase abstracta y una interfaz en Java?]]></enunciado>
+  <A>Las interfaces pueden tener constructores</A>
+  <B>Las clases abstractas pueden tener métodos implementados</B>
+  <C>Las interfaces pueden extender clases</C>
+  <D>Las clases abstractas no pueden tener atributos.</D>
+  <respuesta_correcta explicacion="La principal diferencia entre una clase abstracta y una interfaz en Java es que las clases abstractas pueden tener métodos implementados (con cuerpo) y atributos, mientras que las interfaces solo pueden tener métodos abstractos (sin cuerpo) y no pueden tener atributos de instancia. Las interfaces se utilizan para definir un contrato que las clases deben cumplir, mientras que las clases abstractas se utilizan para proporcionar una base común para otras clases.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es la forma correcta de declarar una constante accesible desde cualquier clase sin necesidad de instanciar en Java?
+repuesta_correcta A]]></enunciado>
+  <A>public static final int LIMITE = 100;</A>
+  <B>static final int LIMITE = 100;</B>
+  <C>public int LIMITE = 100;</C>
+  <D>final int LIMITE = 100</D>
+  <respuesta_correcta explicacion="La forma correcta de declarar una constante accesible desde cualquier clase sin necesidad de instanciar es utilizando la palabra clave public, static y final. Esto significa que la constante es pública (accesible desde cualquier lugar), está asociada a la clase (no a una instancia específica) y su valor no puede cambiar (final). La opción B es incorrecta porque no es pública, la opción C no es estática y la opción D falta un punto y coma al final."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es la principal diferencia entre un bucle while y do-while?]]></enunciado>
+  <A>while no necesita condición</A>
+  <B>do-while requiere que la condición sea falsa</B>
+  <C>do-while se ejecuta siempre al menos una vez</C>
+  <D>Ambos se comportan igual</D>
+  <respuesta_correcta explicacion="La principal diferencia entre un bucle while y un bucle do-while es que el bucle do-while se ejecuta al menos una vez, independientemente de si la condición es verdadera o falsa. En cambio, el bucle while solo se ejecuta si la condición es verdadera desde el principio. Por lo tanto, si la condición es falsa en un bucle while, el bloque de código no se ejecutará en absoluto.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es una buena práctica al usar conexiones JDBC en Java?]]></enunciado>
+  <A>Cerrar las conexiones usando try-with-resources</A>
+  <B>Conectar solo con Statement, nunca PreparedStatement</B>
+  <C>Dejar las conexiones abiertas por rendimiento</C>
+  <D>Evitar el uso de try-catch</D>
+  <respuesta_correcta explicacion="Una buena práctica al usar conexiones JDBC en Java es cerrar las conexiones utilizando la declaración try-with-resources. Esto asegura que los recursos se cierren automáticamente al final del bloque, incluso si ocurre una excepción. Dejar las conexiones abiertas puede causar fugas de recursos y afectar el rendimiento de la aplicación. Además, PreparedStatement es preferible a Statement por razones de seguridad y rendimiento.">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Cuál es una ventaja de usar PreparedStatement sobre Statement en JDBC?]]></enunciado>
+  <A>Permite llamadas HTTP</A>
+  <B>No requiere conexión</B>
+  <C>Previene inyecciones SQL</C>
+  <D>Es más lento</D>
+  <respuesta_correcta explicacion="Una de las principales ventajas de usar PreparedStatement sobre Statement en JDBC es que PreparedStatement previene inyecciones SQL. Al usar parámetros en lugar de concatenar cadenas, se reduce el riesgo de ataques de inyección SQL. Además, PreparedStatement puede ser más eficiente en términos de rendimiento, ya que permite la reutilización de la consulta precompilada.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué efecto tiene este código en Java? <pre><code class="language-java">int[] original = {10, 20, 30};
+int[] copia = original;
+copia[1] = 99;
+System.out.println(original[1]);
+</code></pre>]]></enunciado>
+  <A>Imprime null</A>
+  <B>Imprime 99</B>
+  <C>Imprime 20</C>
+  <D>Da error de compilación</D>
+  <respuesta_correcta explicacion="El código crea un arreglo original y luego asigna la referencia de ese arreglo a copia. Cuando se modifica copia[1], también se modifica original[1] porque ambos apuntan al mismo arreglo en memoria. Por lo tanto, el programa imprimirá 99.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué error contiene el siguiente método getter? public void getEdad() {
+return edad;
+}]]></enunciado>
+  <A>El método debería llamarse setEdad</A>
+  <B>No puede acceder a atributos</B>
+  <C>Falta un constructor en la clase</C>
+  <D>El tipo de retorno debería ser int, no void</D>
+  <respuesta_correcta explicacion="El error en el método getter es que su tipo de retorno debería ser int, no void. Un método getter debe devolver el valor del atributo que está accediendo, por lo que debe tener un tipo de retorno correspondiente al tipo del atributo. En este caso, si edad es un entero, el método debería ser public int getEdad() { return edad; }.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué estructura de datos sigue el principio LIFO?]]></enunciado>
+  <A>ArrayList</A>
+  <B>Pila</B>
+  <C>Conjunto</C>
+  <D>Cola</D>
+  <respuesta_correcta explicacion="La estructura de datos que sigue el principio LIFO (Last In, First Out) es la Pila. En una pila, el último elemento agregado es el primero en ser eliminado. Esto contrasta con una Cola, que sigue el principio FIFO (First In, First Out), donde el primer elemento agregado es el primero en ser eliminado.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué imprime este código con una cola? <pre><code class="language-java">Queue&lt;Integer&gt; cola = new LinkedList&lt;&gt;();
+cola.add(10);
+cola.add(20);
+cola.remove();
+System.out.println(cola.peek());
+</code></pre>]]></enunciado>
+  <A>10</A>
+  <B>20</B>
+  <C>null</C>
+  <D>30</D>
+  <respuesta_correcta explicacion="El código crea una cola y agrega los elementos 10 y 20. Luego, el método remove() elimina el primer elemento (10) de la cola. Finalmente, el método peek() devuelve el siguiente elemento en la cola sin eliminarlo, que es 20. Por lo tanto, el programa imprimirá 20.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué instrucción permite lanzar manualmente una excepción en Java?]]></enunciado>
+  <A>catch</A>
+  <B>raise</B>
+  <C>throw</C>
+  <D>try</D>
+  <respuesta_correcta explicacion="La instrucción que permite lanzar manualmente una excepción en Java es &quot;throw&quot;. Se utiliza para lanzar una excepción específica, ya sea una excepción predefinida o una personalizada. La opción A (catch) se utiliza para manejar excepciones, la opción B (raise) no es válida en Java y la opción D (try) se utiliza para definir un bloque de código donde pueden ocurrir excepciones.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué ocurre si se declara una clase como abstracta en Java?]]></enunciado>
+  <A>Puede ser instanciada si tiene constructor</A>
+  <B>No puede tener atributos</B>
+  <C>No puede tener métodos implementados</C>
+  <D>No puede ser instanciada directamente</D>
+  <respuesta_correcta explicacion="Si se declara una clase como abstracta en Java, no puede ser instanciada directamente. Las clases abstractas pueden contener métodos abstractos (sin implementación) y métodos concretos (con implementación), así como atributos. Sin embargo, deben ser extendidas por otras clases que implementen los métodos abstractos para poder ser instanciadas.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué ocurre si se omite el return en un método que debe devolver int?]]></enunciado>
+  <A>Devuelve automáticamente 0</A>
+  <B>Devuelve null</B>
+  <C>Lanza una excepción</C>
+  <D>No compila</D>
+  <respuesta_correcta explicacion="Si se omite el return en un método que debe devolver un valor de tipo int, el código no compilará. Java requiere que todos los caminos de ejecución en un método que tiene un tipo de retorno específico devuelvan un valor de ese tipo. Si no se proporciona un return, el compilador generará un error.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué ocurre si un método en Java está declarado como static?]]></enunciado>
+  <A>No puede retornar ningún valor</A>
+  <B>Puede acceder directamente a variables de instancia</B>
+  <C>Pertenece a la clase y no al objeto</C>
+  <D>Solo puede ser llamado desde objetos instanciados</D>
+  <respuesta_correcta explicacion="Si un método en Java está declarado como static, significa que pertenece a la clase y no a una instancia específica de la clase. Esto permite que el método sea llamado sin necesidad de crear un objeto de la clase. Sin embargo, un método static no puede acceder directamente a variables de instancia (no estáticas) de la clase, ya que no tiene un contexto de instancia.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué palabra clave en Java se utiliza para definir un método que no retorna ningún valor?]]></enunciado>
+  <A>void</A>
+  <B>null</B>
+  <C>return</C>
+  <D>static</D>
+  <respuesta_correcta explicacion="La palabra clave &quot;void&quot; en Java se utiliza para definir un método que no retorna ningún valor. Esto indica que el método no devolverá ningún resultado al">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué palabra clave permite implementar una interfaz en Java?]]></enunciado>
+  <A>inherits</A>
+  <B>interface</B>
+  <C>implements</C>
+  <D>extends</D>
+  <respuesta_correcta explicacion="La palabra clave &quot;implements&quot; se utiliza en Java para indicar que una clase está implementando una interfaz. Esto significa que la clase debe proporcionar implementaciones para todos los métodos abstractos definidos en la interfaz. La palabra clave &quot;extends&quot; se utiliza para heredar de una clase, mientras que &quot;interface&quot; se utiliza para declarar una interfaz.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué palabra clave se utiliza en Java para heredar de una clase abstracta?]]></enunciado>
+  <A>override</A>
+  <B>inherits</B>
+  <C>implements</C>
+  <D>extends</D>
+  <respuesta_correcta explicacion="La palabra clave &quot;extends&quot; se utiliza en Java para heredar de una clase abstracta. Esto permite que una clase hija herede los métodos y atributos de la clase abstracta y proporcione implementaciones para los métodos abstractos. La palabra clave &quot;implements&quot; se utiliza para implementar interfaces, mientras que &quot;override&quot; se utiliza para sobrescribir métodos en una subclase.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué resultado produce el siguiente código?<pre><code class="language-java">String s = &quot;Hola&quot;;
+System.out.println(s.charAt(1));
+</code></pre>]]></enunciado>
+  <A>H</A>
+  <B>a</B>
+  <C>l</C>
+  <D>o</D>
+  <respuesta_correcta explicacion="El método charAt(1) devuelve el carácter en la posición 1 de la cadena &quot;Hola&quot;. En Java, las posiciones de los caracteres comienzan desde 0, por lo que el carácter en la posición 1 es 'o'. Por lo tanto, el programa imprimirá 'o'.">D</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué resultado tiene este bloque de código?<pre><code class="language-java">try {
+int[] v = new int[2];v[2] = 5;
+} catch (ArrayIndexOutOfBoundsException e) {
+System.out.println(&quot;Error de índice&quot;);
+}
+</code></pre>]]></enunciado>
+  <A>Imprime &quot;Error de índice&quot;</A>
+  <B>Da error de compilación</B>
+  <C>Imprime 5</C>
+  <D>No imprime nada</D>
+  <respuesta_correcta explicacion="El bloque de código intenta asignar un valor a un índice fuera de los límites del arreglo (índice 2 en un arreglo de tamaño 2). Esto lanza una excepción ArrayIndexOutOfBoundsException, que es capturada por el bloque catch. Por lo tanto, el programa imprimirá &quot;Error de índice&quot;.">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué salida genera el siguiente código?<pre><code class="language-java">
+for (int i = 3; i &gt; 0; i--) {
+System.out.print(i + &quot; &quot;);
+}
+</code></pre>]]></enunciado>
+  <A>0 1 2</A>
+  <B>3 2 1 0</B>
+  <C>3 2 1</C>
+  <D>1 2 3</D>
+  <respuesta_correcta explicacion="El bucle for comienza con i = 3 y se ejecuta mientras i sea mayor que 0, decrementando i en cada iteración. Por lo tanto, imprimirá los números 3, 2 y 1 en ese orden, separados por espacios. La salida será &quot;3 2 1 &quot;.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué salida genera este código recursivo?<pre><code class="language-java">void cuenta(int n) {
+if (n &gt; 0) {
+cuenta(n - 1);
+System.out.print(n + &quot; &quot;);
+}
+}
+cuenta(3);
+repuesta_correcta B
+</code></pre>]]></enunciado>
+  <A>2 1 3</A>
+  <B>1 2 3</B>
+  <C>3 2 1</C>
+  <D>0 1 2 3</D>
+  <respuesta_correcta explicacion="El método cuenta() es recursivo y se llama a sí mismo con n - 1 hasta que n es 0. Cuando n es mayor que 0, primero llama a cuenta(n - 1) y luego imprime n. Por lo tanto, la salida será &quot;1 2 3 &quot;, ya que los números se imprimen en orden ascendente después de que todas las llamadas recursivas se completan."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué salida produce este código?<pre><code class="language-java">List&lt;String&gt; lista = new ArrayList&lt;&gt;();
+lista.add(&quot;Java&quot;);
+lista.clear();
+System.out.println(lista.size());
+repuesta_correcta D
+</code></pre>]]></enunciado>
+  <A>null</A>
+  <B>Error</B>
+  <C>1</C>
+  <D>0</D>
+  <respuesta_correcta explicacion="El código crea una lista de cadenas y agrega un elemento &quot;Java&quot;. Luego, el método clear() se llama para eliminar todos los elementos de la lista. Después de esto, el tamaño de la lista se imprime usando size(), que devolverá 0 porque la lista está vacía. Por lo tanto, la salida será 0."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué se imprime al ejecutar este código?<pre><code class="language-java">List&lt;String&gt; lista = new ArrayList&lt;&gt;();
+lista.add(&quot;uno&quot;);
+lista.add(&quot;dos&quot;);
+lista.set(1, &quot;tres&quot;);
+System.out.println(lista.get(1));
+</code></pre>]]></enunciado>
+  <A>Error de compilación</A>
+  <B>tres</B>
+  <C>uno</C>
+  <D>dos</D>
+  <respuesta_correcta explicacion="El código crea una lista de cadenas y agrega los elementos &quot;uno&quot; y &quot;dos&quot;. Luego, el método set(1, &quot;tres&quot;) reemplaza el elemento en la posición 1 (que es &quot;dos&quot;) con &quot;tres&quot;. Finalmente, el método get(1) devuelve el elemento en la posición 1, que ahora es &quot;tres&quot;. Por lo tanto, la salida será &quot;tres&quot;.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué se imprime con este código?<pre><code class="language-java">String texto = null;
+try {
+System.out.println(texto.length());
+} catch (NullPointerException e) {
+System.out.println(&quot;Referencia nula&quot;);
+}
+</code></pre>]]></enunciado>
+  <A>0</A>
+  <B>Referencia nula</B>
+  <C>Da error en tiempo de compilación</C>
+  <D>null</D>
+  <respuesta_correcta explicacion="El código intenta llamar al método length() en una cadena que es null, lo que lanza una excepción NullPointerException. Esta excepción es capturada por el bloque catch, que imprime &quot;Referencia nula&quot;. Por lo tanto, la salida será &quot;Referencia nula&quot;.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué se necesita para leer texto desde un archivo en Java con BufferedReader?]]></enunciado>
+  <A>InputStream</A>
+  <B>FileOutputStream</B>
+  <C>FileReader</C>
+  <D>Scanner</D>
+  <respuesta_correcta explicacion="Para leer texto desde un archivo en Java utilizando BufferedReader, se necesita un FileReader. BufferedReader se utiliza para leer texto de manera eficiente, y FileReader se utiliza para abrir el archivo. Por lo tanto, la combinación de ambos permite leer texto desde un archivo de forma eficiente.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué se requiere para que un botón en Swing detecte clics?]]></enunciado>
+  <A>Implementar KeyEvent</A>
+  <B>Crear una subclase de JPanel</B>
+  <C>Añadir un ActionListener</C>
+  <D>Llamar a repaint()</D>
+  <respuesta_correcta explicacion="Para que un botón en Swing detecte clics, se debe añadir un ActionListener al botón. El ActionListener es una interfaz que permite manejar eventos de acción, como clics en botones. Cuando se hace clic en el botón, se dispara el evento y se llama al método actionPerformed() del ActionListener asociado.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué sucede si se intenta acceder a la posición 10 de un array de tamaño 5 en Java?]]></enunciado>
+  <A>El programa imprime 0</A>
+  <B>Lanza una excepción en tiempo de ejecución</B>
+  <C>Se retorna null</C>
+  <D>Se ignora la instrucción</D>
+  <respuesta_correcta explicacion="Si se intenta acceder a la posición 10 de un array de tamaño 5 en Java, se lanzará una excepción ArrayIndexOutOfBoundsException en tiempo de ejecución. Esto ocurre porque el índice está fuera de los límites del array, que solo tiene índices válidos del 0 al 4. Por lo tanto, el programa no podrá continuar y mostrará un error.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué sucede si un switch en Java no tiene sentencias break entre los case?]]></enunciado>
+  <A>Da error de compilación</A>
+  <B>Ejecuta todos los casos desde el coincidente hasta encontrar un break</B>
+  <C>Ejecuta solo el default</C>
+  <D>Solo se ejecuta el case coincidente</D>
+  <respuesta_correcta explicacion="Si un switch en Java no tiene sentencias break entre los case, se ejecutarán todos los casos desde el coincidente hasta encontrar un break. Esto se conoce como &quot;fall-through&quot; y puede ser útil en algunos casos, pero también puede llevar a errores si no se maneja adecuadamente. Por lo tanto, es importante incluir break para evitar la ejecución accidental de otros casos.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué sucede si una clase no implementa todos los métodos de una interfaz?]]></enunciado>
+  <A>Da error de compilación</A>
+  <B>Se generan automáticamente</B>
+  <C>Se ejecutan con valores nulos</C>
+  <D>Se ejecutan como métodos vacíos</D>
+  <respuesta_correcta explicacion="Si una clase no implementa todos los métodos de una interfaz, dará error de compilación. En Java, una clase que implementa una interfaz debe proporcionar implementaciones para todos los métodos abstractos definidos en la interfaz, a menos que la clase sea declarada como abstracta. Si no se implementan todos los métodos, el compilador generará un error.">A</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué sucede si una excepción ocurre y no se captura?]]></enunciado>
+  <A>Se imprime null</A>
+  <B>La excepción se ignora</B>
+  <C>El programa se detiene con un error</C>
+  <D>El programa continúa normalmente</D>
+  <respuesta_correcta explicacion="Si una excepción ocurre y no se captura, el programa se detiene y lanza un error. Esto significa que la ejecución del programa se interrumpe y se imprime un mensaje de error en la consola, indicando el tipo de excepción que ocurrió y la ubicación en el código donde ocurrió. Por lo tanto, es importante manejar las excepciones adecuadamente para evitar que el programa se detenga inesperadamente.">C</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué valor se imprime con el siguiente código?<pre><code class="language-java">int x = 4;x *= 3;
+  System.out.println(x);
+</code></pre>]]></enunciado>
+  <A>3</A>
+  <B>12</B>
+  <C>7</C>
+  <D>1</D>
+  <respuesta_correcta explicacion="El operador *= es un operador de asignación compuesta que multiplica el valor actual de x por 3 y luego asigna el resultado a x. Por lo tanto, el valor de x se convierte en 4 * 3 = 12. Así que el programa imprimirá 12.">B</respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué valor tiene el atributo length en un array declarado como int[] datos = {1, 2, 3, 4};?
+repuesta_correcta D]]></enunciado>
+  <A>5</A>
+  <B>datos.length no es válido</B>
+  <C>3</C>
+  <D>4</D>
+  <respuesta_correcta explicacion="El atributo length de un array en Java devuelve el número de elementos en el array. En este caso, el array datos tiene 4 elementos (1, 2, 3 y 4), por lo que datos.length devolverá 4. Por lo tanto, la respuesta correcta es 4."></respuesta_correcta>
+</pregunta>
+
+<pregunta>
+  <enunciado><![CDATA[¿Qué ventaja principal tiene usar ArrayList sobre arrays tradicionales en Java?]]></enunciado>
+  <A>Permiten redimensionar dinámicamente</A>
+  <B>Usan menos memoria</B>
+  <C>Son más rápidos</C>
+  <D>No necesitan tipo de dato</D>
+  <respuesta_correcta explicacion="La principal ventaja de usar ArrayList sobre arrays tradicionales en Java es que los ArrayList permiten redimensionar dinámicamente su tamaño. Esto significa que pueden crecer o reducirse según sea necesario, mientras que los arrays tradicionales tienen un tamaño fijo una vez que se crean. Esto proporciona mayor flexibilidad al trabajar con colecciones de datos en Java.">A</respuesta_correcta>
 </pregunta>
 </documento>
