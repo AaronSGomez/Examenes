@@ -481,7 +481,7 @@ Reemplaza al
   <B>article para una noticia completa y aside para contenido complementario</B>
   <C>nav para encabezados y article para menús</C>
   <D>nav para artículos y aside para publicidades</D>
-  <respuesta_correcta explicacion="La etiqueta <article> se usa para contenido principal e independiente como una noticia, y <aside> para información secundaria o complementaria.">B</respuesta_correcta>
+  <respuesta_correcta explicacion="La etiqueta article se usa para contenido principal e independiente como una noticia, y aside para información secundaria o complementaria.">B</respuesta_correcta>
 </pregunta>
 <pregunta>
 <enunciado>¿Qué combinación de propiedades permite nombrar áreas en una cuadrícula CSS y luego asignarlas a elementos?</enunciado>
