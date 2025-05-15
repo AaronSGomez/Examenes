@@ -7699,7 +7699,8 @@ public class Test {
 <B>Se pasa una referencia.</B>
 <C>Se copia el valor y no afecta al original.</C>
 <D>Solo se usa con arrays.</D>
-<respuesta_correcta explicacion="">C</respuesta_correcta>
+<respuesta_correcta explicacion="En el paso de parámetros por valor, se crea una copia del valor original. Esto significa que cualquier cambio que se haga dentro del método no afecta al valor original fuera del método.">C</respuesta_correcta>
+
 </pregunta>
 
 <pregunta>
@@ -7708,7 +7709,8 @@ public class Test {
 <B>Void</B>
 <C>Static</C>
 <D>stoc</D>
-<respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="La palabra clave 'void' se utiliza para indicar que un método no devuelve ningún valor. Es común en lenguajes como Java, C# y C++.">B</respuesta_correcta>
+
 </pregunta>
 
 <pregunta>
@@ -7726,7 +7728,7 @@ public class Test {
 <B>Imprime 1 2 3</B>
 <C>Imprime 0 1 2</C>
 <D>No imprime nada; ya que no entra nunca en el if .</D>
-<respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="El método utiliza recursión. Llama a sí mismo con valores decrecientes hasta que x ya no es mayor que 0. Luego imprime los valores al regresar de cada llamada, por lo que la salida es 1 2 3.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7735,39 +7737,43 @@ public class Test {
 <B>Se produce un desbordamiento de pila.</B>
 <C>No compila.</C>
 <D>La recursividad se detiene sola.</D>
-<respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="Si una función recursiva no tiene un caso base, la recursión nunca se detiene, lo que provoca llamadas infinitas hasta agotar la pila de llamadas, resultando en un desbordamiento de pila (stack overflow).">B</respuesta_correcta>
 </pregunta>
+
 <pregunta>
 <enunciado><![CDATA[¿Dónde se puede acceder a una variable local?]]></enunciado>
 <A>En cualquier parte del programa.</A>
 <B>Solo dentro del método o bloque donde se declara</B>
 <C>Desde todos los métodos.</C>
 <D>Desde el main .</D>
-<respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="Una variable local solo es accesible dentro del método o bloque en el que se declara. Fuera de ese ámbito, la variable deja de existir.">B</respuesta_correcta>
 </pregunta>
+
 <pregunta>
 <enunciado><![CDATA[¿Qué ocurre si modificas una variable entera dentro de un método?]]></enunciado>
 <A>Se modifica solo dentro del método</A>
 <B>Depende del tipo de dato</B>
 <C>No se puede</C>
 <D>Se modifica el original</D>
-<respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="Cuando se pasa una variable entera a un método, se pasa por valor. Esto significa que se trabaja con una copia, y cualquier modificación afecta solo dentro del método, no al valor original.">A</respuesta_correcta>
 </pregunta>
+
 <pregunta>
 <enunciado><![CDATA[¿Qué ocurre si modificas un array dentro de un método?]]></enunciado>
 <A>Se crea una copia</A>
 <B>Depende del tipo de dato</B>
 <C>No se puede</C>
 <D>Se modifica el original</D>
-<respuesta_correcta explicacion="">D</respuesta_correcta>
+<respuesta_correcta explicacion="Cuando se pasa un array a un método, se pasa una referencia al mismo array, no una copia. Por lo tanto, si se modifica dentro del método, los cambios afectan al array original.">D</respuesta_correcta>
 </pregunta>
+
 <pregunta>
   <enunciado><![CDATA[¿CUÁL ES LA FINALIDAD DEL USO DE THIS EN UN CONSTRUCTOR O MÉTODO?]]></enunciado>
   <A>Referenciar los atributos del objeto actual para evitar ambigüedades</A>
   <B>Crear métodos vacíos</B>
   <C>Eliminar atributos duplicados</C>
   <D>Declarar atributos como privados</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="La palabra clave 'this' se utiliza para referirse al objeto actual. En un constructor o método, se usa comúnmente para diferenciar entre los atributos del objeto y los parámetros con el mismo nombre, evitando ambigüedades.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7776,7 +7782,7 @@ public class Test {
   <B>Para mantener el principio de encapsulamiento y controlar el acceso</B>
   <C>Porque Java no permite el acceso directo</C>
   <D>Para poder usar static en los atributos</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+ <respuesta_correcta explicacion="Usar getters y setters permite mantener el principio de encapsulamiento en programación orientada a objetos. De esta forma, se controla cómo se accede y modifica el valor de los atributos, permitiendo validar datos o restringir cambios si es necesario.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7785,7 +7791,7 @@ public class Test {
   <B>Pueden tener nombre distinto al de la clase</B>
   <C>Deben ser static y public</C>
   <D>Tienen el mismo nombre que la clase y no devuelven valo</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+<respuesta_correcta explicacion="En Java, los constructores tienen el mismo nombre que la clase y no devuelven ningún valor, ni siquiera void. Su función principal es inicializar objetos de esa clase.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7801,7 +7807,7 @@ public class Test {
   <B>Se crea el objeto correctamente y se imprime</B>
   <C>El constructor debe ser static</C>
   <D>El atributo nombre se imprime automáticamente</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El código crea correctamente un objeto de la clase Alumno asignando el nombre a través del constructor. La cadena \Alumno creado\ se imprime tal cual, ya que está fuera de la clase y no forma parte del código ejecutable.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7816,7 +7822,7 @@ public class Test {
   <B>Si, es correcto.</B>
   <C>No, porque falta un parámetro.</C>
   <D>No, porque tiene void, y por tanto no es un constructor sino un método</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="No es un constructor porque tiene el tipo de retorno 'void'. Esto convierte a 'Libro' en un método normal y no en un constructor. Un constructor no debe tener tipo de retorno y debe tener el mismo nombre que la clase.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7825,7 +7831,7 @@ public class Test {
   <B>Su tamaño es dinámico</B>
   <C>Permite tipos primitivos</C>
   <D>No necesita importar librerías</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+ <respuesta_correcta explicacion="La principal ventaja de un ArrayList es que su tamaño es dinámico, lo que permite agregar o eliminar elementos fácilmente sin necesidad de definir un tamaño fijo, a diferencia de un array tradicional.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7834,7 +7840,7 @@ public class Test {
   <B>LinkedList es más eficiente para insertar/eliminar elementos</B>
   <C>ArrayList no se puede ordenar, en cambio un arraylist es muy fácil de ordenar</C>
   <D>ArrayList ocupa más memoria ya que guarda posiciones</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="LinkedList es más eficiente que ArrayList para insertar o eliminar elementos, especialmente en posiciones intermedias, porque mantiene nodos enlazados, evitando el desplazamiento de elementos que ocurre en ArrayList.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7843,7 +7849,7 @@ public class Test {
   <B>RIFO</B>
   <C>Aleatoria</C>
   <D>LIFO</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="Una pila (stack) es una estructura de datos LIFO (Last In, First Out), donde el último elemento que se añade es el primero en ser retirado.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7852,7 +7858,7 @@ public class Test {
   <B>Lanza una excepción</B>
   <C>Reinicia la cola</C>
   <D>Elimina el frente</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Cuando se llama al método pop() sobre una estructura vacía, generalmente se lanza una excepción (por ejemplo, EmptyStackException) porque no hay elementos para extraer.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7861,7 +7867,7 @@ public class Test {
   <B>Peek() elimina y devuelve el elemento en la cima. Pop() devuelve el elemento de la cima sin eliminarlo.</B>
   <C>pop() devuelve true si la pila está vacia, peek devuelve un número menor que cero</C>
   <D>pop() elimina y devuelve el elemento en la cima. Peek() apila un elemento en la cima</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="pop() elimina y devuelve el elemento en la cima de la pila, mientras que peek() solo devuelve el elemento en la cima sin eliminarlo.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7874,7 +7880,7 @@ public class Test {
   <B>Dos</B>
   <C>Error</C>
   <D>null</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El método pop() elimina y devuelve el último elemento agregado a la pila, por lo que imprimirá 'dos'.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7883,7 +7889,7 @@ public class Test {
   <B>FIFO</B>
   <C>Circular doble</C>
   <D>Bidireccional</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="Una cola (queue) en Java es una estructura FIFO (First In, First Out), donde el primer elemento que entra es el primero en salir.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7892,7 +7898,7 @@ public class Test {
   <B>ArrayList</B>
   <C>TreeSet</C>
   <D>Stack</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="LinkedList es comúnmente usada para implementar una cola en Java porque permite inserciones y eliminaciones eficientes en ambos extremos, cumpliendo con la estructura FIFO.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7901,7 +7907,7 @@ public class Test {
   <B>Lanza una excepción</B>
   <C>Se bloquea el programa</C>
   <D>Elimina el último valor</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El método remove() en una cola lanza una excepción (como NoSuchElementException) si se llama sobre una cola vacía, ya que no hay elementos para eliminar.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7914,7 +7920,7 @@ System.out.println(cola.remove());
   <B>B</B>
   <C>Error de compilación</C>
   <D>A</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="El método remove() elimina y devuelve el primer elemento en la cola, por lo que imprime 'A', que fue el primer elemento añadido.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7923,7 +7929,7 @@ System.out.println(cola.remove());
   <B>Inserta al principio</B>
   <C>Añade un nuevo elemento al final</C>
   <D>Reemplaza el primero</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="El método insertar() en una cola añade un nuevo elemento al final de la estructura, respetando el orden FIFO (First In, First Out).">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7932,7 +7938,7 @@ System.out.println(cola.remove());
   <B>Include</B>
   <C>Extends</C>
   <D>implements</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="En Java, la palabra clave 'extends' se utiliza para indicar que una clase hereda de otra, permitiendo reutilizar y extender funcionalidades de la clase padre.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7941,7 +7947,7 @@ System.out.println(cola.remove());
   <B>Super</B>
   <C>Parent</C>
   <D>base</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="La palabra clave 'super' en Java permite acceder a atributos o métodos sobrescritos en la superclase desde una subclase.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7950,7 +7956,7 @@ System.out.println(cola.remove());
   <B>Todos sus métodos deben ser abstractos.</B>
   <C>Solo se usan para interfaces o en el interior de otras clases.</C>
   <D>Pueden contener métodos abstractos y no abstractos.</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="Las clases abstractas en Java pueden contener tanto métodos abstractos (sin implementación) como métodos concretos (con implementación). No pueden instanciarse directamente, pero sirven como base para otras clases.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7959,7 +7965,7 @@ System.out.println(cola.remove());
   <B>Las clases abstractas no permiten atributos</B>
   <C>Las interfaces no tienen implementación, solo declaraciones de métodos</C>
   <D>Las clases abstractas no tienen implementación, solo declaraciones de métodos</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="La principal diferencia es que las interfaces definen solo declaraciones de métodos (sin implementación hasta Java 7), mientras que las clases abstractas pueden incluir métodos con implementación y atributos. Además, las interfaces no pueden tener constructores, mientras que las clases abstractas sí.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7979,7 +7985,7 @@ class Gerente extends Empleado{
   <B>Gerente</B>
   <C>Error de compilación</C>
   <D>null</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Aunque la referencia es de tipo Empleado, el objeto creado es de tipo Gerente, por lo que se llama al método sobrescrito getTipo() de Gerente, imprimiendo 'Gerente'.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -7988,7 +7994,7 @@ class Gerente extends Empleado{
   <B>La posibilidad de que un mismo método se comporte de forma diferente según el objeto que lo invoque</B>
   <C>El uso de muchas clases a la vez</C>
   <D>El proceso de ocultar atributos privados</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El polimorfismo en Java es la capacidad de un método para comportarse de manera diferente según el objeto que lo invoque, permitiendo la reutilización y flexibilidad del código.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8013,7 +8019,7 @@ public class Main {
   <B>Vehículo encendido</B>
   <C>Error</C>
   <D>null</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="Aunque la variable es de tipo Vehículo, el objeto es una Moto, por lo que se llama al método sobrescrito encender() de la clase Moto, imprimiendo 'Moto encendida'.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8022,7 +8028,7 @@ public class Main {
   <B>Deben contener al menos un método main</B>
   <C>Solo pueden ser usadas en clases abstractas</C>
   <D>No pueden tener atributos de instancia</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+<respuesta_correcta explicacion="Las interfaces en Java no pueden tener atributos de instancia; solo pueden definir constantes (atributos static y final).">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8031,7 +8037,7 @@ public class Main {
   <B>Abstract</B>
   <C>Super</C>
   <D>static</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+<respuesta_correcta explicacion="En Java, la palabra clave 'abstract' se usa para declarar una clase que no puede ser instanciada directamente y que puede contener métodos abstractos.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8044,7 +8050,7 @@ class Cuadrado extends Figura{}
   <B>No, el código es correcto.</B>
   <C>Si, Cuadrado debe ser abstracto también.</C>
   <D>Si, falta el constructor.</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="La clase Cuadrado debe implementar el método abstracto dibujar(), ya que al no hacerlo debe ser declarada también como abstracta.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8053,7 +8059,7 @@ class Cuadrado extends Figura{}
   <B>Reutilizar atributos entre clases, siempre que sean public o protected</B>
   <C>Implementar varios comportamientos distintos en una sola clase</C>
   <D>Evitar el uso de métodos abstractos y así garantizar el encapsulamiento</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="La implementación múltiple de interfaces permite que una clase adopte varios comportamientos diferentes al implementar múltiples interfaces, superando la limitación de herencia simple en Java.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8062,7 +8068,7 @@ class Cuadrado extends Figura{}
   <B>Da error de compilación</B>
   <C>Se crea si tiene constructor</C>
   <D>Solo da error si tiene métodos abstractos</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="No se pueden crear objetos directamente de una clase abstracta en Java; intentar hacerlo produce un error de compilación.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8071,7 +8077,7 @@ class Cuadrado extends Figura{}
   <B>Para evitar que el programa termine abruptamente ante un error</B>
   <C>Para ejecutar código en paralelo</C>
   <D>Para mejorar el rendimiento al no tener que utilizar tantos bucles</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Un bloque try-catch en Java se usa para capturar y manejar excepciones, evitando que el programa termine abruptamente cuando ocurre un error en tiempo de ejecución.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8080,7 +8086,7 @@ class Cuadrado extends Figura{}
   <B>El compilador da error.</B>
   <C>Se ignora automáticamente.</C>
   <D>Se convierte en una excepción controlada.</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="Si no se captura una excepción no controlada (unchecked), el programa se detiene y muestra un error en tiempo de ejecución.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8089,7 +8095,7 @@ class Cuadrado extends Figura{}
   <B>catch { } try { }</B>
   <C>if (error) { } else { }</C>
   <D>try { } catch (Exception e) { }</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="La estructura válida para manejar excepciones en Java es try seguido de catch para capturar las excepciones.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8098,7 +8104,7 @@ class Cuadrado extends Figura{}
   <B>Se ejecuta siempre, ocurra o no la excepción</B>
   <C>Es obligatorio en todo try-catch</C>
   <D>Solo funciona con IOException</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El bloque finally se ejecuta siempre, ocurra o no una excepción, para asegurar la ejecución de código importante como liberar recursos.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8112,7 +8118,7 @@ class Cuadrado extends Figura{}
   <B>Error: / by zero</B>
   <C>0</C>
   <D>Error de compilación</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="El código captura la excepción ArithmeticException que ocurre al dividir por cero, y muestra el mensaje '/ by zero'.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8121,7 +8127,7 @@ class Cuadrado extends Figura{}
   <B>Error</B>
   <C>RuntimeException</C>
   <D>Exception</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="La clase base de la mayoría de las excepciones en Java es Exception, que hereda de Throwable y se utiliza para manejar errores que pueden ser capturados y tratados.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8130,7 +8136,7 @@ class Cuadrado extends Figura{}
   <B>Checked</B>
   <C>RuntimeException</C>
   <D>NullPointerException</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Las excepciones checked son aquellas que el compilador obliga a capturar o declarar para asegurar que se manejen adecuadamente durante la ejecución del programa.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8139,7 +8145,7 @@ class Cuadrado extends Figura{}
   <B>SQLException</B>
   <C>FileNotFoundException</C>
   <D>ArithmeticException</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="ArithmeticException es una excepción no controlada (unchecked) que ocurre en tiempo de ejecución, por ejemplo, al dividir entre cero, y no es obligatorio capturarla.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8148,7 +8154,7 @@ class Cuadrado extends Figura{}
   <B>ArithmeticException</B>
   <C>FileNotFoundException</C>
   <D>ArrayIndexOutOfBoundsException</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="FileNotFoundException es una excepción comprobada (checked) que debe manejarse con try-catch o declararse con throws para evitar errores de compilación.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8157,7 +8163,7 @@ class Cuadrado extends Figura{}
   <B>El tiempo de ejecución</B>
   <C>El contenido de los arrays</C>
   <D>Las excepciones que no fueron lanzadas</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="Un stack trace muestra la pila de llamadas de métodos hasta el punto donde ocurrió la excepción, ayudando a localizar el error.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8166,7 +8172,7 @@ class Cuadrado extends Figura{}
   <B>Una clase que hereda de Exception o RuntimeException creada por el programador</B>
   <C>Una excepción automática</C>
   <D>Un error de sintaxis, que se soluciona al hacer throws desde la clase FileException</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Una excepción personalizada es una clase definida por el programador que extiende Exception o RuntimeException para manejar errores específicos de la aplicación.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8175,7 +8181,7 @@ class Cuadrado extends Figura{}
   <B>throw new MiExcepcion(&quot;mensaje&quot;);</B>
   <C>throws MiExcepcion();</C>
   <D>launch MiExcepcion();</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Se lanza una excepción personalizada usando la palabra clave throw seguida de una nueva instancia de la excepción con sus parámetros, por ejemplo: throw new MiExcepcion("mensaje");">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8188,7 +8194,7 @@ Sysyem.out.println(&quot;Error&quot;);
   <B>System.out.println no puede usarse en catch</B>
   <C>No se puede dividir en un bloque try</C>
   <D>Falta el tipo de excepción entre paréntesis en catch</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="En un bloque catch es obligatorio especificar el tipo de excepción entre paréntesis, por ejemplo: catch (ArithmeticException e).">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8199,7 +8205,7 @@ FileReader fr = new FileReader(&quot;datos.txt&quot;);
   <B>FileReader solo acepta ficheros .xml</B>
   <C>El método main no puede tener código con archivos</C>
   <D>FileReader requiere usar System.in</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+ <respuesta_correcta explicacion="FileReader lanza una IOException que debe ser manejada con un bloque try-catch o declarada en la firma del método con throws IOException.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8213,7 +8219,7 @@ System.out.println(&quot;Fuera de rango&quot;);
   <B>Falta el bloque finally</B>
   <C>El array debe declararse fuera del try</C>
   <D>El try no puede tener arrays</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="La excepción correcta que se lanza al acceder a un índice fuera del rango de un array es ArrayIndexOutOfBoundsException, no IndexOutOfBoundsException.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8226,7 +8232,7 @@ System.out.println(&quot;Final&quot;);
   <B>Solo imprime &quot;Final“</B>
   <C>Imprime ambos mensajes: &quot;Inicio&quot; y luego &quot;Final“</C>
   <D>No compila sin catch</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="El bloque finally siempre se ejecuta después del try, incluso si no hay catch. Por eso se imprimen ambos mensajes en orden.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8239,15 +8245,16 @@ super(mensaje);
   <B>Falta implementar un método, controlando la excepción.</B>
   <C>super(mensaje) debe ir en un método main.</C>
   <D>El constructor tiene void: debería ser un constructor real, sin tipo de retorno.</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="El método tiene tipo de retorno 'void', pero un constructor no debe tener tipo de retorno, debe definirse sin tipo para ser reconocido como constructor.">D</respuesta_correcta>
 </pregunta>
+
 <pregunta>
   <enunciado><![CDATA[¿CUÁL ES EL PROPÓSITO DE LA INTERFAZ JAVA.IO.SERIALIZABLE?]]></enunciado>
   <A>Indicar que los objetos de una clase pueden ser serializados</A>
   <B>Permitir acceso a archivos</B>
   <C>Crear flujos de datos</C>
   <D>Añadir métodos a una clase</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+<respuesta_correcta explicacion="La interfaz java.io.Serializable indica que los objetos de una clase pueden ser convertidos en un flujo de bytes para ser almacenados o transmitidos.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8256,7 +8263,7 @@ super(mensaje);
   <B>FileReader</B>
   <C>Scanner</C>
   <D>DataInputStream</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="FileReader es una clase que permite leer caracteres desde un archivo de texto.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8265,7 +8272,7 @@ super(mensaje);
   <B>JFrame</B>
   <C>Jbutton</C>
   <D>JTextArea</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="JFrame es el contenedor principal en Swing que representa una ventana con bordes, título y botones para cerrar o minimizar.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8274,7 +8281,7 @@ super(mensaje);
   <B>Un motor gráfico 3D para videojuegos</B>
   <C>Una base de datos integrada en Java</C>
   <D>Una biblioteca gráfica para crear interfaces de usuario (GUI)</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="Swing es una biblioteca gráfica en Java que permite crear interfaces de usuario (GUI) con componentes como botones, ventanas, y paneles.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8285,7 +8292,7 @@ oos.writeObjet(new Persona(&quot;Ana&quot;));</code></pre>]]></enunciado>
   <B>El archivo se guarda en modo lectura</B>
   <C>Lanza error si Persona no tiene constructor</C>
   <D>Guarda el objeto serializado en formato binario</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="El código guarda el objeto 'Persona' en un archivo en formato binario serializado, siempre que la clase Persona implemente Serializable.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8301,7 +8308,7 @@ oos.writeObjet(new Libro());
   <B>La clase Libro no implementa Serializable</B>
   <C>No se puede usar FileOutputStream en Java</C>
   <D>writeObject no funciona con clases propias</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="La clase Libro debe implementar la interfaz Serializable para poder ser escrita con ObjectOutputStream.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8310,7 +8317,7 @@ oos.writeObjet(new Libro());
   <B>Jcomponent</B>
   <C>Jwindow</C>
   <D>JFrame</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="JFrame es el contenedor principal utilizado para crear la ventana principal en una aplicación Swing.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8319,7 +8326,7 @@ oos.writeObjet(new Libro());
   <B>FileWriter escribe caracteres, DataOutputStream escribe datos primitivos</B>
   <C>DataOutputStream es solo para redes</C>
   <D>FileWriter no permite escritura</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="FileWriter se usa para escribir caracteres (texto), mientras que DataOutputStream permite escribir datos primitivos (como int, float, etc.) en formato binario.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8328,7 +8335,7 @@ oos.writeObjet(new Libro());
   <B>Sobrescribe el fichero existente</B>
   <C>Da error</C>
   <D>Borra el archivo</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Cuando FileWriter se crea con append=false, sobrescribe el contenido del fichero existente en lugar de añadir al final.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8337,7 +8344,7 @@ oos.writeObjet(new Libro());
   <B>Sobrescribe el fichero existente</B>
   <C>Da error</C>
   <D>Borra el archivo</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Si FileWriter se crea sin especificar append=true, por defecto sobrescribe el archivo existente, reemplazando su contenido.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8346,7 +8353,7 @@ oos.writeObjet(new Libro());
   <B>Añadir un ActionListener</B>
   <C>Llamar a run()</C>
   <D>Asociar un KeyEvent</D>
-  <respuesta_correcta explicacion="">B</respuesta_correcta>
+  <respuesta_correcta explicacion="Para que un botón en Swing reaccione a una acción, se debe añadir un ActionListener que maneje el evento cuando se presiona el botón.">B</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8355,7 +8362,7 @@ oos.writeObjet(new Libro());
   <B>Utilizando setSize() en cada componente</B>
   <C>Añadiendo todos los elementos directamente al Jlabel</C>
   <D>Llamando a pack() antes de añadir los componentes</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="En Swing, los componentes dentro de una ventana se organizan mediante gestores de diseño (Layout Managers), que controlan cómo se distribuyen y ajustan los elementos en el contenedor.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8364,7 +8371,7 @@ oos.writeObjet(new Libro());
   <B>No capturar excepciones</B>
   <C>Cerrar conexiones y usar try-with-resources</C>
   <D>Ejecutar solo consultas SELECT</D>
-  <respuesta_correcta explicacion="">C</respuesta_correcta>
+  <respuesta_correcta explicacion="Es buena práctica cerrar siempre las conexiones, sentencias y resultados en JDBC, preferiblemente usando try-with-resources para evitar fugas de recursos y asegurar el correcto manejo de excepciones.">C</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8382,7 +8389,7 @@ oos.writeObjet(new Libro());
   <B>Únicamente podemos desde Maven</B>
   <C>Una API de Java</C>
   <D>Un teléfono móvil</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="JDBC es una API de Java que permite conectar con bases de datos y ejecutar consultas SQL desde aplicaciones Java.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8391,7 +8398,7 @@ oos.writeObjet(new Libro());
   <B>La clase DOM con la que accedor a una base de datos MongoDB</B>
   <C>Una API para trabajar con ficheros de texto</C>
   <D>Herramienta de automatización y gestión de proyectos</D>
-  <respuesta_correcta explicacion="">D</respuesta_correcta>
+  <respuesta_correcta explicacion="Maven es una herramienta de automatización y gestión de proyectos en Java que facilita la compilación, gestión de dependencias y despliegue.">D</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8400,7 +8407,7 @@ oos.writeObjet(new Libro());
   <B>API de java que me permite trabajar con bases de datos</B>
   <C>API de Java que me permite trabajar con ficheros de texto</C>
   <D>API de java que me permite trabajar con ficheros binarios</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="El archivo pom.xml es el archivo de configuración principal de un proyecto Maven, donde se definen dependencias, plugins y configuración general del proyecto.">A</respuesta_correcta>
 </pregunta>
 
 <pregunta>
@@ -8409,6 +8416,6 @@ oos.writeObjet(new Libro());
   <B>Utilizar Maben</B>
   <C>Volcar primero en el buffer de entrada</C>
   <D>Utilizar como apoyo la clase Scanner</D>
-  <respuesta_correcta explicacion="">A</respuesta_correcta>
+  <respuesta_correcta explicacion="Es recomendable cerrar siempre las conexiones a la base de datos para evitar fugas de recursos, y usar try-with-resources para gestionar automáticamente el cierre.">A</respuesta_correcta>
 </pregunta>
 </documento>
